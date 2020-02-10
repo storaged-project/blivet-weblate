@@ -15,7 +15,8 @@ msgstr ""
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
 "PO-Revision-Date: 2015-01-05 05:27+0000\n"
 "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Telugu (http://www.transifex.com/projects/p/blivet/language/te/)\n"
+"Language-Team: Telugu (http://www.transifex.com/projects/p/blivet/language/"
+"te/)\n"
 "Language: te\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -39,7 +40,8 @@ msgstr ""
 
 #: ../blivet/errors.py:224
 msgid ""
-"Either restore the disklabel to a completely working state or remove it completely.\n"
+"Either restore the disklabel to a completely working state or remove it "
+"completely.\n"
 "Hint: parted can restore it or wipefs can remove it."
 msgstr ""
 
@@ -60,9 +62,7 @@ msgstr "మీరు సాధనం సంఖ్యను తెలుపకు
 
 #: ../blivet/zfcp.py:64
 msgid "You have not specified a worldwide port name or the name is invalid."
-msgstr ""
-"మీరు worldwide port నామమును తెలుపకుండానైనా లేదా ఆ నామము సరికానిదైనా అయ్యి "
-"ఉండాలి."
+msgstr "మీరు worldwide port నామమును తెలుపకుండానైనా లేదా ఆ నామము సరికానిదైనా అయ్యి ఉండాలి."
 
 #: ../blivet/zfcp.py:66
 msgid "You have not specified a FCP LUN or the number is invalid."
@@ -101,8 +101,7 @@ msgstr ""
 #: ../blivet/zfcp.py:140
 #, python-format
 msgid ""
-"LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already "
-"configured."
+"LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already configured."
 msgstr ""
 "zFCP పరికరము %(devnum)s పైని WWPN %(wwpn)s వద్ద LUN %(fcplun)s యిప్పటికే "
 "ఆకృతీకరించివుంది."
@@ -113,8 +112,8 @@ msgid ""
 "Could not read failed attribute of LUN %(fcplun)s at WWPN %(wwpn)s on zFCP "
 "device %(devnum)s (%(e)s)."
 msgstr ""
-"zFCP పరికరము %(devnum)s (%(e)s) పైని WWPN %(wwpn)s వద్ద LUN %(fcplun)s యొక్క"
-" విఫలిత యాట్రిబ్యూట్‌ను చదువలేకపోయింది."
+"zFCP పరికరము %(devnum)s (%(e)s) పైని WWPN %(wwpn)s వద్ద LUN %(fcplun)s యొక్క విఫలిత "
+"యాట్రిబ్యూట్‌ను చదువలేకపోయింది."
 
 #: ../blivet/zfcp.py:161
 #, python-format
@@ -122,8 +121,8 @@ msgid ""
 "Failed LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s removed "
 "again."
 msgstr ""
-"zFCP పరికరము %(devnum)s పైని WWPN %(wwpn)s వద్దని విఫలిత LUN %(fcplun)s మరలా"
-" తీసివేయబడింది."
+"zFCP పరికరము %(devnum)s పైని WWPN %(wwpn)s వద్దని విఫలిత LUN %(fcplun)s మరలా "
+"తీసివేయబడింది."
 
 #: ../blivet/zfcp.py:218
 #, python-format
@@ -131,8 +130,8 @@ msgid ""
 "Could not correctly delete SCSI device of zFCP %(devnum)s %(wwpn)s "
 "%(fcplun)s (%(e)s)."
 msgstr ""
-"zFCP %(devnum)s %(wwpn)s %(fcplun)s యొక్క SCSI పరికరమును సరిగా "
-"తొలగించలేకపోయింది (%(e)s)."
+"zFCP %(devnum)s %(wwpn)s %(fcplun)s యొక్క SCSI పరికరమును సరిగా తొలగించలేకపోయింది "
+"(%(e)s)."
 
 #: ../blivet/zfcp.py:227
 #, python-format
@@ -140,14 +139,13 @@ msgid ""
 "Could not remove LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s "
 "(%(e)s)."
 msgstr ""
-"zFCP పరికరము %(devnum)s పైని WWPN %(wwpn)s వద్దని LUN %(fcplun)sను "
-"తీసివేయలేకపోయింది (%(e)s)."
+"zFCP పరికరము %(devnum)s పైని WWPN %(wwpn)s వద్దని LUN %(fcplun)sను తీసివేయలేకపోయింది "
+"(%(e)s)."
 
 #: ../blivet/zfcp.py:245
 #, python-format
 msgid "Could not remove WWPN %(wwpn)s on zFCP device %(devnum)s (%(e)s)."
-msgstr ""
-"zFCP పరికరము %(devnum)s పైని WWPN %(wwpn)sను తీసివేయలేకపోయింది (%(e)s)."
+msgstr "zFCP పరికరము %(devnum)s పైని WWPN %(wwpn)sను తీసివేయలేకపోయింది (%(e)s)."
 
 #: ../blivet/zfcp.py:271
 #, python-format
@@ -316,11 +314,11 @@ msgstr ""
 #: ../blivet/devices/raid.py:58
 #, python-format
 msgid ""
-"RAID level %(raid_level)s requires that device have at least %(min_members)d"
-" member."
+"RAID level %(raid_level)s requires that device have at least %(min_members)d "
+"member."
 msgid_plural ""
-"RAID level %(raid_level)s requires that device have at least %(min_members)d"
-" members."
+"RAID level %(raid_level)s requires that device have at least %(min_members)d "
+"members."
 msgstr[0] ""
 
 #: ../blivet/devices/raid.py:79
@@ -378,8 +376,7 @@ msgstr "dm-raid మెంబర్ పరికరం"
 msgid "partition table"
 msgstr "విభజన పట్టిక"
 
-#. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition
-#. table"
+#. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition table"
 #: ../blivet/formats/disklabel.py:320
 #, python-format
 msgid "Unsupported %(name)s"

@@ -29,12 +29,14 @@ msgstr ""
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
 "PO-Revision-Date: 2019-08-15 01:40+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
-"Language-Team: Polish (http://www.transifex.com/projects/p/blivet/language/pl/)\n"
+"Language-Team: Polish (http://www.transifex.com/projects/p/blivet/language/"
+"pl/)\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
 "X-Generator: Zanata 4.6.2\n"
 
 #: ../blivet/errors.py:210
@@ -59,11 +61,13 @@ msgstr ""
 
 #: ../blivet/errors.py:224
 msgid ""
-"Either restore the disklabel to a completely working state or remove it completely.\n"
+"Either restore the disklabel to a completely working state or remove it "
+"completely.\n"
 "Hint: parted can restore it or wipefs can remove it."
 msgstr ""
 "Należy przywrócić etykietę dysku do działania lub ją usunąć.\n"
-"Wskazówka: program parted może ją przywrócić, a program wipefs może ją usunąć."
+"Wskazówka: program parted może ją przywrócić, a program wipefs może ją "
+"usunąć."
 
 #: ../blivet/errors.py:230
 msgid ""
@@ -73,7 +77,8 @@ msgid ""
 msgstr ""
 "Należy zmienić nazwę jednej z grup woluminów, aby nazwy były różne.\n"
 "1. wskazówka: program vgrename przyjmuje UUID zamiast poprzedniej nazwy.\n"
-"2. wskazówka: można uzyskać UUID grupy woluminów wykonując polecenie „pvs -o +vg_uuid”."
+"2. wskazówka: można uzyskać UUID grupy woluminów wykonując polecenie „pvs -o "
+"+vg_uuid”."
 
 #: ../blivet/fcoe.py:121
 msgid "FCoE not available"
@@ -127,8 +132,7 @@ msgstr ""
 #: ../blivet/zfcp.py:140
 #, python-format
 msgid ""
-"LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already "
-"configured."
+"LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already configured."
 msgstr ""
 "LUN %(fcplun)s w WWPN %(wwpn)s na urządzeniu zFCP %(devnum)s jest już "
 "skonfigurowane."
@@ -228,8 +232,8 @@ msgid ""
 "partition is too small for %(format)s formatting (allowable size is "
 "%(min_size)s to %(max_size)s)"
 msgstr ""
-"partycja jest za mała dla formatowania %(format)s (dozwolony jest rozmiar od"
-" %(min_size)s do %(max_size)s)"
+"partycja jest za mała dla formatowania %(format)s (dozwolony jest rozmiar od "
+"%(min_size)s do %(max_size)s)"
 
 #: ../blivet/partitioning.py:646
 #, python-format
@@ -237,8 +241,8 @@ msgid ""
 "partition is too large for %(format)s formatting (allowable size is "
 "%(min_size)s to %(max_size)s)"
 msgstr ""
-"partycja jest za duża dla formatowania %(format)s (dozwolony jest rozmiar od"
-" %(min_size)s do %(max_size)s)"
+"partycja jest za duża dla formatowania %(format)s (dozwolony jest rozmiar od "
+"%(min_size)s do %(max_size)s)"
 
 #: ../blivet/partitioning.py:962
 msgid "Unable to allocate requested partition scheme."
@@ -347,11 +351,11 @@ msgstr "skonfiguruj urządzenie"
 #: ../blivet/devices/raid.py:58
 #, python-format
 msgid ""
-"RAID level %(raid_level)s requires that device have at least %(min_members)d"
-" member."
+"RAID level %(raid_level)s requires that device have at least %(min_members)d "
+"member."
 msgid_plural ""
-"RAID level %(raid_level)s requires that device have at least %(min_members)d"
-" members."
+"RAID level %(raid_level)s requires that device have at least %(min_members)d "
+"members."
 msgstr[0] ""
 "Poziom RAID %(raid_level)s wymaga urządzenia z co najmniej %(min_members)d "
 "elementem."
@@ -419,8 +423,7 @@ msgstr "urządzenie członkowskie dm-raid"
 msgid "partition table"
 msgstr "tablica partycji"
 
-#. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition
-#. table"
+#. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition table"
 #: ../blivet/formats/disklabel.py:320
 #, python-format
 msgid "Unsupported %(name)s"

@@ -22,7 +22,8 @@ msgstr ""
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
 "PO-Revision-Date: 2017-04-24 10:36+0000\n"
 "Last-Translator: feonsu <feonsu@gmail.com>\n"
-"Language-Team: Slovak (http://www.transifex.com/projects/p/blivet/language/sk/)\n"
+"Language-Team: Slovak (http://www.transifex.com/projects/p/blivet/language/"
+"sk/)\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -49,7 +50,8 @@ msgstr ""
 
 #: ../blivet/errors.py:224
 msgid ""
-"Either restore the disklabel to a completely working state or remove it completely.\n"
+"Either restore the disklabel to a completely working state or remove it "
+"completely.\n"
 "Hint: parted can restore it or wipefs can remove it."
 msgstr ""
 "Buď obnovte menovku disku do funkčného stavu alebo ju kompletne odstráňte. \n"
@@ -85,8 +87,7 @@ msgstr "Nezadali ste FCP LUN, alebo je číslo neplatné."
 #, python-format
 msgid "zFCP device %s not found, not even in device ignore list."
 msgstr ""
-"Nepodarilo sa nájsť zariadenie zFCP %s, ani v zozname ignorovaných "
-"zariadení."
+"Nepodarilo sa nájsť zariadenie zFCP %s, ani v zozname ignorovaných zariadení."
 
 #: ../blivet/zfcp.py:101
 #, python-format
@@ -116,8 +117,7 @@ msgstr ""
 #: ../blivet/zfcp.py:140
 #, python-format
 msgid ""
-"LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already "
-"configured."
+"LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already configured."
 msgstr ""
 "LUN %(fcplun)s z WWPN %(wwpn)s na zFCP zariadení %(devnum)s je už "
 "nakonfigurované."
@@ -215,8 +215,8 @@ msgid ""
 "partition is too small for %(format)s formatting (allowable size is "
 "%(min_size)s to %(max_size)s)"
 msgstr ""
-"oddiel je príliš malý pre formátovanie na %(format)s (povolená veľkosť je od"
-" %(min_size)s do %(max_size)s)"
+"oddiel je príliš malý pre formátovanie na %(format)s (povolená veľkosť je od "
+"%(min_size)s do %(max_size)s)"
 
 #: ../blivet/partitioning.py:646
 #, python-format
@@ -335,11 +335,11 @@ msgstr ""
 #: ../blivet/devices/raid.py:58
 #, python-format
 msgid ""
-"RAID level %(raid_level)s requires that device have at least %(min_members)d"
-" member."
+"RAID level %(raid_level)s requires that device have at least %(min_members)d "
+"member."
 msgid_plural ""
-"RAID level %(raid_level)s requires that device have at least %(min_members)d"
-" members."
+"RAID level %(raid_level)s requires that device have at least %(min_members)d "
+"members."
 msgstr[0] ""
 "Úroveň RAID %(raid_level)s vyžaduje, aby zariadenie malo aspoň "
 "%(min_members)d člena."
@@ -407,8 +407,7 @@ msgstr "člen zariadenia dm-raid"
 msgid "partition table"
 msgstr "tabuľka oddielov"
 
-#. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition
-#. table"
+#. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition table"
 #: ../blivet/formats/disklabel.py:320
 #, python-format
 msgid "Unsupported %(name)s"

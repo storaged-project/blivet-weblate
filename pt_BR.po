@@ -34,7 +34,8 @@ msgstr ""
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
 "PO-Revision-Date: 2018-11-20 01:35+0000\n"
 "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/blivet/language/pt_BR/)\n"
+"Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/"
+"blivet/language/pt_BR/)\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -55,17 +56,19 @@ msgid ""
 "kernel is reporting partitions on. It is unclear what the exact problem is. "
 "Please file a bug at http://bugzilla.redhat.com"
 msgstr ""
-"Por motivo desconhecido, não foi possível localizar um rótulo de disco em um"
-" disco onde o kernel esteja registrando partições. Ainda não é claro qual é "
-"o problema exatamente. Por favor, submeta um relatório de erro em "
-"http://bugzilla.redhat.com"
+"Por motivo desconhecido, não foi possível localizar um rótulo de disco em um "
+"disco onde o kernel esteja registrando partições. Ainda não é claro qual é o "
+"problema exatamente. Por favor, submeta um relatório de erro em http://"
+"bugzilla.redhat.com"
 
 #: ../blivet/errors.py:224
 msgid ""
-"Either restore the disklabel to a completely working state or remove it completely.\n"
+"Either restore the disklabel to a completely working state or remove it "
+"completely.\n"
 "Hint: parted can restore it or wipefs can remove it."
 msgstr ""
-"Restaure o rótulo de disco a um estado em completo funcionamento ou remova-o totalmente.\n"
+"Restaure o rótulo de disco a um estado em completo funcionamento ou remova-o "
+"totalmente.\n"
 "Dica: parted pode restaurá-lo ou o wipefs pode removê-lo. "
 
 #: ../blivet/errors.py:230
@@ -131,8 +134,7 @@ msgstr ""
 #: ../blivet/zfcp.py:140
 #, python-format
 msgid ""
-"LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already "
-"configured."
+"LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already configured."
 msgstr ""
 "LUN %(fcplun)s em WWPN %(wwpn)s no dispositivo zFCP %(devnum)s já está "
 "configurada."
@@ -170,8 +172,8 @@ msgid ""
 "Could not remove LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s "
 "(%(e)s)."
 msgstr ""
-"Não foi possível remover LUN %(fcplun)s em WWPN %(wwpn)s no dispositivo zFCP"
-" %(devnum)s (%(e)s)."
+"Não foi possível remover LUN %(fcplun)s em WWPN %(wwpn)s no dispositivo zFCP "
+"%(devnum)s (%(e)s)."
 
 #: ../blivet/zfcp.py:245
 #, python-format
@@ -184,8 +186,7 @@ msgstr ""
 #, python-format
 msgid "Could not set zFCP device %(devnum)s offline (%(e)s)."
 msgstr ""
-"Não foi possível definir o dispositivo zFCP %(devnum)s como off-line "
-"(%(e)s)."
+"Não foi possível definir o dispositivo zFCP %(devnum)s como off-line (%(e)s)."
 
 #: ../blivet/iscsi.py:217
 msgid "Unable to change iSCSI initiator name once set"
@@ -355,11 +356,11 @@ msgstr "configurar dispositivo"
 #: ../blivet/devices/raid.py:58
 #, python-format
 msgid ""
-"RAID level %(raid_level)s requires that device have at least %(min_members)d"
-" member."
+"RAID level %(raid_level)s requires that device have at least %(min_members)d "
+"member."
 msgid_plural ""
-"RAID level %(raid_level)s requires that device have at least %(min_members)d"
-" members."
+"RAID level %(raid_level)s requires that device have at least %(min_members)d "
+"members."
 msgstr[0] ""
 "O nível RAID %(raid_level)s requer que o dispositivos tenha no mínimo "
 "%(min_members)d membros."
@@ -372,8 +373,7 @@ msgstr[1] ""
 msgid ""
 "RAID level %(raid_level)s is an invalid value. Must be one of (%(levels)s)."
 msgstr ""
-"O nível RAID %(raid_level)s é um valor inválido. Deve ser um de "
-"(%(levels)s)."
+"O nível RAID %(raid_level)s é um valor inválido. Deve ser um de (%(levels)s)."
 
 #: ../blivet/devices/raid.py:104
 #, python-format
@@ -424,8 +424,7 @@ msgstr "dispositivo membro de dm-raid"
 msgid "partition table"
 msgstr "tabela de partição"
 
-#. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition
-#. table"
+#. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition table"
 #: ../blivet/formats/disklabel.py:320
 #, python-format
 msgid "Unsupported %(name)s"

@@ -19,7 +19,8 @@ msgstr ""
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
 "PO-Revision-Date: 2015-01-05 05:26+0000\n"
 "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Panjabi (Punjabi) (http://www.transifex.com/projects/p/blivet/language/pa/)\n"
+"Language-Team: Panjabi (Punjabi) (http://www.transifex.com/projects/p/blivet/"
+"language/pa/)\n"
 "Language: pa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -43,7 +44,8 @@ msgstr ""
 
 #: ../blivet/errors.py:224
 msgid ""
-"Either restore the disklabel to a completely working state or remove it completely.\n"
+"Either restore the disklabel to a completely working state or remove it "
+"completely.\n"
 "Hint: parted can restore it or wipefs can remove it."
 msgstr ""
 
@@ -83,8 +85,7 @@ msgstr "zFCP ਜੰਤਰ %(devnum)s ਨੂੰ ਆਨਲਾਈਨ ਜੰਤਰ (
 #: ../blivet/zfcp.py:112
 #, python-format
 msgid "Could not add WWPN %(wwpn)s to zFCP device %(devnum)s (%(e)s)."
-msgstr ""
-"WWPN %(wwpn)s ਨੂੰ zFCP ਜੰਤਰ %(devnum)s (%(e)s) ਤੌਰ ਤੇ ਸ਼ਾਮਿਲ ਨਹੀਂ ਕਰ ਸਕਿਆ।"
+msgstr "WWPN %(wwpn)s ਨੂੰ zFCP ਜੰਤਰ %(devnum)s (%(e)s) ਤੌਰ ਤੇ ਸ਼ਾਮਿਲ ਨਹੀਂ ਕਰ ਸਕਿਆ।"
 
 #. newer zfcp sysfs interface with auto port scan
 #: ../blivet/zfcp.py:119
@@ -98,17 +99,15 @@ msgid ""
 "Could not add LUN %(fcplun)s to WWPN %(wwpn)s on zFCP device %(devnum)s "
 "(%(e)s)."
 msgstr ""
-"LUN %(fcplun)s ਨੂੰ WWPN %(wwpn)s ਵਿੱਚ zFCP ਜੰਤਰ %(devnum)s (%(e)s) ਉੱਪਰ ਜੋੜ "
-"ਨਹੀਂ ਸਕਿਆ"
+"LUN %(fcplun)s ਨੂੰ WWPN %(wwpn)s ਵਿੱਚ zFCP ਜੰਤਰ %(devnum)s (%(e)s) ਉੱਪਰ ਜੋੜ ਨਹੀਂ "
+"ਸਕਿਆ"
 
 #: ../blivet/zfcp.py:140
 #, python-format
 msgid ""
-"LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already "
-"configured."
+"LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already configured."
 msgstr ""
-"LUN %(fcplun)s ਨੂੰ WWPN %(wwpn)s ਤੇ zFCP ਜੰਤਰ %(devnum)s ਉੱਪਰ ਪਹਿਲਾਂ ਹੀ "
-"ਸੰਰਚਿਤ ਹੈ।"
+"LUN %(fcplun)s ਨੂੰ WWPN %(wwpn)s ਤੇ zFCP ਜੰਤਰ %(devnum)s ਉੱਪਰ ਪਹਿਲਾਂ ਹੀ ਸੰਰਚਿਤ ਹੈ।"
 
 #: ../blivet/zfcp.py:152
 #, python-format
@@ -116,8 +115,8 @@ msgid ""
 "Could not read failed attribute of LUN %(fcplun)s at WWPN %(wwpn)s on zFCP "
 "device %(devnum)s (%(e)s)."
 msgstr ""
-"LUN %(fcplun)s ਦੇ ਫੇਲ ਹੋਏ ਐਟਰੀਬਿਊਟਾਂ ਨੂੰ WWPN %(wwpn)s ਤੇ zFCP ਜੰਤਰ "
-"%(devnum)s (%(e)s) ਉੱਪਰ ਪੜ ਨਹੀਂ ਸਕਦਾ।"
+"LUN %(fcplun)s ਦੇ ਫੇਲ ਹੋਏ ਐਟਰੀਬਿਊਟਾਂ ਨੂੰ WWPN %(wwpn)s ਤੇ zFCP ਜੰਤਰ %(devnum)s "
+"(%(e)s) ਉੱਪਰ ਪੜ ਨਹੀਂ ਸਕਦਾ।"
 
 #: ../blivet/zfcp.py:161
 #, python-format
@@ -125,8 +124,8 @@ msgid ""
 "Failed LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s removed "
 "again."
 msgstr ""
-"LUN %(fcplun)s ਨੂੰ WWPN %(wwpn)s ਤੇ zFCP ਜੰਤਰ %(devnum)s ਉੱਪਰ ਫਿਰ ਹਟਾਉਣ ਵਿੱਚ"
-" ਫੇਲ ਹੋਇਆ।"
+"LUN %(fcplun)s ਨੂੰ WWPN %(wwpn)s ਤੇ zFCP ਜੰਤਰ %(devnum)s ਉੱਪਰ ਫਿਰ ਹਟਾਉਣ ਵਿੱਚ ਫੇਲ "
+"ਹੋਇਆ।"
 
 #: ../blivet/zfcp.py:218
 #, python-format
@@ -134,8 +133,8 @@ msgid ""
 "Could not correctly delete SCSI device of zFCP %(devnum)s %(wwpn)s "
 "%(fcplun)s (%(e)s)."
 msgstr ""
-"zFCP %(devnum)s %(wwpn)s %(fcplun)s (%(e)s) ਦੇ SCSI ਜੰਤਰ ਨੂੰ ਠੀਕ ਤਰਾਂ ਹਟਾ "
-"ਨਹੀਂ ਸਕਦਾ।"
+"zFCP %(devnum)s %(wwpn)s %(fcplun)s (%(e)s) ਦੇ SCSI ਜੰਤਰ ਨੂੰ ਠੀਕ ਤਰਾਂ ਹਟਾ ਨਹੀਂ "
+"ਸਕਦਾ।"
 
 #: ../blivet/zfcp.py:227
 #, python-format
@@ -143,8 +142,8 @@ msgid ""
 "Could not remove LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s "
 "(%(e)s)."
 msgstr ""
-"LUN %(fcplun)s ਨੂੰ WWPN %(wwpn)s on zFCP ਜੰਤਰ %(devnum)s (%(e)s) ਉੱਪਰ ਹਟਾ "
-"ਨਹੀਂ ਸਕਿਆ।"
+"LUN %(fcplun)s ਨੂੰ WWPN %(wwpn)s on zFCP ਜੰਤਰ %(devnum)s (%(e)s) ਉੱਪਰ ਹਟਾ ਨਹੀਂ "
+"ਸਕਿਆ।"
 
 #: ../blivet/zfcp.py:245
 #, python-format
@@ -318,11 +317,11 @@ msgstr ""
 #: ../blivet/devices/raid.py:58
 #, python-format
 msgid ""
-"RAID level %(raid_level)s requires that device have at least %(min_members)d"
-" member."
+"RAID level %(raid_level)s requires that device have at least %(min_members)d "
+"member."
 msgid_plural ""
-"RAID level %(raid_level)s requires that device have at least %(min_members)d"
-" members."
+"RAID level %(raid_level)s requires that device have at least %(min_members)d "
+"members."
 msgstr[0] ""
 
 #: ../blivet/devices/raid.py:79
@@ -380,8 +379,7 @@ msgstr ""
 msgid "partition table"
 msgstr ""
 
-#. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition
-#. table"
+#. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition table"
 #: ../blivet/formats/disklabel.py:320
 #, python-format
 msgid "Unsupported %(name)s"

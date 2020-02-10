@@ -32,7 +32,8 @@ msgstr ""
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
 "PO-Revision-Date: 2018-09-21 01:08+0000\n"
 "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Japanese (http://www.transifex.com/projects/p/blivet/language/ja/)\n"
+"Language-Team: Japanese (http://www.transifex.com/projects/p/blivet/language/"
+"ja/)\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -53,16 +54,18 @@ msgid ""
 "kernel is reporting partitions on. It is unclear what the exact problem is. "
 "Please file a bug at http://bugzilla.redhat.com"
 msgstr ""
-"なんらかの理由により、kernel "
-"がパーティションを報告しているディスク上でディスクラベルを見つけられませんでした。何が問題となっているかは不明です。バグを "
+"なんらかの理由により、kernel がパーティションを報告しているディスク上でディス"
+"クラベルを見つけられませんでした。何が問題となっているかは不明です。バグを "
 "http://bugzilla.redhat.com に提出してください。"
 
 #: ../blivet/errors.py:224
 msgid ""
-"Either restore the disklabel to a completely working state or remove it completely.\n"
+"Either restore the disklabel to a completely working state or remove it "
+"completely.\n"
 "Hint: parted can restore it or wipefs can remove it."
 msgstr ""
-"ディスクラベルを完全に機能している状態に復元するか、完全に削除してください。\n"
+"ディスクラベルを完全に機能している状態に復元するか、完全に削除してくださ"
+"い。\n"
 "ヒント: parted で復元が、wipefs で削除が実行できます。"
 
 #: ../blivet/errors.py:230
@@ -99,7 +102,8 @@ msgstr "zFCP デバイス %s が見つからず、デバイス無視リストに
 #: ../blivet/zfcp.py:101
 #, python-format
 msgid "Could not set zFCP device %(devnum)s online (%(e)s)."
-msgstr "zFCP デバイス %(devnum)s を オンライン (%(e)s) にセットできませんでした。"
+msgstr ""
+"zFCP デバイス %(devnum)s を オンライン (%(e)s) にセットできませんでした。"
 
 #: ../blivet/zfcp.py:112
 #, python-format
@@ -118,14 +122,16 @@ msgid ""
 "Could not add LUN %(fcplun)s to WWPN %(wwpn)s on zFCP device %(devnum)s "
 "(%(e)s)."
 msgstr ""
-"LUN %(fcplun)s を zFCP デバイス %(devnum)s (%(e)s)上で WWPN %(wwpn)s に追加できません、。"
+"LUN %(fcplun)s を zFCP デバイス %(devnum)s (%(e)s)上で WWPN %(wwpn)s に追加で"
+"きません、。"
 
 #: ../blivet/zfcp.py:140
 #, python-format
 msgid ""
-"LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already "
-"configured."
-msgstr "LUN %(fcplun)s は、zFCP デバイス %(devnum)s 上の WWPN %(wwpn)s で既に設定されています。"
+"LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already configured."
+msgstr ""
+"LUN %(fcplun)s は、zFCP デバイス %(devnum)s 上の WWPN %(wwpn)s で既に設定され"
+"ています。"
 
 #: ../blivet/zfcp.py:152
 #, python-format
@@ -133,8 +139,8 @@ msgid ""
 "Could not read failed attribute of LUN %(fcplun)s at WWPN %(wwpn)s on zFCP "
 "device %(devnum)s (%(e)s)."
 msgstr ""
-"zFCP デバイス %(devnum)s (%(e)s) 上の WWPN %(wwpn)s で LUN %(fcplun)s の "
-"失敗属性を読みこむことが できませんでした。"
+"zFCP デバイス %(devnum)s (%(e)s) 上の WWPN %(wwpn)s で LUN %(fcplun)s の 失敗"
+"属性を読みこむことが できませんでした。"
 
 #: ../blivet/zfcp.py:161
 #, python-format
@@ -142,7 +148,8 @@ msgid ""
 "Failed LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s removed "
 "again."
 msgstr ""
-"zFCP デバイス %(devnum)s 上の WWPN %(wwpn)s で失敗した LUN %(fcplun)s が 再度削除されました。"
+"zFCP デバイス %(devnum)s 上の WWPN %(wwpn)s で失敗した LUN %(fcplun)s が 再度"
+"削除されました。"
 
 #: ../blivet/zfcp.py:218
 #, python-format
@@ -150,7 +157,8 @@ msgid ""
 "Could not correctly delete SCSI device of zFCP %(devnum)s %(wwpn)s "
 "%(fcplun)s (%(e)s)."
 msgstr ""
-"zFCP %(devnum)s %(wwpn)s %(fcplun)s (%(e)s) の SCSI デバイスを正しく消すことができませんでした。"
+"zFCP %(devnum)s %(wwpn)s %(fcplun)s (%(e)s) の SCSI デバイスを正しく消すこと"
+"ができませんでした。"
 
 #: ../blivet/zfcp.py:227
 #, python-format
@@ -158,12 +166,14 @@ msgid ""
 "Could not remove LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s "
 "(%(e)s)."
 msgstr ""
-"zFCP デバイス %(devnum)s (%(e)s) 上の WWPN %(wwpn)s で LUN %(fcplun)s を削除できませんでした。"
+"zFCP デバイス %(devnum)s (%(e)s) 上の WWPN %(wwpn)s で LUN %(fcplun)s を削除"
+"できませんでした。"
 
 #: ../blivet/zfcp.py:245
 #, python-format
 msgid "Could not remove WWPN %(wwpn)s on zFCP device %(devnum)s (%(e)s)."
-msgstr "zFCP デバイス %(devnum)s (%(e)s) 上で WWPN %(wwpn)s を削除できませんでした。"
+msgstr ""
+"zFCP デバイス %(devnum)s (%(e)s) 上で WWPN %(wwpn)s を削除できませんでした。"
 
 #: ../blivet/zfcp.py:271
 #, python-format
@@ -217,8 +227,8 @@ msgid ""
 "partition is too small for %(format)s formatting (allowable size is "
 "%(min_size)s to %(max_size)s)"
 msgstr ""
-"パーティションが %(format)s のフォーマット化には小さ過ぎます (許容サイズは %(min_size)s から %(max_size)s "
-"まで)"
+"パーティションが %(format)s のフォーマット化には小さ過ぎます (許容サイズは "
+"%(min_size)s から %(max_size)s まで)"
 
 #: ../blivet/partitioning.py:646
 #, python-format
@@ -226,8 +236,8 @@ msgid ""
 "partition is too large for %(format)s formatting (allowable size is "
 "%(min_size)s to %(max_size)s)"
 msgstr ""
-"パーティションが %(format)s のフォーマット化には大き過ぎます (許容サイズは %(min_size)s から %(max_size)s "
-"まで)"
+"パーティションが %(format)s のフォーマット化には大き過ぎます (許容サイズは "
+"%(min_size)s から %(max_size)s まで)"
 
 #: ../blivet/partitioning.py:962
 msgid "Unable to allocate requested partition scheme."
@@ -336,18 +346,22 @@ msgstr "デバイスの設定"
 #: ../blivet/devices/raid.py:58
 #, python-format
 msgid ""
-"RAID level %(raid_level)s requires that device have at least %(min_members)d"
-" member."
+"RAID level %(raid_level)s requires that device have at least %(min_members)d "
+"member."
 msgid_plural ""
-"RAID level %(raid_level)s requires that device have at least %(min_members)d"
-" members."
-msgstr[0] "RAID レベル %(raid_level)s では、デバイスに少なくとも %(min_members)d のメンバーが必要です。"
+"RAID level %(raid_level)s requires that device have at least %(min_members)d "
+"members."
+msgstr[0] ""
+"RAID レベル %(raid_level)s では、デバイスに少なくとも %(min_members)d のメン"
+"バーが必要です。"
 
 #: ../blivet/devices/raid.py:79
 #, python-format
 msgid ""
 "RAID level %(raid_level)s is an invalid value. Must be one of (%(levels)s)."
-msgstr "RAID レベル %(raid_level)s は無効な値です。(%(levels)s) のいずれかにする必要があります。"
+msgstr ""
+"RAID レベル %(raid_level)s は無効な値です。(%(levels)s) のいずれかにする必要"
+"があります。"
 
 #: ../blivet/devices/raid.py:104
 #, python-format
@@ -398,8 +412,7 @@ msgstr "dm-raid メンバーデバイス"
 msgid "partition table"
 msgstr "パーティションテーブル"
 
-#. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition
-#. table"
+#. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition table"
 #: ../blivet/formats/disklabel.py:320
 #, python-format
 msgid "Unsupported %(name)s"

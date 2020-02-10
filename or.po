@@ -13,7 +13,8 @@ msgstr ""
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
 "PO-Revision-Date: 2015-01-05 05:25+0000\n"
 "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Oriya (http://www.transifex.com/projects/p/blivet/language/or/)\n"
+"Language-Team: Oriya (http://www.transifex.com/projects/p/blivet/language/"
+"or/)\n"
 "Language: or\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -37,7 +38,8 @@ msgstr ""
 
 #: ../blivet/errors.py:224
 msgid ""
-"Either restore the disklabel to a completely working state or remove it completely.\n"
+"Either restore the disklabel to a completely working state or remove it "
+"completely.\n"
 "Hint: parted can restore it or wipefs can remove it."
 msgstr ""
 
@@ -58,9 +60,7 @@ msgstr "ଆପଣ ଗୋଟିଏ ଉପକରଣର ନମ୍ବର ଅଲ୍�
 
 #: ../blivet/zfcp.py:64
 msgid "You have not specified a worldwide port name or the name is invalid."
-msgstr ""
-"ଆପଣ ଗୋଟିଏ ବୈଷୟିକ ସଂଯୋଗିକୀ ନମ୍ବର କୁ ଉଲ୍ଲେଖ କରି ନାହାଁନ୍ତି କିମ୍ବା ନମ୍ବରଟି ଅବୈଧ "
-"ଅଟେ।"
+msgstr "ଆପଣ ଗୋଟିଏ ବୈଷୟିକ ସଂଯୋଗିକୀ ନମ୍ବର କୁ ଉଲ୍ଲେଖ କରି ନାହାଁନ୍ତି କିମ୍ବା ନମ୍ବରଟି ଅବୈଧ ଅଟେ।"
 
 #: ../blivet/zfcp.py:66
 msgid "You have not specified a FCP LUN or the number is invalid."
@@ -79,8 +79,7 @@ msgstr "zFCP ଉପକରଣ %(devnum)s କୁ ଅନଲାଇନ (%(e)s) ରେ
 #: ../blivet/zfcp.py:112
 #, python-format
 msgid "Could not add WWPN %(wwpn)s to zFCP device %(devnum)s (%(e)s)."
-msgstr ""
-"WWPN %(wwpn)s କୁ zFCP ଉପକରଣ %(devnum)s (%(e)s) ରେ ଯୋଗ କରିପାରିଲା ନାହିଁ।"
+msgstr "WWPN %(wwpn)s କୁ zFCP ଉପକରଣ %(devnum)s (%(e)s) ରେ ଯୋଗ କରିପାରିଲା ନାହିଁ।"
 
 #. newer zfcp sysfs interface with auto port scan
 #: ../blivet/zfcp.py:119
@@ -94,17 +93,16 @@ msgid ""
 "Could not add LUN %(fcplun)s to WWPN %(wwpn)s on zFCP device %(devnum)s "
 "(%(e)s)."
 msgstr ""
-"LUN %(fcplun)s କୁ WWPN %(wwpn)s ଯାହାକି zFCP ଉପକରଣ %(devnum)s (%(e)s) ଉପରେ "
-"ଥାଏ, ତାହାକୁ ଯୋଗ କରିହେଲା ନାହିଁ।"
+"LUN %(fcplun)s କୁ WWPN %(wwpn)s ଯାହାକି zFCP ଉପକରଣ %(devnum)s (%(e)s) ଉପରେ ଥାଏ, "
+"ତାହାକୁ ଯୋଗ କରିହେଲା ନାହିଁ।"
 
 #: ../blivet/zfcp.py:140
 #, python-format
 msgid ""
-"LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already "
-"configured."
+"LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already configured."
 msgstr ""
-"zFCP ଉପକରଣ %(devnum)s ଉପରେ WWPN %(wwpn)s ରେ ଥିବା LUN %(fcplun)s ପୂର୍ବରୁ "
-"ବିନ୍ୟାସିତ ଅଛି।"
+"zFCP ଉପକରଣ %(devnum)s ଉପରେ WWPN %(wwpn)s ରେ ଥିବା LUN %(fcplun)s ପୂର୍ବରୁ ବିନ୍ୟାସିତ "
+"ଅଛି।"
 
 #: ../blivet/zfcp.py:152
 #, python-format
@@ -130,8 +128,8 @@ msgid ""
 "Could not correctly delete SCSI device of zFCP %(devnum)s %(wwpn)s "
 "%(fcplun)s (%(e)s)."
 msgstr ""
-"zFCP %(devnum)s %(wwpn)s %(fcplun)s (%(e)s) ର SCSI ଉପକରଣକୁ ସଠିକ ଭାବରେ ଅପସାରଣ"
-" କରିହେଲା ନାହିଁ।"
+"zFCP %(devnum)s %(wwpn)s %(fcplun)s (%(e)s) ର SCSI ଉପକରଣକୁ ସଠିକ ଭାବରେ ଅପସାରଣ "
+"କରିହେଲା ନାହିଁ।"
 
 #: ../blivet/zfcp.py:227
 #, python-format
@@ -145,8 +143,7 @@ msgstr ""
 #: ../blivet/zfcp.py:245
 #, python-format
 msgid "Could not remove WWPN %(wwpn)s on zFCP device %(devnum)s (%(e)s)."
-msgstr ""
-"zFCP ଉପକରଣ %(devnum)s (%(e)s) ଉପରେ ଥିବା WWPN %(wwpn)s କୁ କାଢ଼ିହେଲା ନାହିଁ।"
+msgstr "zFCP ଉପକରଣ %(devnum)s (%(e)s) ଉପରେ ଥିବା WWPN %(wwpn)s କୁ କାଢ଼ିହେଲା ନାହିଁ।"
 
 #: ../blivet/zfcp.py:271
 #, python-format
@@ -155,8 +152,7 @@ msgstr "zFCP ଉପକରଣ %(devnum)s କୁ ଅଫଲାଇନ (%(e)s) ରେ
 
 #: ../blivet/iscsi.py:217
 msgid "Unable to change iSCSI initiator name once set"
-msgstr ""
-"ଥରେ ସେଟ କରିବା ପରେ iSCSI ପ୍ରାରମ୍ଭି କର୍ତ୍ତାଙ୍କ ନାମ ପରିବର୍ତ୍ତନ କରିବାରେ ଅସମର୍ଥ"
+msgstr "ଥରେ ସେଟ କରିବା ପରେ iSCSI ପ୍ରାରମ୍ଭି କର୍ତ୍ତାଙ୍କ ନାମ ପରିବର୍ତ୍ତନ କରିବାରେ ଅସମର୍ଥ"
 
 #: ../blivet/iscsi.py:219
 msgid "Must provide an iSCSI initiator name"
@@ -227,8 +223,7 @@ msgstr "ଅନୁରୋଧ ବଢ଼ିଲେ ପୁନଃପ୍ରାପ୍ତ 
 
 #: ../blivet/partitioning.py:1419
 msgid "DiskChunk requests must be of type PartitionRequest"
-msgstr ""
-"ଡିସ୍କ ଚଙ୍କ ଅନୁରୋଧଗୁଡ଼ିକ ନିଶ୍ଚିତ ଭାବରେ ବିଭାଜନ ଅନୁରୋଧ ପ୍ରକାରର ହୋଇଥିବା ଉଚିତ"
+msgstr "ଡିସ୍କ ଚଙ୍କ ଅନୁରୋଧଗୁଡ଼ିକ ନିଶ୍ଚିତ ଭାବରେ ବିଭାଜନ ଅନୁରୋଧ ପ୍ରକାରର ହୋଇଥିବା ଉଚିତ"
 
 #: ../blivet/partitioning.py:1432
 msgid "partitions allocated outside disklabel limits"
@@ -317,11 +312,11 @@ msgstr ""
 #: ../blivet/devices/raid.py:58
 #, python-format
 msgid ""
-"RAID level %(raid_level)s requires that device have at least %(min_members)d"
-" member."
+"RAID level %(raid_level)s requires that device have at least %(min_members)d "
+"member."
 msgid_plural ""
-"RAID level %(raid_level)s requires that device have at least %(min_members)d"
-" members."
+"RAID level %(raid_level)s requires that device have at least %(min_members)d "
+"members."
 msgstr[0] ""
 
 #: ../blivet/devices/raid.py:79
@@ -379,8 +374,7 @@ msgstr ""
 msgid "partition table"
 msgstr ""
 
-#. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition
-#. table"
+#. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition table"
 #: ../blivet/formats/disklabel.py:320
 #, python-format
 msgid "Unsupported %(name)s"

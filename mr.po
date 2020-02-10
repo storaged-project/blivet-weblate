@@ -20,7 +20,8 @@ msgstr ""
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
 "PO-Revision-Date: 2015-01-05 05:25+0000\n"
 "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Marathi (http://www.transifex.com/projects/p/blivet/language/mr/)\n"
+"Language-Team: Marathi (http://www.transifex.com/projects/p/blivet/language/"
+"mr/)\n"
 "Language: mr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -44,7 +45,8 @@ msgstr ""
 
 #: ../blivet/errors.py:224
 msgid ""
-"Either restore the disklabel to a completely working state or remove it completely.\n"
+"Either restore the disklabel to a completely working state or remove it "
+"completely.\n"
 "Hint: parted can restore it or wipefs can remove it."
 msgstr ""
 
@@ -61,14 +63,11 @@ msgstr "FCoE उपलब्ध नाही"
 
 #: ../blivet/zfcp.py:62
 msgid "You have not specified a device number or the number is invalid"
-msgstr ""
-"तुम्ही यंत्र क्रमांक नमूद केलेला नाही किंवा नमूद केलेला क्रमांक अयोग्य आहे"
+msgstr "तुम्ही यंत्र क्रमांक नमूद केलेला नाही किंवा नमूद केलेला क्रमांक अयोग्य आहे"
 
 #: ../blivet/zfcp.py:64
 msgid "You have not specified a worldwide port name or the name is invalid."
-msgstr ""
-"तुम्ही विश्वव्यापी पोर्ट नाम नमूद केलेले नाही किंवा नमूद केलेले नाम अयोग्य "
-"आहे."
+msgstr "तुम्ही विश्वव्यापी पोर्ट नाम नमूद केलेले नाही किंवा नमूद केलेले नाम अयोग्य आहे."
 
 #: ../blivet/zfcp.py:66
 msgid "You have not specified a FCP LUN or the number is invalid."
@@ -108,8 +107,7 @@ msgstr ""
 #: ../blivet/zfcp.py:140
 #, python-format
 msgid ""
-"LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already "
-"configured."
+"LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already configured."
 msgstr ""
 "LUN %(fcplun)s यांस WWPN %(wwpn)s येथील zFCP उपकरण %(devnum)s वर आधिपासूनच "
 "संरचीत केले आहे."
@@ -147,14 +145,13 @@ msgid ""
 "Could not remove LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s "
 "(%(e)s)."
 msgstr ""
-"LUN %(fcplun)s यांस WWPN %(wwpn)s करीता, zFCP उपकरन %(devnum)s (%(e)s) काढून"
-" टाकण्यास अशक्य."
+"LUN %(fcplun)s यांस WWPN %(wwpn)s करीता, zFCP उपकरन %(devnum)s (%(e)s) काढून "
+"टाकण्यास अशक्य."
 
 #: ../blivet/zfcp.py:245
 #, python-format
 msgid "Could not remove WWPN %(wwpn)s on zFCP device %(devnum)s (%(e)s)."
-msgstr ""
-"WWPN %(wwpn)s यांस zFCP उपकरन %(devnum)s (%(e)s) येथून काढून टाकण्यास अशक्य."
+msgstr "WWPN %(wwpn)s यांस zFCP उपकरन %(devnum)s (%(e)s) येथून काढून टाकण्यास अशक्य."
 
 #: ../blivet/zfcp.py:271
 #, python-format
@@ -222,8 +219,7 @@ msgstr "विनंतीकृत विभाजन संयोजनाच�
 
 #: ../blivet/partitioning.py:997
 msgid "not enough free space after creating extended partition"
-msgstr ""
-"विस्तारित विभाजन निर्माण केल्यानंतर डिस्क्सवर अतिरिक्त जागा आढळली नाही"
+msgstr "विस्तारित विभाजन निर्माण केल्यानंतर डिस्क्सवर अतिरिक्त जागा आढळली नाही"
 
 #: ../blivet/partitioning.py:1004
 msgid "failed to allocate aligned partition"
@@ -324,11 +320,11 @@ msgstr ""
 #: ../blivet/devices/raid.py:58
 #, python-format
 msgid ""
-"RAID level %(raid_level)s requires that device have at least %(min_members)d"
-" member."
+"RAID level %(raid_level)s requires that device have at least %(min_members)d "
+"member."
 msgid_plural ""
-"RAID level %(raid_level)s requires that device have at least %(min_members)d"
-" members."
+"RAID level %(raid_level)s requires that device have at least %(min_members)d "
+"members."
 msgstr[0] ""
 
 #: ../blivet/devices/raid.py:79
@@ -386,8 +382,7 @@ msgstr "dm-raid सदस्य साधन"
 msgid "partition table"
 msgstr "विभाजन तक्ता"
 
-#. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition
-#. table"
+#. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition table"
 #: ../blivet/formats/disklabel.py:320
 #, python-format
 msgid "Unsupported %(name)s"

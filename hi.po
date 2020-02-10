@@ -17,7 +17,8 @@ msgstr ""
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
 "PO-Revision-Date: 2015-01-05 05:24+0000\n"
 "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Hindi (http://www.transifex.com/projects/p/blivet/language/hi/)\n"
+"Language-Team: Hindi (http://www.transifex.com/projects/p/blivet/language/"
+"hi/)\n"
 "Language: hi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -41,7 +42,8 @@ msgstr ""
 
 #: ../blivet/errors.py:224
 msgid ""
-"Either restore the disklabel to a completely working state or remove it completely.\n"
+"Either restore the disklabel to a completely working state or remove it "
+"completely.\n"
 "Hint: parted can restore it or wipefs can remove it."
 msgstr ""
 
@@ -95,17 +97,16 @@ msgid ""
 "Could not add LUN %(fcplun)s to WWPN %(wwpn)s on zFCP device %(devnum)s "
 "(%(e)s)."
 msgstr ""
-"LUN %(fcplun)s to WWPN %(wwpn)s on zFCP device %(devnum)s (%(e)s) को जोड़ "
-"नहीं सका."
+"LUN %(fcplun)s to WWPN %(wwpn)s on zFCP device %(devnum)s (%(e)s) को जोड़ नहीं "
+"सका."
 
 #: ../blivet/zfcp.py:140
 #, python-format
 msgid ""
-"LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already "
-"configured."
+"LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already configured."
 msgstr ""
-"LUN %(fcplun)s WWPN %(wwpn)s पर zFCP युक्ति पर %(devnum)s पहले से विन्यस्त "
-"किया गया है."
+"LUN %(fcplun)s WWPN %(wwpn)s पर zFCP युक्ति पर %(devnum)s पहले से विन्यस्त किया "
+"गया है."
 
 #: ../blivet/zfcp.py:152
 #, python-format
@@ -113,8 +114,8 @@ msgid ""
 "Could not read failed attribute of LUN %(fcplun)s at WWPN %(wwpn)s on zFCP "
 "device %(devnum)s (%(e)s)."
 msgstr ""
-"LUN %(fcplun)s के विफल गुण को WWPN %(wwpn)s में zFCP युक्ति %(devnum)s "
-"(%(e)s) पर पढ़ नहीं सका."
+"LUN %(fcplun)s के विफल गुण को WWPN %(wwpn)s में zFCP युक्ति %(devnum)s (%(e)s) पर "
+"पढ़ नहीं सका."
 
 #: ../blivet/zfcp.py:161
 #, python-format
@@ -122,8 +123,7 @@ msgid ""
 "Failed LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s removed "
 "again."
 msgstr ""
-"विफल LUN %(fcplun)s WWPN %(wwpn)s में zFCP युक्ति %(devnum)s पर फिर से हटाया"
-" गया."
+"विफल LUN %(fcplun)s WWPN %(wwpn)s में zFCP युक्ति %(devnum)s पर फिर से हटाया गया."
 
 #: ../blivet/zfcp.py:218
 #, python-format
@@ -131,8 +131,8 @@ msgid ""
 "Could not correctly delete SCSI device of zFCP %(devnum)s %(wwpn)s "
 "%(fcplun)s (%(e)s)."
 msgstr ""
-"सही तरीके से zFCP %(devnum)s %(wwpn)s %(fcplun)s (%(e)s) की SCSI युक्ति को "
-"मिटा नहीं सका."
+"सही तरीके से zFCP %(devnum)s %(wwpn)s %(fcplun)s (%(e)s) की SCSI युक्ति को मिटा "
+"नहीं सका."
 
 #: ../blivet/zfcp.py:227
 #, python-format
@@ -140,8 +140,8 @@ msgid ""
 "Could not remove LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s "
 "(%(e)s)."
 msgstr ""
-"LUN %(fcplun)s को WWPN %(wwpn)s पर zFCP युक्ति %(devnum)s (%(e)s) पर हटा "
-"नहीं सकी."
+"LUN %(fcplun)s को WWPN %(wwpn)s पर zFCP युक्ति %(devnum)s (%(e)s) पर हटा नहीं "
+"सकी."
 
 #: ../blivet/zfcp.py:245
 #, python-format
@@ -315,11 +315,11 @@ msgstr ""
 #: ../blivet/devices/raid.py:58
 #, python-format
 msgid ""
-"RAID level %(raid_level)s requires that device have at least %(min_members)d"
-" member."
+"RAID level %(raid_level)s requires that device have at least %(min_members)d "
+"member."
 msgid_plural ""
-"RAID level %(raid_level)s requires that device have at least %(min_members)d"
-" members."
+"RAID level %(raid_level)s requires that device have at least %(min_members)d "
+"members."
 msgstr[0] ""
 
 #: ../blivet/devices/raid.py:79
@@ -377,8 +377,7 @@ msgstr ""
 msgid "partition table"
 msgstr ""
 
-#. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition
-#. table"
+#. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition table"
 #: ../blivet/formats/disklabel.py:320
 #, python-format
 msgid "Unsupported %(name)s"

@@ -1,0 +1,426 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Translators:
+# dcantrel <dcantrell@redhat.com>, 2011
+# Dimitris Glezos <glezos@indifex.com>, 2011
+# Hajime Taira <htaira@redhat.com>, 2010-2013
+# Hirofumi Saito <hi_saito@yk.rim.or.jp>, 2004-2006
+# hyuugabaru <hyu_gabaru@yahoo.co.jp>, 2007,2009
+# Kiyoto Hashida <khashida@redhat.com>, 2002-2003
+# Kenzo Moriguchi <kmoriguc@redhat.com>, 2014
+# Kiyoto Hashida <khashida@redhat.com>, 2007-2010
+# Kiyoto Hashida <khashida@redhat.com>, 2002-2003,2006-2010
+# Makoto Mizukami <mmk9060@aol.com>, 2008
+# Naoki Shigematsu <sigematu@linuxml.net>, 2004
+# noriko <noriko@fedoraproject.org>, 2014
+# noriko <noriko@fedoraproject.org>, 2012
+# noriko <noriko@fedoraproject.org>, 2010-2012
+# Noriko Mizumoto <noriko@redhat.com>, 2003-2004,2006,2008-2009
+# SATO Satoru <ssato@redhat.com>, 2001
+# Tadashi Jokagi <fedora@elf.no-ip.org>, 2004-2005
+# Tomoyuki KATO <tomo@dream.daynight.jp>, 2011-2013
+# carrotsoft <www.carrotsoft@gmail.com>, 2012
+# carrotsoft <www.carrotsoft@gmail.com>, 2012
+# Yoshinari Takaoka <mumumu@mx.edit.ne.jp>, 2004
+# Ludek Janda <ljanda@redhat.com>, 2018. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-01-29 14:04+0100\n"
+"PO-Revision-Date: 2018-09-21 01:08+0000\n"
+"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+"Language-Team: Japanese (http://www.transifex.com/projects/p/blivet/language/ja/)\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Zanata 4.6.2\n"
+
+#: ../blivet/errors.py:210
+msgid ""
+"This is usually caused by cloning the device image resulting in duplication "
+"of the UUID value which should be unique. In that case you can either "
+"disconnect one of the devices or reformat it."
+msgstr ""
+
+#: ../blivet/errors.py:217
+msgid ""
+"For some reason we were unable to locate a disklabel on a disk that the "
+"kernel is reporting partitions on. It is unclear what the exact problem is. "
+"Please file a bug at http://bugzilla.redhat.com"
+msgstr ""
+"なんらかの理由により、kernel "
+"がパーティションを報告しているディスク上でディスクラベルを見つけられませんでした。何が問題となっているかは不明です。バグを "
+"http://bugzilla.redhat.com に提出してください。"
+
+#: ../blivet/errors.py:224
+msgid ""
+"Either restore the disklabel to a completely working state or remove it completely.\n"
+"Hint: parted can restore it or wipefs can remove it."
+msgstr ""
+"ディスクラベルを完全に機能している状態に復元するか、完全に削除してください。\n"
+"ヒント: parted で復元が、wipefs で削除が実行できます。"
+
+#: ../blivet/errors.py:230
+msgid ""
+"Rename one of the volume groups so the names are distinct.\n"
+"Hint 1: vgrename accepts UUID in place of the old name.\n"
+"Hint 2: You can get the VG UUIDs by running 'pvs -o +vg_uuid'."
+msgstr ""
+"ボリュームグループの 1 つの名前を変更して、名前が区別できるようにします。\n"
+"ヒント 1: vgrename は古い名前の代わりに UUID を受け付けます。\n"
+"ヒント 2: VG UUIDs は 'pvs -o +vg_uuid' を実行すると分かります。"
+
+#: ../blivet/fcoe.py:121
+msgid "FCoE not available"
+msgstr "FCoE は使用できません"
+
+#: ../blivet/zfcp.py:62
+msgid "You have not specified a device number or the number is invalid"
+msgstr "デバイス番号を指定していないか番号が無効です。"
+
+#: ../blivet/zfcp.py:64
+msgid "You have not specified a worldwide port name or the name is invalid."
+msgstr "WWPN を指定していないか、そのポート名が無効です。"
+
+#: ../blivet/zfcp.py:66
+msgid "You have not specified a FCP LUN or the number is invalid."
+msgstr "FCP FUN を指定していないか、番号が無効です。"
+
+#: ../blivet/zfcp.py:91
+#, python-format
+msgid "zFCP device %s not found, not even in device ignore list."
+msgstr "zFCP デバイス %s が見つからず、デバイス無視リストにもありません。"
+
+#: ../blivet/zfcp.py:101
+#, python-format
+msgid "Could not set zFCP device %(devnum)s online (%(e)s)."
+msgstr "zFCP デバイス %(devnum)s を オンライン (%(e)s) にセットできませんでした。"
+
+#: ../blivet/zfcp.py:112
+#, python-format
+msgid "Could not add WWPN %(wwpn)s to zFCP device %(devnum)s (%(e)s)."
+msgstr "WWPN %(wwpn)s を zFCP デバイス %(devnum)s (%(e)s) に追加できません。"
+
+#. newer zfcp sysfs interface with auto port scan
+#: ../blivet/zfcp.py:119
+#, python-format
+msgid "WWPN %(wwpn)s not found at zFCP device %(devnum)s."
+msgstr "WWPN %(wwpn)s が zFCP デバイス %(devnum)s で見つかりません。"
+
+#: ../blivet/zfcp.py:134
+#, python-format
+msgid ""
+"Could not add LUN %(fcplun)s to WWPN %(wwpn)s on zFCP device %(devnum)s "
+"(%(e)s)."
+msgstr ""
+"LUN %(fcplun)s を zFCP デバイス %(devnum)s (%(e)s)上で WWPN %(wwpn)s に追加できません、。"
+
+#: ../blivet/zfcp.py:140
+#, python-format
+msgid ""
+"LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already "
+"configured."
+msgstr "LUN %(fcplun)s は、zFCP デバイス %(devnum)s 上の WWPN %(wwpn)s で既に設定されています。"
+
+#: ../blivet/zfcp.py:152
+#, python-format
+msgid ""
+"Could not read failed attribute of LUN %(fcplun)s at WWPN %(wwpn)s on zFCP "
+"device %(devnum)s (%(e)s)."
+msgstr ""
+"zFCP デバイス %(devnum)s (%(e)s) 上の WWPN %(wwpn)s で LUN %(fcplun)s の "
+"失敗属性を読みこむことが できませんでした。"
+
+#: ../blivet/zfcp.py:161
+#, python-format
+msgid ""
+"Failed LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s removed "
+"again."
+msgstr ""
+"zFCP デバイス %(devnum)s 上の WWPN %(wwpn)s で失敗した LUN %(fcplun)s が 再度削除されました。"
+
+#: ../blivet/zfcp.py:218
+#, python-format
+msgid ""
+"Could not correctly delete SCSI device of zFCP %(devnum)s %(wwpn)s "
+"%(fcplun)s (%(e)s)."
+msgstr ""
+"zFCP %(devnum)s %(wwpn)s %(fcplun)s (%(e)s) の SCSI デバイスを正しく消すことができませんでした。"
+
+#: ../blivet/zfcp.py:227
+#, python-format
+msgid ""
+"Could not remove LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s "
+"(%(e)s)."
+msgstr ""
+"zFCP デバイス %(devnum)s (%(e)s) 上の WWPN %(wwpn)s で LUN %(fcplun)s を削除できませんでした。"
+
+#: ../blivet/zfcp.py:245
+#, python-format
+msgid "Could not remove WWPN %(wwpn)s on zFCP device %(devnum)s (%(e)s)."
+msgstr "zFCP デバイス %(devnum)s (%(e)s) 上で WWPN %(wwpn)s を削除できませんでした。"
+
+#: ../blivet/zfcp.py:271
+#, python-format
+msgid "Could not set zFCP device %(devnum)s offline (%(e)s)."
+msgstr "zFCP デバイス %(devnum)s をオフライン (%(e)s) に設定できませんでした。"
+
+#: ../blivet/iscsi.py:217
+msgid "Unable to change iSCSI initiator name once set"
+msgstr "iSCSI イニシエータ名はセットされた後は変更できません"
+
+#: ../blivet/iscsi.py:219
+msgid "Must provide an iSCSI initiator name"
+msgstr "iSCSI イニシエーター名を入力しなければなりません"
+
+#: ../blivet/iscsi.py:410
+msgid "iSCSI not available"
+msgstr "iSCSI は使用できません"
+
+#: ../blivet/iscsi.py:412
+msgid "No initiator name set"
+msgstr "イニシエーター名がありません"
+
+#: ../blivet/iscsi.py:530
+msgid "No iSCSI nodes discovered"
+msgstr "iSCSI ノードが何も探索できませんでした"
+
+#: ../blivet/iscsi.py:550
+msgid "No new iSCSI nodes discovered"
+msgstr "新しい iSCSI ノードは見つかりませんでした。"
+
+#: ../blivet/iscsi.py:553
+msgid "Could not log in to any of the discovered nodes"
+msgstr "探索されたノードのどれにもログインできません"
+
+#: ../blivet/partitioning.py:454
+msgid "unable to allocate aligned partition"
+msgstr "アラインされたパーティションを割り当てることができません"
+
+#: ../blivet/partitioning.py:462
+msgid "requested size exceeds maximum allowed"
+msgstr "要求されたサイズは、許可された最大値を超えています"
+
+#: ../blivet/partitioning.py:580
+#, python-format
+msgid "disk %s inaccessible"
+msgstr "ディスク %s にアクセスできない"
+
+#: ../blivet/partitioning.py:641
+#, python-format
+msgid ""
+"partition is too small for %(format)s formatting (allowable size is "
+"%(min_size)s to %(max_size)s)"
+msgstr ""
+"パーティションが %(format)s のフォーマット化には小さ過ぎます (許容サイズは %(min_size)s から %(max_size)s "
+"まで)"
+
+#: ../blivet/partitioning.py:646
+#, python-format
+msgid ""
+"partition is too large for %(format)s formatting (allowable size is "
+"%(min_size)s to %(max_size)s)"
+msgstr ""
+"パーティションが %(format)s のフォーマット化には大き過ぎます (許容サイズは %(min_size)s から %(max_size)s "
+"まで)"
+
+#: ../blivet/partitioning.py:962
+msgid "Unable to allocate requested partition scheme."
+msgstr "要求されたパーティションスキームを割り当てることができません。"
+
+#: ../blivet/partitioning.py:997
+msgid "not enough free space after creating extended partition"
+msgstr "拡張パーティションを作成後にディスク上に空き容量がありません"
+
+#: ../blivet/partitioning.py:1004
+msgid "failed to allocate aligned partition"
+msgstr "アラインされたパーティションを割り当てることができません"
+
+#: ../blivet/partitioning.py:1205
+msgid "cannot reclaim more than request has grown"
+msgstr "要求を超えたサイズを再利用することができません"
+
+#: ../blivet/partitioning.py:1419
+msgid "DiskChunk requests must be of type PartitionRequest"
+msgstr "DiskChunk 要求には PartitionResquest タイプが必要です。"
+
+#: ../blivet/partitioning.py:1432
+msgid "partitions allocated outside disklabel limits"
+msgstr "ディスクラベルの範囲外に割り当てられたパーティション"
+
+#: ../blivet/partitioning.py:1517
+msgid "VGChunk requests must be of type LVRequest"
+msgstr "VGChunk 要求には LVResquest タイプが必要です。"
+
+#. by now we have allocated the PVs so if there isn't enough
+#. space in the VG we have a real problem
+#: ../blivet/partitioning.py:2025
+msgid "not enough space for LVM requests"
+msgstr "LVM 要求に必要な容量が足りません"
+
+#: ../blivet/deviceaction.py:194
+#, python-format
+msgid "Executing %(action)s"
+msgstr "%(action)s の実行"
+
+#: ../blivet/deviceaction.py:322
+msgid "create device"
+msgstr "デバイスの作成"
+
+#: ../blivet/deviceaction.py:381
+msgid "destroy device"
+msgstr "デバイスの削除"
+
+#: ../blivet/deviceaction.py:484
+msgid "resize device"
+msgstr "デバイスのリサイズ"
+
+#: ../blivet/deviceaction.py:573
+msgid "create format"
+msgstr "フォーマットの作成"
+
+#: ../blivet/deviceaction.py:613
+#, python-format
+msgid "Creating %(type)s on %(device)s"
+msgstr "%(device)s 上に %(type)s を作成"
+
+#: ../blivet/deviceaction.py:640
+#, python-format
+msgid "Not enough entropy to create LUKS format. %d bits are needed."
+msgstr "LUKS 形式の削除に十分なエントロピーがありません。%d ビットが必要です。"
+
+#: ../blivet/deviceaction.py:670
+#, python-format
+msgid "Created %(type)s on %(device)s"
+msgstr "%(device)s 上に %(type)s を作成しました"
+
+#: ../blivet/deviceaction.py:717
+msgid "destroy format"
+msgstr "フォーマットの削除"
+
+#: ../blivet/deviceaction.py:830
+msgid "resize format"
+msgstr "フォーマットのリサイズ"
+
+#: ../blivet/deviceaction.py:869
+#, python-format
+msgid "Resizing filesystem on %(device)s"
+msgstr "%(device)s 上のファイルシステムのリサイズ"
+
+#: ../blivet/deviceaction.py:876
+#, python-format
+msgid "Resized filesystem on %(device)s"
+msgstr "%(device)s 上のファイルシステムをリサイズしました"
+
+#: ../blivet/deviceaction.py:923
+msgid "add container member"
+msgstr "コンテナーメンバーの追加"
+
+#: ../blivet/deviceaction.py:988
+msgid "remove container member"
+msgstr "コンテナーメンバーの削除"
+
+#: ../blivet/deviceaction.py:1058
+msgid "configure format"
+msgstr "フォーマットの設定"
+
+#: ../blivet/deviceaction.py:1114
+msgid "configure device"
+msgstr "デバイスの設定"
+
+#: ../blivet/devices/raid.py:58
+#, python-format
+msgid ""
+"RAID level %(raid_level)s requires that device have at least %(min_members)d"
+" member."
+msgid_plural ""
+"RAID level %(raid_level)s requires that device have at least %(min_members)d"
+" members."
+msgstr[0] "RAID レベル %(raid_level)s では、デバイスに少なくとも %(min_members)d のメンバーが必要です。"
+
+#: ../blivet/devices/raid.py:79
+#, python-format
+msgid ""
+"RAID level %(raid_level)s is an invalid value. Must be one of (%(levels)s)."
+msgstr "RAID レベル %(raid_level)s は無効な値です。(%(levels)s) のいずれかにする必要があります。"
+
+#: ../blivet/devices/raid.py:104
+#, python-format
+msgid "Cannot remove a member from existing %s array"
+msgstr "既存の %s 配列からメンバーを削除できません"
+
+#: ../blivet/formats/fs.py:932
+msgid "EFI System Partition"
+msgstr "EFI システムパーティション"
+
+#: ../blivet/formats/fs.py:1137
+msgid "Apple Bootstrap"
+msgstr "Apple ブートストラップ"
+
+#: ../blivet/formats/fs.py:1173
+msgid "Linux HFS+ ESP"
+msgstr "Linux HFS+ ESP"
+
+#: ../blivet/formats/prepboot.py:37
+msgid "PPC PReP Boot"
+msgstr "PPC PReP ブート"
+
+#: ../blivet/formats/luks.py:58
+msgid "LUKS"
+msgstr "LUKS"
+
+#: ../blivet/formats/luks.py:59
+msgid "Encrypted"
+msgstr "暗号化"
+
+#: ../blivet/formats/luks.py:388
+msgid "DM Integrity"
+msgstr "DM の整合性"
+
+#: ../blivet/formats/__init__.py:148
+msgid "Unknown"
+msgstr "不明"
+
+#: ../blivet/formats/biosboot.py:35
+msgid "BIOS Boot"
+msgstr "BIOS ブート"
+
+#: ../blivet/formats/dmraid.py:37
+msgid "dm-raid member device"
+msgstr "dm-raid メンバーデバイス"
+
+#: ../blivet/formats/disklabel.py:50
+msgid "partition table"
+msgstr "パーティションテーブル"
+
+#. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition
+#. table"
+#: ../blivet/formats/disklabel.py:320
+#, python-format
+msgid "Unsupported %(name)s"
+msgstr "サポートされない %(name)s"
+
+#: ../blivet/formats/mdraid.py:43
+msgid "software RAID"
+msgstr "ソフトウェア RAID"
+
+#: ../blivet/formats/multipath.py:40
+msgid "multipath member device"
+msgstr "マルチパスメンバーデバイス"
+
+#: ../blivet/formats/lvmpv.py:49
+msgid "physical volume (LVM)"
+msgstr "物理ボリューム (LVM)"
+
+#: ../blivet/devicelibs/lvm.py:59
+msgid "Generic"
+msgstr "汎用"
+
+#: ../blivet/devicelibs/lvm.py:60
+msgid "Performance"
+msgstr "パフォーマンス"

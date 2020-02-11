@@ -33,7 +33,8 @@ msgstr ""
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
 "PO-Revision-Date: 2018-08-22 08:54+0000\n"
 "Last-Translator: Máximo Castañeda Riloba <mcrcctm@gmail.com>\n"
-"Language-Team: Spanish (http://www.transifex.com/projects/p/blivet/language/es/)\n"
+"Language-Team: Spanish (http://www.transifex.com/projects/p/blivet/language/"
+"es/)\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -54,16 +55,18 @@ msgid ""
 "kernel is reporting partitions on. It is unclear what the exact problem is. "
 "Please file a bug at http://bugzilla.redhat.com"
 msgstr ""
-"Por alguna razón no se pudo encontrar una etiqueta de disco en un disco para"
-" el que el kernel dice que hay particiones. No se sabe exactamente cuál es "
-"el problema. Por favor, informe del error en http://bugzilla.redhat.com"
+"Por alguna razón no se pudo encontrar una etiqueta de disco en un disco para "
+"el que el kernel dice que hay particiones. No se sabe exactamente cuál es el "
+"problema. Por favor, informe del error en http://bugzilla.redhat.com"
 
 #: ../blivet/errors.py:224
 msgid ""
-"Either restore the disklabel to a completely working state or remove it completely.\n"
+"Either restore the disklabel to a completely working state or remove it "
+"completely.\n"
 "Hint: parted can restore it or wipefs can remove it."
 msgstr ""
-"Restaure la etiqueta de disco a un estado completamente funcional o bien elimínela completamente.\n"
+"Restaure la etiqueta de disco a un estado completamente funcional o bien "
+"elimínela completamente.\n"
 "Consejo: parted puede restaurarla, o la puede eliminar con wipefs."
 
 #: ../blivet/errors.py:230
@@ -72,9 +75,11 @@ msgid ""
 "Hint 1: vgrename accepts UUID in place of the old name.\n"
 "Hint 2: You can get the VG UUIDs by running 'pvs -o +vg_uuid'."
 msgstr ""
-"Renombre uno de los grupos de volúmenes de forma que los nombres sean diferentes.\n"
+"Renombre uno de los grupos de volúmenes de forma que los nombres sean "
+"diferentes.\n"
 "Nota 1: vgrename acepta UUID en lugar del nombre viejo.\n"
-"Nota 2: Puede obtener los UUIDs de los grupos de volúmenes mediante 'pvs -o +vg_uuid'."
+"Nota 2: Puede obtener los UUIDs de los grupos de volúmenes mediante 'pvs -o "
+"+vg_uuid'."
 
 #: ../blivet/fcoe.py:121
 msgid "FCoE not available"
@@ -123,14 +128,13 @@ msgid ""
 "Could not add LUN %(fcplun)s to WWPN %(wwpn)s on zFCP device %(devnum)s "
 "(%(e)s)."
 msgstr ""
-"No se pudo agregar el LUN %(fcplun)s al WWPN %(wwpn)s en el dispositivo zFCP"
-" %(devnum)s (%(e)s)."
+"No se pudo agregar el LUN %(fcplun)s al WWPN %(wwpn)s en el dispositivo zFCP "
+"%(devnum)s (%(e)s)."
 
 #: ../blivet/zfcp.py:140
 #, python-format
 msgid ""
-"LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already "
-"configured."
+"LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already configured."
 msgstr ""
 "El LUN %(fcplun)s en el WWPN %(wwpn)s el dispositivo zFCP %(devnum)s ya fue "
 "configurado."
@@ -232,8 +236,8 @@ msgid ""
 "partition is too small for %(format)s formatting (allowable size is "
 "%(min_size)s to %(max_size)s)"
 msgstr ""
-"la partición es demasiado pequeña para el formato %(format)s (el tamaño debe"
-" estar entre %(min_size)s y %(max_size)s)"
+"la partición es demasiado pequeña para el formato %(format)s (el tamaño debe "
+"estar entre %(min_size)s y %(max_size)s)"
 
 #: ../blivet/partitioning.py:646
 #, python-format
@@ -251,8 +255,7 @@ msgstr "Imposible asignar el conjunto de particiones solicitado."
 #: ../blivet/partitioning.py:997
 msgid "not enough free space after creating extended partition"
 msgstr ""
-"no hay suficiente espacio libre en el disco para crear particiones "
-"extendidas"
+"no hay suficiente espacio libre en el disco para crear particiones extendidas"
 
 #: ../blivet/partitioning.py:1004
 msgid "failed to allocate aligned partition"
@@ -309,8 +312,7 @@ msgstr "Creando %(type)s en %(device)s"
 #: ../blivet/deviceaction.py:640
 #, python-format
 msgid "Not enough entropy to create LUKS format. %d bits are needed."
-msgstr ""
-"No hay suficiente entropía para el formato LUKS. Se necesitan %d bits."
+msgstr "No hay suficiente entropía para el formato LUKS. Se necesitan %d bits."
 
 #: ../blivet/deviceaction.py:670
 #, python-format
@@ -354,11 +356,11 @@ msgstr "configurar dispositivo"
 #: ../blivet/devices/raid.py:58
 #, python-format
 msgid ""
-"RAID level %(raid_level)s requires that device have at least %(min_members)d"
-" member."
+"RAID level %(raid_level)s requires that device have at least %(min_members)d "
+"member."
 msgid_plural ""
-"RAID level %(raid_level)s requires that device have at least %(min_members)d"
-" members."
+"RAID level %(raid_level)s requires that device have at least %(min_members)d "
+"members."
 msgstr[0] ""
 "El nivel RAID %(raid_level)s exige que el dispositivo conste al menos de "
 "%(min_members)d miembro."
@@ -422,8 +424,7 @@ msgstr "Dispositivo de miembro dm-raid"
 msgid "partition table"
 msgstr "Tabla de particiones"
 
-#. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition
-#. table"
+#. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition table"
 #: ../blivet/formats/disklabel.py:320
 #, python-format
 msgid "Unsupported %(name)s"

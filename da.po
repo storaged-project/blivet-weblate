@@ -18,7 +18,8 @@ msgstr ""
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
 "PO-Revision-Date: 2019-08-28 03:00+0000\n"
 "Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
-"Language-Team: Danish (http://www.transifex.com/projects/p/blivet/language/da/)\n"
+"Language-Team: Danish (http://www.transifex.com/projects/p/blivet/language/"
+"da/)\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,9 +33,9 @@ msgid ""
 "of the UUID value which should be unique. In that case you can either "
 "disconnect one of the devices or reformat it."
 msgstr ""
-"Det er typisk forårsaget ved kloning af enhedens aftryk hvilket resulterer i"
-" duplikering af UUID-værdien, som skal være unik. Når det er tilfældet kan "
-"du enten afkoble en af enhederne eller genformatere den."
+"Det er typisk forårsaget ved kloning af enhedens aftryk hvilket resulterer i "
+"duplikering af UUID-værdien, som skal være unik. Når det er tilfældet kan du "
+"enten afkoble en af enhederne eller genformatere den."
 
 #: ../blivet/errors.py:217
 msgid ""
@@ -48,10 +49,12 @@ msgstr ""
 
 #: ../blivet/errors.py:224
 msgid ""
-"Either restore the disklabel to a completely working state or remove it completely.\n"
+"Either restore the disklabel to a completely working state or remove it "
+"completely.\n"
 "Hint: parted can restore it or wipefs can remove it."
 msgstr ""
-"Gendan enten disketiketten til en fuld funktionsdygtig tilstand eller fjern den fuldstændigt.\n"
+"Gendan enten disketiketten til en fuld funktionsdygtig tilstand eller fjern "
+"den fuldstændigt.\n"
 "Tip: parted kan gendanne den eller wipefs kan fjerne den."
 
 #: ../blivet/errors.py:230
@@ -74,8 +77,7 @@ msgstr "Du har ikke angivet et enhedsnummer eller nummeret er ugyldigt"
 
 #: ../blivet/zfcp.py:64
 msgid "You have not specified a worldwide port name or the name is invalid."
-msgstr ""
-"Du har ikke angivet et verdenskendt portnavn eller navnet er ugyldigt."
+msgstr "Du har ikke angivet et verdenskendt portnavn eller navnet er ugyldigt."
 
 #: ../blivet/zfcp.py:66
 msgid "You have not specified a FCP LUN or the number is invalid."
@@ -108,14 +110,13 @@ msgid ""
 "Could not add LUN %(fcplun)s to WWPN %(wwpn)s on zFCP device %(devnum)s "
 "(%(e)s)."
 msgstr ""
-"Kunne ikke tilføje LUN %(fcplun)s til WWPN %(wwpn)s på zFCP-enhed %(devnum)s"
-" (%(e)s)."
+"Kunne ikke tilføje LUN %(fcplun)s til WWPN %(wwpn)s på zFCP-enhed %(devnum)s "
+"(%(e)s)."
 
 #: ../blivet/zfcp.py:140
 #, python-format
 msgid ""
-"LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already "
-"configured."
+"LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already configured."
 msgstr ""
 "LUN %(fcplun)s på WWPN %(wwpn)s på zFCP-enhed %(devnum)s er allerede "
 "konfigureret."
@@ -333,11 +334,11 @@ msgstr "konfigurer enhed"
 #: ../blivet/devices/raid.py:58
 #, python-format
 msgid ""
-"RAID level %(raid_level)s requires that device have at least %(min_members)d"
-" member."
+"RAID level %(raid_level)s requires that device have at least %(min_members)d "
+"member."
 msgid_plural ""
-"RAID level %(raid_level)s requires that device have at least %(min_members)d"
-" members."
+"RAID level %(raid_level)s requires that device have at least %(min_members)d "
+"members."
 msgstr[0] ""
 "RAID-niveau %(raid_level)s kræver at enheden har mindst %(min_members)d "
 "medlem."
@@ -350,8 +351,7 @@ msgstr[1] ""
 msgid ""
 "RAID level %(raid_level)s is an invalid value. Must be one of (%(levels)s)."
 msgstr ""
-"RAID-niveau %(raid_level)s er en ugyldig værdi. Skal være en af "
-"(%(levels)s)."
+"RAID-niveau %(raid_level)s er en ugyldig værdi. Skal være en af (%(levels)s)."
 
 #: ../blivet/devices/raid.py:104
 #, python-format
@@ -402,8 +402,7 @@ msgstr "dm-raid-medlemsenhed"
 msgid "partition table"
 msgstr "partitionstabel"
 
-#. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition
-#. table"
+#. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition table"
 #: ../blivet/formats/disklabel.py:320
 #, python-format
 msgid "Unsupported %(name)s"

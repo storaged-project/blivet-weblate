@@ -23,7 +23,8 @@ msgstr ""
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
 "PO-Revision-Date: 2018-09-13 02:13+0000\n"
 "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Chinese (China) (http://www.transifex.com/projects/p/blivet/language/zh_CN/)\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/projects/p/blivet/"
+"language/zh_CN/)\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -44,12 +45,13 @@ msgid ""
 "kernel is reporting partitions on. It is unclear what the exact problem is. "
 "Please file a bug at http://bugzilla.redhat.com"
 msgstr ""
-"由于某些原因无法定位内核报告中显示在其中进行分区的磁盘的磁盘标签。尚不了解具体问题所在。请在 http://bugzilla.redhat.com 提交"
-" bug。"
+"由于某些原因无法定位内核报告中显示在其中进行分区的磁盘的磁盘标签。尚不了解具"
+"体问题所在。请在 http://bugzilla.redhat.com 提交 bug。"
 
 #: ../blivet/errors.py:224
 msgid ""
-"Either restore the disklabel to a completely working state or remove it completely.\n"
+"Either restore the disklabel to a completely working state or remove it "
+"completely.\n"
 "Hint: parted can restore it or wipefs can remove it."
 msgstr ""
 "可以将该磁盘标签恢复为完全工作状态，或者将其完全删除。\n"
@@ -107,14 +109,16 @@ msgstr "在 zFCP 设备 %(devnum)s 中没有找到 WWPN %(wwpn)s。"
 msgid ""
 "Could not add LUN %(fcplun)s to WWPN %(wwpn)s on zFCP device %(devnum)s "
 "(%(e)s)."
-msgstr "无法在 zFCP 设备 %(devnum)s 中将 LUN %(fcplun)s 添加到 WWPN %(wwpn)s 中 (%(e)s)。"
+msgstr ""
+"无法在 zFCP 设备 %(devnum)s 中将 LUN %(fcplun)s 添加到 WWPN %(wwpn)s 中 "
+"(%(e)s)。"
 
 #: ../blivet/zfcp.py:140
 #, python-format
 msgid ""
-"LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already "
-"configured."
-msgstr "已经在 zFCP 设备 %(devnum)s 上的 WWPN %(wwpn)s 中配置了 LUN %(fcplun)s。"
+"LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already configured."
+msgstr ""
+"已经在 zFCP 设备 %(devnum)s 上的 WWPN %(wwpn)s 中配置了 LUN %(fcplun)s。"
 
 #: ../blivet/zfcp.py:152
 #, python-format
@@ -122,28 +126,33 @@ msgid ""
 "Could not read failed attribute of LUN %(fcplun)s at WWPN %(wwpn)s on zFCP "
 "device %(devnum)s (%(e)s)."
 msgstr ""
-"无法在 zFCP 设备 %(devnum)s 上的 WWPN %(wwpn)s 中读取 LUN %(fcplun)s 失败的属性 (%(e)s)。"
+"无法在 zFCP 设备 %(devnum)s 上的 WWPN %(wwpn)s 中读取 LUN %(fcplun)s 失败的属"
+"性 (%(e)s)。"
 
 #: ../blivet/zfcp.py:161
 #, python-format
 msgid ""
 "Failed LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s removed "
 "again."
-msgstr "再次删除在 zFCP 设备 %(devnum)s 的 WWPN %(wwpn)s 中失败的 LUN %(fcplun)s。"
+msgstr ""
+"再次删除在 zFCP 设备 %(devnum)s 的 WWPN %(wwpn)s 中失败的 LUN %(fcplun)s。"
 
 #: ../blivet/zfcp.py:218
 #, python-format
 msgid ""
 "Could not correctly delete SCSI device of zFCP %(devnum)s %(wwpn)s "
 "%(fcplun)s (%(e)s)."
-msgstr "无法正确删除 zFCP %(devnum)s %(wwpn)s %(fcplun)s 的 SCSI 设备 (%(e)s)。"
+msgstr ""
+"无法正确删除 zFCP %(devnum)s %(wwpn)s %(fcplun)s 的 SCSI 设备 (%(e)s)。"
 
 #: ../blivet/zfcp.py:227
 #, python-format
 msgid ""
 "Could not remove LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s "
 "(%(e)s)."
-msgstr "无法在 zFCP 设备 %(devnum)s 上的 WWPN %(wwpn)s 中删除 LUN %(fcplun)s (%(e)s)。"
+msgstr ""
+"无法在 zFCP 设备 %(devnum)s 上的 WWPN %(wwpn)s 中删除 LUN %(fcplun)s "
+"(%(e)s)。"
 
 #: ../blivet/zfcp.py:245
 #, python-format
@@ -201,14 +210,16 @@ msgstr "无法访问磁盘 %s"
 msgid ""
 "partition is too small for %(format)s formatting (allowable size is "
 "%(min_size)s to %(max_size)s)"
-msgstr "分区对于 %(format)s 格式化太小（允许大小是 %(min_size)s 到 %(max_size)s）"
+msgstr ""
+"分区对于 %(format)s 格式化太小（允许大小是 %(min_size)s 到 %(max_size)s）"
 
 #: ../blivet/partitioning.py:646
 #, python-format
 msgid ""
 "partition is too large for %(format)s formatting (allowable size is "
 "%(min_size)s to %(max_size)s)"
-msgstr "分区对于 %(format)s 格式化太大（允许大小是 %(min_size)s 到 %(max_size)s）"
+msgstr ""
+"分区对于 %(format)s 格式化太大（允许大小是 %(min_size)s 到 %(max_size)s）"
 
 #: ../blivet/partitioning.py:962
 msgid "Unable to allocate requested partition scheme."
@@ -317,18 +328,19 @@ msgstr "配置设备"
 #: ../blivet/devices/raid.py:58
 #, python-format
 msgid ""
-"RAID level %(raid_level)s requires that device have at least %(min_members)d"
-" member."
+"RAID level %(raid_level)s requires that device have at least %(min_members)d "
+"member."
 msgid_plural ""
-"RAID level %(raid_level)s requires that device have at least %(min_members)d"
-" members."
+"RAID level %(raid_level)s requires that device have at least %(min_members)d "
+"members."
 msgstr[0] "RAID 级 %(raid_level)s 需要设备最少有 %(min_members)d 个成员。"
 
 #: ../blivet/devices/raid.py:79
 #, python-format
 msgid ""
 "RAID level %(raid_level)s is an invalid value. Must be one of (%(levels)s)."
-msgstr "RAID 级 %(raid_level)s 不是一个有效的级数。需要是 (%(levels)s) 中的一个。"
+msgstr ""
+"RAID 级 %(raid_level)s 不是一个有效的级数。需要是 (%(levels)s) 中的一个。"
 
 #: ../blivet/devices/raid.py:104
 #, python-format
@@ -379,8 +391,7 @@ msgstr "dm-raid member 设备"
 msgid "partition table"
 msgstr "分区表"
 
-#. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition
-#. table"
+#. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition table"
 #: ../blivet/formats/disklabel.py:320
 #, python-format
 msgid "Unsupported %(name)s"

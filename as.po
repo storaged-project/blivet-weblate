@@ -16,7 +16,8 @@ msgstr ""
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
 "PO-Revision-Date: 2015-01-05 05:23+0000\n"
 "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Assamese (http://www.transifex.com/projects/p/blivet/language/as/)\n"
+"Language-Team: Assamese (http://www.transifex.com/projects/p/blivet/language/"
+"as/)\n"
 "Language: as\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40,7 +41,8 @@ msgstr ""
 
 #: ../blivet/errors.py:224
 msgid ""
-"Either restore the disklabel to a completely working state or remove it completely.\n"
+"Either restore the disklabel to a completely working state or remove it "
+"completely.\n"
 "Hint: parted can restore it or wipefs can remove it."
 msgstr ""
 
@@ -100,8 +102,7 @@ msgstr ""
 #: ../blivet/zfcp.py:140
 #, python-format
 msgid ""
-"LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already "
-"configured."
+"LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already configured."
 msgstr ""
 "zFCP ডিভাইচ %(devnum)s ত থকা WWPN %(wwpn)s ৰ\n"
 "LUN %(fcplun)s ইতিমধ্যে সংৰূপিত"
@@ -112,8 +113,8 @@ msgid ""
 "Could not read failed attribute of LUN %(fcplun)s at WWPN %(wwpn)s on zFCP "
 "device %(devnum)s (%(e)s)."
 msgstr ""
-"zFCP ডিভাইচ %(devnum)s (%(e)s) ত থকা WWPN %(wwpn)s ৰ LUN %(fcplun)s ৰ ব্যৰ্থ"
-" বৈশিষ্ট পঢ়িব নোৱাৰি।"
+"zFCP ডিভাইচ %(devnum)s (%(e)s) ত থকা WWPN %(wwpn)s ৰ LUN %(fcplun)s ৰ ব্যৰ্থ "
+"বৈশিষ্ট পঢ়িব নোৱাৰি।"
 
 #: ../blivet/zfcp.py:161
 #, python-format
@@ -314,11 +315,11 @@ msgstr ""
 #: ../blivet/devices/raid.py:58
 #, python-format
 msgid ""
-"RAID level %(raid_level)s requires that device have at least %(min_members)d"
-" member."
+"RAID level %(raid_level)s requires that device have at least %(min_members)d "
+"member."
 msgid_plural ""
-"RAID level %(raid_level)s requires that device have at least %(min_members)d"
-" members."
+"RAID level %(raid_level)s requires that device have at least %(min_members)d "
+"members."
 msgstr[0] ""
 
 #: ../blivet/devices/raid.py:79
@@ -376,8 +377,7 @@ msgstr "dm-raid সদস্য ডিভাইচ"
 msgid "partition table"
 msgstr "বিভাজন টেবুল"
 
-#. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition
-#. table"
+#. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition table"
 #: ../blivet/formats/disklabel.py:320
 #, python-format
 msgid "Unsupported %(name)s"

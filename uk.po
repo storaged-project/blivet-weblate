@@ -19,12 +19,14 @@ msgstr ""
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
 "PO-Revision-Date: 2019-08-16 05:49+0000\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
-"Language-Team: Ukrainian (http://www.transifex.com/projects/p/blivet/language/uk/)\n"
+"Language-Team: Ukrainian (http://www.transifex.com/projects/p/blivet/"
+"language/uk/)\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Generator: Zanata 4.6.2\n"
 
 #: ../blivet/errors.py:210
@@ -34,9 +36,8 @@ msgid ""
 "disconnect one of the devices or reformat it."
 msgstr ""
 "Зазвичай, причиною є клонування образу диска, яке призводить до дублювання "
-"значення UUID, яке має бути унікальним. Якщо причина саме у цьому, ви можете"
-" або від'єднати один з пристроїв, або виконати повторне форматування "
-"пристрою."
+"значення UUID, яке має бути унікальним. Якщо причина саме у цьому, ви можете "
+"або від'єднати один з пристроїв, або виконати повторне форматування пристрою."
 
 #: ../blivet/errors.py:217
 msgid ""
@@ -50,10 +51,12 @@ msgstr ""
 
 #: ../blivet/errors.py:224
 msgid ""
-"Either restore the disklabel to a completely working state or remove it completely.\n"
+"Either restore the disklabel to a completely working state or remove it "
+"completely.\n"
 "Hint: parted can restore it or wipefs can remove it."
 msgstr ""
-"Або відновіть мітку диска до повністю працездатного стану, або вилучіть її повністю.\n"
+"Або відновіть мітку диска до повністю працездатного стану, або вилучіть її "
+"повністю.\n"
 "Підказка: мітку може відновити parted, а wipefs може її вилучити."
 
 #: ../blivet/errors.py:230
@@ -64,7 +67,8 @@ msgid ""
 msgstr ""
 "Перейменуйте одну із груп томів, щоб усунути дублювання.\n"
 "Підказка 1: vgrename приймає UUID замість старої назви.\n"
-"Підказка 2: ви можете отримати UUID груп томів за допомогою команди «pvs -o +vg_uuid»."
+"Підказка 2: ви можете отримати UUID груп томів за допомогою команди «pvs -o "
+"+vg_uuid»."
 
 #: ../blivet/fcoe.py:121
 msgid "FCoE not available"
@@ -117,8 +121,7 @@ msgstr ""
 #: ../blivet/zfcp.py:140
 #, python-format
 msgid ""
-"LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already "
-"configured."
+"LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already configured."
 msgstr ""
 "LUN %(fcplun)s на WWPN %(wwpn)s на пристрої zFCP %(devnum)s вже налаштовано."
 
@@ -336,11 +339,11 @@ msgstr "налаштувати пристрій"
 #: ../blivet/devices/raid.py:58
 #, python-format
 msgid ""
-"RAID level %(raid_level)s requires that device have at least %(min_members)d"
-" member."
+"RAID level %(raid_level)s requires that device have at least %(min_members)d "
+"member."
 msgid_plural ""
-"RAID level %(raid_level)s requires that device have at least %(min_members)d"
-" members."
+"RAID level %(raid_level)s requires that device have at least %(min_members)d "
+"members."
 msgstr[0] ""
 "Рівень RAID %(raid_level)s потребує, щоб пристрій складався принаймні з "
 "%(min_members)d складової."
@@ -408,8 +411,7 @@ msgstr "пристрій-елемент dm-raid"
 msgid "partition table"
 msgstr "таблиця розділів"
 
-#. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition
-#. table"
+#. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition table"
 #: ../blivet/formats/disklabel.py:320
 #, python-format
 msgid "Unsupported %(name)s"

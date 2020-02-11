@@ -14,7 +14,8 @@ msgstr ""
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
 "PO-Revision-Date: 2015-01-05 05:26+0000\n"
 "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Sinhala (http://www.transifex.com/projects/p/blivet/language/si/)\n"
+"Language-Team: Sinhala (http://www.transifex.com/projects/p/blivet/language/"
+"si/)\n"
 "Language: si\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -38,7 +39,8 @@ msgstr ""
 
 #: ../blivet/errors.py:224
 msgid ""
-"Either restore the disklabel to a completely working state or remove it completely.\n"
+"Either restore the disklabel to a completely working state or remove it "
+"completely.\n"
 "Hint: parted can restore it or wipefs can remove it."
 msgstr ""
 
@@ -59,8 +61,7 @@ msgstr "ඔබ විසින් උපාංගය සඳහා අංකය�
 
 #: ../blivet/zfcp.py:64
 msgid "You have not specified a worldwide port name or the name is invalid."
-msgstr ""
-"ඔබ විසින් worldwide සිදුර සඳහා නමක් යොදා නොමැත නැතහොත් එය වැරදි සහගත වේ."
+msgstr "ඔබ විසින් worldwide සිදුර සඳහා නමක් යොදා නොමැත නැතහොත් එය වැරදි සහගත වේ."
 
 #: ../blivet/zfcp.py:66
 msgid "You have not specified a FCP LUN or the number is invalid."
@@ -93,14 +94,13 @@ msgid ""
 "Could not add LUN %(fcplun)s to WWPN %(wwpn)s on zFCP device %(devnum)s "
 "(%(e)s)."
 msgstr ""
-"%(devnum)s zFCP උපකරණය මත WWPN %(wwpn)s වෙත LUN %(fcplun)s එක් කල නොහැකි විය"
-" (%(e)s)."
+"%(devnum)s zFCP උපකරණය මත WWPN %(wwpn)s වෙත LUN %(fcplun)s එක් කල නොහැකි විය "
+"(%(e)s)."
 
 #: ../blivet/zfcp.py:140
 #, python-format
 msgid ""
-"LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already "
-"configured."
+"LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already configured."
 msgstr ""
 "%(devnum)s zFCP උපකරණය මත WWPN %(wwpn)s හට LUN %(fcplun)s දැනටමත් සකසා ඇත."
 
@@ -110,8 +110,8 @@ msgid ""
 "Could not read failed attribute of LUN %(fcplun)s at WWPN %(wwpn)s on zFCP "
 "device %(devnum)s (%(e)s)."
 msgstr ""
-"%(devnum)s zFCP උපකරණය මත WWPN %(wwpn)s හී %(fcplun)s උපලක්‍ෂණ කියවීම "
-"අසාර්ථකයි (%(e)s)."
+"%(devnum)s zFCP උපකරණය මත WWPN %(wwpn)s හී %(fcplun)s උපලක්‍ෂණ කියවීම අසාර්ථකයි "
+"(%(e)s)."
 
 #: ../blivet/zfcp.py:161
 #, python-format
@@ -119,8 +119,8 @@ msgid ""
 "Failed LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s removed "
 "again."
 msgstr ""
-"%(devnum)s zFCP උපකරණය මත WWPN %(wwpn)s හී LUN %(fcplun)s අසාර්ථක බැවින් "
-"නැවත ඉවත් කෙරිනි."
+"%(devnum)s zFCP උපකරණය මත WWPN %(wwpn)s හී LUN %(fcplun)s අසාර්ථක බැවින් නැවත "
+"ඉවත් කෙරිනි."
 
 #: ../blivet/zfcp.py:218
 #, python-format
@@ -128,8 +128,8 @@ msgid ""
 "Could not correctly delete SCSI device of zFCP %(devnum)s %(wwpn)s "
 "%(fcplun)s (%(e)s)."
 msgstr ""
-"zFCP හී SCSI උපකරණය නිවැරදිව මකාදැමිය නොහැකි විය %(devnum)s %(wwpn)s "
-"%(fcplun)s (%(e)s)."
+"zFCP හී SCSI උපකරණය නිවැරදිව මකාදැමිය නොහැකි විය %(devnum)s %(wwpn)s %(fcplun)s "
+"(%(e)s)."
 
 #: ../blivet/zfcp.py:227
 #, python-format
@@ -312,11 +312,11 @@ msgstr ""
 #: ../blivet/devices/raid.py:58
 #, python-format
 msgid ""
-"RAID level %(raid_level)s requires that device have at least %(min_members)d"
-" member."
+"RAID level %(raid_level)s requires that device have at least %(min_members)d "
+"member."
 msgid_plural ""
-"RAID level %(raid_level)s requires that device have at least %(min_members)d"
-" members."
+"RAID level %(raid_level)s requires that device have at least %(min_members)d "
+"members."
 msgstr[0] ""
 
 #: ../blivet/devices/raid.py:79
@@ -374,8 +374,7 @@ msgstr ""
 msgid "partition table"
 msgstr ""
 
-#. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition
-#. table"
+#. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition table"
 #: ../blivet/formats/disklabel.py:320
 #, python-format
 msgid "Unsupported %(name)s"

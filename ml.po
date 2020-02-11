@@ -14,7 +14,8 @@ msgstr ""
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
 "PO-Revision-Date: 2015-01-05 05:25+0000\n"
 "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Malayalam (http://www.transifex.com/projects/p/blivet/language/ml/)\n"
+"Language-Team: Malayalam (http://www.transifex.com/projects/p/blivet/"
+"language/ml/)\n"
 "Language: ml\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -38,7 +39,8 @@ msgstr ""
 
 #: ../blivet/errors.py:224
 msgid ""
-"Either restore the disklabel to a completely working state or remove it completely.\n"
+"Either restore the disklabel to a completely working state or remove it "
+"completely.\n"
 "Hint: parted can restore it or wipefs can remove it."
 msgstr ""
 
@@ -55,20 +57,15 @@ msgstr "FCoE ലഭ്യമല്ല"
 
 #: ../blivet/zfcp.py:62
 msgid "You have not specified a device number or the number is invalid"
-msgstr ""
-"നിങ്ങള്‍ ഡിവൈസിന്റെ നംബര്‍ നിര്‍ദ്ദേശിച്ചിട്ടില്ല അല്ലെങ്കില്‍ നംബര്‍ "
-"അസാധുവാണ്"
+msgstr "നിങ്ങള്‍ ഡിവൈസിന്റെ നംബര്‍ നിര്‍ദ്ദേശിച്ചിട്ടില്ല അല്ലെങ്കില്‍ നംബര്‍ അസാധുവാണ്"
 
 #: ../blivet/zfcp.py:64
 msgid "You have not specified a worldwide port name or the name is invalid."
-msgstr ""
-"നിങ്ങള്‍ വേള്‍ഡ്വൈഡ് പോര്‍ട്ടിന്റെ പേര് നിര്‍ദ്ദേശിച്ചിട്ടില്ല അല്ലെങ്കില്‍ "
-"പേര് അസാധുവാണ്."
+msgstr "നിങ്ങള്‍ വേള്‍ഡ്വൈഡ് പോര്‍ട്ടിന്റെ പേര് നിര്‍ദ്ദേശിച്ചിട്ടില്ല അല്ലെങ്കില്‍ പേര് അസാധുവാണ്."
 
 #: ../blivet/zfcp.py:66
 msgid "You have not specified a FCP LUN or the number is invalid."
-msgstr ""
-"നിങ്ങള്‍ FCP LUN നിര്‍ദ്ദേശിച്ചിട്ടില്ല അല്ലെങ്കില്‍ നംബര്‍ അസാധുവാണ്."
+msgstr "നിങ്ങള്‍ FCP LUN നിര്‍ദ്ദേശിച്ചിട്ടില്ല അല്ലെങ്കില്‍ നംബര്‍ അസാധുവാണ്."
 
 #: ../blivet/zfcp.py:91
 #, python-format
@@ -78,15 +75,12 @@ msgstr "zFCP ഡിവൈസ് %s ഡിവൈസ് ഇഗ്നോര്‍ �
 #: ../blivet/zfcp.py:101
 #, python-format
 msgid "Could not set zFCP device %(devnum)s online (%(e)s)."
-msgstr ""
-"zFCP ഡിവൈസ് %(devnum)s ഓണ്‍ലൈന്‍ (%(e)s) സജ്ജമാക്കുവാന്‍ സാധ്യമായില്ല."
+msgstr "zFCP ഡിവൈസ് %(devnum)s ഓണ്‍ലൈന്‍ (%(e)s) സജ്ജമാക്കുവാന്‍ സാധ്യമായില്ല."
 
 #: ../blivet/zfcp.py:112
 #, python-format
 msgid "Could not add WWPN %(wwpn)s to zFCP device %(devnum)s (%(e)s)."
-msgstr ""
-"വിവിപിഎന്‍ %(wwpn)s zFCP %(devnum)s (%(e)s) ഡിവൈസിലേക്കു് "
-"ചേര്‍ക്കുവാനായില്ല."
+msgstr "വിവിപിഎന്‍ %(wwpn)s zFCP %(devnum)s (%(e)s) ഡിവൈസിലേക്കു് ചേര്‍ക്കുവാനായില്ല."
 
 #. newer zfcp sysfs interface with auto port scan
 #: ../blivet/zfcp.py:119
@@ -100,14 +94,13 @@ msgid ""
 "Could not add LUN %(fcplun)s to WWPN %(wwpn)s on zFCP device %(devnum)s "
 "(%(e)s)."
 msgstr ""
-"zFCP %(devnum)s (%(e)s) ഡിവൈസില്‍ WWPN %(wwpn)s-ലേക്കു് LUN %(fcplun)s "
-"ചേര്‍ക്കുവാനായില്ല."
+"zFCP %(devnum)s (%(e)s) ഡിവൈസില്‍ WWPN %(wwpn)s-ലേക്കു് LUN %(fcplun)s ചേര്‍"
+"ക്കുവാനായില്ല."
 
 #: ../blivet/zfcp.py:140
 #, python-format
 msgid ""
-"LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already "
-"configured."
+"LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already configured."
 msgstr ""
 "zFCP %(devnum)s ഡിവൈസില്‍ WWPN %(wwpn)s-ല്‍ LUN %(fcplun)s നിലവില്‍ "
 "ക്രമീകരിച്ചിരിയ്ക്കുന്നു."
@@ -127,8 +120,8 @@ msgid ""
 "Failed LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s removed "
 "again."
 msgstr ""
-"zFCP %(devnum)s ഡിവൈസില്‍ WWPN %(wwpn)s-ലുള്ള പരാജയപ്പെട്ട LUN %(fcplun)s "
-"വീണ്ടും നീക്കം ചെയ്തിരിയ്ക്കുന്നു."
+"zFCP %(devnum)s ഡിവൈസില്‍ WWPN %(wwpn)s-ലുള്ള പരാജയപ്പെട്ട LUN %(fcplun)s വീണ്ടും "
+"നീക്കം ചെയ്തിരിയ്ക്കുന്നു."
 
 #: ../blivet/zfcp.py:218
 #, python-format
@@ -151,8 +144,7 @@ msgstr ""
 #: ../blivet/zfcp.py:245
 #, python-format
 msgid "Could not remove WWPN %(wwpn)s on zFCP device %(devnum)s (%(e)s)."
-msgstr ""
-"zFCP %(devnum)s (%(e)s) ഡിവൈസിലുള്ള WWPN %(wwpn)s നീക്കം ചെയ്യുവാനായില്ല."
+msgstr "zFCP %(devnum)s (%(e)s) ഡിവൈസിലുള്ള WWPN %(wwpn)s നീക്കം ചെയ്യുവാനായില്ല."
 
 #: ../blivet/zfcp.py:271
 #, python-format
@@ -161,9 +153,7 @@ msgstr "zFCP %(devnum)s ഡിവൈസ് ഓഫ്‌ലൈനായി (%(e)s
 
 #: ../blivet/iscsi.py:217
 msgid "Unable to change iSCSI initiator name once set"
-msgstr ""
-"ഒരിക്കല്‍ സജ്ജമാക്കിയാല്‍ ഐഎസ്‌സിഎസ്ഐ ഇനീഷ്യേറ്ററില്‍ മാറ്റം വരുത്തുവാന്‍ "
-"സാധ്യമല്ല"
+msgstr "ഒരിക്കല്‍ സജ്ജമാക്കിയാല്‍ ഐഎസ്‌സിഎസ്ഐ ഇനീഷ്യേറ്ററില്‍ മാറ്റം വരുത്തുവാന്‍ സാധ്യമല്ല"
 
 #: ../blivet/iscsi.py:219
 msgid "Must provide an iSCSI initiator name"
@@ -323,11 +313,11 @@ msgstr ""
 #: ../blivet/devices/raid.py:58
 #, python-format
 msgid ""
-"RAID level %(raid_level)s requires that device have at least %(min_members)d"
-" member."
+"RAID level %(raid_level)s requires that device have at least %(min_members)d "
+"member."
 msgid_plural ""
-"RAID level %(raid_level)s requires that device have at least %(min_members)d"
-" members."
+"RAID level %(raid_level)s requires that device have at least %(min_members)d "
+"members."
 msgstr[0] ""
 
 #: ../blivet/devices/raid.py:79
@@ -385,8 +375,7 @@ msgstr ""
 msgid "partition table"
 msgstr ""
 
-#. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition
-#. table"
+#. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition table"
 #: ../blivet/formats/disklabel.py:320
 #, python-format
 msgid "Unsupported %(name)s"

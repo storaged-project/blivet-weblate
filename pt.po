@@ -15,7 +15,8 @@ msgstr ""
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
 "PO-Revision-Date: 2015-01-05 05:26+0000\n"
 "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Portuguese (http://www.transifex.com/projects/p/blivet/language/pt/)\n"
+"Language-Team: Portuguese (http://www.transifex.com/projects/p/blivet/"
+"language/pt/)\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -39,7 +40,8 @@ msgstr ""
 
 #: ../blivet/errors.py:224
 msgid ""
-"Either restore the disklabel to a completely working state or remove it completely.\n"
+"Either restore the disklabel to a completely working state or remove it "
+"completely.\n"
 "Hint: parted can restore it or wipefs can remove it."
 msgstr ""
 
@@ -60,8 +62,7 @@ msgstr "Não indicou um número de dispositivo ou o número é inválido"
 
 #: ../blivet/zfcp.py:64
 msgid "You have not specified a worldwide port name or the name is invalid."
-msgstr ""
-"Não indicou um nome de porto mundialmente global ou o nome é inválido."
+msgstr "Não indicou um nome de porto mundialmente global ou o nome é inválido."
 
 #: ../blivet/zfcp.py:66
 msgid "You have not specified a FCP LUN or the number is invalid."
@@ -71,14 +72,13 @@ msgstr "Não indicou um LUN FCP ou o número é inválido."
 #, python-format
 msgid "zFCP device %s not found, not even in device ignore list."
 msgstr ""
-"O dispositivo zFCP %s não foi encontrado, nem mesmo na lista de dispositivos"
-" a ignorar."
+"O dispositivo zFCP %s não foi encontrado, nem mesmo na lista de dispositivos "
+"a ignorar."
 
 #: ../blivet/zfcp.py:101
 #, python-format
 msgid "Could not set zFCP device %(devnum)s online (%(e)s)."
-msgstr ""
-"Não foi possível definir o dispositivo zFCP %(devnum)s online (%(e)s)."
+msgstr "Não foi possível definir o dispositivo zFCP %(devnum)s online (%(e)s)."
 
 #: ../blivet/zfcp.py:112
 #, python-format
@@ -105,8 +105,7 @@ msgstr ""
 #: ../blivet/zfcp.py:140
 #, python-format
 msgid ""
-"LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already "
-"configured."
+"LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already configured."
 msgstr ""
 "LUN %(fcplun)s em WWPN %(wwpn)s no dispositivo zFCP %(devnum)s já se "
 "encontra configurada."
@@ -117,8 +116,8 @@ msgid ""
 "Could not read failed attribute of LUN %(fcplun)s at WWPN %(wwpn)s on zFCP "
 "device %(devnum)s (%(e)s)."
 msgstr ""
-"Não foi possível ler atributo da LUN %(fcplun)s em falha em WWPN %(wwpn)s no"
-" dispositivo zFCP %(devnum)s (%(e)s)."
+"Não foi possível ler atributo da LUN %(fcplun)s em falha em WWPN %(wwpn)s no "
+"dispositivo zFCP %(devnum)s (%(e)s)."
 
 #: ../blivet/zfcp.py:161
 #, python-format
@@ -135,8 +134,8 @@ msgid ""
 "Could not correctly delete SCSI device of zFCP %(devnum)s %(wwpn)s "
 "%(fcplun)s (%(e)s)."
 msgstr ""
-"Não foi possível remover correctamente o dispositivo SCSI do zFCP %(devnum)s"
-" %(wwpn)s %(fcplun)s (%(e)s)."
+"Não foi possível remover correctamente o dispositivo SCSI do zFCP %(devnum)s "
+"%(wwpn)s %(fcplun)s (%(e)s)."
 
 #: ../blivet/zfcp.py:227
 #, python-format
@@ -144,8 +143,8 @@ msgid ""
 "Could not remove LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s "
 "(%(e)s)."
 msgstr ""
-"Não foi possível remover LUN %(fcplun)s ao WWPN %(wwpn)s no dispositivo zFCP"
-" %(devnum)s (%(e)s)."
+"Não foi possível remover LUN %(fcplun)s ao WWPN %(wwpn)s no dispositivo zFCP "
+"%(devnum)s (%(e)s)."
 
 #: ../blivet/zfcp.py:245
 #, python-format
@@ -322,11 +321,11 @@ msgstr ""
 #: ../blivet/devices/raid.py:58
 #, python-format
 msgid ""
-"RAID level %(raid_level)s requires that device have at least %(min_members)d"
-" member."
+"RAID level %(raid_level)s requires that device have at least %(min_members)d "
+"member."
 msgid_plural ""
-"RAID level %(raid_level)s requires that device have at least %(min_members)d"
-" members."
+"RAID level %(raid_level)s requires that device have at least %(min_members)d "
+"members."
 msgstr[0] ""
 
 #: ../blivet/devices/raid.py:79
@@ -384,8 +383,7 @@ msgstr ""
 msgid "partition table"
 msgstr ""
 
-#. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition
-#. table"
+#. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition table"
 #: ../blivet/formats/disklabel.py:320
 #, python-format
 msgid "Unsupported %(name)s"

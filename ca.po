@@ -20,7 +20,8 @@ msgstr ""
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
 "PO-Revision-Date: 2018-08-20 10:45+0000\n"
 "Last-Translator: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>\n"
-"Language-Team: Catalan (http://www.transifex.com/projects/p/blivet/language/ca/)\n"
+"Language-Team: Catalan (http://www.transifex.com/projects/p/blivet/language/"
+"ca/)\n"
 "Language: ca\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -47,10 +48,12 @@ msgstr ""
 
 #: ../blivet/errors.py:224
 msgid ""
-"Either restore the disklabel to a completely working state or remove it completely.\n"
+"Either restore the disklabel to a completely working state or remove it "
+"completely.\n"
 "Hint: parted can restore it or wipefs can remove it."
 msgstr ""
-"O bé restaureu l'etiqueta del disc a un estat complet de treball o l'elimineu per complet.\n"
+"O bé restaureu l'etiqueta del disc a un estat complet de treball o "
+"l'elimineu per complet.\n"
 "Consell: parted pot restaurar-ho o bé wipefs pot suprimir-ho."
 
 #: ../blivet/errors.py:230
@@ -61,7 +64,8 @@ msgid ""
 msgstr ""
 "Reanomeneu un dels grups de volums de manera que els noms siguin diferents.\n"
 "Consell 1: vgrename accepta l'UUID en lloc de l'antic nom.\n"
-"Consell 2: Podeu obtenir els UUID dels grups de volums amb l'execució de 'pvs -o +vg_uuid'."
+"Consell 2: Podeu obtenir els UUID dels grups de volums amb l'execució de "
+"'pvs -o +vg_uuid'."
 
 #: ../blivet/fcoe.py:121
 msgid "FCoE not available"
@@ -115,8 +119,7 @@ msgstr ""
 #: ../blivet/zfcp.py:140
 #, python-format
 msgid ""
-"LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already "
-"configured."
+"LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already configured."
 msgstr ""
 "El LUN %(fcplun)s al WWPN %(wwpn)s en el dispositiu zFCP %(devnum)s ja està "
 "configurat."
@@ -127,8 +130,8 @@ msgid ""
 "Could not read failed attribute of LUN %(fcplun)s at WWPN %(wwpn)s on zFCP "
 "device %(devnum)s (%(e)s)."
 msgstr ""
-"No s'ha pogut llegir l'atribut fallit del LUN %(fcplun)s al WWPN %(wwpn)s en"
-" el dispositiu zFCP %(devnum)s (%(e)s)."
+"No s'ha pogut llegir l'atribut fallit del LUN %(fcplun)s al WWPN %(wwpn)s en "
+"el dispositiu zFCP %(devnum)s (%(e)s)."
 
 #: ../blivet/zfcp.py:161
 #, python-format
@@ -161,8 +164,7 @@ msgstr ""
 #, python-format
 msgid "Could not remove WWPN %(wwpn)s on zFCP device %(devnum)s (%(e)s)."
 msgstr ""
-"No es pot eliminar el WWPN %(wwpn)s en el dispositiu zFCP %(devnum)s "
-"(%(e)s)."
+"No es pot eliminar el WWPN %(wwpn)s en el dispositiu zFCP %(devnum)s (%(e)s)."
 
 #: ../blivet/zfcp.py:271
 #, python-format
@@ -226,8 +228,8 @@ msgid ""
 "partition is too large for %(format)s formatting (allowable size is "
 "%(min_size)s to %(max_size)s)"
 msgstr ""
-"la partició és massa gran per formatar amb %(format)s (la mida permesa va de"
-" %(min_size)s a %(max_size)s)"
+"la partició és massa gran per formatar amb %(format)s (la mida permesa va de "
+"%(min_size)s a %(max_size)s)"
 
 #: ../blivet/partitioning.py:962
 msgid "Unable to allocate requested partition scheme."
@@ -337,11 +339,11 @@ msgstr "configura el dispositiu"
 #: ../blivet/devices/raid.py:58
 #, python-format
 msgid ""
-"RAID level %(raid_level)s requires that device have at least %(min_members)d"
-" member."
+"RAID level %(raid_level)s requires that device have at least %(min_members)d "
+"member."
 msgid_plural ""
-"RAID level %(raid_level)s requires that device have at least %(min_members)d"
-" members."
+"RAID level %(raid_level)s requires that device have at least %(min_members)d "
+"members."
 msgstr[0] ""
 "El nivell RAID %(raid_level)s requereix que tingui com a mínim "
 "%(min_members)d membre."
@@ -406,8 +408,7 @@ msgstr "dispositiu membre de dm-raid"
 msgid "partition table"
 msgstr "taula de partició"
 
-#. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition
-#. table"
+#. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition table"
 #: ../blivet/formats/disklabel.py:320
 #, python-format
 msgid "Unsupported %(name)s"

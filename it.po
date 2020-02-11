@@ -30,7 +30,8 @@ msgstr ""
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
 "PO-Revision-Date: 2018-11-20 01:35+0000\n"
 "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Italian (http://www.transifex.com/projects/p/blivet/language/it/)\n"
+"Language-Team: Italian (http://www.transifex.com/projects/p/blivet/language/"
+"it/)\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -57,10 +58,12 @@ msgstr ""
 
 #: ../blivet/errors.py:224
 msgid ""
-"Either restore the disklabel to a completely working state or remove it completely.\n"
+"Either restore the disklabel to a completely working state or remove it "
+"completely.\n"
 "Hint: parted can restore it or wipefs can remove it."
 msgstr ""
-"Ripristinare il disklabel in una condizione completamente funzionante oppure rimuoverlo completamente.\n"
+"Ripristinare il disklabel in una condizione completamente funzionante oppure "
+"rimuoverlo completamente.\n"
 "Suggerimento: parted permette di ripristinarlo o wipefs lo rimuove."
 
 #: ../blivet/errors.py:230
@@ -71,7 +74,8 @@ msgid ""
 msgstr ""
 "Rinominare uno dei gruppi del volume in modo che i nomi siano diversi.\n"
 "Suggerimento 1: vgrename accetta l’UUID al posto del nome precedente.\n"
-"Suggerimento 2: è possibile ottenere gli UUID di VG eseguendo 'pvs -o +vg_uuid'."
+"Suggerimento 2: è possibile ottenere gli UUID di VG eseguendo 'pvs -o "
+"+vg_uuid'."
 
 #: ../blivet/fcoe.py:121
 msgid "FCoE not available"
@@ -107,8 +111,7 @@ msgstr "Impossibile impostare il dispositivo zFCP %(devnum)s online (%(e)s)."
 #, python-format
 msgid "Could not add WWPN %(wwpn)s to zFCP device %(devnum)s (%(e)s)."
 msgstr ""
-"Impossibile aggiungere WWPN %(wwpn)s sul dispositivo zFCP %(devnum)s "
-"(%(e)s)."
+"Impossibile aggiungere WWPN %(wwpn)s sul dispositivo zFCP %(devnum)s (%(e)s)."
 
 #. newer zfcp sysfs interface with auto port scan
 #: ../blivet/zfcp.py:119
@@ -128,8 +131,7 @@ msgstr ""
 #: ../blivet/zfcp.py:140
 #, python-format
 msgid ""
-"LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already "
-"configured."
+"LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already configured."
 msgstr ""
 "LUN %(fcplun)s su WWPN %(wwpn)s sul dispositivo zFCP %(devnum)s già "
 "configurato."
@@ -349,11 +351,11 @@ msgstr "configurare il dispositivo"
 #: ../blivet/devices/raid.py:58
 #, python-format
 msgid ""
-"RAID level %(raid_level)s requires that device have at least %(min_members)d"
-" member."
+"RAID level %(raid_level)s requires that device have at least %(min_members)d "
+"member."
 msgid_plural ""
-"RAID level %(raid_level)s requires that device have at least %(min_members)d"
-" members."
+"RAID level %(raid_level)s requires that device have at least %(min_members)d "
+"members."
 msgstr[0] ""
 "Livello RAID %(raid_level)s richiede che il dispositivo abbia almeno "
 "%(min_members)d membro."
@@ -418,8 +420,7 @@ msgstr "membro dispositivo dm-raid"
 msgid "partition table"
 msgstr "tabella delle partizioni"
 
-#. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition
-#. table"
+#. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition table"
 #: ../blivet/formats/disklabel.py:320
 #, python-format
 msgid "Unsupported %(name)s"

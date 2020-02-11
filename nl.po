@@ -20,7 +20,8 @@ msgstr ""
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
 "PO-Revision-Date: 2019-08-26 05:53+0000\n"
 "Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
-"Language-Team: Dutch (http://www.transifex.com/projects/p/blivet/language/nl/)\n"
+"Language-Team: Dutch (http://www.transifex.com/projects/p/blivet/language/"
+"nl/)\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -50,10 +51,12 @@ msgstr ""
 
 #: ../blivet/errors.py:224
 msgid ""
-"Either restore the disklabel to a completely working state or remove it completely.\n"
+"Either restore the disklabel to a completely working state or remove it "
+"completely.\n"
 "Hint: parted can restore it or wipefs can remove it."
 msgstr ""
-"Herstel de schijflabel naar een volledig werkende staat of verwijder het geheel.\n"
+"Herstel de schijflabel naar een volledig werkende staat of verwijder het "
+"geheel.\n"
 "Hint: parted kan het herstellen of wipefs kan het verwijderen."
 
 #: ../blivet/errors.py:230
@@ -96,8 +99,7 @@ msgstr "Kon apparaat zFCP %(devnum)s niet online krijgen (%(e)s)."
 #: ../blivet/zfcp.py:112
 #, python-format
 msgid "Could not add WWPN %(wwpn)s to zFCP device %(devnum)s (%(e)s)."
-msgstr ""
-"Kon aan apparaat zFDC %(devnum)s geen WWPN %(wwpn)s toevoegen (%(e)s)."
+msgstr "Kon aan apparaat zFDC %(devnum)s geen WWPN %(wwpn)s toevoegen (%(e)s)."
 
 #. newer zfcp sysfs interface with auto port scan
 #: ../blivet/zfcp.py:119
@@ -117,8 +119,7 @@ msgstr ""
 #: ../blivet/zfcp.py:140
 #, python-format
 msgid ""
-"LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already "
-"configured."
+"LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already configured."
 msgstr ""
 "LUN %(fcplun)s bij WWPN %(wwpn)s van apparaat zFCP %(devnum)s is reeds "
 "geconfigureerd."
@@ -129,8 +130,8 @@ msgid ""
 "Could not read failed attribute of LUN %(fcplun)s at WWPN %(wwpn)s on zFCP "
 "device %(devnum)s (%(e)s)."
 msgstr ""
-"Kon mislukt attribuut van LUN %(fcplun)s bij WWPN %(wwpn)s van apparaat zFCP"
-" %(devnum)s niet lezen (%(e)s)."
+"Kon mislukt attribuut van LUN %(fcplun)s bij WWPN %(wwpn)s van apparaat zFCP "
+"%(devnum)s niet lezen (%(e)s)."
 
 #: ../blivet/zfcp.py:161
 #, python-format
@@ -216,7 +217,8 @@ msgid ""
 "partition is too small for %(format)s formatting (allowable size is "
 "%(min_size)s to %(max_size)s)"
 msgstr ""
-"partitie is te klein voor %(format)s formattering (toegestane grootte is van\n"
+"partitie is te klein voor %(format)s formattering (toegestane grootte is "
+"van\n"
 "%(min_size)s tot %(max_size)s)"
 
 #: ../blivet/partitioning.py:646
@@ -225,7 +227,8 @@ msgid ""
 "partition is too large for %(format)s formatting (allowable size is "
 "%(min_size)s to %(max_size)s)"
 msgstr ""
-"partitie is te groot voor %(format)s formattering (toegestane grootte is van\n"
+"partitie is te groot voor %(format)s formattering (toegestane grootte is "
+"van\n"
 "%(min_size)s tot %(max_size)s)"
 
 #: ../blivet/partitioning.py:962
@@ -338,11 +341,11 @@ msgstr "configureer apparaat"
 #: ../blivet/devices/raid.py:58
 #, python-format
 msgid ""
-"RAID level %(raid_level)s requires that device have at least %(min_members)d"
-" member."
+"RAID level %(raid_level)s requires that device have at least %(min_members)d "
+"member."
 msgid_plural ""
-"RAID level %(raid_level)s requires that device have at least %(min_members)d"
-" members."
+"RAID level %(raid_level)s requires that device have at least %(min_members)d "
+"members."
 msgstr[0] ""
 "RAID-niveau %(raid_level)s vereist dat het apparaat tenminste "
 "%(min_members)d lid heeft."
@@ -407,8 +410,7 @@ msgstr "dm-raid lidapparaat"
 msgid "partition table"
 msgstr "partitietabel"
 
-#. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition
-#. table"
+#. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition table"
 #: ../blivet/formats/disklabel.py:320
 #, python-format
 msgid "Unsupported %(name)s"

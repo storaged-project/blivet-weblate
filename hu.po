@@ -23,7 +23,8 @@ msgstr ""
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
 "PO-Revision-Date: 2019-08-22 01:56+0000\n"
 "Last-Translator: Meskó Balázs <meskobalazs@gmail.com>\n"
-"Language-Team: Hungarian (http://www.transifex.com/projects/p/blivet/language/hu/)\n"
+"Language-Team: Hungarian (http://www.transifex.com/projects/p/blivet/"
+"language/hu/)\n"
 "Language: hu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -53,10 +54,12 @@ msgstr ""
 
 #: ../blivet/errors.py:224
 msgid ""
-"Either restore the disklabel to a completely working state or remove it completely.\n"
+"Either restore the disklabel to a completely working state or remove it "
+"completely.\n"
 "Hint: parted can restore it or wipefs can remove it."
 msgstr ""
-"Vagy állítsa vissza a lemezcímkét egy teljesen működő állapotba, vagy teljesen távolítsa el.\n"
+"Vagy állítsa vissza a lemezcímkét egy teljesen működő állapotba, vagy "
+"teljesen távolítsa el.\n"
 "Tipp: a parted képes visszaállítani, a wipefs pedig törölni."
 
 #: ../blivet/errors.py:230
@@ -88,8 +91,7 @@ msgstr "Nem adott meg FCP LUN számot, vagy a szám érvénytelen."
 #: ../blivet/zfcp.py:91
 #, python-format
 msgid "zFCP device %s not found, not even in device ignore list."
-msgstr ""
-"A(z) „%s” zFCP eszköz nem található, még a mellőzött eszközlistán sem."
+msgstr "A(z) „%s” zFCP eszköz nem található, még a mellőzött eszközlistán sem."
 
 #: ../blivet/zfcp.py:101
 #, python-format
@@ -121,8 +123,7 @@ msgstr ""
 #: ../blivet/zfcp.py:140
 #, python-format
 msgid ""
-"LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already "
-"configured."
+"LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already configured."
 msgstr ""
 "A(z) %(fcplun)s LUN a(z) %(wwpn)s WWPN már be lett állítva a zFCP eszközön: "
 "%(devnum)s."
@@ -133,8 +134,8 @@ msgid ""
 "Could not read failed attribute of LUN %(fcplun)s at WWPN %(wwpn)s on zFCP "
 "device %(devnum)s (%(e)s)."
 msgstr ""
-"Nem sikerült a hibás %(fcplun)s LUN attribútum kiolvasása a(z) %(wwpn)s "
-"WWPN-en, a(z) %(devnum)s zFCP eszközön (%(e)s). "
+"Nem sikerült a hibás %(fcplun)s LUN attribútum kiolvasása a(z) %(wwpn)s WWPN-"
+"en, a(z) %(devnum)s zFCP eszközön (%(e)s). "
 
 #: ../blivet/zfcp.py:161
 #, python-format
@@ -300,8 +301,7 @@ msgstr "%(type)s létrehozása itt: %(device)s "
 #, python-format
 msgid "Not enough entropy to create LUKS format. %d bits are needed."
 msgstr ""
-"Nincs elég entrópia a LUKS formázás létrehozásához. További %d bit "
-"szükséges."
+"Nincs elég entrópia a LUKS formázás létrehozásához. További %d bit szükséges."
 
 #: ../blivet/deviceaction.py:670
 #, python-format
@@ -345,11 +345,11 @@ msgstr "eszköz beállítása"
 #: ../blivet/devices/raid.py:58
 #, python-format
 msgid ""
-"RAID level %(raid_level)s requires that device have at least %(min_members)d"
-" member."
+"RAID level %(raid_level)s requires that device have at least %(min_members)d "
+"member."
 msgid_plural ""
-"RAID level %(raid_level)s requires that device have at least %(min_members)d"
-" members."
+"RAID level %(raid_level)s requires that device have at least %(min_members)d "
+"members."
 msgstr[0] ""
 "A RAID szint (%(raid_level)s) legalább %(min_members)d tagot igényel."
 msgstr[1] ""
@@ -412,8 +412,7 @@ msgstr "dm-raid tageszköz"
 msgid "partition table"
 msgstr "partíciós tábla"
 
-#. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition
-#. table"
+#. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition table"
 #: ../blivet/formats/disklabel.py:320
 #, python-format
 msgid "Unsupported %(name)s"

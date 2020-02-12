@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
 # Bahadir Yagan <bahadir.yagan@mentorsystem.com>, 2004
 # dcantrel <dcantrell@redhat.com>, 2011
@@ -12,21 +12,22 @@
 # Ismail ASCI <ismail.asci@gmail.com>, 2006
 # Muhammet Kara <muhammetk@gmail.com>, 2011
 # Onur Gungor <onurgu@boun.edu.tr>, 2004,2006
+# Oğuz Ersen <oguzersen@protonmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
-"PO-Revision-Date: 2015-01-05 05:27+0000\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Turkish (http://www.transifex.com/projects/p/blivet/language/"
-"tr/)\n"
+"PO-Revision-Date: 2020-02-12 17:16+0000\n"
+"Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
+"Language-Team: Turkish <https://translate.stg.fedoraproject.org/projects/"
+"blivet/master/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=(n>1);\n"
+"X-Generator: Weblate 3.10.3\n"
 
 #: ../blivet/errors.py:210
 msgid ""
@@ -66,11 +67,11 @@ msgstr "Bir aygıt numarası belirtmediniz ya da belirtiğiniz numara geçersiz"
 
 #: ../blivet/zfcp.py:64
 msgid "You have not specified a worldwide port name or the name is invalid."
-msgstr "worldwide port ismi (WWPN) girmediniz veya girilen isim geçersiz"
+msgstr "Genel bir bağlantı noktası adı belirtmediniz veya ad geçersiz."
 
 #: ../blivet/zfcp.py:66
 msgid "You have not specified a FCP LUN or the number is invalid."
-msgstr "Bir FCP LUN  belirtmediniz ya da numara geçersiz."
+msgstr "Bir FCP LUN belirtmediniz ya da numara geçersiz."
 
 #: ../blivet/zfcp.py:91
 #, python-format
@@ -162,7 +163,7 @@ msgstr ""
 
 #: ../blivet/iscsi.py:530
 msgid "No iSCSI nodes discovered"
-msgstr ""
+msgstr "Hiç iSCSI düğümü bulunamadı"
 
 #: ../blivet/iscsi.py:550
 msgid "No new iSCSI nodes discovered"
@@ -354,7 +355,7 @@ msgstr ""
 
 #: ../blivet/formats/__init__.py:148
 msgid "Unknown"
-msgstr ""
+msgstr "Bilinmeyen"
 
 #: ../blivet/formats/biosboot.py:35
 msgid "BIOS Boot"

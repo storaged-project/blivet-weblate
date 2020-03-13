@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
 # dcantrel <dcantrell@redhat.com>, 2011
 # Dimitris Glezos <glezos@indifex.com>, 2011
@@ -15,21 +15,22 @@
 # Stanislav Meduna <stano@eunet.sk>, 2000
 # feonsu <feonsu@gmail.com>, 2016. #zanata
 # feonsu <feonsu@gmail.com>, 2017. #zanata
+# Ondrej Sulek <feonsu@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
-"PO-Revision-Date: 2017-04-24 10:36+0000\n"
-"Last-Translator: feonsu <feonsu@gmail.com>\n"
-"Language-Team: Slovak (http://www.transifex.com/projects/p/blivet/language/"
-"sk/)\n"
+"PO-Revision-Date: 2020-03-13 14:38+0000\n"
+"Last-Translator: Ondrej Sulek <feonsu@gmail.com>\n"
+"Language-Team: Slovak <https://translate.fedoraproject.org/projects/blivet/"
+"blivet-master/sk/>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Zanata 4.6.2\n"
+"X-Generator: Weblate 3.11.2\n"
 
 #: ../blivet/errors.py:210
 msgid ""
@@ -37,6 +38,9 @@ msgid ""
 "of the UUID value which should be unique. In that case you can either "
 "disconnect one of the devices or reformat it."
 msgstr ""
+"Toto je zvyčajne spôsobené klonovaním obrazu zariadenia, výsledkom čoho je "
+"duplicita hodnoty UUID, ktorá by mala byť jedinečná. V takomto prípade "
+"môžete buď odpojiť jedno zo zariadení, alebo ho znovu naformátovať."
 
 #: ../blivet/errors.py:217
 msgid ""
@@ -326,11 +330,11 @@ msgstr "odstrániť člena kontajnera"
 
 #: ../blivet/deviceaction.py:1058
 msgid "configure format"
-msgstr ""
+msgstr "konfigurovať formát"
 
 #: ../blivet/deviceaction.py:1114
 msgid "configure device"
-msgstr ""
+msgstr "konfigurovať zariadenie"
 
 #: ../blivet/devices/raid.py:58
 #, python-format
@@ -389,7 +393,7 @@ msgstr "Šifrované"
 
 #: ../blivet/formats/luks.py:388
 msgid "DM Integrity"
-msgstr ""
+msgstr "Integrita DM"
 
 #: ../blivet/formats/__init__.py:148
 msgid "Unknown"

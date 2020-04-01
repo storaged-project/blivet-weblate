@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
 # Aleksandr Brezhnev <abrezhnev@gmail.com>, 2012
 # Alexey Vasyukov <alexey.vasyukov@vdel.com>, 2009
@@ -26,22 +26,23 @@
 # Igor Gorbounov <igor.gorbounov@gmail.com>, 2016. #zanata
 # yuliya <ypoyarko@redhat.com>, 2016. #zanata
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
+# Petr Molodyk <pamolodyk@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
-"PO-Revision-Date: 2018-11-20 01:35+0000\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Russian (http://www.transifex.com/projects/p/blivet/language/"
-"ru/)\n"
+"PO-Revision-Date: 2020-04-01 11:38+0000\n"
+"Last-Translator: Petr Molodyk <pamolodyk@gmail.com>\n"
+"Language-Team: Russian <https://translate.fedoraproject.org/projects/blivet/"
+"blivet-master/ru/>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
+"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 3.11.3\n"
 
 #: ../blivet/errors.py:210
 msgid ""
@@ -49,6 +50,9 @@ msgid ""
 "of the UUID value which should be unique. In that case you can either "
 "disconnect one of the devices or reformat it."
 msgstr ""
+"Зачастую причиной этого является клонирование образа диска, которое приводит "
+"к дублированию значения UUID, которое должно быть уникальным. В этом случае "
+"необходимо либо отключить одно из этих устройств, либо переформатировать его."
 
 #: ../blivet/errors.py:217
 msgid ""
@@ -355,7 +359,7 @@ msgid_plural ""
 "RAID level %(raid_level)s requires that device have at least %(min_members)d "
 "members."
 msgstr[0] ""
-"Для RAID уровня %(raid_level)s требуется, чтобы устройство имело хотя бы  "
+"Для RAID уровня %(raid_level)s требуется, чтобы устройство имело хотя бы "
 "%(min_members)d элемент."
 msgstr[1] ""
 "Для RAID уровня %(raid_level)s требуется, чтобы устройство имело хотя бы "
@@ -390,7 +394,7 @@ msgstr "Linux HFS+ ESP"
 
 #: ../blivet/formats/prepboot.py:37
 msgid "PPC PReP Boot"
-msgstr "PPC PReP Boot"
+msgstr "Загрузочный PPC PReP"
 
 #: ../blivet/formats/luks.py:58
 msgid "LUKS"

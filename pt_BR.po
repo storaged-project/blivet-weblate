@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-#
+# 
 # Translators:
 # Adriano Laranjeira <adriano@argl.eng.br>, 2012
 # Afonso Celso Medina <medina@maua.br>, 2006
@@ -27,21 +27,22 @@
 # Frederico Henrique Gonçalves Lima <fred@fredericolima.com.br>, 2016. #zanata
 # Frederico Henrique Gonçalves Lima <fred@fredericolima.com.br>, 2017. #zanata
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
+# Lucas Fernandes <lucas.af88@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
-"PO-Revision-Date: 2018-11-20 01:35+0000\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/"
-"blivet/language/pt_BR/)\n"
+"PO-Revision-Date: 2020-04-01 11:38+0000\n"
+"Last-Translator: Lucas Fernandes <lucas.af88@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
+"projects/blivet/blivet-master/pt_BR/>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 3.11.3\n"
 
 #: ../blivet/errors.py:210
 msgid ""
@@ -49,6 +50,9 @@ msgid ""
 "of the UUID value which should be unique. In that case you can either "
 "disconnect one of the devices or reformat it."
 msgstr ""
+"Isso geralmente é causado pela clonagem da imagem do dispositivo resultando "
+"na duplicação do valor UUID, que deve ser único. Nesse caso, você pode "
+"desconectar um dos dispositivos ou reformatá-lo."
 
 #: ../blivet/errors.py:217
 msgid ""
@@ -69,7 +73,7 @@ msgid ""
 msgstr ""
 "Restaure o rótulo de disco a um estado em completo funcionamento ou remova-o "
 "totalmente.\n"
-"Dica: parted pode restaurá-lo ou o wipefs pode removê-lo. "
+"Dica: parted pode restaurá-lo ou o wipefs pode removê-lo."
 
 #: ../blivet/errors.py:230
 msgid ""
@@ -107,7 +111,7 @@ msgstr ""
 #: ../blivet/zfcp.py:101
 #, python-format
 msgid "Could not set zFCP device %(devnum)s online (%(e)s)."
-msgstr "Não foi possível colocar o dispositivo %(devnum)s online  (%(e)s)."
+msgstr "Não foi possível definir o dispositivo zFCP %(devnum)s online (%(e)s)."
 
 #: ../blivet/zfcp.py:112
 #, python-format
@@ -312,7 +316,7 @@ msgstr "Criando %(type)s em %(device)s"
 msgid "Not enough entropy to create LUKS format. %d bits are needed."
 msgstr ""
 "Não há entropia suficiente para criar o formato LUKS. São necessários %d "
-"bits. "
+"bits."
 
 #: ../blivet/deviceaction.py:670
 #, python-format
@@ -378,7 +382,7 @@ msgstr ""
 #: ../blivet/devices/raid.py:104
 #, python-format
 msgid "Cannot remove a member from existing %s array"
-msgstr "Não foi possível remover um membro do conjunto  %s existente"
+msgstr "Não foi possível remover um membro do conjunto %s existente"
 
 #: ../blivet/formats/fs.py:932
 msgid "EFI System Partition"

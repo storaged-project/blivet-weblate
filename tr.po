@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
-"PO-Revision-Date: 2020-04-14 09:40+0000\n"
+"PO-Revision-Date: 2020-04-16 12:40+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-master/tr/>\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
-"X-Generator: Weblate 3.11.3\n"
+"X-Generator: Weblate 4.0.1\n"
 
 #: ../blivet/errors.py:210
 msgid ""
@@ -72,7 +72,7 @@ msgstr ""
 
 #: ../blivet/fcoe.py:121
 msgid "FCoE not available"
-msgstr "FCoE mevcut değil"
+msgstr "FCoE kullanılabilir değil"
 
 #: ../blivet/zfcp.py:62
 msgid "You have not specified a device number or the number is invalid"
@@ -179,7 +179,7 @@ msgstr "Bir iSCSI başlatıcı adı belirtilmelidir"
 
 #: ../blivet/iscsi.py:410
 msgid "iSCSI not available"
-msgstr "iSCSI mevcut değil"
+msgstr "iSCSI kullanılabilir değil"
 
 #: ../blivet/iscsi.py:412
 msgid "No initiator name set"
@@ -203,7 +203,7 @@ msgstr "hizalanmış bölüm ayrılamadı"
 
 #: ../blivet/partitioning.py:462
 msgid "requested size exceeds maximum allowed"
-msgstr "talep edilen boyut izin verilen maksimum değeri aşıyor"
+msgstr "talep edilen boyut, izin verilen azami değeri aşıyor"
 
 #: ../blivet/partitioning.py:580
 #, python-format

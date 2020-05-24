@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
-"PO-Revision-Date: 2020-05-21 05:40+0000\n"
+"PO-Revision-Date: 2020-05-24 07:40+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://translate.fedoraproject.org/"
 "projects/blivet/blivet-master/nb_NO/>\n"
@@ -31,6 +31,9 @@ msgid ""
 "of the UUID value which should be unique. In that case you can either "
 "disconnect one of the devices or reformat it."
 msgstr ""
+"Dette forårsakes vanligvis av å klone enhetens avtrykk, noe som resulterer i "
+"duplisering av UUID-verdien istedenfor at den er unik. I sådant fall kan du "
+"enten koble fra én av enhetene eller reformatere den."
 
 #: ../blivet/errors.py:217
 msgid ""
@@ -38,6 +41,9 @@ msgid ""
 "kernel is reporting partitions on. It is unclear what the exact problem is. "
 "Please file a bug at http://bugzilla.redhat.com"
 msgstr ""
+"Av en eller annen grunn kan det ikke forefinnes en disketikett for en disk "
+"som kjernen rapporterer partisjoner fra. Det er uklart hva problemet er. "
+"Innrapporter feil på https://bugzilla.redhat.com"
 
 #: ../blivet/errors.py:224
 msgid ""
@@ -45,6 +51,9 @@ msgid ""
 "completely.\n"
 "Hint: parted can restore it or wipefs can remove it."
 msgstr ""
+"Enten gjenopprett disketiketten til en fullstendig fungerende tilstand, "
+"eller fjern den helt.\n"
+"Hint: \"parted\" kan gjenopprette, og \"wipefs\" kan fjerne den."
 
 #: ../blivet/errors.py:230
 msgid ""
@@ -52,6 +61,10 @@ msgid ""
 "Hint 1: vgrename accepts UUID in place of the old name.\n"
 "Hint 2: You can get the VG UUIDs by running 'pvs -o +vg_uuid'."
 msgstr ""
+"Gi nytt navn på én av volumgruppene, slik at navnene skiller seg fra "
+"hverandre.\n"
+"Hint 1 \"vgrename\" godtar UUID-er istedenfor det gamle navnet.\n"
+"Hint 2: Du kan hente VG-UUID-er gjennom å kjøre \"ps -o +vg_uuid\"."
 
 #: ../blivet/fcoe.py:121
 msgid "FCoE not available"
@@ -141,7 +154,9 @@ msgstr ""
 msgid ""
 "Could not remove LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s "
 "(%(e)s)."
-msgstr "Kunne ikke fjerne %(fcplun)s på WWPN op zFCP-enhet %(devnum)s (%(e)s)."
+msgstr ""
+"Kunne ikke fjerne %(fcplun)s på WWPN %(wwpn)s på zFCP-enhet %(devnum)s "
+"(%(e)s)."
 
 #: ../blivet/zfcp.py:245
 #, python-format
@@ -214,27 +229,27 @@ msgstr ""
 
 #: ../blivet/partitioning.py:962
 msgid "Unable to allocate requested partition scheme."
-msgstr ""
+msgstr "Kunne ikke tildele forespurt partisjonsforordning."
 
 #: ../blivet/partitioning.py:997
 msgid "not enough free space after creating extended partition"
-msgstr ""
+msgstr "Ikke nok ledig plass etter opprettelse av utvidet partisjon"
 
 #: ../blivet/partitioning.py:1004
 msgid "failed to allocate aligned partition"
-msgstr ""
+msgstr "Klarte ikke å tildele justert partisjon"
 
 #: ../blivet/partitioning.py:1205
 msgid "cannot reclaim more than request has grown"
-msgstr ""
+msgstr "Kan ikke gjenvinne mer enn forespørselen har vokst"
 
 #: ../blivet/partitioning.py:1419
 msgid "DiskChunk requests must be of type PartitionRequest"
-msgstr ""
+msgstr "DiskChunk-forespørsler må være av typen \"PartitionRequest\""
 
 #: ../blivet/partitioning.py:1432
 msgid "partitions allocated outside disklabel limits"
-msgstr ""
+msgstr "Partisjoner tildelt utenfor disketikett-grenser"
 
 #: ../blivet/partitioning.py:1517
 msgid "VGChunk requests must be of type LVRequest"
@@ -249,7 +264,7 @@ msgstr "ikke nok plass for LVM-forespørsler"
 #: ../blivet/deviceaction.py:194
 #, python-format
 msgid "Executing %(action)s"
-msgstr "Kjører"
+msgstr "Kjører %(action)s"
 
 #: ../blivet/deviceaction.py:322
 msgid "create device"
@@ -325,6 +340,10 @@ msgid_plural ""
 "RAID level %(raid_level)s requires that device have at least %(min_members)d "
 "members."
 msgstr[0] ""
+"RAID-nivå %(raid_level)s krever at enheten har minst %(min_members)d medlem."
+msgstr[1] ""
+"RAID-nivå %(raid_level)s krever at enheten har minst %(min_members)d "
+"medlemmer."
 
 #: ../blivet/devices/raid.py:79
 #, python-format

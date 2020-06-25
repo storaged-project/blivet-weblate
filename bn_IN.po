@@ -13,21 +13,22 @@
 # runab <runab@redhat.com>, 2004-2010
 # runa <runabh@gmail.com>, 2012
 # Saibal Ray, 2014
+# Akarshan Biswas <akarshan.biswas@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
-"PO-Revision-Date: 2015-01-05 05:23+0000\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Bengali (India) (http://www.transifex.com/projects/p/blivet/"
-"language/bn_IN/)\n"
+"PO-Revision-Date: 2020-06-25 14:40+0000\n"
+"Last-Translator: Akarshan Biswas <akarshan.biswas@gmail.com>\n"
+"Language-Team: Bengali (India) <https://translate.fedoraproject.org/projects/"
+"blivet/blivet-master/bn_IN/>\n"
 "Language: bn_IN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.1.1\n"
 
 #: ../blivet/errors.py:210
 msgid ""
@@ -35,6 +36,9 @@ msgid ""
 "of the UUID value which should be unique. In that case you can either "
 "disconnect one of the devices or reformat it."
 msgstr ""
+"এটি ডিভাইস চিত্রের ক্লোনিংয়ের ফলে সাধারণত ইউআইডি মানটির সদৃশ হয় যা অনন্য "
+"হওয়া উচিত। সেক্ষেত্রে আপনি হয় যেকোন একটি ডিভাইস সংযোগ বিচ্ছিন্ন করতে পারেন "
+"বা পুনরায় ফর্ম্যাট করতে পারেন।"
 
 #: ../blivet/errors.py:217
 msgid ""
@@ -42,6 +46,9 @@ msgid ""
 "kernel is reporting partitions on. It is unclear what the exact problem is. "
 "Please file a bug at http://bugzilla.redhat.com"
 msgstr ""
+"কোনও কারণে আমরা কোনও ডিস্কে ডিসক্লেবেল সনাক্ত করতে পারি নি যে কার্নেলটি "
+"পার্টিশনগুলি রিপোর্ট করছে। সঠিক সমস্যাটি কী তা স্পষ্ট নয়। দয়া করে http://"
+"bugzilla.redhat.com এ একটি বাগ ফাইল করুন"
 
 #: ../blivet/errors.py:224
 msgid ""
@@ -49,6 +56,9 @@ msgid ""
 "completely.\n"
 "Hint: parted can restore it or wipefs can remove it."
 msgstr ""
+"হয় ডিস্কলেবেলকে পুরোপুরি কার্যক্ষম অবস্থায় পুনরুদ্ধার করুন বা এটি "
+"সম্পূর্ণরূপে সরান।\n"
+"ইঙ্গিত: parted এটি পুনরুদ্ধার করতে পারে বা wipefs এটিকে সরাতে পারে।"
 
 #: ../blivet/errors.py:230
 msgid ""
@@ -56,6 +66,9 @@ msgid ""
 "Hint 1: vgrename accepts UUID in place of the old name.\n"
 "Hint 2: You can get the VG UUIDs by running 'pvs -o +vg_uuid'."
 msgstr ""
+"ভলিউম গ্রুপগুলির একটির নামকরণ করুন যাতে নাম পৃথক হয়।\n"
+"ইঙ্গিত 1: vgrename পুরানো নামের জায়গায় UUID গ্রহণ করে।\n"
+"ইঙ্গিত 2: আপনি 'pvs -o + vg_uuid' চালিয়ে VG UUIDs পেতে পারেন।"
 
 #: ../blivet/fcoe.py:121
 msgid "FCoE not available"
@@ -208,6 +221,8 @@ msgid ""
 "partition is too small for %(format)s formatting (allowable size is "
 "%(min_size)s to %(max_size)s)"
 msgstr ""
+"%(format)s  ফর্ম্যাটিংয়ের জন্য পার্টিশনটি খুব ছোট (অনুমোদিত মাপ %(min_size)"
+"s থেকে %(max_size)s)"
 
 #: ../blivet/partitioning.py:646
 #, python-format
@@ -215,6 +230,8 @@ msgid ""
 "partition is too large for %(format)s formatting (allowable size is "
 "%(min_size)s to %(max_size)s)"
 msgstr ""
+"%(format)s ফর্ম্যাটিংয়ের জন্য পার্টিশনটি অনেক বড়! (অনুমোদিত মাপ %(min_size)"
+"s থেকে %(max_size)s)"
 
 #: ../blivet/partitioning.py:962
 msgid "Unable to allocate requested partition scheme."
@@ -226,7 +243,7 @@ msgstr "বিস্তৃত বিভাজন তৈরি করার প�
 
 #: ../blivet/partitioning.py:1004
 msgid "failed to allocate aligned partition"
-msgstr ""
+msgstr "সারিবদ্ধ পার্টিশন বরাদ্দ করতে ব্যর্থ"
 
 #: ../blivet/partitioning.py:1205
 msgid "cannot reclaim more than request has grown"
@@ -253,7 +270,7 @@ msgstr "LVM অনুরোধের জন্য পর্যাপ্ত স�
 #: ../blivet/deviceaction.py:194
 #, python-format
 msgid "Executing %(action)s"
-msgstr ""
+msgstr "%(action)s কার্যকর করা হচ্ছে"
 
 #: ../blivet/deviceaction.py:322
 msgid "create device"
@@ -314,11 +331,11 @@ msgstr "কন্টেনার সংখ্যা সরান"
 
 #: ../blivet/deviceaction.py:1058
 msgid "configure format"
-msgstr ""
+msgstr "ফরম্যাট কনফিগার করুন"
 
 #: ../blivet/deviceaction.py:1114
 msgid "configure device"
-msgstr ""
+msgstr "ডিভাইস কনফিগার করুন"
 
 #: ../blivet/devices/raid.py:58
 #, python-format
@@ -329,12 +346,19 @@ msgid_plural ""
 "RAID level %(raid_level)s requires that device have at least %(min_members)d "
 "members."
 msgstr[0] ""
+"RAID স্তর %(raid_level)s এর জন্য ডিভাইসের কমপক্ষে %(min_members)d সদস্য থাকা "
+"দরকার।"
+msgstr[1] ""
+"RAID স্তর %(raid_level)s এর জন্য ডিভাইসের কমপক্ষে %(min_members)d সদস্য থাকা "
+"দরকার।"
 
 #: ../blivet/devices/raid.py:79
 #, python-format
 msgid ""
 "RAID level %(raid_level)s is an invalid value. Must be one of (%(levels)s)."
 msgstr ""
+"RAID স্তর %(raid_level)s একটি অবৈধ মান। অবশ্যই (%(levels)s) এর মধ্যে একটি হতে"
+" হবে।"
 
 #: ../blivet/devices/raid.py:104
 #, python-format
@@ -367,7 +391,7 @@ msgstr "এনক্রিপ্ট করা"
 
 #: ../blivet/formats/luks.py:388
 msgid "DM Integrity"
-msgstr ""
+msgstr "DM ইন্টিগ্রিটি"
 
 #: ../blivet/formats/__init__.py:148
 msgid "Unknown"
@@ -389,7 +413,7 @@ msgstr "বিভাজন টেবিল"
 #: ../blivet/formats/disklabel.py:320
 #, python-format
 msgid "Unsupported %(name)s"
-msgstr ""
+msgstr "%(name)s অসমর্থিত"
 
 #: ../blivet/formats/mdraid.py:43
 msgid "software RAID"

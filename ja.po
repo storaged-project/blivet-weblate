@@ -30,16 +30,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
-"PO-Revision-Date: 2018-09-21 01:08+0000\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Japanese (http://www.transifex.com/projects/p/blivet/language/"
-"ja/)\n"
+"PO-Revision-Date: 2020-07-03 07:42+0000\n"
+"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
+"Language-Team: Japanese <https://translate.fedoraproject.org/projects/blivet/"
+"blivet-rhel8/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Zanata 4.6.2\n"
+"X-Generator: Weblate 4.1.1\n"
 
 #: ../blivet/errors.py:210
 msgid ""
@@ -47,6 +47,8 @@ msgid ""
 "of the UUID value which should be unique. In that case you can either "
 "disconnect one of the devices or reformat it."
 msgstr ""
+"これは通常、デバイスイメージを複製したことで、一意であるはずのUUID値が重複することが原因です。その場合は、いずれかのデバイスを切断するか、再フォーマッ"
+"トしてください。"
 
 #: ../blivet/errors.py:217
 msgid ""
@@ -54,9 +56,8 @@ msgid ""
 "kernel is reporting partitions on. It is unclear what the exact problem is. "
 "Please file a bug at http://bugzilla.redhat.com"
 msgstr ""
-"なんらかの理由により、kernel がパーティションを報告しているディスク上でディス"
-"クラベルを見つけられませんでした。何が問題となっているかは不明です。バグを "
-"http://bugzilla.redhat.com に提出してください。"
+"なんらかの理由により、kernel がパーティションを報告しているディスク上でディスクラベルを見つけられませんでした。何が問題となっているかは不明です。"
+"バグを http://bugzilla.redhat.com に提出してください"
 
 #: ../blivet/errors.py:224
 msgid ""
@@ -84,7 +85,7 @@ msgstr "FCoE は使用できません"
 
 #: ../blivet/zfcp.py:62
 msgid "You have not specified a device number or the number is invalid"
-msgstr "デバイス番号を指定していないか番号が無効です。"
+msgstr "デバイス番号を指定していないか番号が無効です"
 
 #: ../blivet/zfcp.py:64
 msgid "You have not specified a worldwide port name or the name is invalid."
@@ -202,7 +203,7 @@ msgstr "iSCSI ノードが何も探索できませんでした"
 
 #: ../blivet/iscsi.py:550
 msgid "No new iSCSI nodes discovered"
-msgstr "新しい iSCSI ノードは見つかりませんでした。"
+msgstr "新しい iSCSI ノードは見つかりませんでした"
 
 #: ../blivet/iscsi.py:553
 msgid "Could not log in to any of the discovered nodes"
@@ -257,7 +258,7 @@ msgstr "要求を超えたサイズを再利用することができません"
 
 #: ../blivet/partitioning.py:1419
 msgid "DiskChunk requests must be of type PartitionRequest"
-msgstr "DiskChunk 要求には PartitionResquest タイプが必要です。"
+msgstr "DiskChunk 要求には PartitionResquest タイプが必要です"
 
 #: ../blivet/partitioning.py:1432
 msgid "partitions allocated outside disklabel limits"
@@ -265,7 +266,7 @@ msgstr "ディスクラベルの範囲外に割り当てられたパーティシ
 
 #: ../blivet/partitioning.py:1517
 msgid "VGChunk requests must be of type LVRequest"
-msgstr "VGChunk 要求には LVResquest タイプが必要です。"
+msgstr "VGChunk 要求には LVResquest タイプが必要です"
 
 #. by now we have allocated the PVs so if there isn't enough
 #. space in the VG we have a real problem

@@ -21,16 +21,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
-"PO-Revision-Date: 2018-09-21 01:08+0000\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Korean (http://www.transifex.com/projects/p/blivet/language/"
-"ko/)\n"
+"PO-Revision-Date: 2020-07-03 07:42+0000\n"
+"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
+"Language-Team: Korean <https://translate.fedoraproject.org/projects/blivet/"
+"blivet-rhel8/ko/>\n"
 "Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Zanata 4.6.2\n"
+"X-Generator: Weblate 4.1.1\n"
 
 #: ../blivet/errors.py:210
 msgid ""
@@ -38,6 +38,8 @@ msgid ""
 "of the UUID value which should be unique. In that case you can either "
 "disconnect one of the devices or reformat it."
 msgstr ""
+"이는 일반적으로 장치 이미지 복제로 인해 고유한 UUID 값이 복제되기 때문에 발생합니다. 이 경우 장치 중 하나를 분리하거나 다시 "
+"포맷할 수 있습니다."
 
 #: ../blivet/errors.py:217
 msgid ""
@@ -45,9 +47,8 @@ msgid ""
 "kernel is reporting partitions on. It is unclear what the exact problem is. "
 "Please file a bug at http://bugzilla.redhat.com"
 msgstr ""
-"일부 이유로 커널이 파티션 설정을 보고하는 디스크에 디스크 레이블을 배치할 수 "
-"없습니다. 정확한 문제가 무엇인지 알 수 없습니다. http://bugzilla.redhat.com"
-"에 버그 리포트를 제출해 주십시오."
+"일부 이유로 커널이 파티션 설정을 보고하는 디스크에 디스크 레이블을 배치할 수 없습니다. 정확한 문제가 무엇인지 알 수 없습니다. "
+"http://bugzilla.redhat.com에 버그 리포트를 제출해 주십시오"
 
 #: ../blivet/errors.py:224
 msgid ""
@@ -78,11 +79,11 @@ msgstr "장치 번호를 지정하지 않았거나, 번호가 맞지 않습니�
 
 #: ../blivet/zfcp.py:64
 msgid "You have not specified a worldwide port name or the name is invalid."
-msgstr "세계 포트 이름(WWPN)을 지정하지 않았거나, 포트 번호가 맞지 않습니다"
+msgstr "세계 포트 이름(WWPN)을 지정하지 않았거나, 포트 번호가 맞지 않습니다."
 
 #: ../blivet/zfcp.py:66
 msgid "You have not specified a FCP LUN or the number is invalid."
-msgstr "FCP LUN을 지정하지 않았거나, 번호가 맞지 않습니다"
+msgstr "FCP LUN을 지정하지 않았거나, 번호가 맞지 않습니다."
 
 #: ../blivet/zfcp.py:91
 #, python-format
@@ -103,7 +104,7 @@ msgstr "WWPN %(wwpn)s을(를) zFCP 장치 %(devnum)s (%(e)s)에 추가할 수 �
 #: ../blivet/zfcp.py:119
 #, python-format
 msgid "WWPN %(wwpn)s not found at zFCP device %(devnum)s."
-msgstr "WWPN %(wwpn)s을(를) zFCP 장치 %(devnum)s에서 찾을 수 없습니다.  "
+msgstr "WWPN %(wwpn)s을(를) zFCP 장치 %(devnum)s에서 찾을 수 없습니다."
 
 #: ../blivet/zfcp.py:134
 #, python-format
@@ -111,8 +112,7 @@ msgid ""
 "Could not add LUN %(fcplun)s to WWPN %(wwpn)s on zFCP device %(devnum)s "
 "(%(e)s)."
 msgstr ""
-"zFCP 장치 %(devnum)s (%(e)s)에서 LUN %(fcplun)s을(를) WWPN %(wwpn)s에 추가할 "
-"수 없습니다. "
+"zFCP 장치 %(devnum)s (%(e)s)에서 LUN %(fcplun)s을(를) WWPN %(wwpn)s에 추가할 수 없습니다."
 
 #: ../blivet/zfcp.py:140
 #, python-format
@@ -136,18 +136,14 @@ msgstr ""
 msgid ""
 "Failed LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s removed "
 "again."
-msgstr ""
-"zFCP 장치 %(devnum)s에 있는 WWPN %(wwpn)s에서 실패한 LUN %(fcplun)s이 다시 삭"
-"제되었습니다. "
+msgstr "zFCP 장치 %(devnum)s에 있는 WWPN %(wwpn)s에서 실패한 LUN %(fcplun)s이 다시 삭제되었습니다."
 
 #: ../blivet/zfcp.py:218
 #, python-format
 msgid ""
 "Could not correctly delete SCSI device of zFCP %(devnum)s %(wwpn)s "
 "%(fcplun)s (%(e)s)."
-msgstr ""
-"zFCP %(devnum)s %(wwpn)s %(fcplun)s (%(e)s)의 SCSI 장치를 올바르게 삭제할 수 "
-"없습니다.  "
+msgstr "zFCP %(devnum)s %(wwpn)s %(fcplun)s (%(e)s)의 SCSI 장치를 올바르게 삭제할 수 없습니다."
 
 #: ../blivet/zfcp.py:227
 #, python-format
@@ -161,41 +157,40 @@ msgstr ""
 #: ../blivet/zfcp.py:245
 #, python-format
 msgid "Could not remove WWPN %(wwpn)s on zFCP device %(devnum)s (%(e)s)."
-msgstr ""
-"zFCP 장치 %(devnum)s (%(e)s)에서 WWPN %(wwpn)s을(를) 제거할 수 없습니다.  "
+msgstr "zFCP 장치 %(devnum)s (%(e)s)에서 WWPN %(wwpn)s을(를) 제거할 수 없습니다."
 
 #: ../blivet/zfcp.py:271
 #, python-format
 msgid "Could not set zFCP device %(devnum)s offline (%(e)s)."
-msgstr "zFCP 장치 %(devnum)s를 오프라인 (%(e)s)으로 설정할 수 없습니다.  "
+msgstr "zFCP 장치 %(devnum)s를 오프라인 (%(e)s)으로 설정할 수 없습니다."
 
 #: ../blivet/iscsi.py:217
 msgid "Unable to change iSCSI initiator name once set"
-msgstr "iSCSI 개시자 이름이 설정되면 이를 변경할 수 없음 "
+msgstr "iSCSI 개시자 이름이 설정되면 이를 변경할 수 없음"
 
 #: ../blivet/iscsi.py:219
 msgid "Must provide an iSCSI initiator name"
-msgstr "iSCSI 개시자 이름을 지정하십시오 "
+msgstr "iSCSI 개시자 이름을 지정하십시오"
 
 #: ../blivet/iscsi.py:410
 msgid "iSCSI not available"
-msgstr "iSCSI 사용 불가능 "
+msgstr "iSCSI 사용 불가능"
 
 #: ../blivet/iscsi.py:412
 msgid "No initiator name set"
-msgstr "이니셰이터 이름이 설정되지 않음 "
+msgstr "이니셰이터 이름이 설정되지 않음"
 
 #: ../blivet/iscsi.py:530
 msgid "No iSCSI nodes discovered"
-msgstr "iSCSI 노드를 찾을 수 없음 "
+msgstr "iSCSI 노드를 찾을 수 없음"
 
 #: ../blivet/iscsi.py:550
 msgid "No new iSCSI nodes discovered"
-msgstr "새 iSCSI 노드를 찾을 수 없음 "
+msgstr "새 iSCSI 노드를 찾을 수 없음"
 
 #: ../blivet/iscsi.py:553
 msgid "Could not log in to any of the discovered nodes"
-msgstr "검색된 노드로 로그인할 수 없음 "
+msgstr "검색된 노드로 로그인할 수 없음"
 
 #: ../blivet/partitioning.py:454
 msgid "unable to allocate aligned partition"
@@ -265,7 +260,7 @@ msgstr "LVM 요청에 필요한 공간이 충분하지 않습니다"
 #: ../blivet/deviceaction.py:194
 #, python-format
 msgid "Executing %(action)s"
-msgstr "%(action)s 실행 "
+msgstr "%(action)s 실행"
 
 #: ../blivet/deviceaction.py:322
 msgid "create device"
@@ -286,7 +281,7 @@ msgstr "포맷 생성"
 #: ../blivet/deviceaction.py:613
 #, python-format
 msgid "Creating %(type)s on %(device)s"
-msgstr "%(device)s에 %(type)s 생성 "
+msgstr "%(device)s에 %(type)s 생성"
 
 #: ../blivet/deviceaction.py:640
 #, python-format
@@ -327,11 +322,11 @@ msgstr "컨테이너 멤버 삭제"
 
 #: ../blivet/deviceaction.py:1058
 msgid "configure format"
-msgstr "포맷 설정  "
+msgstr "포맷 설정"
 
 #: ../blivet/deviceaction.py:1114
 msgid "configure device"
-msgstr "장치 설정 "
+msgstr "장치 설정"
 
 #: ../blivet/devices/raid.py:58
 #, python-format
@@ -341,26 +336,22 @@ msgid ""
 msgid_plural ""
 "RAID level %(raid_level)s requires that device have at least %(min_members)d "
 "members."
-msgstr[0] ""
-"RAID 레벨 %(raid_level)s에는 최소 %(min_members)d개의 장치 구성원이 필요합니"
-"다. "
+msgstr[0] "RAID 레벨 %(raid_level)s에는 최소 %(min_members)d개의 장치 구성원이 필요합니다."
 
 #: ../blivet/devices/raid.py:79
 #, python-format
 msgid ""
 "RAID level %(raid_level)s is an invalid value. Must be one of (%(levels)s)."
-msgstr ""
-"RAID 레벨 %(raid_level)s이/가 유효한 값이 아닙니다. (%(levels)s) 중 하나여야 "
-"합니다. "
+msgstr "RAID 레벨 %(raid_level)s이/가 유효한 값이 아닙니다. (%(levels)s) 중 하나여야 합니다."
 
 #: ../blivet/devices/raid.py:104
 #, python-format
 msgid "Cannot remove a member from existing %s array"
-msgstr "기존 %s 어레이에서 장치 구성원을 제거할 수 없습니다 "
+msgstr "기존 %s 어레이에서 장치 구성원을 제거할 수 없습니다"
 
 #: ../blivet/formats/fs.py:932
 msgid "EFI System Partition"
-msgstr "EFI 시스템 파티션 "
+msgstr "EFI 시스템 파티션"
 
 #: ../blivet/formats/fs.py:1137
 msgid "Apple Bootstrap"
@@ -384,7 +375,7 @@ msgstr "암호화됨"
 
 #: ../blivet/formats/luks.py:388
 msgid "DM Integrity"
-msgstr "DM 무결성 "
+msgstr "DM 무결성"
 
 #: ../blivet/formats/__init__.py:148
 msgid "Unknown"

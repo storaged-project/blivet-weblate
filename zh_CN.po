@@ -16,28 +16,29 @@
 # xiaofeng <wasphin@gmail.com>, 2012
 # yusuf <yusufma77@yahoo.com>, 2011
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
+# Charles Lee <lchopn@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
-"PO-Revision-Date: 2018-09-13 02:13+0000\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Chinese (China) (http://www.transifex.com/projects/p/blivet/"
-"language/zh_CN/)\n"
+"PO-Revision-Date: 2020-07-09 15:27+0000\n"
+"Last-Translator: Charles Lee <lchopn@gmail.com>\n"
+"Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
+"projects/blivet/blivet-master/zh_CN/>\n"
 "Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Zanata 4.6.2\n"
+"X-Generator: Weblate 4.1.1\n"
 
 #: ../blivet/errors.py:210
 msgid ""
 "This is usually caused by cloning the device image resulting in duplication "
 "of the UUID value which should be unique. In that case you can either "
 "disconnect one of the devices or reformat it."
-msgstr ""
+msgstr "这通常是由于克隆设备镜像导致 UUID 值重复造成的，而 UUID 值应该是唯一的。如果是这种情况，可以断开其中一个设备或重新格式化它。"
 
 #: ../blivet/errors.py:217
 msgid ""

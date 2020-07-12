@@ -3,22 +3,22 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2012-2014
+# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2012-2014, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
-"PO-Revision-Date: 2015-01-05 05:25+0000\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Kazakh (http://www.transifex.com/projects/p/blivet/language/"
-"kk/)\n"
+"PO-Revision-Date: 2020-07-12 13:27+0000\n"
+"Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
+"Language-Team: Kazakh <https://translate.fedoraproject.org/projects/blivet/"
+"blivet-master/kk/>\n"
 "Language: kk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Zanata 4.6.2\n"
+"X-Generator: Weblate 4.1.1\n"
 
 #: ../blivet/errors.py:210
 msgid ""
@@ -26,6 +26,9 @@ msgid ""
 "of the UUID value which should be unique. In that case you can either "
 "disconnect one of the devices or reformat it."
 msgstr ""
+"Бұл әдетте құрылғы бейнесін клондау салдарынан пайда болады, нәтижесінде "
+"бірегей болуы тиіс UUID мәні қайталанады. Бұл жағдайда сіз құрылғылардың "
+"біреуін ажыратуға немесе оны қайта пішімдеуге болады."
 
 #: ../blivet/errors.py:217
 msgid ""

@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
-"PO-Revision-Date: 2020-07-09 15:27+0000\n"
+"PO-Revision-Date: 2020-07-18 16:28+0000\n"
 "Last-Translator: Charles Lee <lchopn@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/blivet/blivet-master/zh_CN/>\n"
@@ -224,7 +224,7 @@ msgstr ""
 
 #: ../blivet/partitioning.py:962
 msgid "Unable to allocate requested partition scheme."
-msgstr "无法分配所需分区方案"
+msgstr "无法分配请求的分区方案。"
 
 #: ../blivet/partitioning.py:997
 msgid "not enough free space after creating extended partition"

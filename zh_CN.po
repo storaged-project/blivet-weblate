@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
-"PO-Revision-Date: 2020-07-18 16:28+0000\n"
+"PO-Revision-Date: 2020-08-02 07:29+0000\n"
 "Last-Translator: Charles Lee <lchopn@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/blivet/blivet-master/zh_CN/>\n"
@@ -46,8 +46,7 @@ msgid ""
 "kernel is reporting partitions on. It is unclear what the exact problem is. "
 "Please file a bug at http://bugzilla.redhat.com"
 msgstr ""
-"由于某些原因无法定位内核报告中显示在其中进行分区的磁盘的磁盘标签。尚不了解具"
-"体问题所在。请在 http://bugzilla.redhat.com 提交 bug。"
+"由于某些原因我们无法在磁盘上定位内核所报告分区的磁盘标签。尚不了解具体问题所在。请在 http://bugzilla.redhat.com 提交 bug"
 
 #: ../blivet/errors.py:224
 msgid ""
@@ -171,7 +170,7 @@ msgstr "设定后就无法更改 iSCSI 启动程序名称"
 
 #: ../blivet/iscsi.py:219
 msgid "Must provide an iSCSI initiator name"
-msgstr "您必须提供一个 iSCSI 启动程序名称。"
+msgstr "您必须提供一个 iSCSI 发起者的名称"
 
 #: ../blivet/iscsi.py:410
 msgid "iSCSI not available"

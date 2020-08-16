@@ -26,21 +26,22 @@
 # Abdel G. Martínez L. <abdel.g.martinez.l@gmail.com>, 2015. #zanata
 # Máximo Castañeda Riloba <mcrcctm@gmail.com>, 2016. #zanata
 # Máximo Castañeda Riloba <mcrcctm@gmail.com>, 2018. #zanata
+# Adolfo Jayme Barrientos <fitoschido@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
-"PO-Revision-Date: 2018-08-22 08:54+0000\n"
-"Last-Translator: Máximo Castañeda Riloba <mcrcctm@gmail.com>\n"
-"Language-Team: Spanish (http://www.transifex.com/projects/p/blivet/language/"
-"es/)\n"
+"PO-Revision-Date: 2020-08-16 12:29+0000\n"
+"Last-Translator: Adolfo Jayme Barrientos <fitoschido@gmail.com>\n"
+"Language-Team: Spanish <https://translate.fedoraproject.org/projects/blivet/"
+"blivet-master/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.1.1\n"
 
 #: ../blivet/errors.py:210
 msgid ""
@@ -48,6 +49,9 @@ msgid ""
 "of the UUID value which should be unique. In that case you can either "
 "disconnect one of the devices or reformat it."
 msgstr ""
+"Esto a menudo lo provoca la clonación de la imagen del dispositivo, lo cual "
+"duplica el valor de UUID, que debe ser único. En ese caso, puede desconectar "
+"uno de los dispositivos o reformatearlo."
 
 #: ../blivet/errors.py:217
 msgid ""
@@ -55,9 +59,9 @@ msgid ""
 "kernel is reporting partitions on. It is unclear what the exact problem is. "
 "Please file a bug at http://bugzilla.redhat.com"
 msgstr ""
-"Por alguna razón no se pudo encontrar una etiqueta de disco en un disco para "
-"el que el kernel dice que hay particiones. No se sabe exactamente cuál es el "
-"problema. Por favor, informe del error en http://bugzilla.redhat.com"
+"No se puede localizar la etiqueta en el disco en el que el núcleo informa de "
+"las particiones. La causa del problema no es obvia. Informe del problema en "
+"https://bugzilla.redhat.com"
 
 #: ../blivet/errors.py:224
 msgid ""
@@ -75,11 +79,11 @@ msgid ""
 "Hint 1: vgrename accepts UUID in place of the old name.\n"
 "Hint 2: You can get the VG UUIDs by running 'pvs -o +vg_uuid'."
 msgstr ""
-"Renombre uno de los grupos de volúmenes de forma que los nombres sean "
-"diferentes.\n"
-"Nota 1: vgrename acepta UUID en lugar del nombre viejo.\n"
-"Nota 2: Puede obtener los UUIDs de los grupos de volúmenes mediante 'pvs -o "
-"+vg_uuid'."
+"Cambie el nombre de uno de los grupos de volúmenes de forma que los nombres "
+"sean diferentes.\n"
+"Consejo 1: vgrename acepta UUID en lugar del nombre antiguo.\n"
+"Consejo 2: puede obtener los UUID de los grupos de volúmenes mediante «pvs -"
+"o +vg_uuid»."
 
 #: ../blivet/fcoe.py:121
 msgid "FCoE not available"
@@ -87,40 +91,41 @@ msgstr "FCoE no disponible"
 
 #: ../blivet/zfcp.py:62
 msgid "You have not specified a device number or the number is invalid"
-msgstr "No ha especificado un número de dispositivo o el número es inválido"
+msgstr "No ha especificado un número de dispositivo o el número no es válido"
 
 #: ../blivet/zfcp.py:64
 msgid "You have not specified a worldwide port name or the name is invalid."
-msgstr ""
-"No ha especificado un nombre de puerto universal o el nombre es inválido."
+msgstr "No ha especificado un nombre de puerto global o el nombre no es válido."
 
 #: ../blivet/zfcp.py:66
 msgid "You have not specified a FCP LUN or the number is invalid."
-msgstr "No ha especificado un FCP LUN o el número es inválido."
+msgstr "No ha especificado un FCP LUN o el número no es válido."
 
 #: ../blivet/zfcp.py:91
 #, python-format
 msgid "zFCP device %s not found, not even in device ignore list."
 msgstr ""
-"El dispositivo zFCP %s no fue encontrado, ni siquiera en la lista de "
-"dispositivos a ignorar."
+"No se encontró el dispositivo zFCP %s, ni siquiera en la lista de "
+"dispositivos que ignorar."
 
 #: ../blivet/zfcp.py:101
 #, python-format
 msgid "Could not set zFCP device %(devnum)s online (%(e)s)."
-msgstr "No se pudo establecer al dispositivo zFCP %(devnum)s en línea (%(e)s)"
+msgstr ""
+"No se pudo configurar el dispositivo zFCP %(devnum)s en modo en línea "
+"(%(e)s)."
 
 #: ../blivet/zfcp.py:112
 #, python-format
 msgid "Could not add WWPN %(wwpn)s to zFCP device %(devnum)s (%(e)s)."
 msgstr ""
-"No se pudo agregar el WWPN %(wwpn)s al dispositivo zFCP %(devnum)s (%(e)s)."
+"No se pudo añadir el WWPN %(wwpn)s al dispositivo zFCP %(devnum)s (%(e)s)."
 
 #. newer zfcp sysfs interface with auto port scan
 #: ../blivet/zfcp.py:119
 #, python-format
 msgid "WWPN %(wwpn)s not found at zFCP device %(devnum)s."
-msgstr "El WWPN %(wwpn)s no fue encontrado en el dispositivo zFCP %(devnum)s."
+msgstr "No se encontró el WWPN %(wwpn)s en el dispositivo zFCP %(devnum)s."
 
 #: ../blivet/zfcp.py:134
 #, python-format
@@ -128,7 +133,7 @@ msgid ""
 "Could not add LUN %(fcplun)s to WWPN %(wwpn)s on zFCP device %(devnum)s "
 "(%(e)s)."
 msgstr ""
-"No se pudo agregar el LUN %(fcplun)s al WWPN %(wwpn)s en el dispositivo zFCP "
+"No se pudo añadir el LUN %(fcplun)s al WWPN %(wwpn)s en el dispositivo zFCP "
 "%(devnum)s (%(e)s)."
 
 #: ../blivet/zfcp.py:140
@@ -207,7 +212,7 @@ msgstr "No se ha definido un nombre del iniciador"
 
 #: ../blivet/iscsi.py:530
 msgid "No iSCSI nodes discovered"
-msgstr "No han sido descubiertos nodos iSCSI."
+msgstr "No se descubrió ningún nodo iSCSI"
 
 #: ../blivet/iscsi.py:550
 msgid "No new iSCSI nodes discovered"
@@ -382,15 +387,15 @@ msgstr "No puede eliminar un miembro de un conjunto %s existente"
 
 #: ../blivet/formats/fs.py:932
 msgid "EFI System Partition"
-msgstr "Partición de Sistema EFI"
+msgstr "Partición de sistema EFI"
 
 #: ../blivet/formats/fs.py:1137
 msgid "Apple Bootstrap"
-msgstr "Apple Bootstrap"
+msgstr "Bootstrap de Apple"
 
 #: ../blivet/formats/fs.py:1173
 msgid "Linux HFS+ ESP"
-msgstr "Linux HFS+ ESP"
+msgstr "ESP HFS+ de Linux"
 
 #: ../blivet/formats/prepboot.py:37
 msgid "PPC PReP Boot"

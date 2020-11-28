@@ -12,21 +12,22 @@
 # Updated by Tomi Kajala <tomi@iki.fi>, 2000-2001
 # Ville-Pekka Vainio <vpivaini@cs.helsinki.fi>, 2011
 # Ville-Pekka Vainio <vpvainio@iki.fi>, 2011-2012
+# Ricky Tigg <ricky.tigg@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
-"PO-Revision-Date: 2015-01-05 05:24+0000\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Finnish (http://www.transifex.com/projects/p/blivet/language/"
-"fi/)\n"
+"PO-Revision-Date: 2020-11-28 17:35+0000\n"
+"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
+"Language-Team: Finnish <https://translate.fedoraproject.org/projects/blivet/"
+"blivet-master/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.3.2\n"
 
 #: ../blivet/errors.py:210
 msgid ""
@@ -34,6 +35,9 @@ msgid ""
 "of the UUID value which should be unique. In that case you can either "
 "disconnect one of the devices or reformat it."
 msgstr ""
+"Tämä johtuu yleensä laitteen levykuvan kloonaamisesta, mikä johtaa UUID-"
+"arvon kopiointiin, jonka pitäisi olla ainutlaatuinen. Siinä tapauksessa voit "
+"joko irrottaa yhden laitteista tai alustaa sen uudelleen."
 
 #: ../blivet/errors.py:217
 msgid ""
@@ -41,6 +45,9 @@ msgid ""
 "kernel is reporting partitions on. It is unclear what the exact problem is. "
 "Please file a bug at http://bugzilla.redhat.com"
 msgstr ""
+"Jostain syystä emme löytäneet levynimiötä levyltä, jonka ydin raportoi "
+"osioista. On epäselvää, mikä on tarkka ongelma. Lähetä vika osoitteessa "
+"https://bugzilla.redhat.com"
 
 #: ../blivet/errors.py:224
 msgid ""
@@ -48,6 +55,8 @@ msgid ""
 "completely.\n"
 "Hint: parted can restore it or wipefs can remove it."
 msgstr ""
+"Joko palauta levynimiö täysin toimintatilaan tai poista se kokonaan.\n"
+"Vihje: parted voi palauttaa sen tai wipefs voi poistaa sen."
 
 #: ../blivet/errors.py:230
 msgid ""
@@ -55,6 +64,9 @@ msgid ""
 "Hint 1: vgrename accepts UUID in place of the old name.\n"
 "Hint 2: You can get the VG UUIDs by running 'pvs -o +vg_uuid'."
 msgstr ""
+"Nimeä yksi taltioryhmistä niin, että nimet ovat erilliset.\n"
+"Vihje 1: vgrename hyväksyy UUID:n vanhan nimen sijasta.\n"
+"Vihje 2: Voit saada VG UUID:t suorittamalla 'pvs -o + vg_uuid'."
 
 #: ../blivet/fcoe.py:121
 msgid "FCoE not available"
@@ -162,7 +174,7 @@ msgstr "iSCSI-asiakaslaitteen nimeä ei voi vaihtaa, kun se on asetettu kerran"
 
 #: ../blivet/iscsi.py:219
 msgid "Must provide an iSCSI initiator name"
-msgstr "iSCSI-asiakaslaitteen nimi on annettava."
+msgstr "iSCSI-aloittajan nimi on annettava"
 
 #: ../blivet/iscsi.py:410
 msgid "iSCSI not available"
@@ -174,7 +186,7 @@ msgstr "Asiakaslaitteen nimeä ei ole asetettu"
 
 #: ../blivet/iscsi.py:530
 msgid "No iSCSI nodes discovered"
-msgstr ""
+msgstr "Ei iSCSI-solmuja löydetty"
 
 #: ../blivet/iscsi.py:550
 msgid "No new iSCSI nodes discovered"
@@ -182,20 +194,20 @@ msgstr "Uusi iSCSI-solmuja ei löytynyt"
 
 #: ../blivet/iscsi.py:553
 msgid "Could not log in to any of the discovered nodes"
-msgstr ""
+msgstr "Ei voitu kirjautua mihinkään löydettyihin solmuihin"
 
 #: ../blivet/partitioning.py:454
 msgid "unable to allocate aligned partition"
-msgstr ""
+msgstr "ei voi kohdistaa kohdistettua osiota"
 
 #: ../blivet/partitioning.py:462
 msgid "requested size exceeds maximum allowed"
-msgstr ""
+msgstr "pyydetty koko ylittää suurimman sallitun"
 
 #: ../blivet/partitioning.py:580
 #, python-format
 msgid "disk %s inaccessible"
-msgstr ""
+msgstr "levyä %s ei voi käyttää"
 
 #: ../blivet/partitioning.py:641
 #, python-format
@@ -203,6 +215,8 @@ msgid ""
 "partition is too small for %(format)s formatting (allowable size is "
 "%(min_size)s to %(max_size)s)"
 msgstr ""
+"osio on liian pieni %(format)s -muotoilulle (sallittu koko on %(min_size)s "
+"-%(max_size)s)"
 
 #: ../blivet/partitioning.py:646
 #, python-format
@@ -210,61 +224,63 @@ msgid ""
 "partition is too large for %(format)s formatting (allowable size is "
 "%(min_size)s to %(max_size)s)"
 msgstr ""
+"osio on liian iso %(format)s -muotoilulle (sallittu koko on %(min_size)s "
+"-%(max_size)s)"
 
 #: ../blivet/partitioning.py:962
 msgid "Unable to allocate requested partition scheme."
-msgstr ""
+msgstr "Pyydettyä osiointijärjestelmää ei voida allokoida."
 
 #: ../blivet/partitioning.py:997
 msgid "not enough free space after creating extended partition"
-msgstr ""
+msgstr "ei ole tarpeeksi vapaata tilaa laajennetun osion luomisen jälkeen"
 
 #: ../blivet/partitioning.py:1004
 msgid "failed to allocate aligned partition"
-msgstr ""
+msgstr "kohdistetun osion jakaminen epäonnistui"
 
 #: ../blivet/partitioning.py:1205
 msgid "cannot reclaim more than request has grown"
-msgstr ""
+msgstr "ei voi saada takaisin enempää kuin pyyntö on kasvanut"
 
 #: ../blivet/partitioning.py:1419
 msgid "DiskChunk requests must be of type PartitionRequest"
-msgstr ""
+msgstr "DiskChunk-pyyntöjen on oltava tyyppiä PartitionRequest"
 
 #: ../blivet/partitioning.py:1432
 msgid "partitions allocated outside disklabel limits"
-msgstr ""
+msgstr "levynimiön rajojen ulkopuolella varatut osiot"
 
 #: ../blivet/partitioning.py:1517
 msgid "VGChunk requests must be of type LVRequest"
-msgstr ""
+msgstr "VGChunk-pyyntöjen on oltava tyyppiä LVRequest"
 
 #. by now we have allocated the PVs so if there isn't enough
 #. space in the VG we have a real problem
 #: ../blivet/partitioning.py:2025
 msgid "not enough space for LVM requests"
-msgstr ""
+msgstr "ei tarpeeksi tilaa LVM-pyynnöille"
 
 #: ../blivet/deviceaction.py:194
 #, python-format
 msgid "Executing %(action)s"
-msgstr ""
+msgstr "Suoritetaan %(action)s"
 
 #: ../blivet/deviceaction.py:322
 msgid "create device"
-msgstr ""
+msgstr "luo laite"
 
 #: ../blivet/deviceaction.py:381
 msgid "destroy device"
-msgstr ""
+msgstr "tuhoa laite"
 
 #: ../blivet/deviceaction.py:484
 msgid "resize device"
-msgstr ""
+msgstr "Muuta laitteen kokoa"
 
 #: ../blivet/deviceaction.py:573
 msgid "create format"
-msgstr ""
+msgstr "luo alusta"
 
 #: ../blivet/deviceaction.py:613
 #, python-format
@@ -274,46 +290,46 @@ msgstr "Luodaan %(type)s-tyyppistä tiedostojärjestelmää laitteelle %(device)
 #: ../blivet/deviceaction.py:640
 #, python-format
 msgid "Not enough entropy to create LUKS format. %d bits are needed."
-msgstr ""
+msgstr "Ei tarpeeksi entropiaa LUKS-muodon luomiseen. %d bittiä tarvitaan."
 
 #: ../blivet/deviceaction.py:670
 #, python-format
 msgid "Created %(type)s on %(device)s"
-msgstr ""
+msgstr "Luotu %(type)s %(device)s:een"
 
 #: ../blivet/deviceaction.py:717
 msgid "destroy format"
-msgstr ""
+msgstr "tuhoa alusta"
 
 #: ../blivet/deviceaction.py:830
 msgid "resize format"
-msgstr ""
+msgstr "Muuta alustan koko"
 
 #: ../blivet/deviceaction.py:869
 #, python-format
 msgid "Resizing filesystem on %(device)s"
-msgstr ""
+msgstr "Tiedostojärjestelmän koon muuttaminen %(device)s:lla"
 
 #: ../blivet/deviceaction.py:876
 #, python-format
 msgid "Resized filesystem on %(device)s"
-msgstr ""
+msgstr "Tiedostojärjestelmän koon muutettu %(device)s:lla"
 
 #: ../blivet/deviceaction.py:923
 msgid "add container member"
-msgstr ""
+msgstr "lisää kontin jäsen"
 
 #: ../blivet/deviceaction.py:988
 msgid "remove container member"
-msgstr ""
+msgstr "poista kontin jäsen"
 
 #: ../blivet/deviceaction.py:1058
 msgid "configure format"
-msgstr ""
+msgstr "Määritä muoto"
 
 #: ../blivet/deviceaction.py:1114
 msgid "configure device"
-msgstr ""
+msgstr "määritä laite"
 
 #: ../blivet/devices/raid.py:58
 #, python-format
@@ -324,17 +340,24 @@ msgid_plural ""
 "RAID level %(raid_level)s requires that device have at least %(min_members)d "
 "members."
 msgstr[0] ""
+"RAID-taso %(raid_level)s edellyttää, että laitteella on vähintään "
+"%(min_members)d jäsen."
+msgstr[1] ""
+"RAID-taso %(raid_level)s edellyttää, että laitteella on vähintään "
+"%(min_members)d jäsentä."
 
 #: ../blivet/devices/raid.py:79
 #, python-format
 msgid ""
 "RAID level %(raid_level)s is an invalid value. Must be one of (%(levels)s)."
 msgstr ""
+"RAID-taso %(raid_level)s on virheellinen arvo. On oltava yksi "
+"(%(levels)s):sta."
 
 #: ../blivet/devices/raid.py:104
 #, python-format
 msgid "Cannot remove a member from existing %s array"
-msgstr ""
+msgstr "Jäsentä ei voi poistaa olemassa olevasta %s taulukosta"
 
 #: ../blivet/formats/fs.py:932
 msgid "EFI System Partition"
@@ -342,19 +365,19 @@ msgstr "EFI-järjestelmäosio"
 
 #: ../blivet/formats/fs.py:1137
 msgid "Apple Bootstrap"
-msgstr ""
+msgstr "Apple-alkukäynnistys"
 
 #: ../blivet/formats/fs.py:1173
 msgid "Linux HFS+ ESP"
-msgstr ""
+msgstr "Linux HFS+ ESP"
 
 #: ../blivet/formats/prepboot.py:37
 msgid "PPC PReP Boot"
-msgstr ""
+msgstr "PPC PReP-käynnistys"
 
 #: ../blivet/formats/luks.py:58
 msgid "LUKS"
-msgstr ""
+msgstr "LUKS"
 
 #: ../blivet/formats/luks.py:59
 msgid "Encrypted"
@@ -362,46 +385,46 @@ msgstr "Salattu"
 
 #: ../blivet/formats/luks.py:388
 msgid "DM Integrity"
-msgstr ""
+msgstr "DM-eheys"
 
 #: ../blivet/formats/__init__.py:148
 msgid "Unknown"
-msgstr ""
+msgstr "Tuntematon"
 
 #: ../blivet/formats/biosboot.py:35
 msgid "BIOS Boot"
-msgstr ""
+msgstr "BIOS-käynnistys"
 
 #: ../blivet/formats/dmraid.py:37
 msgid "dm-raid member device"
-msgstr ""
+msgstr "dm-raid -jäsenlaite"
 
 #: ../blivet/formats/disklabel.py:50
 msgid "partition table"
-msgstr ""
+msgstr "osiotaulukko"
 
 #. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition table"
 #: ../blivet/formats/disklabel.py:320
 #, python-format
 msgid "Unsupported %(name)s"
-msgstr ""
+msgstr "Ei tuettu %(name)s"
 
 #: ../blivet/formats/mdraid.py:43
 msgid "software RAID"
-msgstr ""
+msgstr "Ohjelmistopohjainen RAID"
 
 #: ../blivet/formats/multipath.py:40
 msgid "multipath member device"
-msgstr ""
+msgstr "monipoluinen jäsenlaite"
 
 #: ../blivet/formats/lvmpv.py:49
 msgid "physical volume (LVM)"
-msgstr ""
+msgstr "fyysinen taltio (LVM)"
 
 #: ../blivet/devicelibs/lvm.py:59
 msgid "Generic"
-msgstr ""
+msgstr "Yleinen"
 
 #: ../blivet/devicelibs/lvm.py:60
 msgid "Performance"
-msgstr ""
+msgstr "Suorituskyky"

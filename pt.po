@@ -8,21 +8,22 @@
 # Miguel Sousa <migueljorgesousa@sapo.pt>, 2012
 # Ricardo Pinto <ricardo.bigote@gmail.com>, 2011
 # Rui Gouveia <rui.gouveia@gmail.com>, 2011-2012
+# Pedro Flores <pedro_flores_16@hotmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
-"PO-Revision-Date: 2015-01-05 05:26+0000\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Portuguese (http://www.transifex.com/projects/p/blivet/"
-"language/pt/)\n"
+"PO-Revision-Date: 2021-03-14 17:01+0000\n"
+"Last-Translator: Pedro Flores <pedro_flores_16@hotmail.com>\n"
+"Language-Team: Portuguese <https://translate.fedoraproject.org/projects/"
+"blivet/blivet-master/pt/>\n"
 "Language: pt\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Zanata 4.6.2\n"
+"X-Generator: Weblate 4.5.1\n"
 
 #: ../blivet/errors.py:210
 msgid ""
@@ -30,6 +31,9 @@ msgid ""
 "of the UUID value which should be unique. In that case you can either "
 "disconnect one of the devices or reformat it."
 msgstr ""
+"Isto ocorre normalmente ao clonar a imagem do dispositivo que resulta na "
+"duplicação do valor UUID que deve ser único. Nesse caso pode desligar um dos "
+"dispositivos ou reformatá-lo."
 
 #: ../blivet/errors.py:217
 msgid ""
@@ -37,6 +41,9 @@ msgid ""
 "kernel is reporting partitions on. It is unclear what the exact problem is. "
 "Please file a bug at http://bugzilla.redhat.com"
 msgstr ""
+"Por alguma razão não fomos capazes de localizar uma etiqueta de disco num "
+"disco onde o kernel está a reportar partições em. Não é sabido qual é o "
+"problema exato. Por favor crie um bug em http://bugzilla.redhat.com"
 
 #: ../blivet/errors.py:224
 msgid ""
@@ -44,6 +51,9 @@ msgid ""
 "completely.\n"
 "Hint: parted can restore it or wipefs can remove it."
 msgstr ""
+"Ou restaure a etiqueta do disco para um estado funcional ou remova-a "
+"completamente.\n"
+"Dica: o parted pode restaurá-la ou o wipefs pode removê-la."
 
 #: ../blivet/errors.py:230
 msgid ""
@@ -51,6 +61,9 @@ msgid ""
 "Hint 1: vgrename accepts UUID in place of the old name.\n"
 "Hint 2: You can get the VG UUIDs by running 'pvs -o +vg_uuid'."
 msgstr ""
+"Renomeie um dos volumes de grupo para que os nomes sejam distintos.\n"
+"Dica 1: vgrename aceita UUID no lugar do nome antigo.\n"
+"Dica 2: Pode obter os UUIDs dos volumes de grupo ao correr 'pvs -o +vg_uuid'."
 
 #: ../blivet/fcoe.py:121
 msgid "FCoE not available"
@@ -177,7 +190,7 @@ msgstr "Nome do iniciador não configurado"
 
 #: ../blivet/iscsi.py:530
 msgid "No iSCSI nodes discovered"
-msgstr ""
+msgstr "Não foram encontrados novos nós iSCCI"
 
 #: ../blivet/iscsi.py:550
 msgid "No new iSCSI nodes discovered"
@@ -185,20 +198,20 @@ msgstr "Não foram encontrados novos nós iSCCI"
 
 #: ../blivet/iscsi.py:553
 msgid "Could not log in to any of the discovered nodes"
-msgstr ""
+msgstr "Não foi possível iniciar sessão em nenhum dos nós descobertos"
 
 #: ../blivet/partitioning.py:454
 msgid "unable to allocate aligned partition"
-msgstr ""
+msgstr "impossível alocar partição alinhada"
 
 #: ../blivet/partitioning.py:462
 msgid "requested size exceeds maximum allowed"
-msgstr ""
+msgstr "tamanho pedido excede o máximo permitido"
 
 #: ../blivet/partitioning.py:580
 #, python-format
 msgid "disk %s inaccessible"
-msgstr ""
+msgstr "disco %s inacessível"
 
 #: ../blivet/partitioning.py:641
 #, python-format
@@ -206,6 +219,8 @@ msgid ""
 "partition is too small for %(format)s formatting (allowable size is "
 "%(min_size)s to %(max_size)s)"
 msgstr ""
+"a partição é pequena demais para o formato %(format)s (o tamanho permitido é "
+"%(min_size)s a %(max_size)s)"
 
 #: ../blivet/partitioning.py:646
 #, python-format
@@ -213,61 +228,63 @@ msgid ""
 "partition is too large for %(format)s formatting (allowable size is "
 "%(min_size)s to %(max_size)s)"
 msgstr ""
+"a partição é grande demais para o formato %(format)s (o tamanho permitido é "
+"%(min_size)s a %(max_size)s)"
 
 #: ../blivet/partitioning.py:962
 msgid "Unable to allocate requested partition scheme."
-msgstr ""
+msgstr "Impossível alocar o esquema de partições pedido."
 
 #: ../blivet/partitioning.py:997
 msgid "not enough free space after creating extended partition"
-msgstr ""
+msgstr "não há espaço livre suficiente após a criação da partição estendida"
 
 #: ../blivet/partitioning.py:1004
 msgid "failed to allocate aligned partition"
-msgstr ""
+msgstr "falhou a alocação da partição alinhada"
 
 #: ../blivet/partitioning.py:1205
 msgid "cannot reclaim more than request has grown"
-msgstr ""
+msgstr "não é possível reclamar mais do que o pedido cresceu"
 
 #: ../blivet/partitioning.py:1419
 msgid "DiskChunk requests must be of type PartitionRequest"
-msgstr ""
+msgstr "Pedidos DiskChunk devem ser do tipo PartitionRequest"
 
 #: ../blivet/partitioning.py:1432
 msgid "partitions allocated outside disklabel limits"
-msgstr ""
+msgstr "partições alocadas fora dos limites da etiqueta de disco"
 
 #: ../blivet/partitioning.py:1517
 msgid "VGChunk requests must be of type LVRequest"
-msgstr ""
+msgstr "Pedidos VGChunk devem ser do tipo LVRequest"
 
 #. by now we have allocated the PVs so if there isn't enough
 #. space in the VG we have a real problem
 #: ../blivet/partitioning.py:2025
 msgid "not enough space for LVM requests"
-msgstr ""
+msgstr "não há espaço suficiente para pedidos LVM"
 
 #: ../blivet/deviceaction.py:194
 #, python-format
 msgid "Executing %(action)s"
-msgstr ""
+msgstr "A executar %(action)s"
 
 #: ../blivet/deviceaction.py:322
 msgid "create device"
-msgstr ""
+msgstr "criar dispositivo"
 
 #: ../blivet/deviceaction.py:381
 msgid "destroy device"
-msgstr ""
+msgstr "destruir dispositivo"
 
 #: ../blivet/deviceaction.py:484
 msgid "resize device"
-msgstr ""
+msgstr "redimensionar dispositivo"
 
 #: ../blivet/deviceaction.py:573
 msgid "create format"
-msgstr ""
+msgstr "criar formato"
 
 #: ../blivet/deviceaction.py:613
 #, python-format
@@ -277,46 +294,46 @@ msgstr "A criar %(type)s em %(device)s"
 #: ../blivet/deviceaction.py:640
 #, python-format
 msgid "Not enough entropy to create LUKS format. %d bits are needed."
-msgstr ""
+msgstr "Entropia insuficiente para criar formato LUKS. %d bits são necessários."
 
 #: ../blivet/deviceaction.py:670
 #, python-format
 msgid "Created %(type)s on %(device)s"
-msgstr ""
+msgstr "Criado %(type)s em %(device)s"
 
 #: ../blivet/deviceaction.py:717
 msgid "destroy format"
-msgstr ""
+msgstr "destruir formato"
 
 #: ../blivet/deviceaction.py:830
 msgid "resize format"
-msgstr ""
+msgstr "redimensionar formato"
 
 #: ../blivet/deviceaction.py:869
 #, python-format
 msgid "Resizing filesystem on %(device)s"
-msgstr ""
+msgstr "A redimensionar sistema de ficheiros em %(device)s"
 
 #: ../blivet/deviceaction.py:876
 #, python-format
 msgid "Resized filesystem on %(device)s"
-msgstr ""
+msgstr "Sistema de ficheiros redimensionado em %(device)s"
 
 #: ../blivet/deviceaction.py:923
 msgid "add container member"
-msgstr ""
+msgstr "adicionar membro do contentor"
 
 #: ../blivet/deviceaction.py:988
 msgid "remove container member"
-msgstr ""
+msgstr "remover membro do contentor"
 
 #: ../blivet/deviceaction.py:1058
 msgid "configure format"
-msgstr ""
+msgstr "configurar formato"
 
 #: ../blivet/deviceaction.py:1114
 msgid "configure device"
-msgstr ""
+msgstr "configurar dispositivo"
 
 #: ../blivet/devices/raid.py:58
 #, python-format
@@ -327,17 +344,24 @@ msgid_plural ""
 "RAID level %(raid_level)s requires that device have at least %(min_members)d "
 "members."
 msgstr[0] ""
+"Nível RAID %(raid_level)s requer que o dispositivo tenha pelo menos "
+"%(min_members)d membro."
+msgstr[1] ""
+"Nível RAID %(raid_level)s requer que o dispositivo tenha pelo menos "
+"%(min_members)d membros."
 
 #: ../blivet/devices/raid.py:79
 #, python-format
 msgid ""
 "RAID level %(raid_level)s is an invalid value. Must be one of (%(levels)s)."
 msgstr ""
+"Nível RAID %(raid_level)s é inválido. Tem que ser um dos seguintes "
+"(%(levels)s)."
 
 #: ../blivet/devices/raid.py:104
 #, python-format
 msgid "Cannot remove a member from existing %s array"
-msgstr ""
+msgstr "Não pode remover um membro de um array %s"
 
 #: ../blivet/formats/fs.py:932
 msgid "EFI System Partition"
@@ -345,19 +369,19 @@ msgstr "Partição do Sistema EFI"
 
 #: ../blivet/formats/fs.py:1137
 msgid "Apple Bootstrap"
-msgstr ""
+msgstr "Apple Bootstrap"
 
 #: ../blivet/formats/fs.py:1173
 msgid "Linux HFS+ ESP"
-msgstr ""
+msgstr "Linux HFS+ ESP"
 
 #: ../blivet/formats/prepboot.py:37
 msgid "PPC PReP Boot"
-msgstr ""
+msgstr "PPC PReP Boot"
 
 #: ../blivet/formats/luks.py:58
 msgid "LUKS"
-msgstr ""
+msgstr "LUKS"
 
 #: ../blivet/formats/luks.py:59
 msgid "Encrypted"
@@ -365,46 +389,46 @@ msgstr "Cifrado"
 
 #: ../blivet/formats/luks.py:388
 msgid "DM Integrity"
-msgstr ""
+msgstr "Integridade DM"
 
 #: ../blivet/formats/__init__.py:148
 msgid "Unknown"
-msgstr ""
+msgstr "Desconhecido"
 
 #: ../blivet/formats/biosboot.py:35
 msgid "BIOS Boot"
-msgstr ""
+msgstr "Arranque BIOS"
 
 #: ../blivet/formats/dmraid.py:37
 msgid "dm-raid member device"
-msgstr ""
+msgstr "dispositivo membro dm-raid"
 
 #: ../blivet/formats/disklabel.py:50
 msgid "partition table"
-msgstr ""
+msgstr "tabela de partições"
 
 #. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition table"
 #: ../blivet/formats/disklabel.py:320
 #, python-format
 msgid "Unsupported %(name)s"
-msgstr ""
+msgstr "%(name)s não suportado"
 
 #: ../blivet/formats/mdraid.py:43
 msgid "software RAID"
-msgstr ""
+msgstr "RAID por software"
 
 #: ../blivet/formats/multipath.py:40
 msgid "multipath member device"
-msgstr ""
+msgstr "dispositivo membro multicaminho"
 
 #: ../blivet/formats/lvmpv.py:49
 msgid "physical volume (LVM)"
-msgstr ""
+msgstr "volume físico (LVM)"
 
 #: ../blivet/devicelibs/lvm.py:59
 msgid "Generic"
-msgstr ""
+msgstr "Genérico"
 
 #: ../blivet/devicelibs/lvm.py:60
 msgid "Performance"
-msgstr ""
+msgstr "Desempenho"

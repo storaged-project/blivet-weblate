@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
-"PO-Revision-Date: 2021-03-08 20:01+0000\n"
+"PO-Revision-Date: 2021-03-27 04:01+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-master/ko/>\n"
@@ -343,7 +343,7 @@ msgstr[0] "RAID 레벨 %(raid_level)s에는 최소 %(min_members)d개의 장치 
 #, python-format
 msgid ""
 "RAID level %(raid_level)s is an invalid value. Must be one of (%(levels)s)."
-msgstr "RAID 레벨 %(raid_level)s이/가 유효한 값이 아닙니다. (%(levels)s) 중 하나여야 합니다."
+msgstr "레이드 수준(level) %(raid_level)s이 유효한 값이 아닙니다. (%(levels)s) 중 하나여야 합니다."
 
 #: ../blivet/devices/raid.py:104
 #, python-format

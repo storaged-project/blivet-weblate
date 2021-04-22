@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
-"PO-Revision-Date: 2021-03-27 04:01+0000\n"
+"PO-Revision-Date: 2021-04-22 15:02+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-master/ko/>\n"
@@ -31,7 +31,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.5.1\n"
+"X-Generator: Weblate 4.6\n"
 
 #: ../blivet/errors.py:210
 msgid ""
@@ -39,8 +39,8 @@ msgid ""
 "of the UUID value which should be unique. In that case you can either "
 "disconnect one of the devices or reformat it."
 msgstr ""
-"이는 독특한 UUID 값을 복제하는 결과로 장치 이미지를 복제하여 발생합니다. 이와 같은 경우에 장치 중의 하나를 끊거나 재구성 할 수 "
-"있습니다."
+"이는 일반적으로 고유한 UUID 값을 중복하는 결과로 장치 이미지 복제로 인해 발생합니다. 이와 같은 경우에 장치 중의 하나를 끊거나 "
+"재구성 할 수 있습니다."
 
 #: ../blivet/errors.py:217
 msgid ""
@@ -48,8 +48,8 @@ msgid ""
 "kernel is reporting partitions on. It is unclear what the exact problem is. "
 "Please file a bug at http://bugzilla.redhat.com"
 msgstr ""
-"일부 이유로 커널이 파티션 설정을 보고하는 디스크에 디스크 레이블을 배치할 수 없습니다. 정확한 문제가 무엇인지 알 수 없습니다. "
-"http://bugzilla.redhat.com에 버그 리포트를 제출해 주십시오"
+"일부 이유로 커널이 파티션 설정을 보고하는 디스크에 디스크 레이블을 배치 할 수 없습니다. 정확한 문제가 무엇인지 알 수 없습니다. "
+"http://bugzilla.redhat.com에 결점(bug) 보고서를 제출해 주십시오"
 
 #: ../blivet/errors.py:224
 msgid ""
@@ -57,7 +57,7 @@ msgid ""
 "completely.\n"
 "Hint: parted can restore it or wipefs can remove it."
 msgstr ""
-"디스크 레이블을 완전히 작동하는 상태로 복원하거나 완전히 제거합니다.\n"
+"디스크 이름표를 완전히 작동하는 상태로 복원하거나 완전히 제거합니다.\n"
 "힌트: parted로 이를 복원하거나 wipefs로 완전히 제거합니다."
 
 #: ../blivet/errors.py:230
@@ -360,7 +360,7 @@ msgstr "Apple 부트스트랩"
 
 #: ../blivet/formats/fs.py:1173
 msgid "Linux HFS+ ESP"
-msgstr "리눅스 HFS+ ESP"
+msgstr "Linux HFS+ ESP"
 
 #: ../blivet/formats/prepboot.py:37
 msgid "PPC PReP Boot"

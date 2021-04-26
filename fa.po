@@ -15,21 +15,22 @@
 # Morteza Adi <mortezaadi@gmail.com>, 2012
 # Noori <nanopqr@gmail.com>, 2011
 # Roozbeh Pournader <roozbeh@farsiweb.info>, 2005-2006
+# Amirerfan Rafati <erfan.rafati@outlook.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
-"PO-Revision-Date: 2015-01-05 05:26+0000\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Persian (http://www.transifex.com/projects/p/blivet/language/"
-"fa/)\n"
+"PO-Revision-Date: 2021-04-26 05:02+0000\n"
+"Last-Translator: Amirerfan Rafati <erfan.rafati@outlook.com>\n"
+"Language-Team: Persian <https://translate.fedoraproject.org/projects/blivet/"
+"blivet-master/fa/>\n"
 "Language: fa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Zanata 4.6.2\n"
+"X-Generator: Weblate 4.6\n"
 
 #: ../blivet/errors.py:210
 msgid ""
@@ -37,6 +38,9 @@ msgid ""
 "of the UUID value which should be unique. In that case you can either "
 "disconnect one of the devices or reformat it."
 msgstr ""
+"این اتفاق معمولا در اثر کلون کردن ایمیج یک دستگاه رخ می‌دهد و سبب می‌شود "
+"UUID‌ها که باید یکتا باشند، تکراری شوند. در این صورت شما می‌توانید یکی از "
+"دستگاه‌های را جدا کنید یا آن را فرمت کنید."
 
 #: ../blivet/errors.py:217
 msgid ""
@@ -61,11 +65,11 @@ msgstr ""
 
 #: ../blivet/fcoe.py:121
 msgid "FCoE not available"
-msgstr "FCoE  موجود نیست"
+msgstr "FCoE موجود نیست"
 
 #: ../blivet/zfcp.py:62
 msgid "You have not specified a device number or the number is invalid"
-msgstr "شمارهٔ دستگاهی مشخص نکرده‌اید یا شماره معتبر نیست."
+msgstr "شمارهٔ دستگاهی مشخص نکرده‌اید یا شماره معتبر نیست"
 
 #: ../blivet/zfcp.py:64
 msgid "You have not specified a worldwide port name or the name is invalid."
@@ -78,7 +82,7 @@ msgstr "شمارهٔ قطعهٔ منطقی FCP را مشخص نکرده‌اید
 #: ../blivet/zfcp.py:91
 #, python-format
 msgid "zFCP device %s not found, not even in device ignore list."
-msgstr "وسیله ی zFCP %s یافت نشد، حتی در لیست ابزار نادیده گرفته شده"
+msgstr "وسیله ی zFCP %s یافت نشد، حتی در لیست ابزار نادیده گرفته شده."
 
 #: ../blivet/zfcp.py:101
 #, python-format
@@ -88,8 +92,7 @@ msgstr "نمی توان وسیله ی zFCP %(devnum)s online (%(e)s) تنظیم 
 #: ../blivet/zfcp.py:112
 #, python-format
 msgid "Could not add WWPN %(wwpn)s to zFCP device %(devnum)s (%(e)s)."
-msgstr ""
-"نمی تواند WWPN %(wwpn)s  به وسیله ی zFCP  %(devnum)s (%(e)s) اضافه کند."
+msgstr "نمی تواند WWPN %(wwpn)s به وسیله ی zFCP %(devnum)s (%(e)s) اضافه کند."
 
 #. newer zfcp sysfs interface with auto port scan
 #: ../blivet/zfcp.py:119
@@ -103,15 +106,15 @@ msgid ""
 "Could not add LUN %(fcplun)s to WWPN %(wwpn)s on zFCP device %(devnum)s "
 "(%(e)s)."
 msgstr ""
-"نمی تواند LUN %(fcplun)s  به WWPN %(wwpn)s در وسیله ی zFCP اضافه کند "
-"%(devnum)s (%(e)s)."
+"نمی تواند LUN %(fcplun)s به WWPN %(wwpn)s در وسیله ی zFCP اضافه کند %(devnum)"
+"s (%(e)s)."
 
 #: ../blivet/zfcp.py:140
 #, python-format
 msgid ""
 "LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already configured."
 msgstr ""
-"LUN %(fcplun)s در WWPN %(wwpn)s بر روی وسیله ی zFCP  %(devnum)s از قبل پیکره "
+"LUN %(fcplun)s در WWPN %(wwpn)s بر روی وسیله ی zFCP %(devnum)s از قبل پیکره "
 "بندی شده است."
 
 #: ../blivet/zfcp.py:152
@@ -153,7 +156,7 @@ msgstr ""
 #: ../blivet/zfcp.py:245
 #, python-format
 msgid "Could not remove WWPN %(wwpn)s on zFCP device %(devnum)s (%(e)s)."
-msgstr "نمی توان WWPN %(wwpn)s را از وسیله zFCP %(devnum)s (%(e)s) برداشت"
+msgstr "نمی توان WWPN %(wwpn)s را از وسیله zFCP %(devnum)s (%(e)s) برداشت."
 
 #: ../blivet/zfcp.py:271
 #, python-format
@@ -166,7 +169,7 @@ msgstr "قادر به تغییر نام آغازگر iSCSI تنظیم نیست"
 
 #: ../blivet/iscsi.py:219
 msgid "Must provide an iSCSI initiator name"
-msgstr "باید نام یک آغازگر iSCSI را وارد کنید."
+msgstr "باید نام یک آغازگر iSCSI را وارد کنید"
 
 #: ../blivet/iscsi.py:410
 msgid "iSCSI not available"
@@ -178,7 +181,7 @@ msgstr "هیچ نام آغازگری تنطیم نشد"
 
 #: ../blivet/iscsi.py:530
 msgid "No iSCSI nodes discovered"
-msgstr ""
+msgstr "هیچ گره iSCSI یافت نشد"
 
 #: ../blivet/iscsi.py:550
 msgid "No new iSCSI nodes discovered"
@@ -186,7 +189,7 @@ msgstr "هیچ گره iSCSI جدیدی یافت نشد"
 
 #: ../blivet/iscsi.py:553
 msgid "Could not log in to any of the discovered nodes"
-msgstr ""
+msgstr "قادر به لاگین کردن به هیچ یک از گره‌های یافت شده نیستیم"
 
 #: ../blivet/partitioning.py:454
 msgid "unable to allocate aligned partition"
@@ -194,12 +197,12 @@ msgstr ""
 
 #: ../blivet/partitioning.py:462
 msgid "requested size exceeds maximum allowed"
-msgstr ""
+msgstr "اندازه درخواستی از اندازه بیشینه مجاز بیشتر است"
 
 #: ../blivet/partitioning.py:580
 #, python-format
 msgid "disk %s inaccessible"
-msgstr ""
+msgstr "دیسک %s در دسترس نیست"
 
 #: ../blivet/partitioning.py:641
 #, python-format
@@ -207,6 +210,8 @@ msgid ""
 "partition is too small for %(format)s formatting (allowable size is "
 "%(min_size)s to %(max_size)s)"
 msgstr ""
+"بخش برای فرمت %(format)s بسیار کوچک است (اندازه مجاز از %(min_size)s تا "
+"%(max_size)s است)"
 
 #: ../blivet/partitioning.py:646
 #, python-format
@@ -214,6 +219,8 @@ msgid ""
 "partition is too large for %(format)s formatting (allowable size is "
 "%(min_size)s to %(max_size)s)"
 msgstr ""
+"بخش برای فرمت %(format)s بسیار بزرگ است (اندازه مجاز از %(min_size)s تا "
+"%(max_size)s است)"
 
 #: ../blivet/partitioning.py:962
 msgid "Unable to allocate requested partition scheme."
@@ -247,16 +254,16 @@ msgstr ""
 #. space in the VG we have a real problem
 #: ../blivet/partitioning.py:2025
 msgid "not enough space for LVM requests"
-msgstr ""
+msgstr "فضای کافی برای درخواست‌های LVM وجود ندارد"
 
 #: ../blivet/deviceaction.py:194
 #, python-format
 msgid "Executing %(action)s"
-msgstr ""
+msgstr "در حال اجرای %(action)s"
 
 #: ../blivet/deviceaction.py:322
 msgid "create device"
-msgstr ""
+msgstr "ساخت دستگاه"
 
 #: ../blivet/deviceaction.py:381
 msgid "destroy device"
@@ -264,11 +271,11 @@ msgstr ""
 
 #: ../blivet/deviceaction.py:484
 msgid "resize device"
-msgstr ""
+msgstr "تغییر اندازه دستگاه"
 
 #: ../blivet/deviceaction.py:573
 msgid "create format"
-msgstr ""
+msgstr "ساخت فرمت"
 
 #: ../blivet/deviceaction.py:613
 #, python-format
@@ -283,25 +290,25 @@ msgstr ""
 #: ../blivet/deviceaction.py:670
 #, python-format
 msgid "Created %(type)s on %(device)s"
-msgstr ""
+msgstr "%(type)s روی %(device)s ساخته شد"
 
 #: ../blivet/deviceaction.py:717
 msgid "destroy format"
-msgstr ""
+msgstr "حذف فرمت"
 
 #: ../blivet/deviceaction.py:830
 msgid "resize format"
-msgstr ""
+msgstr "تغییر اندازه فرمت"
 
 #: ../blivet/deviceaction.py:869
 #, python-format
 msgid "Resizing filesystem on %(device)s"
-msgstr ""
+msgstr "در حال تغییر اندازه فایل سیستم بر %(device)s"
 
 #: ../blivet/deviceaction.py:876
 #, python-format
 msgid "Resized filesystem on %(device)s"
-msgstr ""
+msgstr "اندازه فایل سیستم روی %(device)s تغییر کرد"
 
 #: ../blivet/deviceaction.py:923
 msgid "add container member"
@@ -313,11 +320,11 @@ msgstr ""
 
 #: ../blivet/deviceaction.py:1058
 msgid "configure format"
-msgstr ""
+msgstr "تنظیم فرمت"
 
 #: ../blivet/deviceaction.py:1114
 msgid "configure device"
-msgstr ""
+msgstr "تنظیم دستگاه"
 
 #: ../blivet/devices/raid.py:58
 #, python-format
@@ -328,12 +335,13 @@ msgid_plural ""
 "RAID level %(raid_level)s requires that device have at least %(min_members)d "
 "members."
 msgstr[0] ""
+"RAID سطح %(raid_level)s نیاز به دستگاهی با حداقل %(min_members)d عضو دارد."
 
 #: ../blivet/devices/raid.py:79
 #, python-format
 msgid ""
 "RAID level %(raid_level)s is an invalid value. Must be one of (%(levels)s)."
-msgstr ""
+msgstr "RAID سطح %(raid_level)s نامعتبر است. باید یکی ازسطوح (%(levels)s) باشد."
 
 #: ../blivet/devices/raid.py:104
 #, python-format
@@ -358,7 +366,7 @@ msgstr ""
 
 #: ../blivet/formats/luks.py:58
 msgid "LUKS"
-msgstr ""
+msgstr "LUKS"
 
 #: ../blivet/formats/luks.py:59
 msgid "Encrypted"
@@ -370,7 +378,7 @@ msgstr ""
 
 #: ../blivet/formats/__init__.py:148
 msgid "Unknown"
-msgstr ""
+msgstr "ناشناخته"
 
 #: ../blivet/formats/biosboot.py:35
 msgid "BIOS Boot"
@@ -392,7 +400,7 @@ msgstr ""
 
 #: ../blivet/formats/mdraid.py:43
 msgid "software RAID"
-msgstr ""
+msgstr "RAID نرم‌افزاری"
 
 #: ../blivet/formats/multipath.py:40
 msgid "multipath member device"

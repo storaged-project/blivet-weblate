@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
-"PO-Revision-Date: 2021-04-22 15:02+0000\n"
+"PO-Revision-Date: 2021-04-29 10:02+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-master/ko/>\n"
@@ -360,7 +360,7 @@ msgstr "Apple 부트스트랩"
 
 #: ../blivet/formats/fs.py:1173
 msgid "Linux HFS+ ESP"
-msgstr "Linux HFS+ ESP"
+msgstr "리눅스 HFS+ ESP"
 
 #: ../blivet/formats/prepboot.py:37
 msgid "PPC PReP Boot"

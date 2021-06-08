@@ -12,13 +12,14 @@
 # Nana Suryana <nana@suryana.or.id>, 2011-2012
 # Teguh Dwicaksana <dheche@songolimo.net>, 2004
 # Teguh Dwicaksana <dheche@songolimo.net>, 2011
+# Arman Arisman <arman.wu@gmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
-"PO-Revision-Date: 2020-12-29 12:36+0000\n"
-"Last-Translator: Andika Triwidada <andika@gmail.com>\n"
+"PO-Revision-Date: 2021-06-08 10:04+0000\n"
+"Last-Translator: Arman Arisman <arman.wu@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/"
 "blivet/blivet-master/id/>\n"
 "Language: id\n"
@@ -26,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.4\n"
+"X-Generator: Weblate 4.6.2\n"
 
 #: ../blivet/errors.py:210
 msgid ""
@@ -49,24 +50,23 @@ msgstr ""
 "tepatnya. Harap laporkan bug pada http://bugzilla.redhat.com"
 
 #: ../blivet/errors.py:224
-#, fuzzy
 msgid ""
 "Either restore the disklabel to a completely working state or remove it "
 "completely.\n"
 "Hint: parted can restore it or wipefs can remove it."
 msgstr ""
-"Pulihkan disklabel ke keadaan yang berfungsi total atau hapus sepenuhnya.\n"
-"Petunjuk: berpisah dapat memulihkannya atau wipef dapat menghapusnya."
+"Pulihkan disklabel ke keadaan yang sepenuhnya berfungsi atau hapus "
+"menyeluruh.\n"
+"Petunjuk: parted untuk memulihkan atau wipefs untuk menghapus."
 
 #: ../blivet/errors.py:230
-#, fuzzy
 msgid ""
 "Rename one of the volume groups so the names are distinct.\n"
 "Hint 1: vgrename accepts UUID in place of the old name.\n"
 "Hint 2: You can get the VG UUIDs by running 'pvs -o +vg_uuid'."
 msgstr ""
-"Ganti nama salah satu grup volume sehingga nama berbeda.\n"
-"Petunjuk 1: vgrename menerima UUID menggantikan nama lama.\n"
+"Ganti nama salah satu grup volume sehingga namanya berbeda.\n"
+"Petunjuk 1: vgrename menerima UUID sebagai pengganti nama lama.\n"
 "Petunjuk 2: Anda bisa mendapatkan UUID VG dengan menjalankan 'pvs -o "
 "+vg_uuid'."
 
@@ -190,33 +190,29 @@ msgid "No initiator name set"
 msgstr "Tidak ada nama inisiator mengatur"
 
 #: ../blivet/iscsi.py:530
-#, fuzzy
 msgid "No iSCSI nodes discovered"
-msgstr "Tidak ada node iSCSI yang ditemukan"
+msgstr "Tidak ada iSCSI nodes yang ditemukan"
 
 #: ../blivet/iscsi.py:550
 msgid "No new iSCSI nodes discovered"
 msgstr "Tidak ada node iSCSI baru yang ditemukan"
 
 #: ../blivet/iscsi.py:553
-#, fuzzy
 msgid "Could not log in to any of the discovered nodes"
-msgstr "Tak bisa log-masuk ke salah satu node yang ditemukan"
+msgstr "Tidak bisa log in ke salah satu node yang ditemukan"
 
 #: ../blivet/partitioning.py:454
-#, fuzzy
 msgid "unable to allocate aligned partition"
-msgstr "tidak dapat mengalokasikan partisi rata"
+msgstr "tidak dapat mengalokasikan aligned partition"
 
 #: ../blivet/partitioning.py:462
-#, fuzzy
 msgid "requested size exceeds maximum allowed"
-msgstr "ukuran yang diminta melebihi maksimum yang diperbolehkan"
+msgstr "ukuran yang diminta melebihi ukuran maksimum yang diperbolehkan"
 
 #: ../blivet/partitioning.py:580
-#, fuzzy, python-format
+#, python-format
 msgid "disk %s inaccessible"
-msgstr "cakram %s dapat diakses"
+msgstr "disk %s tidak dapat diakses"
 
 #: ../blivet/partitioning.py:641
 #, python-format
@@ -228,7 +224,7 @@ msgstr ""
 "diperbolehkan adalah %(min_size)s sampai %(max_size)s)"
 
 #: ../blivet/partitioning.py:646
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "partition is too large for %(format)s formatting (allowable size is "
 "%(min_size)s to %(max_size)s)"
@@ -237,44 +233,36 @@ msgstr ""
 "diperbolehkan adalah %(min_size)s ke %(max_size)s)"
 
 #: ../blivet/partitioning.py:962
-#, fuzzy
 msgid "Unable to allocate requested partition scheme."
-msgstr "Tak bisa mengalokasikan skema partisi yang diminta."
+msgstr "Tidak bisa mengalokasikan skema partisi yang diminta."
 
 #: ../blivet/partitioning.py:997
-#, fuzzy
 msgid "not enough free space after creating extended partition"
 msgstr "tidak cukup ruang kosong setelah membuat partisi extended"
 
 #: ../blivet/partitioning.py:1004
-#, fuzzy
 msgid "failed to allocate aligned partition"
-msgstr "gagal mengalokasikan partisi aligned"
+msgstr "gagal mengalokasikan aligned partition"
 
 #: ../blivet/partitioning.py:1205
-#, fuzzy
 msgid "cannot reclaim more than request has grown"
-msgstr "tidak dapat mengklaim kembali lebih dari permintaan telah tumbuh"
+msgstr "tidak dapat mengklaim kembali lebih dari permintaan telah ada"
 
 #: ../blivet/partitioning.py:1419
-#, fuzzy
 msgid "DiskChunk requests must be of type PartitionRequest"
-msgstr "Permintaan DiskChunk harus dari tipe PartitionRequest"
+msgstr "Permintaan DiskChunk diharuskan dari tipe PartitionRequest"
 
 #: ../blivet/partitioning.py:1432
-#, fuzzy
 msgid "partitions allocated outside disklabel limits"
 msgstr "partisi dialokasikan di luar batas disklabel"
 
 #: ../blivet/partitioning.py:1517
-#, fuzzy
 msgid "VGChunk requests must be of type LVRequest"
 msgstr "Permintaan VGChunk harus tipe LVRequest"
 
 #. by now we have allocated the PVs so if there isn't enough
 #. space in the VG we have a real problem
 #: ../blivet/partitioning.py:2025
-#, fuzzy
 msgid "not enough space for LVM requests"
 msgstr "tidak cukup ruang untuk permintaan LVM"
 
@@ -284,24 +272,20 @@ msgid "Executing %(action)s"
 msgstr "Mengeksekusi %(action)s"
 
 #: ../blivet/deviceaction.py:322
-#, fuzzy
 msgid "create device"
-msgstr "buat perangkat"
+msgstr "membuat perangkat"
 
 #: ../blivet/deviceaction.py:381
-#, fuzzy
 msgid "destroy device"
-msgstr "hancurkan perangkat"
+msgstr "menghancurkan perangkat"
 
 #: ../blivet/deviceaction.py:484
-#, fuzzy
 msgid "resize device"
 msgstr "mengubah ukuran perangkat"
 
 #: ../blivet/deviceaction.py:573
-#, fuzzy
 msgid "create format"
-msgstr "buat format"
+msgstr "membuat format"
 
 #: ../blivet/deviceaction.py:613
 #, python-format
@@ -309,7 +293,7 @@ msgid "Creating %(type)s on %(device)s"
 msgstr "Membuat %(type)s pada %(device)s"
 
 #: ../blivet/deviceaction.py:640
-#, fuzzy, python-format
+#, python-format
 msgid "Not enough entropy to create LUKS format. %d bits are needed."
 msgstr "Tidak cukup entropi untuk membuat format LUKS. %d bit diperlukan."
 
@@ -319,12 +303,10 @@ msgid "Created %(type)s on %(device)s"
 msgstr "Dibuat %(type)s pada %(device)s"
 
 #: ../blivet/deviceaction.py:717
-#, fuzzy
 msgid "destroy format"
-msgstr "hancurkan format"
+msgstr "menghancurkan format"
 
 #: ../blivet/deviceaction.py:830
-#, fuzzy
 msgid "resize format"
 msgstr "mengubah ukuran format"
 
@@ -339,27 +321,23 @@ msgid "Resized filesystem on %(device)s"
 msgstr "Sistem berkas diubah ukuran pada %(device)s"
 
 #: ../blivet/deviceaction.py:923
-#, fuzzy
 msgid "add container member"
-msgstr "tambahkan anggota kontainer"
+msgstr "menambahkan anggota kontainer"
 
 #: ../blivet/deviceaction.py:988
-#, fuzzy
 msgid "remove container member"
-msgstr "hapus anggota kontainer"
+msgstr "menghapus anggota kontainer"
 
 #: ../blivet/deviceaction.py:1058
-#, fuzzy
 msgid "configure format"
-msgstr "konfigurasi format"
+msgstr "mengkonfigurasi format"
 
 #: ../blivet/deviceaction.py:1114
-#, fuzzy
 msgid "configure device"
-msgstr "konfigurasi perangkat"
+msgstr "mengkonfigurasi perangkat"
 
 #: ../blivet/devices/raid.py:58
-#, fuzzy, python-format
+#, python-format
 msgid ""
 "RAID level %(raid_level)s requires that device have at least %(min_members)d "
 "member."
@@ -367,8 +345,8 @@ msgid_plural ""
 "RAID level %(raid_level)s requires that device have at least %(min_members)d "
 "members."
 msgstr[0] ""
-"Tingkat RAID %(raid_level)s mensyi mengharuskan perangkat memiliki "
-"setidaknya %(min_members)d anggota."
+"Tingkat RAID %(raid_level)s mengharuskan perangkat memiliki setidaknya "
+"%(min_members)d anggota."
 
 #: ../blivet/devices/raid.py:79
 #, python-format
@@ -379,9 +357,9 @@ msgstr ""
 "dari (%(levels)s)."
 
 #: ../blivet/devices/raid.py:104
-#, fuzzy, python-format
+#, python-format
 msgid "Cannot remove a member from existing %s array"
-msgstr "Tak bisa menghapus anggota dari array %s yang sudah ada"
+msgstr "Tidak bisa menghapus anggota dari array %s yang sudah ada"
 
 #: ../blivet/formats/fs.py:932
 msgid "EFI System Partition"
@@ -408,27 +386,22 @@ msgid "Encrypted"
 msgstr "Enkripsi"
 
 #: ../blivet/formats/luks.py:388
-#, fuzzy
 msgid "DM Integrity"
 msgstr "Integritas DM"
 
 #: ../blivet/formats/__init__.py:148
-#, fuzzy
 msgid "Unknown"
-msgstr "Tak Dikenal"
+msgstr "Tidak Dikenal"
 
 #: ../blivet/formats/biosboot.py:35
-#, fuzzy
 msgid "BIOS Boot"
 msgstr "BIOS Boot"
 
 #: ../blivet/formats/dmraid.py:37
-#, fuzzy
 msgid "dm-raid member device"
 msgstr "perangkat anggota dm-raid"
 
 #: ../blivet/formats/disklabel.py:50
-#, fuzzy
 msgid "partition table"
 msgstr "tabel partisi"
 
@@ -439,22 +412,18 @@ msgid "Unsupported %(name)s"
 msgstr "%(name)s yang tidak didukung"
 
 #: ../blivet/formats/mdraid.py:43
-#, fuzzy
 msgid "software RAID"
 msgstr "RAID Perangkat Lunak"
 
 #: ../blivet/formats/multipath.py:40
-#, fuzzy
 msgid "multipath member device"
-msgstr "perangkat anggota multipath"
+msgstr "perangkat multipath member"
 
 #: ../blivet/formats/lvmpv.py:49
-#, fuzzy
 msgid "physical volume (LVM)"
 msgstr "volume fisik (LVM)"
 
 #: ../blivet/devicelibs/lvm.py:59
-#, fuzzy
 msgid "Generic"
 msgstr "Generik"
 

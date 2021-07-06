@@ -31,16 +31,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
-"PO-Revision-Date: 2018-08-22 08:54+0000\n"
-"Last-Translator: Máximo Castañeda Riloba <mcrcctm@gmail.com>\n"
-"Language-Team: Spanish (http://www.transifex.com/projects/p/blivet/language/"
-"es/)\n"
+"PO-Revision-Date: 2021-07-07 23:04+0000\n"
+"Last-Translator: Emilio Herrera <ehespinosa57@gmail.com>\n"
+"Language-Team: Spanish <https://translate.fedoraproject.org/projects/blivet/"
+"blivet-rhel8/es/>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.7.1\n"
 
 #: ../blivet/errors.py:210
 msgid ""
@@ -48,6 +48,9 @@ msgid ""
 "of the UUID value which should be unique. In that case you can either "
 "disconnect one of the devices or reformat it."
 msgstr ""
+"Esto a menudo lo provoca la clonación de la imagen del dispositivo, lo cual "
+"duplica el valor de UUID, que debe ser único. En ese caso, puede desconectar "
+"uno de los dispositivos o reformatearlo."
 
 #: ../blivet/errors.py:217
 msgid ""
@@ -108,7 +111,7 @@ msgstr ""
 #: ../blivet/zfcp.py:101
 #, python-format
 msgid "Could not set zFCP device %(devnum)s online (%(e)s)."
-msgstr "No se pudo establecer al dispositivo zFCP %(devnum)s en línea (%(e)s)"
+msgstr "No se pudo establecer al dispositivo zFCP %(devnum)s en línea (%(e)s)."
 
 #: ../blivet/zfcp.py:112
 #, python-format
@@ -207,7 +210,7 @@ msgstr "No se ha definido un nombre del iniciador"
 
 #: ../blivet/iscsi.py:530
 msgid "No iSCSI nodes discovered"
-msgstr "No han sido descubiertos nodos iSCSI."
+msgstr "No han sido descubiertos nodos iSCSI"
 
 #: ../blivet/iscsi.py:550
 msgid "No new iSCSI nodes discovered"

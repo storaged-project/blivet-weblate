@@ -27,13 +27,14 @@
 # Máximo Castañeda Riloba <mcrcctm@gmail.com>, 2016. #zanata
 # Máximo Castañeda Riloba <mcrcctm@gmail.com>, 2018. #zanata
 # Adolfo Jayme Barrientos <fitoschido@gmail.com>, 2020.
+# Emilio Herrera <ehespinosa57@gmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
-"PO-Revision-Date: 2020-08-16 12:29+0000\n"
-"Last-Translator: Adolfo Jayme Barrientos <fitoschido@gmail.com>\n"
+"PO-Revision-Date: 2021-07-07 23:04+0000\n"
+"Last-Translator: Emilio Herrera <ehespinosa57@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-master/es/>\n"
 "Language: es\n"
@@ -41,7 +42,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.1.1\n"
+"X-Generator: Weblate 4.7.1\n"
 
 #: ../blivet/errors.py:210
 msgid ""
@@ -111,9 +112,7 @@ msgstr ""
 #: ../blivet/zfcp.py:101
 #, python-format
 msgid "Could not set zFCP device %(devnum)s online (%(e)s)."
-msgstr ""
-"No se pudo configurar el dispositivo zFCP %(devnum)s en modo en línea "
-"(%(e)s)."
+msgstr "No se pudo establecer al dispositivo zFCP %(devnum)s en línea (%(e)s)."
 
 #: ../blivet/zfcp.py:112
 #, python-format
@@ -212,7 +211,7 @@ msgstr "No se ha definido un nombre del iniciador"
 
 #: ../blivet/iscsi.py:530
 msgid "No iSCSI nodes discovered"
-msgstr "No se descubrió ningún nodo iSCSI"
+msgstr "No han sido descubiertos nodos iSCSI"
 
 #: ../blivet/iscsi.py:550
 msgid "No new iSCSI nodes discovered"
@@ -391,11 +390,11 @@ msgstr "Partición de sistema EFI"
 
 #: ../blivet/formats/fs.py:1137
 msgid "Apple Bootstrap"
-msgstr "Bootstrap de Apple"
+msgstr "Apple Bootstrap"
 
 #: ../blivet/formats/fs.py:1173
 msgid "Linux HFS+ ESP"
-msgstr "ESP HFS+ de Linux"
+msgstr "Linux HFS+ ESP"
 
 #: ../blivet/formats/prepboot.py:37
 msgid "PPC PReP Boot"

@@ -18,16 +18,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
-"PO-Revision-Date: 2020-04-16 12:40+0000\n"
+"PO-Revision-Date: 2021-09-04 17:04+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/blivet/"
-"blivet-master/tr/>\n"
+"blivet-rhel9/tr/>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
-"X-Generator: Weblate 4.0.1\n"
+"X-Generator: Weblate 4.8\n"
 
 #: ../blivet/errors.py:210
 msgid ""
@@ -402,7 +402,7 @@ msgstr "dm-raid üye aygıtı"
 
 #: ../blivet/formats/disklabel.py:50
 msgid "partition table"
-msgstr "bölümleme tablosu"
+msgstr "bölümlendirme tablosu"
 
 #. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition table"
 #: ../blivet/formats/disklabel.py:320

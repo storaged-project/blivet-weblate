@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-03 09:10+0200\n"
+"POT-Creation-Date: 2021-09-03 09:15+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -84,7 +84,7 @@ msgstr ""
 msgid "configure format"
 msgstr ""
 
-#: ../blivet/deviceaction.py:1126
+#: ../blivet/deviceaction.py:1127
 msgid "configure device"
 msgstr ""
 
@@ -216,7 +216,7 @@ msgstr ""
 
 #. by now we have allocated the PVs so if there isn't enough
 #. space in the VG we have a real problem
-#: ../blivet/partitioning.py:2031
+#: ../blivet/partitioning.py:2015
 msgid "not enough space for LVM requests"
 msgstr ""
 
@@ -352,15 +352,15 @@ msgstr ""
 msgid "dm-raid member device"
 msgstr ""
 
-#: ../blivet/formats/fs.py:947
+#: ../blivet/formats/fs.py:941
 msgid "EFI System Partition"
 msgstr ""
 
-#: ../blivet/formats/fs.py:1155
+#: ../blivet/formats/fs.py:1149
 msgid "Apple Bootstrap"
 msgstr ""
 
-#: ../blivet/formats/fs.py:1191
+#: ../blivet/formats/fs.py:1185
 msgid "Linux HFS+ ESP"
 msgstr ""
 

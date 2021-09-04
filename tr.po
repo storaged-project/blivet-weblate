@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
-"PO-Revision-Date: 2021-09-04 17:04+0000\n"
+"PO-Revision-Date: 2021-09-05 20:04+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-rhel9/tr/>\n"
@@ -238,7 +238,7 @@ msgstr "genişletilmiş bölüm oluşturduktan sonra yeterli boş alan yok"
 
 #: ../blivet/partitioning.py:1004
 msgid "failed to allocate aligned partition"
-msgstr "hizalanmış bölüm ayırma başarısız oldu"
+msgstr "hizalanmış bölüm ayrılamadı"
 
 #: ../blivet/partitioning.py:1205
 msgid "cannot reclaim more than request has grown"

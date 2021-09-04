@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-29 14:04+0100\n"
+"POT-Creation-Date: 2021-09-03 09:15+0200\n"
 "PO-Revision-Date: 2015-01-05 05:25+0000\n"
 "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
 "Language-Team: Marathi (http://www.transifex.com/projects/p/blivet/language/"
@@ -29,37 +29,207 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Zanata 4.6.2\n"
 
-#: ../blivet/errors.py:210
+#: ../blivet/deviceaction.py:196
+#, python-format
+msgid "Executing %(action)s"
+msgstr ""
+
+#: ../blivet/deviceaction.py:324
+msgid "create device"
+msgstr "साधन निर्माण करा"
+
+#: ../blivet/deviceaction.py:383
+msgid "destroy device"
+msgstr "साधन नष्ट करा"
+
+#: ../blivet/deviceaction.py:494
+msgid "resize device"
+msgstr "साधनाला पुन्हा आकार द्या"
+
+#: ../blivet/deviceaction.py:583
+msgid "create format"
+msgstr "रूपण निर्माण करा"
+
+#: ../blivet/deviceaction.py:623
+#, python-format
+msgid "Creating %(type)s on %(device)s"
+msgstr "%(type)s निर्माण करत आहे, %(device)s वर"
+
+#: ../blivet/deviceaction.py:650
+#, python-format
+msgid "Not enough entropy to create LUKS format. %d bits are needed."
+msgstr ""
+
+#: ../blivet/deviceaction.py:680
+#, python-format
+msgid "Created %(type)s on %(device)s"
+msgstr ""
+
+#: ../blivet/deviceaction.py:729
+msgid "destroy format"
+msgstr "रूपण नष्ट करा"
+
+#: ../blivet/deviceaction.py:842
+msgid "resize format"
+msgstr "पुन्हा आकार रूपण"
+
+#: ../blivet/deviceaction.py:881
+#, python-format
+msgid "Resizing filesystem on %(device)s"
+msgstr "%(device)s वरील फाइलप्रणालीला पुन्हा आकार देत आहे"
+
+#: ../blivet/deviceaction.py:888
+#, python-format
+msgid "Resized filesystem on %(device)s"
+msgstr ""
+
+#: ../blivet/deviceaction.py:935
+msgid "add container member"
+msgstr "कंटेनर सदस्य समाविष्ट करा"
+
+#: ../blivet/deviceaction.py:1000
+msgid "remove container member"
+msgstr "कंटेनर सदस्य काढून टाका"
+
+#: ../blivet/deviceaction.py:1070
+msgid "configure format"
+msgstr ""
+
+#: ../blivet/deviceaction.py:1127
+msgid "configure device"
+msgstr ""
+
+#: ../blivet/errors.py:214
 msgid ""
 "This is usually caused by cloning the device image resulting in duplication "
 "of the UUID value which should be unique. In that case you can either "
 "disconnect one of the devices or reformat it."
 msgstr ""
 
-#: ../blivet/errors.py:217
+#: ../blivet/errors.py:221
 msgid ""
 "For some reason we were unable to locate a disklabel on a disk that the "
 "kernel is reporting partitions on. It is unclear what the exact problem is. "
 "Please file a bug at http://bugzilla.redhat.com"
 msgstr ""
 
-#: ../blivet/errors.py:224
+#: ../blivet/errors.py:228
 msgid ""
 "Either restore the disklabel to a completely working state or remove it "
 "completely.\n"
 "Hint: parted can restore it or wipefs can remove it."
 msgstr ""
 
-#: ../blivet/errors.py:230
+#: ../blivet/errors.py:234
 msgid ""
 "Rename one of the volume groups so the names are distinct.\n"
 "Hint 1: vgrename accepts UUID in place of the old name.\n"
 "Hint 2: You can get the VG UUIDs by running 'pvs -o +vg_uuid'."
 msgstr ""
 
+#: ../blivet/errors.py:242
+msgid ""
+"All parent devices must be selected when choosing exclusive or ignored disks "
+"for a multipath or firmware RAID device."
+msgstr ""
+
 #: ../blivet/fcoe.py:121
 msgid "FCoE not available"
 msgstr "FCoE उपलब्ध नाही"
+
+#: ../blivet/iscsi.py:217
+msgid "Unable to change iSCSI initiator name once set"
+msgstr "एकादाचे सेट केल्यावर iSCSI इनीशीएटर नाव बदलणे अशक्य"
+
+#: ../blivet/iscsi.py:219
+msgid "Must provide an iSCSI initiator name"
+msgstr "iSCSI इनीशीएटर नाव पुरवणे आवश्यक आहे"
+
+#: ../blivet/iscsi.py:413
+msgid "iSCSI not available"
+msgstr "iSCSI उपलब्ध नाही"
+
+#: ../blivet/iscsi.py:415
+msgid "No initiator name set"
+msgstr "प्रारंभकाचे नाव निश्चित केले नाही"
+
+#: ../blivet/iscsi.py:533
+msgid "No iSCSI nodes discovered"
+msgstr "iSCSI नोड्स आढळले नाही"
+
+#: ../blivet/iscsi.py:553
+msgid "No new iSCSI nodes discovered"
+msgstr "नवीन iSCSI नोड आढळले नाही"
+
+#: ../blivet/iscsi.py:556
+msgid "Could not log in to any of the discovered nodes"
+msgstr "कोणत्याही डिस्कवर्ड नोड्समध्ये प्रवेश अशक्य"
+
+#: ../blivet/partitioning.py:455
+msgid "unable to allocate aligned partition"
+msgstr "संरेषीत विभाजनचे वाटप अशक्य"
+
+#: ../blivet/partitioning.py:463
+msgid "requested size exceeds maximum allowed"
+msgstr "विनंतीकृत आकार कमाल स्वीकार्यपेक्षा जास्त आहे"
+
+#: ../blivet/partitioning.py:475
+#, python-format
+msgid "failed to add partition to disk: %s"
+msgstr ""
+
+#: ../blivet/partitioning.py:586
+#, python-format
+msgid "disk %s inaccessible"
+msgstr "डिस्क %s प्रवेशजोगी नाही"
+
+#: ../blivet/partitioning.py:647
+#, python-format
+msgid ""
+"partition is too small for %(format)s formatting (allowable size is "
+"%(min_size)s to %(max_size)s)"
+msgstr ""
+
+#: ../blivet/partitioning.py:652
+#, python-format
+msgid ""
+"partition is too large for %(format)s formatting (allowable size is "
+"%(min_size)s to %(max_size)s)"
+msgstr ""
+
+#: ../blivet/partitioning.py:968
+msgid "Unable to allocate requested partition scheme."
+msgstr "विनंतीकृत विभाजन संयोजनाचे वाटप अशक्य."
+
+#: ../blivet/partitioning.py:1003
+msgid "not enough free space after creating extended partition"
+msgstr "विस्तारित विभाजन निर्माण केल्यानंतर डिस्क्सवर अतिरिक्त जागा आढळली नाही"
+
+#: ../blivet/partitioning.py:1010
+msgid "failed to allocate aligned partition"
+msgstr ""
+
+#: ../blivet/partitioning.py:1211
+msgid "cannot reclaim more than request has grown"
+msgstr "एकापेक्षा जास्त विनंतीकरिता पुन्हा मागणी अशक्य"
+
+#: ../blivet/partitioning.py:1425
+msgid "DiskChunk requests must be of type PartitionRequest"
+msgstr "DiskChunk विनंतीचे प्रकार PartitionRequest पाहिजे"
+
+#: ../blivet/partitioning.py:1438
+msgid "partitions allocated outside disklabel limits"
+msgstr "डिस्कलेबल मर्यादेच्या बाहेर विभाजनचे वाटप झाले"
+
+#: ../blivet/partitioning.py:1523
+msgid "VGChunk requests must be of type LVRequest"
+msgstr "VGChunk विनंतीचे प्रकार LVRequest पाहिजे"
+
+#. by now we have allocated the PVs so if there isn't enough
+#. space in the VG we have a real problem
+#: ../blivet/partitioning.py:2015
+msgid "not enough space for LVM requests"
+msgstr "LVM विनंतीकरिता अतिरिक्त जागा आढळली नाही"
 
 #: ../blivet/zfcp.py:62
 msgid "You have not specified a device number or the number is invalid"
@@ -158,163 +328,12 @@ msgstr "WWPN %(wwpn)s यांस zFCP उपकरन %(devnum)s (%(e)s) य�
 msgid "Could not set zFCP device %(devnum)s offline (%(e)s)."
 msgstr "zFCP उपकरन %(devnum)s यांस आफलाइन (%(e)s) सेट करण्यास अशक्य."
 
-#: ../blivet/iscsi.py:217
-msgid "Unable to change iSCSI initiator name once set"
-msgstr "एकादाचे सेट केल्यावर iSCSI इनीशीएटर नाव बदलणे अशक्य"
-
-#: ../blivet/iscsi.py:219
-msgid "Must provide an iSCSI initiator name"
-msgstr "iSCSI इनीशीएटर नाव पुरवणे आवश्यक आहे"
-
-#: ../blivet/iscsi.py:410
-msgid "iSCSI not available"
-msgstr "iSCSI उपलब्ध नाही"
-
-#: ../blivet/iscsi.py:412
-msgid "No initiator name set"
-msgstr "प्रारंभकाचे नाव निश्चित केले नाही"
-
-#: ../blivet/iscsi.py:530
-msgid "No iSCSI nodes discovered"
-msgstr "iSCSI नोड्स आढळले नाही"
-
-#: ../blivet/iscsi.py:550
-msgid "No new iSCSI nodes discovered"
-msgstr "नवीन iSCSI नोड आढळले नाही"
-
-#: ../blivet/iscsi.py:553
-msgid "Could not log in to any of the discovered nodes"
-msgstr "कोणत्याही डिस्कवर्ड नोड्समध्ये प्रवेश अशक्य"
-
-#: ../blivet/partitioning.py:454
-msgid "unable to allocate aligned partition"
-msgstr "संरेषीत विभाजनचे वाटप अशक्य"
-
-#: ../blivet/partitioning.py:462
-msgid "requested size exceeds maximum allowed"
-msgstr "विनंतीकृत आकार कमाल स्वीकार्यपेक्षा जास्त आहे"
-
-#: ../blivet/partitioning.py:580
-#, python-format
-msgid "disk %s inaccessible"
-msgstr "डिस्क %s प्रवेशजोगी नाही"
-
-#: ../blivet/partitioning.py:641
-#, python-format
-msgid ""
-"partition is too small for %(format)s formatting (allowable size is "
-"%(min_size)s to %(max_size)s)"
+#: ../blivet/devicelibs/lvm.py:59
+msgid "Generic"
 msgstr ""
 
-#: ../blivet/partitioning.py:646
-#, python-format
-msgid ""
-"partition is too large for %(format)s formatting (allowable size is "
-"%(min_size)s to %(max_size)s)"
-msgstr ""
-
-#: ../blivet/partitioning.py:962
-msgid "Unable to allocate requested partition scheme."
-msgstr "विनंतीकृत विभाजन संयोजनाचे वाटप अशक्य."
-
-#: ../blivet/partitioning.py:997
-msgid "not enough free space after creating extended partition"
-msgstr "विस्तारित विभाजन निर्माण केल्यानंतर डिस्क्सवर अतिरिक्त जागा आढळली नाही"
-
-#: ../blivet/partitioning.py:1004
-msgid "failed to allocate aligned partition"
-msgstr ""
-
-#: ../blivet/partitioning.py:1205
-msgid "cannot reclaim more than request has grown"
-msgstr "एकापेक्षा जास्त विनंतीकरिता पुन्हा मागणी अशक्य"
-
-#: ../blivet/partitioning.py:1419
-msgid "DiskChunk requests must be of type PartitionRequest"
-msgstr "DiskChunk विनंतीचे प्रकार PartitionRequest पाहिजे"
-
-#: ../blivet/partitioning.py:1432
-msgid "partitions allocated outside disklabel limits"
-msgstr "डिस्कलेबल मर्यादेच्या बाहेर विभाजनचे वाटप झाले"
-
-#: ../blivet/partitioning.py:1517
-msgid "VGChunk requests must be of type LVRequest"
-msgstr "VGChunk विनंतीचे प्रकार LVRequest पाहिजे"
-
-#. by now we have allocated the PVs so if there isn't enough
-#. space in the VG we have a real problem
-#: ../blivet/partitioning.py:2025
-msgid "not enough space for LVM requests"
-msgstr "LVM विनंतीकरिता अतिरिक्त जागा आढळली नाही"
-
-#: ../blivet/deviceaction.py:194
-#, python-format
-msgid "Executing %(action)s"
-msgstr ""
-
-#: ../blivet/deviceaction.py:322
-msgid "create device"
-msgstr "साधन निर्माण करा"
-
-#: ../blivet/deviceaction.py:381
-msgid "destroy device"
-msgstr "साधन नष्ट करा"
-
-#: ../blivet/deviceaction.py:484
-msgid "resize device"
-msgstr "साधनाला पुन्हा आकार द्या"
-
-#: ../blivet/deviceaction.py:573
-msgid "create format"
-msgstr "रूपण निर्माण करा"
-
-#: ../blivet/deviceaction.py:613
-#, python-format
-msgid "Creating %(type)s on %(device)s"
-msgstr "%(type)s निर्माण करत आहे, %(device)s वर"
-
-#: ../blivet/deviceaction.py:640
-#, python-format
-msgid "Not enough entropy to create LUKS format. %d bits are needed."
-msgstr ""
-
-#: ../blivet/deviceaction.py:670
-#, python-format
-msgid "Created %(type)s on %(device)s"
-msgstr ""
-
-#: ../blivet/deviceaction.py:717
-msgid "destroy format"
-msgstr "रूपण नष्ट करा"
-
-#: ../blivet/deviceaction.py:830
-msgid "resize format"
-msgstr "पुन्हा आकार रूपण"
-
-#: ../blivet/deviceaction.py:869
-#, python-format
-msgid "Resizing filesystem on %(device)s"
-msgstr "%(device)s वरील फाइलप्रणालीला पुन्हा आकार देत आहे"
-
-#: ../blivet/deviceaction.py:876
-#, python-format
-msgid "Resized filesystem on %(device)s"
-msgstr ""
-
-#: ../blivet/deviceaction.py:923
-msgid "add container member"
-msgstr "कंटेनर सदस्य समाविष्ट करा"
-
-#: ../blivet/deviceaction.py:988
-msgid "remove container member"
-msgstr "कंटेनर सदस्य काढून टाका"
-
-#: ../blivet/deviceaction.py:1058
-msgid "configure format"
-msgstr ""
-
-#: ../blivet/deviceaction.py:1114
-msgid "configure device"
+#: ../blivet/devicelibs/lvm.py:60
+msgid "Performance"
 msgstr ""
 
 #: ../blivet/devices/raid.py:58
@@ -338,55 +357,55 @@ msgstr ""
 msgid "Cannot remove a member from existing %s array"
 msgstr ""
 
-#: ../blivet/formats/fs.py:932
-msgid "EFI System Partition"
-msgstr "EFI प्रणाली विभाजन"
-
-#: ../blivet/formats/fs.py:1137
-msgid "Apple Bootstrap"
-msgstr "Apple बूटस्ट्रॅप"
-
-#: ../blivet/formats/fs.py:1173
-msgid "Linux HFS+ ESP"
-msgstr "Linux HFS+ ESP"
-
-#: ../blivet/formats/prepboot.py:37
-msgid "PPC PReP Boot"
-msgstr "PPC PReP बूट"
-
-#: ../blivet/formats/luks.py:58
-msgid "LUKS"
-msgstr "LUKS"
-
-#: ../blivet/formats/luks.py:59
-msgid "Encrypted"
-msgstr "एनक्रिप्ट केलेले"
-
-#: ../blivet/formats/luks.py:388
-msgid "DM Integrity"
-msgstr ""
-
-#: ../blivet/formats/__init__.py:148
-msgid "Unknown"
-msgstr "अपरिचीत"
-
 #: ../blivet/formats/biosboot.py:35
 msgid "BIOS Boot"
 msgstr "BIOS बूट"
-
-#: ../blivet/formats/dmraid.py:37
-msgid "dm-raid member device"
-msgstr "dm-raid सदस्य साधन"
 
 #: ../blivet/formats/disklabel.py:50
 msgid "partition table"
 msgstr "विभाजन तक्ता"
 
 #. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition table"
-#: ../blivet/formats/disklabel.py:320
+#: ../blivet/formats/disklabel.py:326
 #, python-format
 msgid "Unsupported %(name)s"
 msgstr ""
+
+#: ../blivet/formats/dmraid.py:37
+msgid "dm-raid member device"
+msgstr "dm-raid सदस्य साधन"
+
+#: ../blivet/formats/fs.py:941
+msgid "EFI System Partition"
+msgstr "EFI प्रणाली विभाजन"
+
+#: ../blivet/formats/fs.py:1149
+msgid "Apple Bootstrap"
+msgstr "Apple बूटस्ट्रॅप"
+
+#: ../blivet/formats/fs.py:1185
+msgid "Linux HFS+ ESP"
+msgstr "Linux HFS+ ESP"
+
+#: ../blivet/formats/__init__.py:148
+msgid "Unknown"
+msgstr "अपरिचीत"
+
+#: ../blivet/formats/luks.py:60
+msgid "LUKS"
+msgstr "LUKS"
+
+#: ../blivet/formats/luks.py:61
+msgid "Encrypted"
+msgstr "एनक्रिप्ट केलेले"
+
+#: ../blivet/formats/luks.py:402
+msgid "DM Integrity"
+msgstr ""
+
+#: ../blivet/formats/lvmpv.py:49
+msgid "physical volume (LVM)"
+msgstr "फिजिकल वॉल्युम (LVM)"
 
 #: ../blivet/formats/mdraid.py:43
 msgid "software RAID"
@@ -396,14 +415,6 @@ msgstr "सॉफ्टवेअर RAID"
 msgid "multipath member device"
 msgstr "मल्टिपात सदस्य साधन"
 
-#: ../blivet/formats/lvmpv.py:49
-msgid "physical volume (LVM)"
-msgstr "फिजिकल वॉल्युम (LVM)"
-
-#: ../blivet/devicelibs/lvm.py:59
-msgid "Generic"
-msgstr ""
-
-#: ../blivet/devicelibs/lvm.py:60
-msgid "Performance"
-msgstr ""
+#: ../blivet/formats/prepboot.py:37
+msgid "PPC PReP Boot"
+msgstr "PPC PReP बूट"

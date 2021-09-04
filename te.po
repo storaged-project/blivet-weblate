@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-29 14:04+0100\n"
+"POT-Creation-Date: 2021-09-03 09:15+0200\n"
 "PO-Revision-Date: 2015-01-05 05:27+0000\n"
 "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
 "Language-Team: Telugu (http://www.transifex.com/projects/p/blivet/language/"
@@ -24,37 +24,207 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Zanata 4.6.2\n"
 
-#: ../blivet/errors.py:210
+#: ../blivet/deviceaction.py:196
+#, python-format
+msgid "Executing %(action)s"
+msgstr ""
+
+#: ../blivet/deviceaction.py:324
+msgid "create device"
+msgstr "పరికరం సృష్టించు"
+
+#: ../blivet/deviceaction.py:383
+msgid "destroy device"
+msgstr "పరికరం నాశనంచేయి"
+
+#: ../blivet/deviceaction.py:494
+msgid "resize device"
+msgstr "పరికరం పునఃపరిమాణం చేయి"
+
+#: ../blivet/deviceaction.py:583
+msgid "create format"
+msgstr "ఫార్మాట్ సృష్టించు"
+
+#: ../blivet/deviceaction.py:623
+#, python-format
+msgid "Creating %(type)s on %(device)s"
+msgstr "%(device)s పై %(type)s సృష్టించుచున్నది"
+
+#: ../blivet/deviceaction.py:650
+#, python-format
+msgid "Not enough entropy to create LUKS format. %d bits are needed."
+msgstr ""
+
+#: ../blivet/deviceaction.py:680
+#, python-format
+msgid "Created %(type)s on %(device)s"
+msgstr ""
+
+#: ../blivet/deviceaction.py:729
+msgid "destroy format"
+msgstr "ఫార్మాట్ నాశనంచేయి"
+
+#: ../blivet/deviceaction.py:842
+msgid "resize format"
+msgstr "ఫార్మాట్ పునఃపరిమాణంచేయి"
+
+#: ../blivet/deviceaction.py:881
+#, python-format
+msgid "Resizing filesystem on %(device)s"
+msgstr "%(device)s పై ఫైల్‌సిస్టమ్ పునఃపరిమాణం చేస్తోంది"
+
+#: ../blivet/deviceaction.py:888
+#, python-format
+msgid "Resized filesystem on %(device)s"
+msgstr ""
+
+#: ../blivet/deviceaction.py:935
+msgid "add container member"
+msgstr "కంటైనర్ మెంబర్ జతచేయి"
+
+#: ../blivet/deviceaction.py:1000
+msgid "remove container member"
+msgstr "కంటైనర్ మెంబర్ తీసివేయి"
+
+#: ../blivet/deviceaction.py:1070
+msgid "configure format"
+msgstr ""
+
+#: ../blivet/deviceaction.py:1127
+msgid "configure device"
+msgstr ""
+
+#: ../blivet/errors.py:214
 msgid ""
 "This is usually caused by cloning the device image resulting in duplication "
 "of the UUID value which should be unique. In that case you can either "
 "disconnect one of the devices or reformat it."
 msgstr ""
 
-#: ../blivet/errors.py:217
+#: ../blivet/errors.py:221
 msgid ""
 "For some reason we were unable to locate a disklabel on a disk that the "
 "kernel is reporting partitions on. It is unclear what the exact problem is. "
 "Please file a bug at http://bugzilla.redhat.com"
 msgstr ""
 
-#: ../blivet/errors.py:224
+#: ../blivet/errors.py:228
 msgid ""
 "Either restore the disklabel to a completely working state or remove it "
 "completely.\n"
 "Hint: parted can restore it or wipefs can remove it."
 msgstr ""
 
-#: ../blivet/errors.py:230
+#: ../blivet/errors.py:234
 msgid ""
 "Rename one of the volume groups so the names are distinct.\n"
 "Hint 1: vgrename accepts UUID in place of the old name.\n"
 "Hint 2: You can get the VG UUIDs by running 'pvs -o +vg_uuid'."
 msgstr ""
 
+#: ../blivet/errors.py:242
+msgid ""
+"All parent devices must be selected when choosing exclusive or ignored disks "
+"for a multipath or firmware RAID device."
+msgstr ""
+
 #: ../blivet/fcoe.py:121
 msgid "FCoE not available"
 msgstr "FCoE అందుబాటులో లేదు"
+
+#: ../blivet/iscsi.py:217
+msgid "Unable to change iSCSI initiator name once set"
+msgstr "ఒకసారి అమర్చిన తర్వాత iSCSI సిద్దీకరణి నామమును మార్చలేక పోయినది"
+
+#: ../blivet/iscsi.py:219
+msgid "Must provide an iSCSI initiator name"
+msgstr "మీరు తప్పక ఒక iSCSI సిద్దీకరణి నామమును సమకూర్చాలి"
+
+#: ../blivet/iscsi.py:413
+msgid "iSCSI not available"
+msgstr "iSCSI అందుబాటులో లేదు"
+
+#: ../blivet/iscsi.py:415
+msgid "No initiator name set"
+msgstr "iSCSI నిర్దేశకుని నామము"
+
+#: ../blivet/iscsi.py:533
+msgid "No iSCSI nodes discovered"
+msgstr "iSCSI నోడ్లు కనుగొనబడలేదు"
+
+#: ../blivet/iscsi.py:553
+msgid "No new iSCSI nodes discovered"
+msgstr "ఏ క్రొత్త iSCSI నోడులు కనుగొనబడలేదు"
+
+#: ../blivet/iscsi.py:556
+msgid "Could not log in to any of the discovered nodes"
+msgstr "కనుగొనబడిన యే నోడ్లకు లాగ్ కాలేకపోయెను"
+
+#: ../blivet/partitioning.py:455
+msgid "unable to allocate aligned partition"
+msgstr "ఎలైన్ చేసిన విభజనను కేటాయించలేక పోయింది"
+
+#: ../blivet/partitioning.py:463
+msgid "requested size exceeds maximum allowed"
+msgstr "గరిష్టంగా అనుమతించిన దానికన్నా అభ్యర్ధించిన పరిమాణం దాటెను"
+
+#: ../blivet/partitioning.py:475
+#, python-format
+msgid "failed to add partition to disk: %s"
+msgstr ""
+
+#: ../blivet/partitioning.py:586
+#, python-format
+msgid "disk %s inaccessible"
+msgstr "డిస్కు %s అందుబాటులోలేదు"
+
+#: ../blivet/partitioning.py:647
+#, python-format
+msgid ""
+"partition is too small for %(format)s formatting (allowable size is "
+"%(min_size)s to %(max_size)s)"
+msgstr ""
+
+#: ../blivet/partitioning.py:652
+#, python-format
+msgid ""
+"partition is too large for %(format)s formatting (allowable size is "
+"%(min_size)s to %(max_size)s)"
+msgstr ""
+
+#: ../blivet/partitioning.py:968
+msgid "Unable to allocate requested partition scheme."
+msgstr "అభ్యర్ధించిన విభజన స్కీమ్‌ను కేటాయించలేదు."
+
+#: ../blivet/partitioning.py:1003
+msgid "not enough free space after creating extended partition"
+msgstr "పొడిగింపు విభజన సృష్టించిన తరువాత తగినంత ఖాళీ జాగా లేదు"
+
+#: ../blivet/partitioning.py:1010
+msgid "failed to allocate aligned partition"
+msgstr ""
+
+#: ../blivet/partitioning.py:1211
+msgid "cannot reclaim more than request has grown"
+msgstr "రీక్లెయిమ్ చేయలేము అభ్యర్ధనను దాటి పెరిగిపోయింది"
+
+#: ../blivet/partitioning.py:1425
+msgid "DiskChunk requests must be of type PartitionRequest"
+msgstr "డిస్కుచంక్ అభ్యర్ధనలు తప్పక విభజనఅభ్యర్ధన రకమై వుండాలి"
+
+#: ../blivet/partitioning.py:1438
+msgid "partitions allocated outside disklabel limits"
+msgstr "డిస్కులేబుల్ పరిమితులు దాటి విభజనలు కేటాయించబడెను"
+
+#: ../blivet/partitioning.py:1523
+msgid "VGChunk requests must be of type LVRequest"
+msgstr "VGChunk అభ్యర్ధనలు తప్పక LVRequest రకమై వుండాలి"
+
+#. by now we have allocated the PVs so if there isn't enough
+#. space in the VG we have a real problem
+#: ../blivet/partitioning.py:2015
+msgid "not enough space for LVM requests"
+msgstr "LVM అభ్యర్ధనల కొరకు తగు జాగా లేదు"
 
 #: ../blivet/zfcp.py:62
 msgid "You have not specified a device number or the number is invalid"
@@ -152,163 +322,12 @@ msgstr "zFCP పరికరము %(devnum)s పైని WWPN %(wwpn)sను �
 msgid "Could not set zFCP device %(devnum)s offline (%(e)s)."
 msgstr "zFCP పరికరము %(devnum)sను ఆఫ్‌లైనుగా అమర్చలేకపోయింది (%(e)s)."
 
-#: ../blivet/iscsi.py:217
-msgid "Unable to change iSCSI initiator name once set"
-msgstr "ఒకసారి అమర్చిన తర్వాత iSCSI సిద్దీకరణి నామమును మార్చలేక పోయినది"
-
-#: ../blivet/iscsi.py:219
-msgid "Must provide an iSCSI initiator name"
-msgstr "మీరు తప్పక ఒక iSCSI సిద్దీకరణి నామమును సమకూర్చాలి"
-
-#: ../blivet/iscsi.py:410
-msgid "iSCSI not available"
-msgstr "iSCSI అందుబాటులో లేదు"
-
-#: ../blivet/iscsi.py:412
-msgid "No initiator name set"
-msgstr "iSCSI నిర్దేశకుని నామము"
-
-#: ../blivet/iscsi.py:530
-msgid "No iSCSI nodes discovered"
-msgstr "iSCSI నోడ్లు కనుగొనబడలేదు"
-
-#: ../blivet/iscsi.py:550
-msgid "No new iSCSI nodes discovered"
-msgstr "ఏ క్రొత్త iSCSI నోడులు కనుగొనబడలేదు"
-
-#: ../blivet/iscsi.py:553
-msgid "Could not log in to any of the discovered nodes"
-msgstr "కనుగొనబడిన యే నోడ్లకు లాగ్ కాలేకపోయెను"
-
-#: ../blivet/partitioning.py:454
-msgid "unable to allocate aligned partition"
-msgstr "ఎలైన్ చేసిన విభజనను కేటాయించలేక పోయింది"
-
-#: ../blivet/partitioning.py:462
-msgid "requested size exceeds maximum allowed"
-msgstr "గరిష్టంగా అనుమతించిన దానికన్నా అభ్యర్ధించిన పరిమాణం దాటెను"
-
-#: ../blivet/partitioning.py:580
-#, python-format
-msgid "disk %s inaccessible"
-msgstr "డిస్కు %s అందుబాటులోలేదు"
-
-#: ../blivet/partitioning.py:641
-#, python-format
-msgid ""
-"partition is too small for %(format)s formatting (allowable size is "
-"%(min_size)s to %(max_size)s)"
+#: ../blivet/devicelibs/lvm.py:59
+msgid "Generic"
 msgstr ""
 
-#: ../blivet/partitioning.py:646
-#, python-format
-msgid ""
-"partition is too large for %(format)s formatting (allowable size is "
-"%(min_size)s to %(max_size)s)"
-msgstr ""
-
-#: ../blivet/partitioning.py:962
-msgid "Unable to allocate requested partition scheme."
-msgstr "అభ్యర్ధించిన విభజన స్కీమ్‌ను కేటాయించలేదు."
-
-#: ../blivet/partitioning.py:997
-msgid "not enough free space after creating extended partition"
-msgstr "పొడిగింపు విభజన సృష్టించిన తరువాత తగినంత ఖాళీ జాగా లేదు"
-
-#: ../blivet/partitioning.py:1004
-msgid "failed to allocate aligned partition"
-msgstr ""
-
-#: ../blivet/partitioning.py:1205
-msgid "cannot reclaim more than request has grown"
-msgstr "రీక్లెయిమ్ చేయలేము అభ్యర్ధనను దాటి పెరిగిపోయింది"
-
-#: ../blivet/partitioning.py:1419
-msgid "DiskChunk requests must be of type PartitionRequest"
-msgstr "డిస్కుచంక్ అభ్యర్ధనలు తప్పక విభజనఅభ్యర్ధన రకమై వుండాలి"
-
-#: ../blivet/partitioning.py:1432
-msgid "partitions allocated outside disklabel limits"
-msgstr "డిస్కులేబుల్ పరిమితులు దాటి విభజనలు కేటాయించబడెను"
-
-#: ../blivet/partitioning.py:1517
-msgid "VGChunk requests must be of type LVRequest"
-msgstr "VGChunk అభ్యర్ధనలు తప్పక LVRequest రకమై వుండాలి"
-
-#. by now we have allocated the PVs so if there isn't enough
-#. space in the VG we have a real problem
-#: ../blivet/partitioning.py:2025
-msgid "not enough space for LVM requests"
-msgstr "LVM అభ్యర్ధనల కొరకు తగు జాగా లేదు"
-
-#: ../blivet/deviceaction.py:194
-#, python-format
-msgid "Executing %(action)s"
-msgstr ""
-
-#: ../blivet/deviceaction.py:322
-msgid "create device"
-msgstr "పరికరం సృష్టించు"
-
-#: ../blivet/deviceaction.py:381
-msgid "destroy device"
-msgstr "పరికరం నాశనంచేయి"
-
-#: ../blivet/deviceaction.py:484
-msgid "resize device"
-msgstr "పరికరం పునఃపరిమాణం చేయి"
-
-#: ../blivet/deviceaction.py:573
-msgid "create format"
-msgstr "ఫార్మాట్ సృష్టించు"
-
-#: ../blivet/deviceaction.py:613
-#, python-format
-msgid "Creating %(type)s on %(device)s"
-msgstr "%(device)s పై %(type)s సృష్టించుచున్నది"
-
-#: ../blivet/deviceaction.py:640
-#, python-format
-msgid "Not enough entropy to create LUKS format. %d bits are needed."
-msgstr ""
-
-#: ../blivet/deviceaction.py:670
-#, python-format
-msgid "Created %(type)s on %(device)s"
-msgstr ""
-
-#: ../blivet/deviceaction.py:717
-msgid "destroy format"
-msgstr "ఫార్మాట్ నాశనంచేయి"
-
-#: ../blivet/deviceaction.py:830
-msgid "resize format"
-msgstr "ఫార్మాట్ పునఃపరిమాణంచేయి"
-
-#: ../blivet/deviceaction.py:869
-#, python-format
-msgid "Resizing filesystem on %(device)s"
-msgstr "%(device)s పై ఫైల్‌సిస్టమ్ పునఃపరిమాణం చేస్తోంది"
-
-#: ../blivet/deviceaction.py:876
-#, python-format
-msgid "Resized filesystem on %(device)s"
-msgstr ""
-
-#: ../blivet/deviceaction.py:923
-msgid "add container member"
-msgstr "కంటైనర్ మెంబర్ జతచేయి"
-
-#: ../blivet/deviceaction.py:988
-msgid "remove container member"
-msgstr "కంటైనర్ మెంబర్ తీసివేయి"
-
-#: ../blivet/deviceaction.py:1058
-msgid "configure format"
-msgstr ""
-
-#: ../blivet/deviceaction.py:1114
-msgid "configure device"
+#: ../blivet/devicelibs/lvm.py:60
+msgid "Performance"
 msgstr ""
 
 #: ../blivet/devices/raid.py:58
@@ -332,55 +351,55 @@ msgstr ""
 msgid "Cannot remove a member from existing %s array"
 msgstr ""
 
-#: ../blivet/formats/fs.py:932
-msgid "EFI System Partition"
-msgstr "EFI సిస్టమ్ విభజన"
-
-#: ../blivet/formats/fs.py:1137
-msgid "Apple Bootstrap"
-msgstr "ఆపిల్ బూట్‌స్ట్రాప్"
-
-#: ../blivet/formats/fs.py:1173
-msgid "Linux HFS+ ESP"
-msgstr "లైనక్స్ HFS+ ESP"
-
-#: ../blivet/formats/prepboot.py:37
-msgid "PPC PReP Boot"
-msgstr "PPC PReP Boot"
-
-#: ../blivet/formats/luks.py:58
-msgid "LUKS"
-msgstr "LUKS"
-
-#: ../blivet/formats/luks.py:59
-msgid "Encrypted"
-msgstr "ఎన్క్రిప్టెడ్"
-
-#: ../blivet/formats/luks.py:388
-msgid "DM Integrity"
-msgstr ""
-
-#: ../blivet/formats/__init__.py:148
-msgid "Unknown"
-msgstr "తెలియని"
-
 #: ../blivet/formats/biosboot.py:35
 msgid "BIOS Boot"
 msgstr "BIOS బూట్"
-
-#: ../blivet/formats/dmraid.py:37
-msgid "dm-raid member device"
-msgstr "dm-raid మెంబర్ పరికరం"
 
 #: ../blivet/formats/disklabel.py:50
 msgid "partition table"
 msgstr "విభజన పట్టిక"
 
 #. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition table"
-#: ../blivet/formats/disklabel.py:320
+#: ../blivet/formats/disklabel.py:326
 #, python-format
 msgid "Unsupported %(name)s"
 msgstr ""
+
+#: ../blivet/formats/dmraid.py:37
+msgid "dm-raid member device"
+msgstr "dm-raid మెంబర్ పరికరం"
+
+#: ../blivet/formats/fs.py:941
+msgid "EFI System Partition"
+msgstr "EFI సిస్టమ్ విభజన"
+
+#: ../blivet/formats/fs.py:1149
+msgid "Apple Bootstrap"
+msgstr "ఆపిల్ బూట్‌స్ట్రాప్"
+
+#: ../blivet/formats/fs.py:1185
+msgid "Linux HFS+ ESP"
+msgstr "లైనక్స్ HFS+ ESP"
+
+#: ../blivet/formats/__init__.py:148
+msgid "Unknown"
+msgstr "తెలియని"
+
+#: ../blivet/formats/luks.py:60
+msgid "LUKS"
+msgstr "LUKS"
+
+#: ../blivet/formats/luks.py:61
+msgid "Encrypted"
+msgstr "ఎన్క్రిప్టెడ్"
+
+#: ../blivet/formats/luks.py:402
+msgid "DM Integrity"
+msgstr ""
+
+#: ../blivet/formats/lvmpv.py:49
+msgid "physical volume (LVM)"
+msgstr "భౌతిక వాల్యూమ్ (LVM)"
 
 #: ../blivet/formats/mdraid.py:43
 msgid "software RAID"
@@ -390,14 +409,6 @@ msgstr "సాఫ్ట్‌వేర్ RAID"
 msgid "multipath member device"
 msgstr "మల్టీపాత్ మెంబర్ పరికరం"
 
-#: ../blivet/formats/lvmpv.py:49
-msgid "physical volume (LVM)"
-msgstr "భౌతిక వాల్యూమ్ (LVM)"
-
-#: ../blivet/devicelibs/lvm.py:59
-msgid "Generic"
-msgstr ""
-
-#: ../blivet/devicelibs/lvm.py:60
-msgid "Performance"
-msgstr ""
+#: ../blivet/formats/prepboot.py:37
+msgid "PPC PReP Boot"
+msgstr "PPC PReP Boot"

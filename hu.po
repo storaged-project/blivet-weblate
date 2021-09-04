@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-29 14:04+0100\n"
+"POT-Creation-Date: 2021-09-03 09:15+0200\n"
 "PO-Revision-Date: 2020-07-21 14:29+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/"
@@ -33,7 +33,78 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.1.1\n"
 
-#: ../blivet/errors.py:210
+#: ../blivet/deviceaction.py:196
+#, python-format
+msgid "Executing %(action)s"
+msgstr "%(action)s végrehajtása"
+
+#: ../blivet/deviceaction.py:324
+msgid "create device"
+msgstr "eszköz létrehozása"
+
+#: ../blivet/deviceaction.py:383
+msgid "destroy device"
+msgstr "eszköz törlése"
+
+#: ../blivet/deviceaction.py:494
+msgid "resize device"
+msgstr "eszköz átméretezése"
+
+#: ../blivet/deviceaction.py:583
+msgid "create format"
+msgstr "formátum létrehozása"
+
+#: ../blivet/deviceaction.py:623
+#, python-format
+msgid "Creating %(type)s on %(device)s"
+msgstr "%(type)s létrehozása itt: %(device)s"
+
+#: ../blivet/deviceaction.py:650
+#, python-format
+msgid "Not enough entropy to create LUKS format. %d bits are needed."
+msgstr ""
+"Nincs elég entrópia a LUKS formázás létrehozásához. További %d bit szükséges."
+
+#: ../blivet/deviceaction.py:680
+#, python-format
+msgid "Created %(type)s on %(device)s"
+msgstr "%(type)s létrehozva a(z) %(device)s eszközön"
+
+#: ../blivet/deviceaction.py:729
+msgid "destroy format"
+msgstr "formátum törlése"
+
+#: ../blivet/deviceaction.py:842
+msgid "resize format"
+msgstr "formátum átméretezése"
+
+#: ../blivet/deviceaction.py:881
+#, python-format
+msgid "Resizing filesystem on %(device)s"
+msgstr "Fájlrendszer átméretezése a(z) %(device)s eszközön"
+
+#: ../blivet/deviceaction.py:888
+#, python-format
+msgid "Resized filesystem on %(device)s"
+msgstr "Fájlrendszer átméretezve a(z) %(device)s eszközön"
+
+#: ../blivet/deviceaction.py:935
+msgid "add container member"
+msgstr "konténer tag hozzáadása"
+
+#: ../blivet/deviceaction.py:1000
+msgid "remove container member"
+msgstr "konténer tag eltávolítása"
+
+#: ../blivet/deviceaction.py:1070
+msgid "configure format"
+msgstr "formázás beállítása"
+
+#: ../blivet/deviceaction.py:1127
+msgid "configure device"
+msgstr "eszköz beállítása"
+
+#: ../blivet/errors.py:214
 msgid ""
 "This is usually caused by cloning the device image resulting in duplication "
 "of the UUID value which should be unique. In that case you can either "
@@ -43,7 +114,7 @@ msgstr ""
 "ismétlődését eredményezi. Ebben az esetben eltávolíthatja vagy "
 "újraformázhatja az egyik eszközt."
 
-#: ../blivet/errors.py:217
+#: ../blivet/errors.py:221
 msgid ""
 "For some reason we were unable to locate a disklabel on a disk that the "
 "kernel is reporting partitions on. It is unclear what the exact problem is. "
@@ -53,7 +124,7 @@ msgstr ""
 "kernel partíciókat jelent. Nem világos, hogy mi a pontos probléma. Jelentse "
 "be a hibát a http://bugzilla.redhat.com oldalon."
 
-#: ../blivet/errors.py:224
+#: ../blivet/errors.py:228
 msgid ""
 "Either restore the disklabel to a completely working state or remove it "
 "completely.\n"
@@ -63,7 +134,7 @@ msgstr ""
 "teljesen távolítsa el.\n"
 "Tipp: a parted képes visszaállítani, a wipefs pedig törölni."
 
-#: ../blivet/errors.py:230
+#: ../blivet/errors.py:234
 msgid ""
 "Rename one of the volume groups so the names are distinct.\n"
 "Hint 1: vgrename accepts UUID in place of the old name.\n"
@@ -73,9 +144,116 @@ msgstr ""
 "Tipp 1: a vgrename elfogadja az UUID-t is a régi név helyett.\n"
 "Tipp 2: a VG UUID-kat lekérdezheti a „pvs -o +vg_uuid” futtatásával."
 
+#: ../blivet/errors.py:242
+msgid ""
+"All parent devices must be selected when choosing exclusive or ignored disks "
+"for a multipath or firmware RAID device."
+msgstr ""
+
 #: ../blivet/fcoe.py:121
 msgid "FCoE not available"
 msgstr "Az FCoE nem érhető el"
+
+#: ../blivet/iscsi.py:217
+msgid "Unable to change iSCSI initiator name once set"
+msgstr ""
+"Nem lehet megváltoztatni az iSCSI kezdeményező nevét, ha egyszer már "
+"beállításra került"
+
+#: ../blivet/iscsi.py:219
+msgid "Must provide an iSCSI initiator name"
+msgstr "Meg kell adnia egy iSCSI kezdeményező nevét"
+
+#: ../blivet/iscsi.py:413
+msgid "iSCSI not available"
+msgstr "az iSCSI nem érhető el"
+
+#: ../blivet/iscsi.py:415
+msgid "No initiator name set"
+msgstr "Nincs kezdeményező név beállítva"
+
+#: ../blivet/iscsi.py:533
+msgid "No iSCSI nodes discovered"
+msgstr "Nem lett iSCSI csomópont felfedezve"
+
+#: ../blivet/iscsi.py:553
+msgid "No new iSCSI nodes discovered"
+msgstr "Nem lett új iSCSI csomópont felfedezve"
+
+#: ../blivet/iscsi.py:556
+msgid "Could not log in to any of the discovered nodes"
+msgstr "Nem lehet bejelentkezni egyik felfedezett csomópontra sem"
+
+#: ../blivet/partitioning.py:455
+msgid "unable to allocate aligned partition"
+msgstr "nem lehet lefoglalni a partíciókat"
+
+#: ../blivet/partitioning.py:463
+msgid "requested size exceeds maximum allowed"
+msgstr "a kért méret túllépi a maximálisan megengedettet"
+
+#: ../blivet/partitioning.py:475
+#, fuzzy, python-format
+#| msgid "failed to allocate aligned partition"
+msgid "failed to add partition to disk: %s"
+msgstr "nem sikerült lefoglalni a partíciókat"
+
+#: ../blivet/partitioning.py:586
+#, python-format
+msgid "disk %s inaccessible"
+msgstr "a(z) %s lemez elérhetetlen"
+
+#: ../blivet/partitioning.py:647
+#, python-format
+msgid ""
+"partition is too small for %(format)s formatting (allowable size is "
+"%(min_size)s to %(max_size)s)"
+msgstr ""
+"a partíció túl kicsi a(z) %(format)s formázáshoz (a megengedett méret "
+"%(min_size)s és %(max_size)s között van)"
+
+#: ../blivet/partitioning.py:652
+#, python-format
+msgid ""
+"partition is too large for %(format)s formatting (allowable size is "
+"%(min_size)s to %(max_size)s)"
+msgstr ""
+"a partíció túl nagy a(z) %(format)s formázáshoz (a megengedett méret "
+"%(min_size)s és %(max_size)s között van)"
+
+#: ../blivet/partitioning.py:968
+msgid "Unable to allocate requested partition scheme."
+msgstr "A kért particionálási séma nem osztható ki."
+
+#: ../blivet/partitioning.py:1003
+msgid "not enough free space after creating extended partition"
+msgstr "nincs elég szabad hely a kiterjesztett partíció elkészítése után"
+
+#: ../blivet/partitioning.py:1010
+msgid "failed to allocate aligned partition"
+msgstr "nem sikerült lefoglalni a partíciókat"
+
+#: ../blivet/partitioning.py:1211
+msgid "cannot reclaim more than request has grown"
+msgstr "nem lehet többet visszanyerni, mint amennyivel az igény megnőtt"
+
+#: ../blivet/partitioning.py:1425
+msgid "DiskChunk requests must be of type PartitionRequest"
+msgstr "a DiskChunk kéréseknek PartitionRequest típusúaknak kell lennie"
+
+#: ../blivet/partitioning.py:1438
+msgid "partitions allocated outside disklabel limits"
+msgstr "a partíciók a lemez címzésének határán túl vannak"
+
+#: ../blivet/partitioning.py:1523
+msgid "VGChunk requests must be of type LVRequest"
+msgstr "a VGChunk kéréseknek LVRequest típusúaknak kell lennie"
+
+#. by now we have allocated the PVs so if there isn't enough
+#. space in the VG we have a real problem
+#: ../blivet/partitioning.py:2015
+msgid "not enough space for LVM requests"
+msgstr "nincs elég hely az LVM kérésekhez"
 
 #: ../blivet/zfcp.py:62
 msgid "You have not specified a device number or the number is invalid"
@@ -162,8 +340,8 @@ msgid ""
 "Could not remove LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s "
 "(%(e)s)."
 msgstr ""
-"A(z) %(fcplun)s LUN nem távolítható el a(z) %(wwpn)s WWPN-en, a(z) %(devnum)"
-"s zFCP eszközön (%(e)s)."
+"A(z) %(fcplun)s LUN nem távolítható el a(z) %(wwpn)s WWPN-en, a(z) "
+"%(devnum)s zFCP eszközön (%(e)s)."
 
 #: ../blivet/zfcp.py:245
 #, python-format
@@ -177,171 +355,13 @@ msgid "Could not set zFCP device %(devnum)s offline (%(e)s)."
 msgstr ""
 "A(z) %(devnum)s zFCP eszköz ki van kapcsolva, nem állítható be (%(e)s)."
 
-#: ../blivet/iscsi.py:217
-msgid "Unable to change iSCSI initiator name once set"
-msgstr ""
-"Nem lehet megváltoztatni az iSCSI kezdeményező nevét, ha egyszer már "
-"beállításra került"
+#: ../blivet/devicelibs/lvm.py:59
+msgid "Generic"
+msgstr "Általános"
 
-#: ../blivet/iscsi.py:219
-msgid "Must provide an iSCSI initiator name"
-msgstr "Meg kell adnia egy iSCSI kezdeményező nevét"
-
-#: ../blivet/iscsi.py:410
-msgid "iSCSI not available"
-msgstr "az iSCSI nem érhető el"
-
-#: ../blivet/iscsi.py:412
-msgid "No initiator name set"
-msgstr "Nincs kezdeményező név beállítva"
-
-#: ../blivet/iscsi.py:530
-msgid "No iSCSI nodes discovered"
-msgstr "Nem lett iSCSI csomópont felfedezve"
-
-#: ../blivet/iscsi.py:550
-msgid "No new iSCSI nodes discovered"
-msgstr "Nem lett új iSCSI csomópont felfedezve"
-
-#: ../blivet/iscsi.py:553
-msgid "Could not log in to any of the discovered nodes"
-msgstr "Nem lehet bejelentkezni egyik felfedezett csomópontra sem"
-
-#: ../blivet/partitioning.py:454
-msgid "unable to allocate aligned partition"
-msgstr "nem lehet lefoglalni a partíciókat"
-
-#: ../blivet/partitioning.py:462
-msgid "requested size exceeds maximum allowed"
-msgstr "a kért méret túllépi a maximálisan megengedettet"
-
-#: ../blivet/partitioning.py:580
-#, python-format
-msgid "disk %s inaccessible"
-msgstr "a(z) %s lemez elérhetetlen"
-
-#: ../blivet/partitioning.py:641
-#, python-format
-msgid ""
-"partition is too small for %(format)s formatting (allowable size is "
-"%(min_size)s to %(max_size)s)"
-msgstr ""
-"a partíció túl kicsi a(z) %(format)s formázáshoz (a megengedett méret "
-"%(min_size)s és %(max_size)s között van)"
-
-#: ../blivet/partitioning.py:646
-#, python-format
-msgid ""
-"partition is too large for %(format)s formatting (allowable size is "
-"%(min_size)s to %(max_size)s)"
-msgstr ""
-"a partíció túl nagy a(z) %(format)s formázáshoz (a megengedett méret "
-"%(min_size)s és %(max_size)s között van)"
-
-#: ../blivet/partitioning.py:962
-msgid "Unable to allocate requested partition scheme."
-msgstr "A kért particionálási séma nem osztható ki."
-
-#: ../blivet/partitioning.py:997
-msgid "not enough free space after creating extended partition"
-msgstr "nincs elég szabad hely a kiterjesztett partíció elkészítése után"
-
-#: ../blivet/partitioning.py:1004
-msgid "failed to allocate aligned partition"
-msgstr "nem sikerült lefoglalni a partíciókat"
-
-#: ../blivet/partitioning.py:1205
-msgid "cannot reclaim more than request has grown"
-msgstr "nem lehet többet visszanyerni, mint amennyivel az igény megnőtt"
-
-#: ../blivet/partitioning.py:1419
-msgid "DiskChunk requests must be of type PartitionRequest"
-msgstr "a DiskChunk kéréseknek PartitionRequest típusúaknak kell lennie"
-
-#: ../blivet/partitioning.py:1432
-msgid "partitions allocated outside disklabel limits"
-msgstr "a partíciók a lemez címzésének határán túl vannak"
-
-#: ../blivet/partitioning.py:1517
-msgid "VGChunk requests must be of type LVRequest"
-msgstr "a VGChunk kéréseknek LVRequest típusúaknak kell lennie"
-
-#. by now we have allocated the PVs so if there isn't enough
-#. space in the VG we have a real problem
-#: ../blivet/partitioning.py:2025
-msgid "not enough space for LVM requests"
-msgstr "nincs elég hely az LVM kérésekhez"
-
-#: ../blivet/deviceaction.py:194
-#, python-format
-msgid "Executing %(action)s"
-msgstr "%(action)s végrehajtása"
-
-#: ../blivet/deviceaction.py:322
-msgid "create device"
-msgstr "eszköz létrehozása"
-
-#: ../blivet/deviceaction.py:381
-msgid "destroy device"
-msgstr "eszköz törlése"
-
-#: ../blivet/deviceaction.py:484
-msgid "resize device"
-msgstr "eszköz átméretezése"
-
-#: ../blivet/deviceaction.py:573
-msgid "create format"
-msgstr "formátum létrehozása"
-
-#: ../blivet/deviceaction.py:613
-#, python-format
-msgid "Creating %(type)s on %(device)s"
-msgstr "%(type)s létrehozása itt: %(device)s"
-
-#: ../blivet/deviceaction.py:640
-#, python-format
-msgid "Not enough entropy to create LUKS format. %d bits are needed."
-msgstr ""
-"Nincs elég entrópia a LUKS formázás létrehozásához. További %d bit szükséges."
-
-#: ../blivet/deviceaction.py:670
-#, python-format
-msgid "Created %(type)s on %(device)s"
-msgstr "%(type)s létrehozva a(z) %(device)s eszközön"
-
-#: ../blivet/deviceaction.py:717
-msgid "destroy format"
-msgstr "formátum törlése"
-
-#: ../blivet/deviceaction.py:830
-msgid "resize format"
-msgstr "formátum átméretezése"
-
-#: ../blivet/deviceaction.py:869
-#, python-format
-msgid "Resizing filesystem on %(device)s"
-msgstr "Fájlrendszer átméretezése a(z) %(device)s eszközön"
-
-#: ../blivet/deviceaction.py:876
-#, python-format
-msgid "Resized filesystem on %(device)s"
-msgstr "Fájlrendszer átméretezve a(z) %(device)s eszközön"
-
-#: ../blivet/deviceaction.py:923
-msgid "add container member"
-msgstr "konténer tag hozzáadása"
-
-#: ../blivet/deviceaction.py:988
-msgid "remove container member"
-msgstr "konténer tag eltávolítása"
-
-#: ../blivet/deviceaction.py:1058
-msgid "configure format"
-msgstr "formázás beállítása"
-
-#: ../blivet/deviceaction.py:1114
-msgid "configure device"
-msgstr "eszköz beállítása"
+#: ../blivet/devicelibs/lvm.py:60
+msgid "Performance"
+msgstr "Teljesítmény"
 
 #: ../blivet/devices/raid.py:58
 #, python-format
@@ -369,55 +389,55 @@ msgstr ""
 msgid "Cannot remove a member from existing %s array"
 msgstr "Nem távolítható el tag a létező %s tömbből"
 
-#: ../blivet/formats/fs.py:932
-msgid "EFI System Partition"
-msgstr "EFI rendszerpartíció"
-
-#: ../blivet/formats/fs.py:1137
-msgid "Apple Bootstrap"
-msgstr "Apple rendszerindító"
-
-#: ../blivet/formats/fs.py:1173
-msgid "Linux HFS+ ESP"
-msgstr "Linux HFS+ ESP"
-
-#: ../blivet/formats/prepboot.py:37
-msgid "PPC PReP Boot"
-msgstr "PPC PReP rendszerindító"
-
-#: ../blivet/formats/luks.py:58
-msgid "LUKS"
-msgstr "LUKS"
-
-#: ../blivet/formats/luks.py:59
-msgid "Encrypted"
-msgstr "Titkosított"
-
-#: ../blivet/formats/luks.py:388
-msgid "DM Integrity"
-msgstr "DM integritás"
-
-#: ../blivet/formats/__init__.py:148
-msgid "Unknown"
-msgstr "Ismeretlen"
-
 #: ../blivet/formats/biosboot.py:35
 msgid "BIOS Boot"
 msgstr "BIOS indító"
-
-#: ../blivet/formats/dmraid.py:37
-msgid "dm-raid member device"
-msgstr "dm-raid tageszköz"
 
 #: ../blivet/formats/disklabel.py:50
 msgid "partition table"
 msgstr "partíciós tábla"
 
 #. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition table"
-#: ../blivet/formats/disklabel.py:320
+#: ../blivet/formats/disklabel.py:326
 #, python-format
 msgid "Unsupported %(name)s"
 msgstr "Nem támogatott %(name)s"
+
+#: ../blivet/formats/dmraid.py:37
+msgid "dm-raid member device"
+msgstr "dm-raid tageszköz"
+
+#: ../blivet/formats/fs.py:941
+msgid "EFI System Partition"
+msgstr "EFI rendszerpartíció"
+
+#: ../blivet/formats/fs.py:1149
+msgid "Apple Bootstrap"
+msgstr "Apple rendszerindító"
+
+#: ../blivet/formats/fs.py:1185
+msgid "Linux HFS+ ESP"
+msgstr "Linux HFS+ ESP"
+
+#: ../blivet/formats/__init__.py:148
+msgid "Unknown"
+msgstr "Ismeretlen"
+
+#: ../blivet/formats/luks.py:60
+msgid "LUKS"
+msgstr "LUKS"
+
+#: ../blivet/formats/luks.py:61
+msgid "Encrypted"
+msgstr "Titkosított"
+
+#: ../blivet/formats/luks.py:402
+msgid "DM Integrity"
+msgstr "DM integritás"
+
+#: ../blivet/formats/lvmpv.py:49
+msgid "physical volume (LVM)"
+msgstr "fizikai kötet (LVM)"
 
 #: ../blivet/formats/mdraid.py:43
 msgid "software RAID"
@@ -427,14 +447,6 @@ msgstr "szoftveres RAID"
 msgid "multipath member device"
 msgstr "többutas tageszköz"
 
-#: ../blivet/formats/lvmpv.py:49
-msgid "physical volume (LVM)"
-msgstr "fizikai kötet (LVM)"
-
-#: ../blivet/devicelibs/lvm.py:59
-msgid "Generic"
-msgstr "Általános"
-
-#: ../blivet/devicelibs/lvm.py:60
-msgid "Performance"
-msgstr "Teljesítmény"
+#: ../blivet/formats/prepboot.py:37
+msgid "PPC PReP Boot"
+msgstr "PPC PReP rendszerindító"

@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-29 14:04+0100\n"
+"POT-Creation-Date: 2021-09-03 09:15+0200\n"
 "PO-Revision-Date: 2020-08-02 07:29+0000\n"
 "Last-Translator: Charles Lee <lchopn@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -33,22 +33,95 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.1.1\n"
 
-#: ../blivet/errors.py:210
+#: ../blivet/deviceaction.py:196
+#, python-format
+msgid "Executing %(action)s"
+msgstr "执行 %(action)s"
+
+#: ../blivet/deviceaction.py:324
+msgid "create device"
+msgstr "创建设备"
+
+#: ../blivet/deviceaction.py:383
+msgid "destroy device"
+msgstr "销毁设备"
+
+#: ../blivet/deviceaction.py:494
+msgid "resize device"
+msgstr "重新定义设备大小"
+
+#: ../blivet/deviceaction.py:583
+msgid "create format"
+msgstr "创建格式"
+
+#: ../blivet/deviceaction.py:623
+#, python-format
+msgid "Creating %(type)s on %(device)s"
+msgstr "正在 %(device)s 上创建文件系统 %(type)s"
+
+#: ../blivet/deviceaction.py:650
+#, python-format
+msgid "Not enough entropy to create LUKS format. %d bits are needed."
+msgstr "没有足够的熵创建 LUKS 格式。还需要 %d 字节。"
+
+#: ../blivet/deviceaction.py:680
+#, python-format
+msgid "Created %(type)s on %(device)s"
+msgstr "在 %(device)s 中创建 %(type)s"
+
+#: ../blivet/deviceaction.py:729
+msgid "destroy format"
+msgstr "销毁格式"
+
+#: ../blivet/deviceaction.py:842
+msgid "resize format"
+msgstr "重新定义格式"
+
+#: ../blivet/deviceaction.py:881
+#, python-format
+msgid "Resizing filesystem on %(device)s"
+msgstr "在 %(device)s 中重新定义文件系统大小"
+
+#: ../blivet/deviceaction.py:888
+#, python-format
+msgid "Resized filesystem on %(device)s"
+msgstr "已在 %(device)s 中重新定义大小的文件系统"
+
+#: ../blivet/deviceaction.py:935
+msgid "add container member"
+msgstr "添加容器成员"
+
+#: ../blivet/deviceaction.py:1000
+msgid "remove container member"
+msgstr "删除容器成员"
+
+#: ../blivet/deviceaction.py:1070
+msgid "configure format"
+msgstr "配置格式"
+
+#: ../blivet/deviceaction.py:1127
+msgid "configure device"
+msgstr "配置设备"
+
+#: ../blivet/errors.py:214
 msgid ""
 "This is usually caused by cloning the device image resulting in duplication "
 "of the UUID value which should be unique. In that case you can either "
 "disconnect one of the devices or reformat it."
-msgstr "这通常是由于克隆设备镜像导致 UUID 值重复造成的，而 UUID 值应该是唯一的。如果是这种情况，可以断开其中一个设备或重新格式化它。"
+msgstr ""
+"这通常是由于克隆设备镜像导致 UUID 值重复造成的，而 UUID 值应该是唯一的。如果"
+"是这种情况，可以断开其中一个设备或重新格式化它。"
 
-#: ../blivet/errors.py:217
+#: ../blivet/errors.py:221
 msgid ""
 "For some reason we were unable to locate a disklabel on a disk that the "
 "kernel is reporting partitions on. It is unclear what the exact problem is. "
 "Please file a bug at http://bugzilla.redhat.com"
 msgstr ""
-"由于某些原因我们无法在磁盘上定位内核所报告分区的磁盘标签。尚不了解具体问题所在。请在 http://bugzilla.redhat.com 提交 bug"
+"由于某些原因我们无法在磁盘上定位内核所报告分区的磁盘标签。尚不了解具体问题所"
+"在。请在 http://bugzilla.redhat.com 提交 bug"
 
-#: ../blivet/errors.py:224
+#: ../blivet/errors.py:228
 msgid ""
 "Either restore the disklabel to a completely working state or remove it "
 "completely.\n"
@@ -57,7 +130,7 @@ msgstr ""
 "可以将该磁盘标签恢复为完全工作状态，或者将其完全删除。\n"
 "提示：可使用 parted 将其恢复，或使用 wipefs 将其删除。"
 
-#: ../blivet/errors.py:230
+#: ../blivet/errors.py:234
 msgid ""
 "Rename one of the volume groups so the names are distinct.\n"
 "Hint 1: vgrename accepts UUID in place of the old name.\n"
@@ -67,9 +140,112 @@ msgstr ""
 "提示 1：vgrename 接受使用 UUID 代替原有名称。\n"
 "提示 2：可运行 'pvs -o +vg_uuid' 获取 VG UUID。"
 
+#: ../blivet/errors.py:242
+msgid ""
+"All parent devices must be selected when choosing exclusive or ignored disks "
+"for a multipath or firmware RAID device."
+msgstr ""
+
 #: ../blivet/fcoe.py:121
 msgid "FCoE not available"
 msgstr "FCoE 不可用"
+
+#: ../blivet/iscsi.py:217
+msgid "Unable to change iSCSI initiator name once set"
+msgstr "设定后就无法更改 iSCSI 启动程序名称"
+
+#: ../blivet/iscsi.py:219
+msgid "Must provide an iSCSI initiator name"
+msgstr "您必须提供一个 iSCSI 发起者的名称"
+
+#: ../blivet/iscsi.py:413
+msgid "iSCSI not available"
+msgstr "iSCSI 不可用"
+
+#: ../blivet/iscsi.py:415
+msgid "No initiator name set"
+msgstr "没有设置启动器名称"
+
+#: ../blivet/iscsi.py:533
+msgid "No iSCSI nodes discovered"
+msgstr "没有发现 iSCSI 节点"
+
+#: ../blivet/iscsi.py:553
+msgid "No new iSCSI nodes discovered"
+msgstr "没有找到新的 iSCSI 节点"
+
+#: ../blivet/iscsi.py:556
+msgid "Could not log in to any of the discovered nodes"
+msgstr "无法登入到任何已发现节点"
+
+#: ../blivet/partitioning.py:455
+msgid "unable to allocate aligned partition"
+msgstr "无法分配已对齐的分区"
+
+#: ../blivet/partitioning.py:463
+msgid "requested size exceeds maximum allowed"
+msgstr "所需大小超过最大可允许的大小"
+
+#: ../blivet/partitioning.py:475
+#, fuzzy, python-format
+#| msgid "failed to allocate aligned partition"
+msgid "failed to add partition to disk: %s"
+msgstr "无法分配已对齐的分区"
+
+#: ../blivet/partitioning.py:586
+#, python-format
+msgid "disk %s inaccessible"
+msgstr "无法访问磁盘 %s"
+
+#: ../blivet/partitioning.py:647
+#, python-format
+msgid ""
+"partition is too small for %(format)s formatting (allowable size is "
+"%(min_size)s to %(max_size)s)"
+msgstr ""
+"分区对于 %(format)s 格式化太小（允许大小是 %(min_size)s 到 %(max_size)s）"
+
+#: ../blivet/partitioning.py:652
+#, python-format
+msgid ""
+"partition is too large for %(format)s formatting (allowable size is "
+"%(min_size)s to %(max_size)s)"
+msgstr ""
+"分区对于 %(format)s 格式化太大（允许大小是 %(min_size)s 到 %(max_size)s）"
+
+#: ../blivet/partitioning.py:968
+msgid "Unable to allocate requested partition scheme."
+msgstr "无法分配请求的分区方案。"
+
+#: ../blivet/partitioning.py:1003
+msgid "not enough free space after creating extended partition"
+msgstr "没有足够的可用空间创建扩展分区"
+
+#: ../blivet/partitioning.py:1010
+msgid "failed to allocate aligned partition"
+msgstr "无法分配已对齐的分区"
+
+#: ../blivet/partitioning.py:1211
+msgid "cannot reclaim more than request has grown"
+msgstr "无法回收超过请求所增长的空间"
+
+#: ../blivet/partitioning.py:1425
+msgid "DiskChunk requests must be of type PartitionRequest"
+msgstr "DiskChunk 请求必须为 PartitionRequest 类型"
+
+#: ../blivet/partitioning.py:1438
+msgid "partitions allocated outside disklabel limits"
+msgstr "分配的分区超出磁盘标签限制"
+
+#: ../blivet/partitioning.py:1523
+msgid "VGChunk requests must be of type LVRequest"
+msgstr "VGChunk 请求必须为 LVRequest 类型"
+
+#. by now we have allocated the PVs so if there isn't enough
+#. space in the VG we have a real problem
+#: ../blivet/partitioning.py:2015
+msgid "not enough space for LVM requests"
+msgstr "没有足够的空间以满足 LVM 请求"
 
 #: ../blivet/zfcp.py:62
 msgid "You have not specified a device number or the number is invalid"
@@ -164,166 +340,13 @@ msgstr "无法在 zFCP 设备 %(devnum)s 中删除 WWPN %(wwpn)s (%(e)s)。"
 msgid "Could not set zFCP device %(devnum)s offline (%(e)s)."
 msgstr "无法将 zFCP 设备 %(devnum)s 设定为离线 (%(e)s)。"
 
-#: ../blivet/iscsi.py:217
-msgid "Unable to change iSCSI initiator name once set"
-msgstr "设定后就无法更改 iSCSI 启动程序名称"
+#: ../blivet/devicelibs/lvm.py:59
+msgid "Generic"
+msgstr "通用"
 
-#: ../blivet/iscsi.py:219
-msgid "Must provide an iSCSI initiator name"
-msgstr "您必须提供一个 iSCSI 发起者的名称"
-
-#: ../blivet/iscsi.py:410
-msgid "iSCSI not available"
-msgstr "iSCSI 不可用"
-
-#: ../blivet/iscsi.py:412
-msgid "No initiator name set"
-msgstr "没有设置启动器名称"
-
-#: ../blivet/iscsi.py:530
-msgid "No iSCSI nodes discovered"
-msgstr "没有发现 iSCSI 节点"
-
-#: ../blivet/iscsi.py:550
-msgid "No new iSCSI nodes discovered"
-msgstr "没有找到新的 iSCSI 节点"
-
-#: ../blivet/iscsi.py:553
-msgid "Could not log in to any of the discovered nodes"
-msgstr "无法登入到任何已发现节点"
-
-#: ../blivet/partitioning.py:454
-msgid "unable to allocate aligned partition"
-msgstr "无法分配已对齐的分区"
-
-#: ../blivet/partitioning.py:462
-msgid "requested size exceeds maximum allowed"
-msgstr "所需大小超过最大可允许的大小"
-
-#: ../blivet/partitioning.py:580
-#, python-format
-msgid "disk %s inaccessible"
-msgstr "无法访问磁盘 %s"
-
-#: ../blivet/partitioning.py:641
-#, python-format
-msgid ""
-"partition is too small for %(format)s formatting (allowable size is "
-"%(min_size)s to %(max_size)s)"
-msgstr ""
-"分区对于 %(format)s 格式化太小（允许大小是 %(min_size)s 到 %(max_size)s）"
-
-#: ../blivet/partitioning.py:646
-#, python-format
-msgid ""
-"partition is too large for %(format)s formatting (allowable size is "
-"%(min_size)s to %(max_size)s)"
-msgstr ""
-"分区对于 %(format)s 格式化太大（允许大小是 %(min_size)s 到 %(max_size)s）"
-
-#: ../blivet/partitioning.py:962
-msgid "Unable to allocate requested partition scheme."
-msgstr "无法分配请求的分区方案。"
-
-#: ../blivet/partitioning.py:997
-msgid "not enough free space after creating extended partition"
-msgstr "没有足够的可用空间创建扩展分区"
-
-#: ../blivet/partitioning.py:1004
-msgid "failed to allocate aligned partition"
-msgstr "无法分配已对齐的分区"
-
-#: ../blivet/partitioning.py:1205
-msgid "cannot reclaim more than request has grown"
-msgstr "无法回收超过请求所增长的空间"
-
-#: ../blivet/partitioning.py:1419
-msgid "DiskChunk requests must be of type PartitionRequest"
-msgstr "DiskChunk 请求必须为 PartitionRequest 类型"
-
-#: ../blivet/partitioning.py:1432
-msgid "partitions allocated outside disklabel limits"
-msgstr "分配的分区超出磁盘标签限制"
-
-#: ../blivet/partitioning.py:1517
-msgid "VGChunk requests must be of type LVRequest"
-msgstr "VGChunk 请求必须为 LVRequest 类型"
-
-#. by now we have allocated the PVs so if there isn't enough
-#. space in the VG we have a real problem
-#: ../blivet/partitioning.py:2025
-msgid "not enough space for LVM requests"
-msgstr "没有足够的空间以满足 LVM 请求"
-
-#: ../blivet/deviceaction.py:194
-#, python-format
-msgid "Executing %(action)s"
-msgstr "执行 %(action)s"
-
-#: ../blivet/deviceaction.py:322
-msgid "create device"
-msgstr "创建设备"
-
-#: ../blivet/deviceaction.py:381
-msgid "destroy device"
-msgstr "销毁设备"
-
-#: ../blivet/deviceaction.py:484
-msgid "resize device"
-msgstr "重新定义设备大小"
-
-#: ../blivet/deviceaction.py:573
-msgid "create format"
-msgstr "创建格式"
-
-#: ../blivet/deviceaction.py:613
-#, python-format
-msgid "Creating %(type)s on %(device)s"
-msgstr "正在 %(device)s 上创建文件系统 %(type)s"
-
-#: ../blivet/deviceaction.py:640
-#, python-format
-msgid "Not enough entropy to create LUKS format. %d bits are needed."
-msgstr "没有足够的熵创建 LUKS 格式。还需要 %d 字节。"
-
-#: ../blivet/deviceaction.py:670
-#, python-format
-msgid "Created %(type)s on %(device)s"
-msgstr "在 %(device)s 中创建 %(type)s"
-
-#: ../blivet/deviceaction.py:717
-msgid "destroy format"
-msgstr "销毁格式"
-
-#: ../blivet/deviceaction.py:830
-msgid "resize format"
-msgstr "重新定义格式"
-
-#: ../blivet/deviceaction.py:869
-#, python-format
-msgid "Resizing filesystem on %(device)s"
-msgstr "在 %(device)s 中重新定义文件系统大小"
-
-#: ../blivet/deviceaction.py:876
-#, python-format
-msgid "Resized filesystem on %(device)s"
-msgstr "已在 %(device)s 中重新定义大小的文件系统"
-
-#: ../blivet/deviceaction.py:923
-msgid "add container member"
-msgstr "添加容器成员"
-
-#: ../blivet/deviceaction.py:988
-msgid "remove container member"
-msgstr "删除容器成员"
-
-#: ../blivet/deviceaction.py:1058
-msgid "configure format"
-msgstr "配置格式"
-
-#: ../blivet/deviceaction.py:1114
-msgid "configure device"
-msgstr "配置设备"
+#: ../blivet/devicelibs/lvm.py:60
+msgid "Performance"
+msgstr "性能"
 
 #: ../blivet/devices/raid.py:58
 #, python-format
@@ -347,55 +370,55 @@ msgstr ""
 msgid "Cannot remove a member from existing %s array"
 msgstr "无法从存在的 %s 阵列中删除一个成员"
 
-#: ../blivet/formats/fs.py:932
-msgid "EFI System Partition"
-msgstr "EFI 系统分区"
-
-#: ../blivet/formats/fs.py:1137
-msgid "Apple Bootstrap"
-msgstr "Apple Bootstrap"
-
-#: ../blivet/formats/fs.py:1173
-msgid "Linux HFS+ ESP"
-msgstr "Linux HFS+ ESP"
-
-#: ../blivet/formats/prepboot.py:37
-msgid "PPC PReP Boot"
-msgstr "PPC PReP Boot"
-
-#: ../blivet/formats/luks.py:58
-msgid "LUKS"
-msgstr "LUKS"
-
-#: ../blivet/formats/luks.py:59
-msgid "Encrypted"
-msgstr "已加密"
-
-#: ../blivet/formats/luks.py:388
-msgid "DM Integrity"
-msgstr "DM 完整性"
-
-#: ../blivet/formats/__init__.py:148
-msgid "Unknown"
-msgstr "未知"
-
 #: ../blivet/formats/biosboot.py:35
 msgid "BIOS Boot"
 msgstr "BIOS 引导"
-
-#: ../blivet/formats/dmraid.py:37
-msgid "dm-raid member device"
-msgstr "dm-raid member 设备"
 
 #: ../blivet/formats/disklabel.py:50
 msgid "partition table"
 msgstr "分区表"
 
 #. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition table"
-#: ../blivet/formats/disklabel.py:320
+#: ../blivet/formats/disklabel.py:326
 #, python-format
 msgid "Unsupported %(name)s"
 msgstr "不支持的 %(name)s"
+
+#: ../blivet/formats/dmraid.py:37
+msgid "dm-raid member device"
+msgstr "dm-raid member 设备"
+
+#: ../blivet/formats/fs.py:941
+msgid "EFI System Partition"
+msgstr "EFI 系统分区"
+
+#: ../blivet/formats/fs.py:1149
+msgid "Apple Bootstrap"
+msgstr "Apple Bootstrap"
+
+#: ../blivet/formats/fs.py:1185
+msgid "Linux HFS+ ESP"
+msgstr "Linux HFS+ ESP"
+
+#: ../blivet/formats/__init__.py:148
+msgid "Unknown"
+msgstr "未知"
+
+#: ../blivet/formats/luks.py:60
+msgid "LUKS"
+msgstr "LUKS"
+
+#: ../blivet/formats/luks.py:61
+msgid "Encrypted"
+msgstr "已加密"
+
+#: ../blivet/formats/luks.py:402
+msgid "DM Integrity"
+msgstr "DM 完整性"
+
+#: ../blivet/formats/lvmpv.py:49
+msgid "physical volume (LVM)"
+msgstr "物理卷（LVM）"
 
 #: ../blivet/formats/mdraid.py:43
 msgid "software RAID"
@@ -405,14 +428,6 @@ msgstr "软件 RAID"
 msgid "multipath member device"
 msgstr "多路径成员设备"
 
-#: ../blivet/formats/lvmpv.py:49
-msgid "physical volume (LVM)"
-msgstr "物理卷（LVM）"
-
-#: ../blivet/devicelibs/lvm.py:59
-msgid "Generic"
-msgstr "通用"
-
-#: ../blivet/devicelibs/lvm.py:60
-msgid "Performance"
-msgstr "性能"
+#: ../blivet/formats/prepboot.py:37
+msgid "PPC PReP Boot"
+msgstr "PPC PReP Boot"

@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-29 14:04+0100\n"
+"POT-Creation-Date: 2021-09-03 09:15+0200\n"
 "PO-Revision-Date: 2021-09-04 17:04+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/blivet/"
@@ -33,25 +33,97 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.8\n"
 
-#: ../blivet/errors.py:210
+#: ../blivet/deviceaction.py:196
+#, python-format
+msgid "Executing %(action)s"
+msgstr "%(action)s 실행"
+
+#: ../blivet/deviceaction.py:324
+msgid "create device"
+msgstr "장치 생성"
+
+#: ../blivet/deviceaction.py:383
+msgid "destroy device"
+msgstr "장치 삭제"
+
+#: ../blivet/deviceaction.py:494
+msgid "resize device"
+msgstr "장치 크기 변경"
+
+#: ../blivet/deviceaction.py:583
+msgid "create format"
+msgstr "포맷 생성"
+
+#: ../blivet/deviceaction.py:623
+#, python-format
+msgid "Creating %(type)s on %(device)s"
+msgstr "%(device)s에 %(type)s 생성"
+
+#: ../blivet/deviceaction.py:650
+#, python-format
+msgid "Not enough entropy to create LUKS format. %d bits are needed."
+msgstr ""
+"LUKS 포맷을 생성하기 위해 엔트로피가 충분하지 않습니다. %d 비트가 필요합니다."
+
+#: ../blivet/deviceaction.py:680
+#, python-format
+msgid "Created %(type)s on %(device)s"
+msgstr "%(device)s에 %(type)s 생성"
+
+#: ../blivet/deviceaction.py:729
+msgid "destroy format"
+msgstr "포맷 삭제"
+
+#: ../blivet/deviceaction.py:842
+msgid "resize format"
+msgstr "포맷 크기 변경"
+
+#: ../blivet/deviceaction.py:881
+#, python-format
+msgid "Resizing filesystem on %(device)s"
+msgstr "%(device)s 상의 파일 시스템 크기 조정 중"
+
+#: ../blivet/deviceaction.py:888
+#, python-format
+msgid "Resized filesystem on %(device)s"
+msgstr "%(device)s 상의 파일 시스템 크기를 조정했습니다"
+
+#: ../blivet/deviceaction.py:935
+msgid "add container member"
+msgstr "컨테이너 멤버 추가"
+
+#: ../blivet/deviceaction.py:1000
+msgid "remove container member"
+msgstr "컨테이너 멤버 삭제"
+
+#: ../blivet/deviceaction.py:1070
+msgid "configure format"
+msgstr "포맷 설정"
+
+#: ../blivet/deviceaction.py:1127
+msgid "configure device"
+msgstr "장치 설정"
+
+#: ../blivet/errors.py:214
 msgid ""
 "This is usually caused by cloning the device image resulting in duplication "
 "of the UUID value which should be unique. In that case you can either "
 "disconnect one of the devices or reformat it."
 msgstr ""
-"이는 일반적으로 장치 이미지 복제로 인해 고유한 UUID 값이 복제되기 때문에 발생합니다. 이 경우 장치 중 하나를 분리하거나 다시 포맷 "
-"할 수 있습니다."
+"이는 일반적으로 장치 이미지 복제로 인해 고유한 UUID 값이 복제되기 때문에 발생"
+"합니다. 이 경우 장치 중 하나를 분리하거나 다시 포맷 할 수 있습니다."
 
-#: ../blivet/errors.py:217
+#: ../blivet/errors.py:221
 msgid ""
 "For some reason we were unable to locate a disklabel on a disk that the "
 "kernel is reporting partitions on. It is unclear what the exact problem is. "
 "Please file a bug at http://bugzilla.redhat.com"
 msgstr ""
-"일부 이유로 커널이 파티션 설정을 보고하는 디스크에 디스크 이름표를 배치 할 수 없습니다. 정확한 문제가 무엇인지 알 수 없습니다. "
-"http://bugzilla.redhat.com에 결점(bug) 보고서를 제출해 주십시오"
+"일부 이유로 커널이 파티션 설정을 보고하는 디스크에 디스크 이름표를 배치 할 "
+"수 없습니다. 정확한 문제가 무엇인지 알 수 없습니다. http://bugzilla.redhat."
+"com에 결점(bug) 보고서를 제출해 주십시오"
 
-#: ../blivet/errors.py:224
+#: ../blivet/errors.py:228
 msgid ""
 "Either restore the disklabel to a completely working state or remove it "
 "completely.\n"
@@ -60,7 +132,7 @@ msgstr ""
 "디스크 이름표를 완전히 작동하는 상태로 복원하거나 완전히 제거합니다.\n"
 "힌트: parted로 이를 복원하거나 wipefs로 완전히 제거합니다."
 
-#: ../blivet/errors.py:230
+#: ../blivet/errors.py:234
 msgid ""
 "Rename one of the volume groups so the names are distinct.\n"
 "Hint 1: vgrename accepts UUID in place of the old name.\n"
@@ -70,9 +142,114 @@ msgstr ""
 "힌트 1: vgrename은 이전 이름 대신 UUID를 허용합니다.\n"
 "힌트 2: 'pvs -o +vg_uuid'를 실행하여 VG UUID를 확인할 수 있습니다."
 
+#: ../blivet/errors.py:242
+msgid ""
+"All parent devices must be selected when choosing exclusive or ignored disks "
+"for a multipath or firmware RAID device."
+msgstr ""
+
 #: ../blivet/fcoe.py:121
 msgid "FCoE not available"
 msgstr "FCoE 사용 불가능"
+
+#: ../blivet/iscsi.py:217
+msgid "Unable to change iSCSI initiator name once set"
+msgstr "iSCSI 개시자 이름이 설정되면 이를 변경 할 수 없음"
+
+#: ../blivet/iscsi.py:219
+msgid "Must provide an iSCSI initiator name"
+msgstr "iSCSI 개시자 이름을 지정하십시오"
+
+#: ../blivet/iscsi.py:413
+msgid "iSCSI not available"
+msgstr "iSCSI 사용 불가능"
+
+#: ../blivet/iscsi.py:415
+msgid "No initiator name set"
+msgstr "이니셰이터 이름이 설정되지 않음"
+
+#: ../blivet/iscsi.py:533
+msgid "No iSCSI nodes discovered"
+msgstr "iSCSI 노드를 찾을 수 없음"
+
+#: ../blivet/iscsi.py:553
+msgid "No new iSCSI nodes discovered"
+msgstr "새로운 iSCSI 노드를 찾을 수 없음"
+
+#: ../blivet/iscsi.py:556
+msgid "Could not log in to any of the discovered nodes"
+msgstr "검색된 노드로 로그인 할 수 없음"
+
+#: ../blivet/partitioning.py:455
+msgid "unable to allocate aligned partition"
+msgstr "정렬된 파티션을 할당할 수 없습니다"
+
+#: ../blivet/partitioning.py:463
+msgid "requested size exceeds maximum allowed"
+msgstr "요청된 크기가 최대 허용 값을 초과했습니다"
+
+#: ../blivet/partitioning.py:475
+#, fuzzy, python-format
+#| msgid "failed to allocate aligned partition"
+msgid "failed to add partition to disk: %s"
+msgstr "정렬된 파티션을 할당할 수 없습니다"
+
+#: ../blivet/partitioning.py:586
+#, python-format
+msgid "disk %s inaccessible"
+msgstr "디스크 %s에 액세스할 수 없습니다"
+
+#: ../blivet/partitioning.py:647
+#, python-format
+msgid ""
+"partition is too small for %(format)s formatting (allowable size is "
+"%(min_size)s to %(max_size)s)"
+msgstr ""
+"파티션은 %(format)s 포맷 용으로 너무 작습니다. (사용 가능한 크기는 "
+"%(min_size)s에서 %(max_size)s입니다)"
+
+#: ../blivet/partitioning.py:652
+#, python-format
+msgid ""
+"partition is too large for %(format)s formatting (allowable size is "
+"%(min_size)s to %(max_size)s)"
+msgstr ""
+"파티션은 %(format)s 포맷 용으로 너무 큽니다. (사용 가능한 크기는 %(min_size)s"
+"에서 %(max_size)s입니다)"
+
+#: ../blivet/partitioning.py:968
+msgid "Unable to allocate requested partition scheme."
+msgstr "요청된 파티션 설정을 할당할 수 없습니다."
+
+#: ../blivet/partitioning.py:1003
+msgid "not enough free space after creating extended partition"
+msgstr "확장 파티션 생성 후 여유 공간이 충분하지 않습니다"
+
+#: ../blivet/partitioning.py:1010
+msgid "failed to allocate aligned partition"
+msgstr "정렬된 파티션을 할당할 수 없습니다"
+
+#: ../blivet/partitioning.py:1211
+msgid "cannot reclaim more than request has grown"
+msgstr "요청된 크기 이상을 반환할 수 없습니다"
+
+#: ../blivet/partitioning.py:1425
+msgid "DiskChunk requests must be of type PartitionRequest"
+msgstr "DiskChunk 요청에는 PartitionRequest 유형이 필요합니다"
+
+#: ../blivet/partitioning.py:1438
+msgid "partitions allocated outside disklabel limits"
+msgstr "디스크 레이블 제한 범위 밖에 할당된 파티션"
+
+#: ../blivet/partitioning.py:1523
+msgid "VGChunk requests must be of type LVRequest"
+msgstr "VGChunk 요청에는 LVRequest 유형이 필요합니다"
+
+#. by now we have allocated the PVs so if there isn't enough
+#. space in the VG we have a real problem
+#: ../blivet/partitioning.py:2015
+msgid "not enough space for LVM requests"
+msgstr "LVM 요청에 필요한 공간이 충분하지 않습니다"
 
 #: ../blivet/zfcp.py:62
 msgid "You have not specified a device number or the number is invalid"
@@ -113,7 +290,8 @@ msgid ""
 "Could not add LUN %(fcplun)s to WWPN %(wwpn)s on zFCP device %(devnum)s "
 "(%(e)s)."
 msgstr ""
-"zFCP 장치 %(devnum)s (%(e)s)에서 LUN %(fcplun)s을(를) WWPN %(wwpn)s에 추가할 수 없습니다."
+"zFCP 장치 %(devnum)s (%(e)s)에서 LUN %(fcplun)s을(를) WWPN %(wwpn)s에 추가할 "
+"수 없습니다."
 
 #: ../blivet/zfcp.py:140
 #, python-format
@@ -137,14 +315,18 @@ msgstr ""
 msgid ""
 "Failed LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s removed "
 "again."
-msgstr "zFCP 장치 %(devnum)s에 있는 WWPN %(wwpn)s에서 실패한 LUN %(fcplun)s이 다시 삭제되었습니다."
+msgstr ""
+"zFCP 장치 %(devnum)s에 있는 WWPN %(wwpn)s에서 실패한 LUN %(fcplun)s이 다시 삭"
+"제되었습니다."
 
 #: ../blivet/zfcp.py:218
 #, python-format
 msgid ""
 "Could not correctly delete SCSI device of zFCP %(devnum)s %(wwpn)s "
 "%(fcplun)s (%(e)s)."
-msgstr "zFCP %(devnum)s %(wwpn)s %(fcplun)s (%(e)s)의 SCSI 장치를 올바르게 삭제할 수 없습니다."
+msgstr ""
+"zFCP %(devnum)s %(wwpn)s %(fcplun)s (%(e)s)의 SCSI 장치를 올바르게 삭제할 수 "
+"없습니다."
 
 #: ../blivet/zfcp.py:227
 #, python-format
@@ -158,176 +340,21 @@ msgstr ""
 #: ../blivet/zfcp.py:245
 #, python-format
 msgid "Could not remove WWPN %(wwpn)s on zFCP device %(devnum)s (%(e)s)."
-msgstr "zFCP 장치 %(devnum)s (%(e)s)에서 WWPN %(wwpn)s을(를) 제거할 수 없습니다."
+msgstr ""
+"zFCP 장치 %(devnum)s (%(e)s)에서 WWPN %(wwpn)s을(를) 제거할 수 없습니다."
 
 #: ../blivet/zfcp.py:271
 #, python-format
 msgid "Could not set zFCP device %(devnum)s offline (%(e)s)."
 msgstr "zFCP 장치 %(devnum)s를 오프라인 (%(e)s)으로 설정 할 수 없습니다."
 
-#: ../blivet/iscsi.py:217
-msgid "Unable to change iSCSI initiator name once set"
-msgstr "iSCSI 개시자 이름이 설정되면 이를 변경 할 수 없음"
+#: ../blivet/devicelibs/lvm.py:59
+msgid "Generic"
+msgstr "일반"
 
-#: ../blivet/iscsi.py:219
-msgid "Must provide an iSCSI initiator name"
-msgstr "iSCSI 개시자 이름을 지정하십시오"
-
-#: ../blivet/iscsi.py:410
-msgid "iSCSI not available"
-msgstr "iSCSI 사용 불가능"
-
-#: ../blivet/iscsi.py:412
-msgid "No initiator name set"
-msgstr "이니셰이터 이름이 설정되지 않음"
-
-#: ../blivet/iscsi.py:530
-msgid "No iSCSI nodes discovered"
-msgstr "iSCSI 노드를 찾을 수 없음"
-
-#: ../blivet/iscsi.py:550
-msgid "No new iSCSI nodes discovered"
-msgstr "새로운 iSCSI 노드를 찾을 수 없음"
-
-#: ../blivet/iscsi.py:553
-msgid "Could not log in to any of the discovered nodes"
-msgstr "검색된 노드로 로그인 할 수 없음"
-
-#: ../blivet/partitioning.py:454
-msgid "unable to allocate aligned partition"
-msgstr "정렬된 파티션을 할당할 수 없습니다"
-
-#: ../blivet/partitioning.py:462
-msgid "requested size exceeds maximum allowed"
-msgstr "요청된 크기가 최대 허용 값을 초과했습니다"
-
-#: ../blivet/partitioning.py:580
-#, python-format
-msgid "disk %s inaccessible"
-msgstr "디스크 %s에 액세스할 수 없습니다"
-
-#: ../blivet/partitioning.py:641
-#, python-format
-msgid ""
-"partition is too small for %(format)s formatting (allowable size is "
-"%(min_size)s to %(max_size)s)"
-msgstr ""
-"파티션은 %(format)s 포맷 용으로 너무 작습니다. (사용 가능한 크기는 "
-"%(min_size)s에서 %(max_size)s입니다)"
-
-#: ../blivet/partitioning.py:646
-#, python-format
-msgid ""
-"partition is too large for %(format)s formatting (allowable size is "
-"%(min_size)s to %(max_size)s)"
-msgstr ""
-"파티션은 %(format)s 포맷 용으로 너무 큽니다. (사용 가능한 크기는 %(min_size)s"
-"에서 %(max_size)s입니다)"
-
-#: ../blivet/partitioning.py:962
-msgid "Unable to allocate requested partition scheme."
-msgstr "요청된 파티션 설정을 할당할 수 없습니다."
-
-#: ../blivet/partitioning.py:997
-msgid "not enough free space after creating extended partition"
-msgstr "확장 파티션 생성 후 여유 공간이 충분하지 않습니다"
-
-#: ../blivet/partitioning.py:1004
-msgid "failed to allocate aligned partition"
-msgstr "정렬된 파티션을 할당할 수 없습니다"
-
-#: ../blivet/partitioning.py:1205
-msgid "cannot reclaim more than request has grown"
-msgstr "요청된 크기 이상을 반환할 수 없습니다"
-
-#: ../blivet/partitioning.py:1419
-msgid "DiskChunk requests must be of type PartitionRequest"
-msgstr "DiskChunk 요청에는 PartitionRequest 유형이 필요합니다"
-
-#: ../blivet/partitioning.py:1432
-msgid "partitions allocated outside disklabel limits"
-msgstr "디스크 레이블 제한 범위 밖에 할당된 파티션"
-
-#: ../blivet/partitioning.py:1517
-msgid "VGChunk requests must be of type LVRequest"
-msgstr "VGChunk 요청에는 LVRequest 유형이 필요합니다"
-
-#. by now we have allocated the PVs so if there isn't enough
-#. space in the VG we have a real problem
-#: ../blivet/partitioning.py:2025
-msgid "not enough space for LVM requests"
-msgstr "LVM 요청에 필요한 공간이 충분하지 않습니다"
-
-#: ../blivet/deviceaction.py:194
-#, python-format
-msgid "Executing %(action)s"
-msgstr "%(action)s 실행"
-
-#: ../blivet/deviceaction.py:322
-msgid "create device"
-msgstr "장치 생성"
-
-#: ../blivet/deviceaction.py:381
-msgid "destroy device"
-msgstr "장치 삭제"
-
-#: ../blivet/deviceaction.py:484
-msgid "resize device"
-msgstr "장치 크기 변경"
-
-#: ../blivet/deviceaction.py:573
-msgid "create format"
-msgstr "포맷 생성"
-
-#: ../blivet/deviceaction.py:613
-#, python-format
-msgid "Creating %(type)s on %(device)s"
-msgstr "%(device)s에 %(type)s 생성"
-
-#: ../blivet/deviceaction.py:640
-#, python-format
-msgid "Not enough entropy to create LUKS format. %d bits are needed."
-msgstr ""
-"LUKS 포맷을 생성하기 위해 엔트로피가 충분하지 않습니다. %d 비트가 필요합니다."
-
-#: ../blivet/deviceaction.py:670
-#, python-format
-msgid "Created %(type)s on %(device)s"
-msgstr "%(device)s에 %(type)s 생성"
-
-#: ../blivet/deviceaction.py:717
-msgid "destroy format"
-msgstr "포맷 삭제"
-
-#: ../blivet/deviceaction.py:830
-msgid "resize format"
-msgstr "포맷 크기 변경"
-
-#: ../blivet/deviceaction.py:869
-#, python-format
-msgid "Resizing filesystem on %(device)s"
-msgstr "%(device)s 상의 파일 시스템 크기 조정 중"
-
-#: ../blivet/deviceaction.py:876
-#, python-format
-msgid "Resized filesystem on %(device)s"
-msgstr "%(device)s 상의 파일 시스템 크기를 조정했습니다"
-
-#: ../blivet/deviceaction.py:923
-msgid "add container member"
-msgstr "컨테이너 멤버 추가"
-
-#: ../blivet/deviceaction.py:988
-msgid "remove container member"
-msgstr "컨테이너 멤버 삭제"
-
-#: ../blivet/deviceaction.py:1058
-msgid "configure format"
-msgstr "포맷 설정"
-
-#: ../blivet/deviceaction.py:1114
-msgid "configure device"
-msgstr "장치 설정"
+#: ../blivet/devicelibs/lvm.py:60
+msgid "Performance"
+msgstr "성능"
 
 #: ../blivet/devices/raid.py:58
 #, python-format
@@ -337,68 +364,72 @@ msgid ""
 msgid_plural ""
 "RAID level %(raid_level)s requires that device have at least %(min_members)d "
 "members."
-msgstr[0] "RAID 레벨 %(raid_level)s에는 최소 %(min_members)d개의 장치 구성원이 필요합니다."
+msgstr[0] ""
+"RAID 레벨 %(raid_level)s에는 최소 %(min_members)d개의 장치 구성원이 필요합니"
+"다."
 
 #: ../blivet/devices/raid.py:79
 #, python-format
 msgid ""
 "RAID level %(raid_level)s is an invalid value. Must be one of (%(levels)s)."
-msgstr "레이드 수준(level) %(raid_level)s이 유효한 값이 아닙니다. (%(levels)s) 중 하나여야 합니다."
+msgstr ""
+"레이드 수준(level) %(raid_level)s이 유효한 값이 아닙니다. (%(levels)s) 중 하"
+"나여야 합니다."
 
 #: ../blivet/devices/raid.py:104
 #, python-format
 msgid "Cannot remove a member from existing %s array"
 msgstr "기존 %s 어레이에서 장치 구성원을 제거 할 수 없습니다"
 
-#: ../blivet/formats/fs.py:932
-msgid "EFI System Partition"
-msgstr "EFI 시스템 파티션"
-
-#: ../blivet/formats/fs.py:1137
-msgid "Apple Bootstrap"
-msgstr "Apple 부트스트랩"
-
-#: ../blivet/formats/fs.py:1173
-msgid "Linux HFS+ ESP"
-msgstr "리눅스 HFS+ ESP"
-
-#: ../blivet/formats/prepboot.py:37
-msgid "PPC PReP Boot"
-msgstr "PPC PReP 부트"
-
-#: ../blivet/formats/luks.py:58
-msgid "LUKS"
-msgstr "LUKS"
-
-#: ../blivet/formats/luks.py:59
-msgid "Encrypted"
-msgstr "암호화됨"
-
-#: ../blivet/formats/luks.py:388
-msgid "DM Integrity"
-msgstr "DM 무결성"
-
-#: ../blivet/formats/__init__.py:148
-msgid "Unknown"
-msgstr "알 수 없음"
-
 #: ../blivet/formats/biosboot.py:35
 msgid "BIOS Boot"
 msgstr "BIOS 부트"
-
-#: ../blivet/formats/dmraid.py:37
-msgid "dm-raid member device"
-msgstr "dm-raid 멤버 장치"
 
 #: ../blivet/formats/disklabel.py:50
 msgid "partition table"
 msgstr "파티션 테이블"
 
 #. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition table"
-#: ../blivet/formats/disklabel.py:320
+#: ../blivet/formats/disklabel.py:326
 #, python-format
 msgid "Unsupported %(name)s"
 msgstr "지원되지 않는 %(name)s"
+
+#: ../blivet/formats/dmraid.py:37
+msgid "dm-raid member device"
+msgstr "dm-raid 멤버 장치"
+
+#: ../blivet/formats/fs.py:941
+msgid "EFI System Partition"
+msgstr "EFI 시스템 파티션"
+
+#: ../blivet/formats/fs.py:1149
+msgid "Apple Bootstrap"
+msgstr "Apple 부트스트랩"
+
+#: ../blivet/formats/fs.py:1185
+msgid "Linux HFS+ ESP"
+msgstr "리눅스 HFS+ ESP"
+
+#: ../blivet/formats/__init__.py:148
+msgid "Unknown"
+msgstr "알 수 없음"
+
+#: ../blivet/formats/luks.py:60
+msgid "LUKS"
+msgstr "LUKS"
+
+#: ../blivet/formats/luks.py:61
+msgid "Encrypted"
+msgstr "암호화됨"
+
+#: ../blivet/formats/luks.py:402
+msgid "DM Integrity"
+msgstr "DM 무결성"
+
+#: ../blivet/formats/lvmpv.py:49
+msgid "physical volume (LVM)"
+msgstr "물리 볼륨 (LVM)"
 
 #: ../blivet/formats/mdraid.py:43
 msgid "software RAID"
@@ -408,14 +439,6 @@ msgstr "소프트웨어 RAID"
 msgid "multipath member device"
 msgstr "멀티패스 멤버 장치"
 
-#: ../blivet/formats/lvmpv.py:49
-msgid "physical volume (LVM)"
-msgstr "물리 볼륨 (LVM)"
-
-#: ../blivet/devicelibs/lvm.py:59
-msgid "Generic"
-msgstr "일반"
-
-#: ../blivet/devicelibs/lvm.py:60
-msgid "Performance"
-msgstr "성능"
+#: ../blivet/formats/prepboot.py:37
+msgid "PPC PReP Boot"
+msgstr "PPC PReP 부트"

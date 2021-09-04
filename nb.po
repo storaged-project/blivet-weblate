@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-01-29 14:04+0100\n"
+"POT-Creation-Date: 2021-09-03 09:15+0200\n"
 "PO-Revision-Date: 2020-05-24 07:40+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://translate.fedoraproject.org/"
@@ -25,7 +25,77 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.0.4\n"
 
-#: ../blivet/errors.py:210
+#: ../blivet/deviceaction.py:196
+#, python-format
+msgid "Executing %(action)s"
+msgstr "Kjører %(action)s"
+
+#: ../blivet/deviceaction.py:324
+msgid "create device"
+msgstr "opprett enhet"
+
+#: ../blivet/deviceaction.py:383
+msgid "destroy device"
+msgstr "ødelegg enhet"
+
+#: ../blivet/deviceaction.py:494
+msgid "resize device"
+msgstr "endre størrelse på enhet"
+
+#: ../blivet/deviceaction.py:583
+msgid "create format"
+msgstr "opprett format"
+
+#: ../blivet/deviceaction.py:623
+#, python-format
+msgid "Creating %(type)s on %(device)s"
+msgstr "Lager %(type)s på %(device)s"
+
+#: ../blivet/deviceaction.py:650
+#, python-format
+msgid "Not enough entropy to create LUKS format. %d bits are needed."
+msgstr "Mangler entropi for opprettelse av LUKS-format. %d-biter behøves."
+
+#: ../blivet/deviceaction.py:680
+#, python-format
+msgid "Created %(type)s on %(device)s"
+msgstr "Opprettet %(type)s på %(device)s"
+
+#: ../blivet/deviceaction.py:729
+msgid "destroy format"
+msgstr "ødelegg format"
+
+#: ../blivet/deviceaction.py:842
+msgid "resize format"
+msgstr "endre størrelse på format"
+
+#: ../blivet/deviceaction.py:881
+#, python-format
+msgid "Resizing filesystem on %(device)s"
+msgstr "Endrer størrelse på filsystem på %(device)s"
+
+#: ../blivet/deviceaction.py:888
+#, python-format
+msgid "Resized filesystem on %(device)s"
+msgstr "Endret størrelse på fiksystem på %(device)s"
+
+#: ../blivet/deviceaction.py:935
+msgid "add container member"
+msgstr "legg til beholder-medlem"
+
+#: ../blivet/deviceaction.py:1000
+msgid "remove container member"
+msgstr "fjern beholder-medlem"
+
+#: ../blivet/deviceaction.py:1070
+msgid "configure format"
+msgstr "sett opp format"
+
+#: ../blivet/deviceaction.py:1127
+msgid "configure device"
+msgstr "sett opp enhet"
+
+#: ../blivet/errors.py:214
 msgid ""
 "This is usually caused by cloning the device image resulting in duplication "
 "of the UUID value which should be unique. In that case you can either "
@@ -35,7 +105,7 @@ msgstr ""
 "duplisering av UUID-verdien istedenfor at den er unik. I sådant fall kan du "
 "enten koble fra én av enhetene eller reformatere den."
 
-#: ../blivet/errors.py:217
+#: ../blivet/errors.py:221
 msgid ""
 "For some reason we were unable to locate a disklabel on a disk that the "
 "kernel is reporting partitions on. It is unclear what the exact problem is. "
@@ -45,7 +115,7 @@ msgstr ""
 "som kjernen rapporterer partisjoner fra. Det er uklart hva problemet er. "
 "Innrapporter feil på https://bugzilla.redhat.com"
 
-#: ../blivet/errors.py:224
+#: ../blivet/errors.py:228
 msgid ""
 "Either restore the disklabel to a completely working state or remove it "
 "completely.\n"
@@ -55,7 +125,7 @@ msgstr ""
 "eller fjern den helt.\n"
 "Hint: \"parted\" kan gjenopprette, og \"wipefs\" kan fjerne den."
 
-#: ../blivet/errors.py:230
+#: ../blivet/errors.py:234
 msgid ""
 "Rename one of the volume groups so the names are distinct.\n"
 "Hint 1: vgrename accepts UUID in place of the old name.\n"
@@ -66,9 +136,114 @@ msgstr ""
 "Hint 1 \"vgrename\" godtar UUID-er istedenfor det gamle navnet.\n"
 "Hint 2: Du kan hente VG-UUID-er gjennom å kjøre \"ps -o +vg_uuid\"."
 
+#: ../blivet/errors.py:242
+msgid ""
+"All parent devices must be selected when choosing exclusive or ignored disks "
+"for a multipath or firmware RAID device."
+msgstr ""
+
 #: ../blivet/fcoe.py:121
 msgid "FCoE not available"
 msgstr "FCoE er ikke tilgjengelig"
+
+#: ../blivet/iscsi.py:217
+msgid "Unable to change iSCSI initiator name once set"
+msgstr "Kan ikke bytte navn på iSCSI-initiator når det først er satt"
+
+#: ../blivet/iscsi.py:219
+msgid "Must provide an iSCSI initiator name"
+msgstr "Må oppgi navn på iSCSI-initiator"
+
+#: ../blivet/iscsi.py:413
+msgid "iSCSI not available"
+msgstr "iSCSI er ikke tilgjengelig"
+
+#: ../blivet/iscsi.py:415
+msgid "No initiator name set"
+msgstr "Navn på initiator er ikke satt"
+
+#: ../blivet/iscsi.py:533
+msgid "No iSCSI nodes discovered"
+msgstr "Oppdaget ingen iSCSI-noder"
+
+#: ../blivet/iscsi.py:553
+msgid "No new iSCSI nodes discovered"
+msgstr "Ingen nye iSCSI-noder oppdaget"
+
+#: ../blivet/iscsi.py:556
+msgid "Could not log in to any of the discovered nodes"
+msgstr "Kunne ikke logge inn i noen av de oppdagede nodene"
+
+#: ../blivet/partitioning.py:455
+msgid "unable to allocate aligned partition"
+msgstr "kunne ikke tildele justert partisjon"
+
+#: ../blivet/partitioning.py:463
+msgid "requested size exceeds maximum allowed"
+msgstr "forespurt størrelse overstiger høyeste tillatte"
+
+#: ../blivet/partitioning.py:475
+#, fuzzy, python-format
+#| msgid "failed to allocate aligned partition"
+msgid "failed to add partition to disk: %s"
+msgstr "Klarte ikke å tildele justert partisjon"
+
+#: ../blivet/partitioning.py:586
+#, python-format
+msgid "disk %s inaccessible"
+msgstr "disken %s kan ikke nås"
+
+#: ../blivet/partitioning.py:647
+#, python-format
+msgid ""
+"partition is too small for %(format)s formatting (allowable size is "
+"%(min_size)s to %(max_size)s)"
+msgstr ""
+"partisjonen er for liten for %(format)s-formatering (tillatt størrelse er "
+"mellom %(min_size)s og %(max_size)s)"
+
+#: ../blivet/partitioning.py:652
+#, python-format
+msgid ""
+"partition is too large for %(format)s formatting (allowable size is "
+"%(min_size)s to %(max_size)s)"
+msgstr ""
+"partisjonen er for stor for %(format)s-formatering (tillatt størrelse er "
+"mellom %(min_size)s og %(max_size)s)"
+
+#: ../blivet/partitioning.py:968
+msgid "Unable to allocate requested partition scheme."
+msgstr "Kunne ikke tildele forespurt partisjonsforordning."
+
+#: ../blivet/partitioning.py:1003
+msgid "not enough free space after creating extended partition"
+msgstr "Ikke nok ledig plass etter opprettelse av utvidet partisjon"
+
+#: ../blivet/partitioning.py:1010
+msgid "failed to allocate aligned partition"
+msgstr "Klarte ikke å tildele justert partisjon"
+
+#: ../blivet/partitioning.py:1211
+msgid "cannot reclaim more than request has grown"
+msgstr "Kan ikke gjenvinne mer enn forespørselen har vokst"
+
+#: ../blivet/partitioning.py:1425
+msgid "DiskChunk requests must be of type PartitionRequest"
+msgstr "DiskChunk-forespørsler må være av typen \"PartitionRequest\""
+
+#: ../blivet/partitioning.py:1438
+msgid "partitions allocated outside disklabel limits"
+msgstr "Partisjoner tildelt utenfor disketikett-grenser"
+
+#: ../blivet/partitioning.py:1523
+msgid "VGChunk requests must be of type LVRequest"
+msgstr "VGChunk-forespørsler må være av typen «LVRequest»"
+
+#. by now we have allocated the PVs so if there isn't enough
+#. space in the VG we have a real problem
+#: ../blivet/partitioning.py:2015
+msgid "not enough space for LVM requests"
+msgstr "ikke nok plass for LVM-forespørsler"
 
 #: ../blivet/zfcp.py:62
 msgid "You have not specified a device number or the number is invalid"
@@ -128,8 +303,8 @@ msgid ""
 "Could not read failed attribute of LUN %(fcplun)s at WWPN %(wwpn)s on zFCP "
 "device %(devnum)s (%(e)s)."
 msgstr ""
-"Kunne ikke lese mislykket attribut tilhørende LUN %(fcplun)s på WWPN %(wwpn)"
-"s på zFCP-enhet %(devnum)s (%(e)s)."
+"Kunne ikke lese mislykket attribut tilhørende LUN %(fcplun)s på WWPN "
+"%(wwpn)s på zFCP-enhet %(devnum)s (%(e)s)."
 
 #: ../blivet/zfcp.py:161
 #, python-format
@@ -168,168 +343,13 @@ msgstr "Kunne ikke fjerne WWPN %(wwpn)s på zFCP-enhet %(devnum)s (%(e)s)."
 msgid "Could not set zFCP device %(devnum)s offline (%(e)s)."
 msgstr "Kunne ikke sette zFCP-enhet %(devnum)s frakoblet (%(e)s)."
 
-#: ../blivet/iscsi.py:217
-msgid "Unable to change iSCSI initiator name once set"
-msgstr "Kan ikke bytte navn på iSCSI-initiator når det først er satt"
+#: ../blivet/devicelibs/lvm.py:59
+msgid "Generic"
+msgstr "Generisk"
 
-#: ../blivet/iscsi.py:219
-msgid "Must provide an iSCSI initiator name"
-msgstr "Må oppgi navn på iSCSI-initiator"
-
-#: ../blivet/iscsi.py:410
-msgid "iSCSI not available"
-msgstr "iSCSI er ikke tilgjengelig"
-
-#: ../blivet/iscsi.py:412
-msgid "No initiator name set"
-msgstr "Navn på initiator er ikke satt"
-
-#: ../blivet/iscsi.py:530
-msgid "No iSCSI nodes discovered"
-msgstr "Oppdaget ingen iSCSI-noder"
-
-#: ../blivet/iscsi.py:550
-msgid "No new iSCSI nodes discovered"
-msgstr "Ingen nye iSCSI-noder oppdaget"
-
-#: ../blivet/iscsi.py:553
-msgid "Could not log in to any of the discovered nodes"
-msgstr "Kunne ikke logge inn i noen av de oppdagede nodene"
-
-#: ../blivet/partitioning.py:454
-msgid "unable to allocate aligned partition"
-msgstr "kunne ikke tildele justert partisjon"
-
-#: ../blivet/partitioning.py:462
-msgid "requested size exceeds maximum allowed"
-msgstr "forespurt størrelse overstiger høyeste tillatte"
-
-#: ../blivet/partitioning.py:580
-#, python-format
-msgid "disk %s inaccessible"
-msgstr "disken %s kan ikke nås"
-
-#: ../blivet/partitioning.py:641
-#, python-format
-msgid ""
-"partition is too small for %(format)s formatting (allowable size is "
-"%(min_size)s to %(max_size)s)"
-msgstr ""
-"partisjonen er for liten for %(format)s-formatering (tillatt størrelse er "
-"mellom %(min_size)s og %(max_size)s)"
-
-#: ../blivet/partitioning.py:646
-#, python-format
-msgid ""
-"partition is too large for %(format)s formatting (allowable size is "
-"%(min_size)s to %(max_size)s)"
-msgstr ""
-"partisjonen er for stor for %(format)s-formatering (tillatt størrelse er "
-"mellom %(min_size)s og %(max_size)s)"
-
-#: ../blivet/partitioning.py:962
-msgid "Unable to allocate requested partition scheme."
-msgstr "Kunne ikke tildele forespurt partisjonsforordning."
-
-#: ../blivet/partitioning.py:997
-msgid "not enough free space after creating extended partition"
-msgstr "Ikke nok ledig plass etter opprettelse av utvidet partisjon"
-
-#: ../blivet/partitioning.py:1004
-msgid "failed to allocate aligned partition"
-msgstr "Klarte ikke å tildele justert partisjon"
-
-#: ../blivet/partitioning.py:1205
-msgid "cannot reclaim more than request has grown"
-msgstr "Kan ikke gjenvinne mer enn forespørselen har vokst"
-
-#: ../blivet/partitioning.py:1419
-msgid "DiskChunk requests must be of type PartitionRequest"
-msgstr "DiskChunk-forespørsler må være av typen \"PartitionRequest\""
-
-#: ../blivet/partitioning.py:1432
-msgid "partitions allocated outside disklabel limits"
-msgstr "Partisjoner tildelt utenfor disketikett-grenser"
-
-#: ../blivet/partitioning.py:1517
-msgid "VGChunk requests must be of type LVRequest"
-msgstr "VGChunk-forespørsler må være av typen «LVRequest»"
-
-#. by now we have allocated the PVs so if there isn't enough
-#. space in the VG we have a real problem
-#: ../blivet/partitioning.py:2025
-msgid "not enough space for LVM requests"
-msgstr "ikke nok plass for LVM-forespørsler"
-
-#: ../blivet/deviceaction.py:194
-#, python-format
-msgid "Executing %(action)s"
-msgstr "Kjører %(action)s"
-
-#: ../blivet/deviceaction.py:322
-msgid "create device"
-msgstr "opprett enhet"
-
-#: ../blivet/deviceaction.py:381
-msgid "destroy device"
-msgstr "ødelegg enhet"
-
-#: ../blivet/deviceaction.py:484
-msgid "resize device"
-msgstr "endre størrelse på enhet"
-
-#: ../blivet/deviceaction.py:573
-msgid "create format"
-msgstr "opprett format"
-
-#: ../blivet/deviceaction.py:613
-#, python-format
-msgid "Creating %(type)s on %(device)s"
-msgstr "Lager %(type)s på %(device)s"
-
-#: ../blivet/deviceaction.py:640
-#, python-format
-msgid "Not enough entropy to create LUKS format. %d bits are needed."
-msgstr "Mangler entropi for opprettelse av LUKS-format. %d-biter behøves."
-
-#: ../blivet/deviceaction.py:670
-#, python-format
-msgid "Created %(type)s on %(device)s"
-msgstr "Opprettet %(type)s på %(device)s"
-
-#: ../blivet/deviceaction.py:717
-msgid "destroy format"
-msgstr "ødelegg format"
-
-#: ../blivet/deviceaction.py:830
-msgid "resize format"
-msgstr "endre størrelse på format"
-
-#: ../blivet/deviceaction.py:869
-#, python-format
-msgid "Resizing filesystem on %(device)s"
-msgstr "Endrer størrelse på filsystem på %(device)s"
-
-#: ../blivet/deviceaction.py:876
-#, python-format
-msgid "Resized filesystem on %(device)s"
-msgstr "Endret størrelse på fiksystem på %(device)s"
-
-#: ../blivet/deviceaction.py:923
-msgid "add container member"
-msgstr "legg til beholder-medlem"
-
-#: ../blivet/deviceaction.py:988
-msgid "remove container member"
-msgstr "fjern beholder-medlem"
-
-#: ../blivet/deviceaction.py:1058
-msgid "configure format"
-msgstr "sett opp format"
-
-#: ../blivet/deviceaction.py:1114
-msgid "configure device"
-msgstr "sett opp enhet"
+#: ../blivet/devicelibs/lvm.py:60
+msgid "Performance"
+msgstr "Ytelse"
 
 #: ../blivet/devices/raid.py:58
 #, python-format
@@ -357,55 +377,55 @@ msgstr ""
 msgid "Cannot remove a member from existing %s array"
 msgstr "Kan ikke fjerne medlem fra eksisterende %s-tabell"
 
-#: ../blivet/formats/fs.py:932
-msgid "EFI System Partition"
-msgstr "EFI systempartisjon"
-
-#: ../blivet/formats/fs.py:1137
-msgid "Apple Bootstrap"
-msgstr "Apple-oppstartsprosedyre"
-
-#: ../blivet/formats/fs.py:1173
-msgid "Linux HFS+ ESP"
-msgstr "Linux HFS+ ESP"
-
-#: ../blivet/formats/prepboot.py:37
-msgid "PPC PReP Boot"
-msgstr "PPC PReP-oppstart"
-
-#: ../blivet/formats/luks.py:58
-msgid "LUKS"
-msgstr "LUKS"
-
-#: ../blivet/formats/luks.py:59
-msgid "Encrypted"
-msgstr "Kryptert"
-
-#: ../blivet/formats/luks.py:388
-msgid "DM Integrity"
-msgstr "DM-integritet"
-
-#: ../blivet/formats/__init__.py:148
-msgid "Unknown"
-msgstr "Ukjent"
-
 #: ../blivet/formats/biosboot.py:35
 msgid "BIOS Boot"
 msgstr "BIOS-oppstart"
-
-#: ../blivet/formats/dmraid.py:37
-msgid "dm-raid member device"
-msgstr "dm-raid-medlemsenhet"
 
 #: ../blivet/formats/disklabel.py:50
 msgid "partition table"
 msgstr "partisjonstabell"
 
 #. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition table"
-#: ../blivet/formats/disklabel.py:320
+#: ../blivet/formats/disklabel.py:326
 #, python-format
 msgid "Unsupported %(name)s"
 msgstr "Ustøttet %(name)s"
+
+#: ../blivet/formats/dmraid.py:37
+msgid "dm-raid member device"
+msgstr "dm-raid-medlemsenhet"
+
+#: ../blivet/formats/fs.py:941
+msgid "EFI System Partition"
+msgstr "EFI systempartisjon"
+
+#: ../blivet/formats/fs.py:1149
+msgid "Apple Bootstrap"
+msgstr "Apple-oppstartsprosedyre"
+
+#: ../blivet/formats/fs.py:1185
+msgid "Linux HFS+ ESP"
+msgstr "Linux HFS+ ESP"
+
+#: ../blivet/formats/__init__.py:148
+msgid "Unknown"
+msgstr "Ukjent"
+
+#: ../blivet/formats/luks.py:60
+msgid "LUKS"
+msgstr "LUKS"
+
+#: ../blivet/formats/luks.py:61
+msgid "Encrypted"
+msgstr "Kryptert"
+
+#: ../blivet/formats/luks.py:402
+msgid "DM Integrity"
+msgstr "DM-integritet"
+
+#: ../blivet/formats/lvmpv.py:49
+msgid "physical volume (LVM)"
+msgstr "fysisk dataområde (LVM)"
 
 #: ../blivet/formats/mdraid.py:43
 msgid "software RAID"
@@ -415,14 +435,6 @@ msgstr "programvare-RAID"
 msgid "multipath member device"
 msgstr "flerveis-medlemsenhet"
 
-#: ../blivet/formats/lvmpv.py:49
-msgid "physical volume (LVM)"
-msgstr "fysisk dataområde (LVM)"
-
-#: ../blivet/devicelibs/lvm.py:59
-msgid "Generic"
-msgstr "Generisk"
-
-#: ../blivet/devicelibs/lvm.py:60
-msgid "Performance"
-msgstr "Ytelse"
+#: ../blivet/formats/prepboot.py:37
+msgid "PPC PReP Boot"
+msgstr "PPC PReP-oppstart"

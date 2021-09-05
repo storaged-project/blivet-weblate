@@ -18,17 +18,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
-"PO-Revision-Date: 2020-04-01 11:38+0000\n"
-"Last-Translator: Petr Molodyk <pamolodyk@gmail.com>\n"
+"PO-Revision-Date: 2021-09-06 21:04+0000\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
-"blivet/blivet-master/uk/>\n"
+"blivet/blivet-rhel9/uk/>\n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<="
-"4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.11.3\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.8\n"
 
 #: ../blivet/errors.py:210
 msgid ""
@@ -394,7 +394,7 @@ msgstr "Шифрований"
 
 #: ../blivet/formats/luks.py:388
 msgid "DM Integrity"
-msgstr "DM Integrity"
+msgstr "Цілісність DM"
 
 #: ../blivet/formats/__init__.py:148
 msgid "Unknown"

@@ -6,20 +6,20 @@
 # dcantrel <dcantrell@redhat.com>, 2011
 # Dimitris Glezos <glezos@indifex.com>, 2011
 # Maxim Dziumanenko <dziumanenko@gmail.com>, 2003
-# Yuri Chornoivan <yurchor@ukr.net>, 2011-2014, 2020.
-# Yuri Chornoivan <yurchor@ukr.net>, 2013, 2020.
-# Yuri Chornoivan <yurchor@ukr.net>, 2015. #zanata, 2020.
-# Yuri Chornoivan <yurchor@ukr.net>, 2016. #zanata, 2020.
-# Yuri Chornoivan <yurchor@ukr.net>, 2018. #zanata, 2020.
-# Yuri Chornoivan <yurchor@ukr.net>, 2019. #zanata, 2020.
+# Yuri Chornoivan <yurchor@ukr.net>, 2011-2014, 2020, 2021.
+# Yuri Chornoivan <yurchor@ukr.net>, 2013, 2020, 2021.
+# Yuri Chornoivan <yurchor@ukr.net>, 2015. #zanata, 2020, 2021.
+# Yuri Chornoivan <yurchor@ukr.net>, 2016. #zanata, 2020, 2021.
+# Yuri Chornoivan <yurchor@ukr.net>, 2018. #zanata, 2020, 2021.
+# Yuri Chornoivan <yurchor@ukr.net>, 2019. #zanata, 2020, 2021.
 # Petr Molodyk <pamolodyk@gmail.com>, 2020.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-03 09:15+0200\n"
-"PO-Revision-Date: 2020-04-01 11:38+0000\n"
-"Last-Translator: Petr Molodyk <pamolodyk@gmail.com>\n"
+"PO-Revision-Date: 2021-09-06 21:04+0000\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <https://translate.fedoraproject.org/projects/"
 "blivet/blivet-master/uk/>\n"
 "Language: uk\n"
@@ -28,7 +28,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 3.11.3\n"
+"X-Generator: Weblate 4.8\n"
 
 #: ../blivet/deviceaction.py:196
 #, python-format
@@ -146,6 +146,8 @@ msgid ""
 "All parent devices must be selected when choosing exclusive or ignored disks "
 "for a multipath or firmware RAID device."
 msgstr ""
+"Для багатошляхового або мікропрограмного пристрою RAID слід позначити усі "
+"батьківські пристрої при виборі виключних або ігнорованих дисків."
 
 #: ../blivet/fcoe.py:121
 msgid "FCoE not available"
@@ -188,10 +190,9 @@ msgid "requested size exceeds maximum allowed"
 msgstr "бажаний розмір перевищує максимальний дозволений"
 
 #: ../blivet/partitioning.py:475
-#, fuzzy, python-format
-#| msgid "failed to allocate aligned partition"
+#, python-format
 msgid "failed to add partition to disk: %s"
-msgstr "не вдалося розмістити вирівняний розділ"
+msgstr "не вдалося додати розділ до диска: %s"
 
 #: ../blivet/partitioning.py:586
 #, python-format
@@ -432,7 +433,7 @@ msgstr "Шифрований"
 
 #: ../blivet/formats/luks.py:402
 msgid "DM Integrity"
-msgstr "DM Integrity"
+msgstr "Цілісність DM"
 
 #: ../blivet/formats/lvmpv.py:49
 msgid "physical volume (LVM)"

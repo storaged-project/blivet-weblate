@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-03 09:15+0200\n"
-"PO-Revision-Date: 2021-09-04 17:04+0000\n"
+"PO-Revision-Date: 2021-09-06 21:04+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-master/ko/>\n"
@@ -146,7 +146,7 @@ msgstr ""
 msgid ""
 "All parent devices must be selected when choosing exclusive or ignored disks "
 "for a multipath or firmware RAID device."
-msgstr ""
+msgstr "다중 경로 또는 펌웨어 레이드 장치를 위해 단독 또는 무시된 디스크를 선택 할 때에 모든 상위 장치를 선택해야 합니다."
 
 #: ../blivet/fcoe.py:121
 msgid "FCoE not available"
@@ -189,10 +189,9 @@ msgid "requested size exceeds maximum allowed"
 msgstr "요청된 크기가 최대 허용 값을 초과했습니다"
 
 #: ../blivet/partitioning.py:475
-#, fuzzy, python-format
-#| msgid "failed to allocate aligned partition"
+#, python-format
 msgid "failed to add partition to disk: %s"
-msgstr "정렬된 파티션을 할당할 수 없습니다"
+msgstr "디스크에 파티션을 추가 할 수 없습니다: %s"
 
 #: ../blivet/partitioning.py:586
 #, python-format

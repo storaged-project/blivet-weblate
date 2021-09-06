@@ -12,13 +12,13 @@
 # Ismail ASCI <ismail.asci@gmail.com>, 2006
 # Muhammet Kara <muhammetk@gmail.com>, 2011
 # Onur Gungor <onurgu@boun.edu.tr>, 2004,2006
-# Oğuz Ersen <oguzersen@protonmail.com>, 2020.
+# Oğuz Ersen <oguzersen@protonmail.com>, 2020, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-03 09:15+0200\n"
-"PO-Revision-Date: 2020-09-15 19:29+0000\n"
+"PO-Revision-Date: 2021-09-06 21:04+0000\n"
 "Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-master/tr/>\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
-"X-Generator: Weblate 4.2.2\n"
+"X-Generator: Weblate 4.8\n"
 
 #: ../blivet/deviceaction.py:196
 #, python-format
@@ -145,6 +145,8 @@ msgid ""
 "All parent devices must be selected when choosing exclusive or ignored disks "
 "for a multipath or firmware RAID device."
 msgstr ""
+"Çok yollu veya yazılımsal RAID aygıtı için özel veya yok sayılan diskler "
+"seçilirken tüm ana aygıtlar seçilmelidir."
 
 #: ../blivet/fcoe.py:121
 msgid "FCoE not available"
@@ -187,10 +189,9 @@ msgid "requested size exceeds maximum allowed"
 msgstr "talep edilen boyut, izin verilen azami değeri aşıyor"
 
 #: ../blivet/partitioning.py:475
-#, fuzzy, python-format
-#| msgid "failed to allocate aligned partition"
+#, python-format
 msgid "failed to add partition to disk: %s"
-msgstr "hizalanmış bölüm ayırma başarısız oldu"
+msgstr "diske bölüm eklenemedi: %s"
 
 #: ../blivet/partitioning.py:586
 #, python-format
@@ -225,7 +226,7 @@ msgstr "genişletilmiş bölüm oluşturduktan sonra yeterli boş alan yok"
 
 #: ../blivet/partitioning.py:1010
 msgid "failed to allocate aligned partition"
-msgstr "hizalanmış bölüm ayırma başarısız oldu"
+msgstr "hizalanmış bölüm ayrılamadı"
 
 #: ../blivet/partitioning.py:1211
 msgid "cannot reclaim more than request has grown"

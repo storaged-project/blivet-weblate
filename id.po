@@ -17,16 +17,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
-"PO-Revision-Date: 2015-01-05 05:24+0000\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Indonesian (http://www.transifex.com/projects/p/blivet/"
-"language/id/)\n"
+"PO-Revision-Date: 2021-09-24 09:05+0000\n"
+"Last-Translator: Andika Triwidada <andika@gmail.com>\n"
+"Language-Team: Indonesian <https://translate.fedoraproject.org/projects/"
+"blivet/blivet-rhel8/id/>\n"
 "Language: id\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Zanata 4.6.2\n"
+"X-Generator: Weblate 4.8\n"
 
 #: ../blivet/errors.py:210
 msgid ""
@@ -34,6 +34,9 @@ msgid ""
 "of the UUID value which should be unique. In that case you can either "
 "disconnect one of the devices or reformat it."
 msgstr ""
+"Ini biasanya disebabkan oleh membuat klon image peranti yang menghasilkan "
+"duplikasi nilai UUID yang mestinya unik. Dalam kasus itu Anda dapat memutus "
+"satu dari peranti atau memformat ulang."
 
 #: ../blivet/errors.py:217
 msgid ""
@@ -41,6 +44,9 @@ msgid ""
 "kernel is reporting partitions on. It is unclear what the exact problem is. "
 "Please file a bug at http://bugzilla.redhat.com"
 msgstr ""
+"Untuk beberapa alasan kami tidak dapat menemukan suatu disklabel pada suatu "
+"disk yang oleh kernel dilaporkan partisi padanya. Tidak jelas apa masalah "
+"tepatnya. Harap laporkan bug pada http://bugzilla.redhat.com"
 
 #: ../blivet/errors.py:224
 msgid ""
@@ -48,6 +54,9 @@ msgid ""
 "completely.\n"
 "Hint: parted can restore it or wipefs can remove it."
 msgstr ""
+"Pulihkan disklabel ke keadaan yang sepenuhnya berfungsi atau hapus "
+"menyeluruh.\n"
+"Petunjuk: parted untuk memulihkan atau wipefs untuk menghapus."
 
 #: ../blivet/errors.py:230
 msgid ""
@@ -55,6 +64,10 @@ msgid ""
 "Hint 1: vgrename accepts UUID in place of the old name.\n"
 "Hint 2: You can get the VG UUIDs by running 'pvs -o +vg_uuid'."
 msgstr ""
+"Ganti nama salah satu grup volume sehingga namanya berbeda.\n"
+"Petunjuk 1: vgrename menerima UUID sebagai pengganti nama lama.\n"
+"Petunjuk 2: Anda bisa mendapatkan UUID VG dengan menjalankan 'pvs -o "
+"+vg_uuid'."
 
 #: ../blivet/fcoe.py:121
 msgid "FCoE not available"
@@ -177,7 +190,7 @@ msgstr "Tidak ada nama inisiator mengatur"
 
 #: ../blivet/iscsi.py:530
 msgid "No iSCSI nodes discovered"
-msgstr ""
+msgstr "Tidak ada simpul iSCSI yang ditemukan"
 
 #: ../blivet/iscsi.py:550
 msgid "No new iSCSI nodes discovered"
@@ -185,7 +198,7 @@ msgstr "Tidak ada node iSCSI baru yang ditemukan"
 
 #: ../blivet/iscsi.py:553
 msgid "Could not log in to any of the discovered nodes"
-msgstr ""
+msgstr "Tidak bisa log masuk ke salah satu simpul yang ditemukan"
 
 #: ../blivet/partitioning.py:454
 msgid "unable to allocate aligned partition"
@@ -193,12 +206,12 @@ msgstr ""
 
 #: ../blivet/partitioning.py:462
 msgid "requested size exceeds maximum allowed"
-msgstr ""
+msgstr "ukuran yang diminta melebihi ukuran maksimum yang diperbolehkan"
 
 #: ../blivet/partitioning.py:580
 #, python-format
 msgid "disk %s inaccessible"
-msgstr ""
+msgstr "disk %s tidak dapat diakses"
 
 #: ../blivet/partitioning.py:641
 #, python-format
@@ -206,6 +219,8 @@ msgid ""
 "partition is too small for %(format)s formatting (allowable size is "
 "%(min_size)s to %(max_size)s)"
 msgstr ""
+"partisi terlalu kecil untuk pemformatan %(format)s (ukuran yang "
+"diperbolehkan adalah %(min_size)s sampai %(max_size)s)"
 
 #: ../blivet/partitioning.py:646
 #, python-format
@@ -213,14 +228,16 @@ msgid ""
 "partition is too large for %(format)s formatting (allowable size is "
 "%(min_size)s to %(max_size)s)"
 msgstr ""
+"partisi terlalu besar untuk pemformatan %(format)s (ukuran yang "
+"diperbolehkan adalah %(min_size)s ke %(max_size)s)"
 
 #: ../blivet/partitioning.py:962
 msgid "Unable to allocate requested partition scheme."
-msgstr ""
+msgstr "Tidak bisa mengalokasikan skema partisi yang diminta."
 
 #: ../blivet/partitioning.py:997
 msgid "not enough free space after creating extended partition"
-msgstr ""
+msgstr "tidak cukup ruang kosong setelah membuat partisi extended"
 
 #: ../blivet/partitioning.py:1004
 msgid "failed to allocate aligned partition"
@@ -228,46 +245,46 @@ msgstr ""
 
 #: ../blivet/partitioning.py:1205
 msgid "cannot reclaim more than request has grown"
-msgstr ""
+msgstr "tidak dapat mengklaim kembali lebih dari membesarnya permintaan"
 
 #: ../blivet/partitioning.py:1419
 msgid "DiskChunk requests must be of type PartitionRequest"
-msgstr ""
+msgstr "Permintaan DiskChunk diharuskan dari tipe PartitionRequest"
 
 #: ../blivet/partitioning.py:1432
 msgid "partitions allocated outside disklabel limits"
-msgstr ""
+msgstr "partisi dialokasikan di luar batas disklabel"
 
 #: ../blivet/partitioning.py:1517
 msgid "VGChunk requests must be of type LVRequest"
-msgstr ""
+msgstr "Permintaan VGChunk harus bertipe LVRequest"
 
 #. by now we have allocated the PVs so if there isn't enough
 #. space in the VG we have a real problem
 #: ../blivet/partitioning.py:2025
 msgid "not enough space for LVM requests"
-msgstr ""
+msgstr "tidak cukup ruang untuk permintaan LVM"
 
 #: ../blivet/deviceaction.py:194
 #, python-format
 msgid "Executing %(action)s"
-msgstr ""
+msgstr "Mengeksekusi %(action)s"
 
 #: ../blivet/deviceaction.py:322
 msgid "create device"
-msgstr ""
+msgstr "membuat perangkat"
 
 #: ../blivet/deviceaction.py:381
 msgid "destroy device"
-msgstr ""
+msgstr "menghancurkan perangkat"
 
 #: ../blivet/deviceaction.py:484
 msgid "resize device"
-msgstr ""
+msgstr "mengubah ukuran perangkat"
 
 #: ../blivet/deviceaction.py:573
 msgid "create format"
-msgstr ""
+msgstr "membuat format"
 
 #: ../blivet/deviceaction.py:613
 #, python-format
@@ -277,46 +294,46 @@ msgstr "Membuat %(type)s pada %(device)s"
 #: ../blivet/deviceaction.py:640
 #, python-format
 msgid "Not enough entropy to create LUKS format. %d bits are needed."
-msgstr ""
+msgstr "Tidak cukup entropi untuk membuat format LUKS. %d bit diperlukan."
 
 #: ../blivet/deviceaction.py:670
 #, python-format
 msgid "Created %(type)s on %(device)s"
-msgstr ""
+msgstr "Dibuat %(type)s pada %(device)s"
 
 #: ../blivet/deviceaction.py:717
 msgid "destroy format"
-msgstr ""
+msgstr "menghancurkan format"
 
 #: ../blivet/deviceaction.py:830
 msgid "resize format"
-msgstr ""
+msgstr "mengubah ukuran format"
 
 #: ../blivet/deviceaction.py:869
 #, python-format
 msgid "Resizing filesystem on %(device)s"
-msgstr ""
+msgstr "Mengubah ukuran sistem berkas pada %(device)s"
 
 #: ../blivet/deviceaction.py:876
 #, python-format
 msgid "Resized filesystem on %(device)s"
-msgstr ""
+msgstr "Sistem berkas diubah ukuran pada %(device)s"
 
 #: ../blivet/deviceaction.py:923
 msgid "add container member"
-msgstr ""
+msgstr "menambahkan anggota kontainer"
 
 #: ../blivet/deviceaction.py:988
 msgid "remove container member"
-msgstr ""
+msgstr "menghapus anggota kontainer"
 
 #: ../blivet/deviceaction.py:1058
 msgid "configure format"
-msgstr ""
+msgstr "mengkonfigurasi format"
 
 #: ../blivet/deviceaction.py:1114
 msgid "configure device"
-msgstr ""
+msgstr "mengkonfigurasi perangkat"
 
 #: ../blivet/devices/raid.py:58
 #, python-format
@@ -327,17 +344,21 @@ msgid_plural ""
 "RAID level %(raid_level)s requires that device have at least %(min_members)d "
 "members."
 msgstr[0] ""
+"Tingkat RAID %(raid_level)s mengharuskan perangkat memiliki setidaknya "
+"%(min_members)d anggota."
 
 #: ../blivet/devices/raid.py:79
 #, python-format
 msgid ""
 "RAID level %(raid_level)s is an invalid value. Must be one of (%(levels)s)."
 msgstr ""
+"Tingkat RAID %(raid_level)s adalah nilai yang tidak valid. Harus salah satu "
+"dari (%(levels)s)."
 
 #: ../blivet/devices/raid.py:104
 #, python-format
 msgid "Cannot remove a member from existing %s array"
-msgstr ""
+msgstr "Tidak bisa menghapus anggota dari array %s yang sudah ada"
 
 #: ../blivet/formats/fs.py:932
 msgid "EFI System Partition"
@@ -345,19 +366,19 @@ msgstr "Partisi Sistem EFI"
 
 #: ../blivet/formats/fs.py:1137
 msgid "Apple Bootstrap"
-msgstr ""
+msgstr "Bootstrap Apple"
 
 #: ../blivet/formats/fs.py:1173
 msgid "Linux HFS+ ESP"
-msgstr ""
+msgstr "Linux HFS+ ESP"
 
 #: ../blivet/formats/prepboot.py:37
 msgid "PPC PReP Boot"
-msgstr ""
+msgstr "Boot PPC PReP"
 
 #: ../blivet/formats/luks.py:58
 msgid "LUKS"
-msgstr ""
+msgstr "LUKS"
 
 #: ../blivet/formats/luks.py:59
 msgid "Encrypted"
@@ -365,46 +386,46 @@ msgstr "Enkripsi"
 
 #: ../blivet/formats/luks.py:388
 msgid "DM Integrity"
-msgstr ""
+msgstr "Integritas DM"
 
 #: ../blivet/formats/__init__.py:148
 msgid "Unknown"
-msgstr ""
+msgstr "Tidak Dikenal"
 
 #: ../blivet/formats/biosboot.py:35
 msgid "BIOS Boot"
-msgstr ""
+msgstr "Boot BIOS"
 
 #: ../blivet/formats/dmraid.py:37
 msgid "dm-raid member device"
-msgstr ""
+msgstr "perangkat anggota dm-raid"
 
 #: ../blivet/formats/disklabel.py:50
 msgid "partition table"
-msgstr ""
+msgstr "tabel partisi"
 
 #. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition table"
 #: ../blivet/formats/disklabel.py:320
 #, python-format
 msgid "Unsupported %(name)s"
-msgstr ""
+msgstr "%(name)s yang tidak didukung"
 
 #: ../blivet/formats/mdraid.py:43
 msgid "software RAID"
-msgstr ""
+msgstr "RAID perangkat lunak"
 
 #: ../blivet/formats/multipath.py:40
 msgid "multipath member device"
-msgstr ""
+msgstr "perangkat anggota multipath"
 
 #: ../blivet/formats/lvmpv.py:49
 msgid "physical volume (LVM)"
-msgstr ""
+msgstr "volume fisik (LVM)"
 
 #: ../blivet/devicelibs/lvm.py:59
 msgid "Generic"
-msgstr ""
+msgstr "Generik"
 
 #: ../blivet/devicelibs/lvm.py:60
 msgid "Performance"
-msgstr ""
+msgstr "Kinerja"

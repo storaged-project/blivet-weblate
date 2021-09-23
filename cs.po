@@ -15,21 +15,22 @@
 # Zdenek <chmelarz@gmail.com>, 2016. #zanata
 # Zdenek <chmelarz@gmail.com>, 2018. #zanata
 # Zdenek <chmelarz@gmail.com>, 2019. #zanata
+# Pavel Borecki <pavel.borecki@gmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-03 09:15+0200\n"
-"PO-Revision-Date: 2019-02-25 09:38+0000\n"
-"Last-Translator: Zdenek <chmelarz@gmail.com>\n"
-"Language-Team: Czech (http://www.transifex.com/projects/p/blivet/language/"
-"cs/)\n"
+"PO-Revision-Date: 2021-09-23 07:05+0000\n"
+"Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
+"Language-Team: Czech <https://translate.fedoraproject.org/projects/blivet/"
+"blivet-master/cs/>\n"
 "Language: cs\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Zanata 4.6.2\n"
+"X-Generator: Weblate 4.8\n"
 
 #: ../blivet/deviceaction.py:196
 #, python-format
@@ -107,6 +108,10 @@ msgid ""
 "of the UUID value which should be unique. In that case you can either "
 "disconnect one of the devices or reformat it."
 msgstr ""
+"Toto je obvykle způsobeno klonování obrazu zařízení, což má za následek "
+"vícero výskytů hodnoty nikde se neopakující identifikátoru (UUID), který by "
+"měl být unikátní. V takovém případě můžete jedno ze zařízení odpojit, nebo "
+"na něm vytvořit souborový systém odznovu."
 
 #: ../blivet/errors.py:221
 msgid ""
@@ -185,10 +190,9 @@ msgid "requested size exceeds maximum allowed"
 msgstr "zadaná velikost překračuje povolené maximum"
 
 #: ../blivet/partitioning.py:475
-#, fuzzy, python-format
-#| msgid "failed to allocate aligned partition"
+#, python-format
 msgid "failed to add partition to disk: %s"
-msgstr "nepovedlo se vytvořit zarovnaný oddíl"
+msgstr "nepodařilo se přidat oddíl na disk: %s"
 
 #: ../blivet/partitioning.py:586
 #, python-format

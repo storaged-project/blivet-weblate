@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Andika Triwidada <andika@gmail.com>, 2012, 2020.
+# Andika Triwidada <andika@gmail.com>, 2012, 2020, 2021.
 # Arif Tri Waluyo <arifiauo@fedoraproject.org>, 2011-2012
 # clumens <clumens@redhat.com>, 2011
 # dcantrel <dcantrell@redhat.com>, 2011
@@ -18,8 +18,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-03 09:15+0200\n"
-"PO-Revision-Date: 2021-06-08 10:04+0000\n"
-"Last-Translator: Arman Arisman <arman.wu@gmail.com>\n"
+"PO-Revision-Date: 2021-09-24 08:05+0000\n"
+"Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/"
 "blivet/blivet-master/id/>\n"
 "Language: id\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.6.2\n"
+"X-Generator: Weblate 4.8\n"
 
 #: ../blivet/deviceaction.py:196
 #, python-format
@@ -145,6 +145,8 @@ msgid ""
 "All parent devices must be selected when choosing exclusive or ignored disks "
 "for a multipath or firmware RAID device."
 msgstr ""
+"Semua peranti induk mesti dipilih ketika memilih disk eksklusif atau yang "
+"diabaikan bagi peranti RAID firmware atau multipath."
 
 #: ../blivet/fcoe.py:121
 msgid "FCoE not available"
@@ -168,7 +170,7 @@ msgstr "Tidak ada nama inisiator mengatur"
 
 #: ../blivet/iscsi.py:533
 msgid "No iSCSI nodes discovered"
-msgstr "Tidak ada iSCSI nodes yang ditemukan"
+msgstr "Tidak ada simpul iSCSI yang ditemukan"
 
 #: ../blivet/iscsi.py:553
 msgid "No new iSCSI nodes discovered"
@@ -176,7 +178,7 @@ msgstr "Tidak ada node iSCSI baru yang ditemukan"
 
 #: ../blivet/iscsi.py:556
 msgid "Could not log in to any of the discovered nodes"
-msgstr "Tidak bisa log in ke salah satu node yang ditemukan"
+msgstr "Tidak bisa log masuk ke salah satu simpul yang ditemukan"
 
 #: ../blivet/partitioning.py:455
 msgid "unable to allocate aligned partition"
@@ -187,10 +189,9 @@ msgid "requested size exceeds maximum allowed"
 msgstr "ukuran yang diminta melebihi ukuran maksimum yang diperbolehkan"
 
 #: ../blivet/partitioning.py:475
-#, fuzzy, python-format
-#| msgid "failed to allocate aligned partition"
+#, python-format
 msgid "failed to add partition to disk: %s"
-msgstr "gagal mengalokasikan aligned partition"
+msgstr "gagal menambahkan partisi ke disk: %s"
 
 #: ../blivet/partitioning.py:586
 #, python-format
@@ -229,7 +230,7 @@ msgstr "gagal mengalokasikan aligned partition"
 
 #: ../blivet/partitioning.py:1211
 msgid "cannot reclaim more than request has grown"
-msgstr "tidak dapat mengklaim kembali lebih dari permintaan telah ada"
+msgstr "tidak dapat mengklaim kembali lebih dari membesarnya permintaan"
 
 #: ../blivet/partitioning.py:1425
 msgid "DiskChunk requests must be of type PartitionRequest"
@@ -241,7 +242,7 @@ msgstr "partisi dialokasikan di luar batas disklabel"
 
 #: ../blivet/partitioning.py:1523
 msgid "VGChunk requests must be of type LVRequest"
-msgstr "Permintaan VGChunk harus tipe LVRequest"
+msgstr "Permintaan VGChunk harus bertipe LVRequest"
 
 #. by now we have allocated the PVs so if there isn't enough
 #. space in the VG we have a real problem
@@ -251,11 +252,11 @@ msgstr "tidak cukup ruang untuk permintaan LVM"
 
 #: ../blivet/zfcp.py:62
 msgid "You have not specified a device number or the number is invalid"
-msgstr "Anda tidak memasukkan nomor divais atau nomor invalid"
+msgstr "Anda tidak memasukkan nomor peranti atau nomor tidak valid"
 
 #: ../blivet/zfcp.py:64
 msgid "You have not specified a worldwide port name or the name is invalid."
-msgstr "Anda tidak memasukkan worldwide port name atau nama invalid."
+msgstr "Anda tidak memasukkan worldwide port name atau nama tidak valid."
 
 #: ../blivet/zfcp.py:66
 msgid "You have not specified a FCP LUN or the number is invalid."
@@ -341,7 +342,7 @@ msgstr ""
 #, python-format
 msgid "Could not remove WWPN %(wwpn)s on zFCP device %(devnum)s (%(e)s)."
 msgstr ""
-"Tidak dapat menghapus WWPN %(wwpn)s pada divais zFCP %(devnum)s (%(e)s)."
+"Tidak dapat menghapus WWPN %(wwpn)s pada peranti zFCP %(devnum)s (%(e)s)."
 
 #: ../blivet/zfcp.py:271
 #, python-format
@@ -383,7 +384,7 @@ msgstr "Tidak bisa menghapus anggota dari array %s yang sudah ada"
 
 #: ../blivet/formats/biosboot.py:35
 msgid "BIOS Boot"
-msgstr "BIOS Boot"
+msgstr "Boot BIOS"
 
 #: ../blivet/formats/disklabel.py:50
 msgid "partition table"
@@ -433,12 +434,12 @@ msgstr "volume fisik (LVM)"
 
 #: ../blivet/formats/mdraid.py:43
 msgid "software RAID"
-msgstr "RAID Perangkat Lunak"
+msgstr "RAID perangkat lunak"
 
 #: ../blivet/formats/multipath.py:40
 msgid "multipath member device"
-msgstr "perangkat multipath member"
+msgstr "perangkat anggota multipath"
 
 #: ../blivet/formats/prepboot.py:37
 msgid "PPC PReP Boot"
-msgstr "PPC PReP Boot"
+msgstr "Boot PPC PReP"

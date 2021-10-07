@@ -5,92 +5,93 @@
 # Translators:
 # dcantrel <dcantrell@redhat.com>, 2011
 # Dimitris Glezos <glezos@indifex.com>, 2011
+# Gogo Gogsi <linux.hr@protonmail.com>, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-03 09:15+0200\n"
-"PO-Revision-Date: 2015-01-05 05:27+0000\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Croatian (http://www.transifex.com/projects/p/blivet/language/"
-"hr/)\n"
+"PO-Revision-Date: 2021-10-07 19:05+0000\n"
+"Last-Translator: Gogo Gogsi <linux.hr@protonmail.com>\n"
+"Language-Team: Croatian <https://translate.fedoraproject.org/projects/blivet/"
+"blivet-master/hr/>\n"
 "Language: hr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Zanata 4.6.2\n"
+"X-Generator: Weblate 4.8\n"
 
 #: ../blivet/deviceaction.py:196
 #, python-format
 msgid "Executing %(action)s"
-msgstr ""
+msgstr "Pokretanje %(action)s"
 
 #: ../blivet/deviceaction.py:324
 msgid "create device"
-msgstr ""
+msgstr "stvori uređaj"
 
 #: ../blivet/deviceaction.py:383
 msgid "destroy device"
-msgstr ""
+msgstr "uništi uređaj"
 
 #: ../blivet/deviceaction.py:494
 msgid "resize device"
-msgstr ""
+msgstr "promijeni veličinu uređaja"
 
 #: ../blivet/deviceaction.py:583
 msgid "create format"
-msgstr ""
+msgstr "stvori formatiranje"
 
 #: ../blivet/deviceaction.py:623
 #, python-format
 msgid "Creating %(type)s on %(device)s"
-msgstr ""
+msgstr "Stvaranje %(type)s na %(device)s"
 
 #: ../blivet/deviceaction.py:650
 #, python-format
 msgid "Not enough entropy to create LUKS format. %d bits are needed."
-msgstr ""
+msgstr "Nedovoljno entropije za stvaranje LUKS formata. %d bita je potrebno."
 
 #: ../blivet/deviceaction.py:680
 #, python-format
 msgid "Created %(type)s on %(device)s"
-msgstr ""
+msgstr "Stvoren je %(type)s na %(device)s"
 
 #: ../blivet/deviceaction.py:729
 msgid "destroy format"
-msgstr ""
+msgstr "uništi format"
 
 #: ../blivet/deviceaction.py:842
 msgid "resize format"
-msgstr ""
+msgstr "promijeni veličinu formata"
 
 #: ../blivet/deviceaction.py:881
 #, python-format
 msgid "Resizing filesystem on %(device)s"
-msgstr ""
+msgstr "Promjena veličine datotečnog sustava na %(device)s"
 
 #: ../blivet/deviceaction.py:888
 #, python-format
 msgid "Resized filesystem on %(device)s"
-msgstr ""
+msgstr "Promijenjena je veličina na datotečnom sustavu %(device)s"
 
 #: ../blivet/deviceaction.py:935
 msgid "add container member"
-msgstr ""
+msgstr "dodaj člana spremnika"
 
 #: ../blivet/deviceaction.py:1000
 msgid "remove container member"
-msgstr ""
+msgstr "ukloni člana spremnika"
 
 #: ../blivet/deviceaction.py:1070
 msgid "configure format"
-msgstr ""
+msgstr "podesi format"
 
 #: ../blivet/deviceaction.py:1127
 msgid "configure device"
-msgstr ""
+msgstr "podesi uređaj"
 
 #: ../blivet/errors.py:214
 msgid ""
@@ -98,6 +99,9 @@ msgid ""
 "of the UUID value which should be unique. In that case you can either "
 "disconnect one of the devices or reformat it."
 msgstr ""
+"Ovo je uobičajeno prouzrokovano kloniranjem slike uređaja što rezultira "
+"duplikatom UUID vrijednosti koja mora biti jedinstvena. U tome slučaju "
+"možete ili odspojiti jedan od uređaja ili ga ponovno formatirati."
 
 #: ../blivet/errors.py:221
 msgid ""
@@ -105,6 +109,9 @@ msgid ""
 "kernel is reporting partitions on. It is unclear what the exact problem is. "
 "Please file a bug at http://bugzilla.redhat.com"
 msgstr ""
+"Iz određenog razloga nemoguće je locirati oznaku diska na disku na kojemu je "
+"kernel prijavio particiju. Nejasno je što je točno problem. Prijavite grešku "
+"na http://bugzilla.redhat.com"
 
 #: ../blivet/errors.py:228
 msgid ""
@@ -112,6 +119,9 @@ msgid ""
 "completely.\n"
 "Hint: parted can restore it or wipefs can remove it."
 msgstr ""
+"Ili obnovite oznaku diska u potpuno radno stanje ili ga u potpunosti "
+"uklonite.\n"
+"Napomena: parted može obnoviti ili ga wipefs može ukloniti."
 
 #: ../blivet/errors.py:234
 msgid ""
@@ -119,62 +129,67 @@ msgid ""
 "Hint 1: vgrename accepts UUID in place of the old name.\n"
 "Hint 2: You can get the VG UUIDs by running 'pvs -o +vg_uuid'."
 msgstr ""
+"Preimenujte jednu od grupa uređaja tako da se naziv razlikuju.\n"
+"Napomena 1: vgrename prihvaća UUID na mjestu starog naziva.\n"
+"Napomena 2: Možete dobiti UUID-ove GU pokretanjem 'pvs -o +vg_uuid'."
 
 #: ../blivet/errors.py:242
 msgid ""
 "All parent devices must be selected when choosing exclusive or ignored disks "
 "for a multipath or firmware RAID device."
 msgstr ""
+"Svi sadržajni uređaji moraju biti odabrani pri odabiru isključivih ili "
+"zanemarenih diskova za više putanji ili frimvera RAID uređaja."
 
 #: ../blivet/fcoe.py:121
 msgid "FCoE not available"
-msgstr ""
+msgstr "FCoE nije dostupan"
 
 #: ../blivet/iscsi.py:217
 msgid "Unable to change iSCSI initiator name once set"
-msgstr ""
+msgstr "Nemoguće promjena naziva iSCSI pokretača jednom kada je postavljeno"
 
 #: ../blivet/iscsi.py:219
 msgid "Must provide an iSCSI initiator name"
-msgstr ""
+msgstr "Morate navesti naziv iSCSI pokretača"
 
 #: ../blivet/iscsi.py:413
 msgid "iSCSI not available"
-msgstr ""
+msgstr "iSCSI nije dostupan"
 
 #: ../blivet/iscsi.py:415
 msgid "No initiator name set"
-msgstr ""
+msgstr "Nema postavljenog naziva pokretača"
 
 #: ../blivet/iscsi.py:533
 msgid "No iSCSI nodes discovered"
-msgstr ""
+msgstr "Nema otkrivenih iSCSI čvorova"
 
 #: ../blivet/iscsi.py:553
 msgid "No new iSCSI nodes discovered"
-msgstr ""
+msgstr "Nema otkrivenih novih iSCSI čvorova"
 
 #: ../blivet/iscsi.py:556
 msgid "Could not log in to any of the discovered nodes"
-msgstr ""
+msgstr "Nemoguća prijava na bilo koji od otkrivenih čvorova"
 
 #: ../blivet/partitioning.py:455
 msgid "unable to allocate aligned partition"
-msgstr ""
+msgstr "Nemoguća premještanje poravnane particije"
 
 #: ../blivet/partitioning.py:463
 msgid "requested size exceeds maximum allowed"
-msgstr ""
+msgstr "zahtijevana veličina premašuje najveću dopuštenu"
 
 #: ../blivet/partitioning.py:475
 #, python-format
 msgid "failed to add partition to disk: %s"
-msgstr ""
+msgstr "neuspjelo dodavanje particije na disk: %s"
 
 #: ../blivet/partitioning.py:586
 #, python-format
 msgid "disk %s inaccessible"
-msgstr ""
+msgstr "disk %s je nedostupan"
 
 #: ../blivet/partitioning.py:647
 #, python-format
@@ -182,6 +197,8 @@ msgid ""
 "partition is too small for %(format)s formatting (allowable size is "
 "%(min_size)s to %(max_size)s)"
 msgstr ""
+"particija je premala za %(format)s formatiranje (dopuštena veličina je "
+"%(min_size)s do %(max_size)s)"
 
 #: ../blivet/partitioning.py:652
 #, python-format
@@ -189,73 +206,75 @@ msgid ""
 "partition is too large for %(format)s formatting (allowable size is "
 "%(min_size)s to %(max_size)s)"
 msgstr ""
+"particija je prevelika za %(format)s formatiranje (dopuštena veličina je "
+"%(min_size)s do %(max_size)s)"
 
 #: ../blivet/partitioning.py:968
 msgid "Unable to allocate requested partition scheme."
-msgstr ""
+msgstr "Nemoguće premještanje zahtijevane sheme particije."
 
 #: ../blivet/partitioning.py:1003
 msgid "not enough free space after creating extended partition"
-msgstr ""
+msgstr "nedovoljno slobodnog prostora nakon stvaranja proširene particije"
 
 #: ../blivet/partitioning.py:1010
 msgid "failed to allocate aligned partition"
-msgstr ""
+msgstr "neuspjelo premještanje poravnane particije"
 
 #: ../blivet/partitioning.py:1211
 msgid "cannot reclaim more than request has grown"
-msgstr ""
+msgstr "nemoguć povrat više od porasta zahtjeva"
 
 #: ../blivet/partitioning.py:1425
 msgid "DiskChunk requests must be of type PartitionRequest"
-msgstr ""
+msgstr "DiskChunk zahtjev mora biti vrste PartitionRequest"
 
 #: ../blivet/partitioning.py:1438
 msgid "partitions allocated outside disklabel limits"
-msgstr ""
+msgstr "particije su premještene izvan granica oznake diska"
 
 #: ../blivet/partitioning.py:1523
 msgid "VGChunk requests must be of type LVRequest"
-msgstr ""
+msgstr "VGChunk zahtjev mora biti vrste LVRequest"
 
 #. by now we have allocated the PVs so if there isn't enough
 #. space in the VG we have a real problem
 #: ../blivet/partitioning.py:2015
 msgid "not enough space for LVM requests"
-msgstr ""
+msgstr "nedovoljno prostora za ULU zahtjev"
 
 #: ../blivet/zfcp.py:62
 msgid "You have not specified a device number or the number is invalid"
-msgstr "Broj uređaja nije određen ili je nepravilan."
+msgstr "Niste naveli broj uređaja ili je broj nevaljan"
 
 #: ../blivet/zfcp.py:64
 msgid "You have not specified a worldwide port name or the name is invalid."
-msgstr "Naziv otvorenog porta nije određen ili je nepravilan."
+msgstr "Niste naveli naziv svjetskog ulaza ili je naziv nevaljan."
 
 #: ../blivet/zfcp.py:66
 msgid "You have not specified a FCP LUN or the number is invalid."
-msgstr "FCP LUN nije određen ili je nepravilan."
+msgstr "Niste naveli FCP LUN ili je broj nevaljan."
 
 #: ../blivet/zfcp.py:91
 #, python-format
 msgid "zFCP device %s not found, not even in device ignore list."
-msgstr ""
+msgstr "zFCP uređaj %s nije pronađen, čak ni u popisu zanemarenih diskova."
 
 #: ../blivet/zfcp.py:101
 #, python-format
 msgid "Could not set zFCP device %(devnum)s online (%(e)s)."
-msgstr ""
+msgstr "Nemoguće postavljanje zFCP uređaja %(devnum)s je na mreži (%(e)s)."
 
 #: ../blivet/zfcp.py:112
 #, python-format
 msgid "Could not add WWPN %(wwpn)s to zFCP device %(devnum)s (%(e)s)."
-msgstr ""
+msgstr "Nemoguće dodavanje WWPN %(wwpn)s na zFCP uređaj %(devnum)s (%(e)s)."
 
 #. newer zfcp sysfs interface with auto port scan
 #: ../blivet/zfcp.py:119
 #, python-format
 msgid "WWPN %(wwpn)s not found at zFCP device %(devnum)s."
-msgstr ""
+msgstr "WWPN %(wwpn)s nije pronađen na zFCP uređaju %(devnum)s."
 
 #: ../blivet/zfcp.py:134
 #, python-format
@@ -263,12 +282,15 @@ msgid ""
 "Could not add LUN %(fcplun)s to WWPN %(wwpn)s on zFCP device %(devnum)s "
 "(%(e)s)."
 msgstr ""
+"Nemoguće dodavanje LUN %(fcplun)s u WWPN %(wwpn)s na zFCP uređaju %(devnum)s "
+"(%(e)s)."
 
 #: ../blivet/zfcp.py:140
 #, python-format
 msgid ""
 "LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already configured."
 msgstr ""
+"LUN %(fcplun)s u WWPN %(wwpn)s na zFCP uređaju %(devnum)s je već podešen."
 
 #: ../blivet/zfcp.py:152
 #, python-format
@@ -276,6 +298,8 @@ msgid ""
 "Could not read failed attribute of LUN %(fcplun)s at WWPN %(wwpn)s on zFCP "
 "device %(devnum)s (%(e)s)."
 msgstr ""
+"Neuspjelo čitanje neuspjelih svojstava od LUN %(fcplun)s u WWPN %(wwpn)s na "
+"zFCP uređaju %(devnum)s (%(e)s)."
 
 #: ../blivet/zfcp.py:161
 #, python-format
@@ -283,6 +307,8 @@ msgid ""
 "Failed LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s removed "
 "again."
 msgstr ""
+"Neuspjeli LUN %(fcplun)s u WWPN %(wwpn)s na zFCP uređaju %(devnum)s ponovno "
+"je uklonjen."
 
 #: ../blivet/zfcp.py:218
 #, python-format
@@ -290,6 +316,8 @@ msgid ""
 "Could not correctly delete SCSI device of zFCP %(devnum)s %(wwpn)s "
 "%(fcplun)s (%(e)s)."
 msgstr ""
+"Neuspjelo pravilno brisanje SCSI uređaja od zFCP %(devnum)s %(wwpn)s "
+"%(fcplun)s (%(e)s)."
 
 #: ../blivet/zfcp.py:227
 #, python-format
@@ -297,24 +325,26 @@ msgid ""
 "Could not remove LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s "
 "(%(e)s)."
 msgstr ""
+"Nemoguće uklanjanje LUN %(fcplun)s u WWPN %(wwpn)s na zFCP uređaju %(devnum)"
+"s (%(e)s)."
 
 #: ../blivet/zfcp.py:245
 #, python-format
 msgid "Could not remove WWPN %(wwpn)s on zFCP device %(devnum)s (%(e)s)."
-msgstr ""
+msgstr "NEmoguće uklanjanje WWPN %(wwpn)s na zFCP uređaju %(devnum)s (%(e)s)."
 
 #: ../blivet/zfcp.py:271
 #, python-format
 msgid "Could not set zFCP device %(devnum)s offline (%(e)s)."
-msgstr ""
+msgstr "Nemoguće postavljanje zFCP uređaja %(devnum)s nije na mreži (%(e)s)."
 
 #: ../blivet/devicelibs/lvm.py:59
 msgid "Generic"
-msgstr ""
+msgstr "Izvorno"
 
 #: ../blivet/devicelibs/lvm.py:60
 msgid "Performance"
-msgstr ""
+msgstr "Performanse"
 
 #: ../blivet/devices/raid.py:58
 #, python-format
@@ -325,76 +355,86 @@ msgid_plural ""
 "RAID level %(raid_level)s requires that device have at least %(min_members)d "
 "members."
 msgstr[0] ""
+"RAID razina %(raid_level)s zahtijeva da uređaj ima najmanje %(min_members)d "
+"član."
+msgstr[1] ""
+"RAID razina %(raid_level)s zahtijeva da uređaj ima najmanje %(min_members)d "
+"člana."
+msgstr[2] ""
+"RAID razina %(raid_level)s zahtijeva da uređaj ima najmanje %(min_members)d "
+"članova."
 
 #: ../blivet/devices/raid.py:79
 #, python-format
 msgid ""
 "RAID level %(raid_level)s is an invalid value. Must be one of (%(levels)s)."
 msgstr ""
+"RAID razina %(raid_level)s je nevaljana vrijednost. Mora biti jedna od "
+"(%(levels)s)."
 
 #: ../blivet/devices/raid.py:104
 #, python-format
 msgid "Cannot remove a member from existing %s array"
-msgstr ""
+msgstr "Nemoguće uklanjanje člana iz postojećeg %s polja"
 
 #: ../blivet/formats/biosboot.py:35
 msgid "BIOS Boot"
-msgstr ""
+msgstr "BIOS Boot"
 
 #: ../blivet/formats/disklabel.py:50
 msgid "partition table"
-msgstr ""
+msgstr "particijska tabilica"
 
 #. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition table"
 #: ../blivet/formats/disklabel.py:326
 #, python-format
 msgid "Unsupported %(name)s"
-msgstr ""
+msgstr "Nepodržan %(name)s"
 
 #: ../blivet/formats/dmraid.py:37
 msgid "dm-raid member device"
-msgstr ""
+msgstr "dm-raid član uređaja"
 
 #: ../blivet/formats/fs.py:941
 msgid "EFI System Partition"
-msgstr ""
+msgstr "EFI particija sustava"
 
 #: ../blivet/formats/fs.py:1149
 msgid "Apple Bootstrap"
-msgstr ""
+msgstr "Apple Bootstrap"
 
 #: ../blivet/formats/fs.py:1185
 msgid "Linux HFS+ ESP"
-msgstr ""
+msgstr "Linux HFS+ ESP"
 
 #: ../blivet/formats/__init__.py:148
 msgid "Unknown"
-msgstr ""
+msgstr "Nepoznato"
 
 #: ../blivet/formats/luks.py:60
 msgid "LUKS"
-msgstr ""
+msgstr "LUKS"
 
 #: ../blivet/formats/luks.py:61
 msgid "Encrypted"
-msgstr ""
+msgstr "Šifrirano"
 
 #: ../blivet/formats/luks.py:402
 msgid "DM Integrity"
-msgstr ""
+msgstr "DM integritet"
 
 #: ../blivet/formats/lvmpv.py:49
 msgid "physical volume (LVM)"
-msgstr ""
+msgstr "fizički uređaj (ULU)"
 
 #: ../blivet/formats/mdraid.py:43
 msgid "software RAID"
-msgstr ""
+msgstr "softverski RAID"
 
 #: ../blivet/formats/multipath.py:40
 msgid "multipath member device"
-msgstr ""
+msgstr "član uređaja s više putanja"
 
 #: ../blivet/formats/prepboot.py:37
 msgid "PPC PReP Boot"
-msgstr ""
+msgstr "PPC PReP pokretanje"

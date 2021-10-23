@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
-"PO-Revision-Date: 2021-09-24 09:05+0000\n"
+"PO-Revision-Date: 2021-10-24 02:05+0000\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/"
 "blivet/blivet-rhel8/id/>\n"
@@ -75,11 +75,11 @@ msgstr "FCoE tidak tersedia"
 
 #: ../blivet/zfcp.py:62
 msgid "You have not specified a device number or the number is invalid"
-msgstr "Anda tidak memasukkan nomor divais atau nomor invalid."
+msgstr "Anda tidak memasukkan nomor divais atau nomor invalid"
 
 #: ../blivet/zfcp.py:64
 msgid "You have not specified a worldwide port name or the name is invalid."
-msgstr "anda tidak memasukkan worldwide port name atau nama invalid"
+msgstr "Anda tidak memasukkan worldwide port name atau nama invalid."
 
 #: ../blivet/zfcp.py:66
 msgid "You have not specified a FCP LUN or the number is invalid."
@@ -158,14 +158,14 @@ msgid ""
 "Could not remove LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s "
 "(%(e)s)."
 msgstr ""
-"Could not remove LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s "
-"(%(e)s)."
+"Tidak bisa menghapus LUN %(fcplun)s di WWPN %(wwpn)s pada perangkat zFCP "
+"%(devnum)s (%(e)s)."
 
 #: ../blivet/zfcp.py:245
 #, python-format
 msgid "Could not remove WWPN %(wwpn)s on zFCP device %(devnum)s (%(e)s)."
 msgstr ""
-"Tidak dapat menghapus WWPN %(wwpn)s pada divais  zFCP %(devnum)s (%(e)s)."
+"Tidak dapat menghapus WWPN %(wwpn)s pada divais zFCP %(devnum)s (%(e)s)."
 
 #: ../blivet/zfcp.py:271
 #, python-format
@@ -202,7 +202,7 @@ msgstr "Tidak bisa log masuk ke salah satu simpul yang ditemukan"
 
 #: ../blivet/partitioning.py:454
 msgid "unable to allocate aligned partition"
-msgstr ""
+msgstr "tidak dapat mengalokasikan partisi rata batas (aligned)"
 
 #: ../blivet/partitioning.py:462
 msgid "requested size exceeds maximum allowed"
@@ -241,7 +241,7 @@ msgstr "tidak cukup ruang kosong setelah membuat partisi extended"
 
 #: ../blivet/partitioning.py:1004
 msgid "failed to allocate aligned partition"
-msgstr ""
+msgstr "gagal mengalokasikan partisi yang rata batas (aligned)"
 
 #: ../blivet/partitioning.py:1205
 msgid "cannot reclaim more than request has grown"

@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-03 09:15+0200\n"
-"PO-Revision-Date: 2021-09-24 08:05+0000\n"
+"PO-Revision-Date: 2021-10-24 02:05+0000\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/"
 "blivet/blivet-master/id/>\n"
@@ -182,7 +182,7 @@ msgstr "Tidak bisa log masuk ke salah satu simpul yang ditemukan"
 
 #: ../blivet/partitioning.py:455
 msgid "unable to allocate aligned partition"
-msgstr "tidak dapat mengalokasikan aligned partition"
+msgstr "tidak dapat mengalokasikan partisi rata batas (aligned)"
 
 #: ../blivet/partitioning.py:463
 msgid "requested size exceeds maximum allowed"
@@ -226,7 +226,7 @@ msgstr "tidak cukup ruang kosong setelah membuat partisi extended"
 
 #: ../blivet/partitioning.py:1010
 msgid "failed to allocate aligned partition"
-msgstr "gagal mengalokasikan aligned partition"
+msgstr "gagal mengalokasikan partisi yang rata batas (aligned)"
 
 #: ../blivet/partitioning.py:1211
 msgid "cannot reclaim more than request has grown"
@@ -252,11 +252,11 @@ msgstr "tidak cukup ruang untuk permintaan LVM"
 
 #: ../blivet/zfcp.py:62
 msgid "You have not specified a device number or the number is invalid"
-msgstr "Anda tidak memasukkan nomor peranti atau nomor tidak valid"
+msgstr "Anda tidak memasukkan nomor divais atau nomor invalid"
 
 #: ../blivet/zfcp.py:64
 msgid "You have not specified a worldwide port name or the name is invalid."
-msgstr "Anda tidak memasukkan worldwide port name atau nama tidak valid."
+msgstr "Anda tidak memasukkan worldwide port name atau nama invalid."
 
 #: ../blivet/zfcp.py:66
 msgid "You have not specified a FCP LUN or the number is invalid."
@@ -342,7 +342,7 @@ msgstr ""
 #, python-format
 msgid "Could not remove WWPN %(wwpn)s on zFCP device %(devnum)s (%(e)s)."
 msgstr ""
-"Tidak dapat menghapus WWPN %(wwpn)s pada peranti zFCP %(devnum)s (%(e)s)."
+"Tidak dapat menghapus WWPN %(wwpn)s pada divais zFCP %(devnum)s (%(e)s)."
 
 #: ../blivet/zfcp.py:271
 #, python-format

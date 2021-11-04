@@ -16,13 +16,13 @@
 # Zoltan Hoppár <zoltanh721@fedoraproject.org>, 2011-2013
 # Meskó Balázs <meskobalazs@gmail.com>, 2018. #zanata
 # Meskó Balázs <meskobalazs@gmail.com>, 2019. #zanata
-# Balázs Meskó <meskobalazs@mailbox.org>, 2020.
+# Balázs Meskó <meskobalazs@mailbox.org>, 2020, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-03 09:15+0200\n"
-"PO-Revision-Date: 2020-07-21 14:29+0000\n"
+"PO-Revision-Date: 2021-11-04 22:05+0000\n"
 "Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/"
 "blivet/blivet-master/hu/>\n"
@@ -31,7 +31,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.1.1\n"
+"X-Generator: Weblate 4.8\n"
 
 #: ../blivet/deviceaction.py:196
 #, python-format
@@ -149,6 +149,8 @@ msgid ""
 "All parent devices must be selected when choosing exclusive or ignored disks "
 "for a multipath or firmware RAID device."
 msgstr ""
+"A többutas vagy firmware RAID-eszköz kizárólagos vagy figyelmen kívül "
+"hagyott lemezeinek kiválasztásakor minden szülőeszközt ki kell választani."
 
 #: ../blivet/fcoe.py:121
 msgid "FCoE not available"
@@ -193,10 +195,9 @@ msgid "requested size exceeds maximum allowed"
 msgstr "a kért méret túllépi a maximálisan megengedettet"
 
 #: ../blivet/partitioning.py:475
-#, fuzzy, python-format
-#| msgid "failed to allocate aligned partition"
+#, python-format
 msgid "failed to add partition to disk: %s"
-msgstr "nem sikerült lefoglalni a partíciókat"
+msgstr "a partíció lemezhez adása sikertelen: %s"
 
 #: ../blivet/partitioning.py:586
 #, python-format

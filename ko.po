@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
-"PO-Revision-Date: 2021-09-04 17:04+0000\n"
+"PO-Revision-Date: 2021-11-08 10:05+0000\n"
 "Last-Translator: simmon <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-rhel9/ko/>\n"
@@ -405,7 +405,7 @@ msgstr "소프트웨어 RAID"
 
 #: ../blivet/formats/multipath.py:40
 msgid "multipath member device"
-msgstr "멀티패스 멤버 장치"
+msgstr "다중 경로 구성 장치"
 
 #: ../blivet/formats/lvmpv.py:49
 msgid "physical volume (LVM)"

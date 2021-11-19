@@ -16,13 +16,13 @@
 # xiaofeng <wasphin@gmail.com>, 2012
 # yusuf <yusufma77@yahoo.com>, 2011
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
-# Charles Lee <lchopn@gmail.com>, 2020.
+# Charles Lee <lchopn@gmail.com>, 2020, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-03 09:15+0200\n"
-"PO-Revision-Date: 2020-08-02 07:29+0000\n"
+"PO-Revision-Date: 2021-11-19 17:16+0000\n"
 "Last-Translator: Charles Lee <lchopn@gmail.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/blivet/blivet-master/zh_CN/>\n"
@@ -31,7 +31,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.1.1\n"
+"X-Generator: Weblate 4.9\n"
 
 #: ../blivet/deviceaction.py:196
 #, python-format
@@ -144,7 +144,7 @@ msgstr ""
 msgid ""
 "All parent devices must be selected when choosing exclusive or ignored disks "
 "for a multipath or firmware RAID device."
-msgstr ""
+msgstr "当为一个多路径或硬件 RAID 设备选择独占或忽略磁盘时，必须选择所有父设备。"
 
 #: ../blivet/fcoe.py:121
 msgid "FCoE not available"
@@ -187,10 +187,9 @@ msgid "requested size exceeds maximum allowed"
 msgstr "所需大小超过最大可允许的大小"
 
 #: ../blivet/partitioning.py:475
-#, fuzzy, python-format
-#| msgid "failed to allocate aligned partition"
+#, python-format
 msgid "failed to add partition to disk: %s"
-msgstr "无法分配已对齐的分区"
+msgstr "无法添加分区到磁盘：%s"
 
 #: ../blivet/partitioning.py:586
 #, python-format

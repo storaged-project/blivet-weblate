@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-03 09:15+0200\n"
-"PO-Revision-Date: 2021-09-23 07:05+0000\n"
+"PO-Revision-Date: 2021-12-03 22:16+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-master/cs/>\n"
@@ -30,7 +30,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.9.1\n"
 
 #: ../blivet/deviceaction.py:196
 #, python-format
@@ -148,6 +148,8 @@ msgid ""
 "All parent devices must be selected when choosing exclusive or ignored disks "
 "for a multipath or firmware RAID device."
 msgstr ""
+"Pokud jsou zvoleny výhradní nebo ignorované disky pro multipath zařízení "
+"nebo to z RAID pole hw radiče, je třeba vybrat všechna nadřazená zařízení."
 
 #: ../blivet/fcoe.py:121
 msgid "FCoE not available"
@@ -379,7 +381,7 @@ msgstr[2] ""
 msgid ""
 "RAID level %(raid_level)s is an invalid value. Must be one of (%(levels)s)."
 msgstr ""
-"%(raid_level)s není povolená hodnota pro typ RAIDu. Povolené typy:  "
+"%(raid_level)s není povolená hodnota pro typ RAIDu. Povolené typy: "
 "(%(levels)s)."
 
 #: ../blivet/devices/raid.py:104

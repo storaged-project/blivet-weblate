@@ -33,7 +33,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-03 09:15+0200\n"
-"PO-Revision-Date: 2021-07-07 23:04+0000\n"
+"PO-Revision-Date: 2021-12-11 12:16+0000\n"
 "Last-Translator: Emilio Herrera <ehespinosa57@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-master/es/>\n"
@@ -42,7 +42,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.7.1\n"
+"X-Generator: Weblate 4.9.1\n"
 
 #: ../blivet/deviceaction.py:196
 #, python-format
@@ -130,9 +130,9 @@ msgid ""
 "kernel is reporting partitions on. It is unclear what the exact problem is. "
 "Please file a bug at http://bugzilla.redhat.com"
 msgstr ""
-"No se puede localizar la etiqueta en el disco en el que el núcleo informa de "
-"las particiones. La causa del problema no es obvia. Informe del problema en "
-"https://bugzilla.redhat.com"
+"Por alguna razón no somos capaces de localizar la etiqueta en el disco en el "
+"que el núcleo informa de las particiones. No está claro cuál es el problema "
+"exacto. Informe del problema en https://bugzilla.redhat.com"
 
 #: ../blivet/errors.py:228
 msgid ""
@@ -161,6 +161,8 @@ msgid ""
 "All parent devices must be selected when choosing exclusive or ignored disks "
 "for a multipath or firmware RAID device."
 msgstr ""
+"Todos los dispositivos padre debe ser seleccionados cuando se eligen discos "
+"exclusivos o ignorados para un dispositivo multiruta o firmware RAID."
 
 #: ../blivet/fcoe.py:121
 msgid "FCoE not available"
@@ -205,10 +207,9 @@ msgid "requested size exceeds maximum allowed"
 msgstr "el tamaño solicitado excede el máximo permitido"
 
 #: ../blivet/partitioning.py:475
-#, fuzzy, python-format
-#| msgid "failed to allocate aligned partition"
+#, python-format
 msgid "failed to add partition to disk: %s"
-msgstr "no se pudo asignar partición alineada"
+msgstr "fallo al añadir la partición al disco: %s"
 
 #: ../blivet/partitioning.py:586
 #, python-format
@@ -274,8 +275,7 @@ msgstr "No ha especificado un número de dispositivo o el número no es válido"
 
 #: ../blivet/zfcp.py:64
 msgid "You have not specified a worldwide port name or the name is invalid."
-msgstr ""
-"No ha especificado un nombre de puerto global o el nombre no es válido."
+msgstr "No ha especificado un nombre de puerto global o el nombre no es válido."
 
 #: ../blivet/zfcp.py:66
 msgid "You have not specified a FCP LUN or the number is invalid."

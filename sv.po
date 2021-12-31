@@ -4,13 +4,13 @@
 #
 # Translators:
 # Dimitris Glezos <glezos@indifex.com>, 2011
-# Göran Uddeborg <goeran@uddeborg.se>, 2011-2012, 2020.
+# Göran Uddeborg <goeran@uddeborg.se>, 2011-2012, 2020, 2021.
 # fedoratrans <fedoratrans@gmail.com>, 2007
 # Ulrika <aurorauddeborg@gmail.com>, 2012
-# Göran Uddeborg <goeran@uddeborg.se>, 2015. #zanata, 2020.
-# Göran Uddeborg <goeran@uddeborg.se>, 2016. #zanata, 2020.
-# Göran Uddeborg <goeran@uddeborg.se>, 2018. #zanata, 2020.
-# Göran Uddeborg <goeran@uddeborg.se>, 2019. #zanata, 2020.
+# Göran Uddeborg <goeran@uddeborg.se>, 2015. #zanata, 2020, 2021.
+# Göran Uddeborg <goeran@uddeborg.se>, 2016. #zanata, 2020, 2021.
+# Göran Uddeborg <goeran@uddeborg.se>, 2018. #zanata, 2020, 2021.
+# Göran Uddeborg <goeran@uddeborg.se>, 2019. #zanata, 2020, 2021.
 # Allan Nordhøy <epost@anotheragency.no>, 2020.
 # Anders Jonsson <anders.jonsson@norsjovallen.se>, 2021.
 # Luna Jernberg <bittin@reimu.nl>, 2021.
@@ -19,8 +19,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-03 09:15+0200\n"
-"PO-Revision-Date: 2021-09-08 12:04+0000\n"
-"Last-Translator: Luna Jernberg <bittin@reimu.nl>\n"
+"PO-Revision-Date: 2021-12-31 11:16+0000\n"
+"Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-master/sv/>\n"
 "Language: sv\n"
@@ -28,7 +28,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.10.1\n"
 
 #: ../blivet/deviceaction.py:196
 #, python-format
@@ -146,6 +146,8 @@ msgid ""
 "All parent devices must be selected when choosing exclusive or ignored disks "
 "for a multipath or firmware RAID device."
 msgstr ""
+"Alla föräldraenheter måste väljas när man väljer exklusiva eller ignorerade "
+"diskar för RAID-enheter av multipath eller fast programvara."
 
 #: ../blivet/fcoe.py:121
 msgid "FCoE not available"

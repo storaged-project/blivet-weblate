@@ -15,15 +15,15 @@
 # Wei Liu <LLIU@REDHAT.COM>, 2012
 # xiaofeng <wasphin@gmail.com>, 2012
 # yusuf <yusufma77@yahoo.com>, 2011
-# Ludek Janda <ljanda@redhat.com>, 2018. #zanata
+# Ludek Janda <ljanda@redhat.com>, 2018. #zanata, 2022.
 # Charles Lee <lchopn@gmail.com>, 2020, 2021.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-03 09:15+0200\n"
-"PO-Revision-Date: 2021-11-19 17:16+0000\n"
-"Last-Translator: Charles Lee <lchopn@gmail.com>\n"
+"PO-Revision-Date: 2022-03-05 07:16+0000\n"
+"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/blivet/blivet-master/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -31,7 +31,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.9\n"
+"X-Generator: Weblate 4.11.2\n"
 
 #: ../blivet/deviceaction.py:196
 #, python-format
@@ -118,8 +118,8 @@ msgid ""
 "kernel is reporting partitions on. It is unclear what the exact problem is. "
 "Please file a bug at http://bugzilla.redhat.com"
 msgstr ""
-"由于某些原因我们无法在磁盘上定位内核所报告分区的磁盘标签。尚不了解具体问题所"
-"在。请在 http://bugzilla.redhat.com 提交 bug"
+"由于某些原因，我们无法对内核正在报告其上分区的磁盘定位磁盘标签。尚不了解具体"
+"问题所在。请在http://bugzilla.redhat.com 提交bug"
 
 #: ../blivet/errors.py:228
 msgid ""

@@ -24,22 +24,22 @@
 # carrotsoft <www.carrotsoft@gmail.com>, 2012
 # carrotsoft <www.carrotsoft@gmail.com>, 2012
 # Yoshinari Takaoka <mumumu@mx.edit.ne.jp>, 2004
-# Ludek Janda <ljanda@redhat.com>, 2018. #zanata
+# Ludek Janda <ljanda@redhat.com>, 2018. #zanata, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-03 09:15+0200\n"
-"PO-Revision-Date: 2018-09-21 01:08+0000\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Japanese (http://www.transifex.com/projects/p/blivet/language/"
-"ja/)\n"
+"PO-Revision-Date: 2022-03-05 07:16+0000\n"
+"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
+"Language-Team: Japanese <https://translate.fedoraproject.org/projects/blivet/"
+"blivet-master/ja/>\n"
 "Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Zanata 4.6.2\n"
+"X-Generator: Weblate 4.11.2\n"
 
 #: ../blivet/deviceaction.py:196
 #, python-format
@@ -117,6 +117,9 @@ msgid ""
 "of the UUID value which should be unique. In that case you can either "
 "disconnect one of the devices or reformat it."
 msgstr ""
+"これは通常、デバイスイメージを複製したことで、一意であるはずのUUID値が重複す"
+"ることが原因です。その場合は、いずれかのデバイスを切断するか、再フォーマット"
+"してください。"
 
 #: ../blivet/errors.py:221
 msgid ""
@@ -126,7 +129,7 @@ msgid ""
 msgstr ""
 "なんらかの理由により、kernel がパーティションを報告しているディスク上でディス"
 "クラベルを見つけられませんでした。何が問題となっているかは不明です。バグを "
-"http://bugzilla.redhat.com に提出してください。"
+"http://bugzilla.redhat.com に提出してください"
 
 #: ../blivet/errors.py:228
 msgid ""
@@ -241,7 +244,7 @@ msgstr "要求を超えたサイズを再利用することができません"
 
 #: ../blivet/partitioning.py:1425
 msgid "DiskChunk requests must be of type PartitionRequest"
-msgstr "DiskChunk 要求には PartitionResquest タイプが必要です。"
+msgstr "DiskChunk 要求には PartitionResquest タイプが必要です"
 
 #: ../blivet/partitioning.py:1438
 msgid "partitions allocated outside disklabel limits"
@@ -259,7 +262,7 @@ msgstr "LVM 要求に必要な容量が足りません"
 
 #: ../blivet/zfcp.py:62
 msgid "You have not specified a device number or the number is invalid"
-msgstr "デバイス番号を指定していないか番号が無効です。"
+msgstr "デバイス番号を指定していないか番号が無効です"
 
 #: ../blivet/zfcp.py:64
 msgid "You have not specified a worldwide port name or the name is invalid."

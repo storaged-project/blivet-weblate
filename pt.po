@@ -9,13 +9,14 @@
 # Ricardo Pinto <ricardo.bigote@gmail.com>, 2011
 # Rui Gouveia <rui.gouveia@gmail.com>, 2011-2012
 # Pedro Flores <pedro_flores_16@hotmail.com>, 2021.
+# Hugo Carvalho <hugokarvalho@hotmail.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-03 09:15+0200\n"
-"PO-Revision-Date: 2021-03-14 17:01+0000\n"
-"Last-Translator: Pedro Flores <pedro_flores_16@hotmail.com>\n"
+"PO-Revision-Date: 2022-03-25 13:16+0000\n"
+"Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://translate.fedoraproject.org/projects/"
 "blivet/blivet-master/pt/>\n"
 "Language: pt\n"
@@ -23,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.5.1\n"
+"X-Generator: Weblate 4.11.2\n"
 
 #: ../blivet/deviceaction.py:196
 #, python-format
@@ -141,6 +142,9 @@ msgid ""
 "All parent devices must be selected when choosing exclusive or ignored disks "
 "for a multipath or firmware RAID device."
 msgstr ""
+"Todos os dispositivos principais devem ser selecionados ao escolher discos "
+"exclusivos ou ignorados para um dispositivo RAID multi-localização ou "
+"firmware."
 
 #: ../blivet/fcoe.py:121
 msgid "FCoE not available"
@@ -183,10 +187,9 @@ msgid "requested size exceeds maximum allowed"
 msgstr "tamanho pedido excede o máximo permitido"
 
 #: ../blivet/partitioning.py:475
-#, fuzzy, python-format
-#| msgid "failed to allocate aligned partition"
+#, python-format
 msgid "failed to add partition to disk: %s"
-msgstr "falhou a alocação da partição alinhada"
+msgstr "falhou ao adicionar partição ao disco: %s"
 
 #: ../blivet/partitioning.py:586
 #, python-format

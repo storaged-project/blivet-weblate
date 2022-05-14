@@ -17,13 +17,14 @@
 # <raypoatssium@gmail.com>, 2011-2012
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
 # simmon <simmon@nplob.com>, 2021.
+# 김인수 <simmon@nplob.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-03 09:15+0200\n"
-"PO-Revision-Date: 2021-11-08 10:05+0000\n"
-"Last-Translator: simmon <simmon@nplob.com>\n"
+"PO-Revision-Date: 2022-05-14 13:18+0000\n"
+"Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-master/ko/>\n"
 "Language: ko\n"
@@ -31,7 +32,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.12.2\n"
 
 #: ../blivet/deviceaction.py:196
 #, python-format
@@ -333,14 +334,13 @@ msgid ""
 "Could not remove LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s "
 "(%(e)s)."
 msgstr ""
-"zFCP 장치 %(devnum)s (%(e)s) 상의 WWPN %(wwpn)s에서 LUN %(fcplun)s을(를) 제거"
-"할 수 없습니다."
+"zFCP 장치 %(devnum)s (%(e)s) 상의 WWPN %(wwpn)s에서 LUN %(fcplun)s을 제거 할 "
+"수 없습니다."
 
 #: ../blivet/zfcp.py:245
 #, python-format
 msgid "Could not remove WWPN %(wwpn)s on zFCP device %(devnum)s (%(e)s)."
-msgstr ""
-"zFCP 장치 %(devnum)s (%(e)s)에서 WWPN %(wwpn)s을(를) 제거할 수 없습니다."
+msgstr "zFCP 장치 %(devnum)s (%(e)s)에서 WWPN %(wwpn)s을 제거 할 수 없습니다."
 
 #: ../blivet/zfcp.py:271
 #, python-format
@@ -378,7 +378,7 @@ msgstr ""
 #: ../blivet/devices/raid.py:104
 #, python-format
 msgid "Cannot remove a member from existing %s array"
-msgstr "기존 %s 어레이에서 장치 구성원을 제거 할 수 없습니다"
+msgstr "기존 %s 어레이에서 구성원을 제거 할 수 없습니다"
 
 #: ../blivet/formats/biosboot.py:35
 msgid "BIOS Boot"

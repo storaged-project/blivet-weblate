@@ -1,13 +1,13 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Fabio Tomat <f.t.public@gmail.com>, 2021.
+# Fabio Tomat <f.t.public@gmail.com>, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-03 09:15+0200\n"
-"PO-Revision-Date: 2021-11-08 10:05+0000\n"
+"PO-Revision-Date: 2022-06-09 06:18+0000\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-master/fur/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.12.2\n"
 
 #: ../blivet/deviceaction.py:196
 #, python-format
@@ -133,6 +133,8 @@ msgid ""
 "All parent devices must be selected when choosing exclusive or ignored disks "
 "for a multipath or firmware RAID device."
 msgstr ""
+"Si scugne selezionâ ducj i dispositîfs gjenitôr cuant che si sielç i discs "
+"esclusîfs o ignorâts par un multi-percors o un dispositîf RAID firmware."
 
 #: ../blivet/fcoe.py:121
 msgid "FCoE not available"

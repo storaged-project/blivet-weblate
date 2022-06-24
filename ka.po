@@ -5,91 +5,92 @@
 # Translators:
 # Dimitris Glezos <glezos@indifex.com>, 2011
 # George Machitidze <giomac@gmail.com>, 2006-2007,2014
+# Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-03 09:15+0200\n"
-"PO-Revision-Date: 2015-01-05 05:24+0000\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Georgian (http://www.transifex.com/projects/p/blivet/language/"
-"ka/)\n"
+"PO-Revision-Date: 2022-06-24 05:27+0000\n"
+"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
+"Language-Team: Georgian <https://translate.fedoraproject.org/projects/blivet/"
+"blivet-master/ka/>\n"
 "Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Zanata 4.6.2\n"
+"X-Generator: Weblate 4.13\n"
 
 #: ../blivet/deviceaction.py:196
 #, python-format
 msgid "Executing %(action)s"
-msgstr ""
+msgstr "%(action)s ს შესრულება"
 
 #: ../blivet/deviceaction.py:324
 msgid "create device"
-msgstr ""
+msgstr "მოწყობილობის შექმნა"
 
 #: ../blivet/deviceaction.py:383
 msgid "destroy device"
-msgstr ""
+msgstr "მოწყობილობის განადგურება"
 
 #: ../blivet/deviceaction.py:494
 msgid "resize device"
-msgstr ""
+msgstr "მოწყობილობის ზომის შეცვლა"
 
 #: ../blivet/deviceaction.py:583
 msgid "create format"
-msgstr ""
+msgstr "ფორმატის შექმნა"
 
 #: ../blivet/deviceaction.py:623
 #, python-format
 msgid "Creating %(type)s on %(device)s"
-msgstr ""
+msgstr "%(type)s-ის შექმნა %(device)s-ზე"
 
 #: ../blivet/deviceaction.py:650
 #, python-format
 msgid "Not enough entropy to create LUKS format. %d bits are needed."
-msgstr ""
+msgstr "არასაკმარისი ენტროპია LUKS ფორმატის შესაქმნელად. საჭიროა %d ბიტი."
 
 #: ../blivet/deviceaction.py:680
 #, python-format
 msgid "Created %(type)s on %(device)s"
-msgstr ""
+msgstr "შეიქმნა %(type)s %(device)s-ზე"
 
 #: ../blivet/deviceaction.py:729
 msgid "destroy format"
-msgstr ""
+msgstr "ფორმატის განადგურება"
 
 #: ../blivet/deviceaction.py:842
 msgid "resize format"
-msgstr ""
+msgstr "ფორმატის ზომის შეცვლა"
 
 #: ../blivet/deviceaction.py:881
 #, python-format
 msgid "Resizing filesystem on %(device)s"
-msgstr ""
+msgstr "%(device)s-ზე არსებული ფაილური სისტემის ზომის შეცვლა"
 
 #: ../blivet/deviceaction.py:888
 #, python-format
 msgid "Resized filesystem on %(device)s"
-msgstr ""
+msgstr "%(device)s-ზე არსებული ფაილური სისტემის ზომა შეიცვალა"
 
 #: ../blivet/deviceaction.py:935
 msgid "add container member"
-msgstr ""
+msgstr "კონტეინერის წევრის დამატება"
 
 #: ../blivet/deviceaction.py:1000
 msgid "remove container member"
-msgstr ""
+msgstr "კონტეინერის წევრის წაშლა"
 
 #: ../blivet/deviceaction.py:1070
 msgid "configure format"
-msgstr ""
+msgstr "ფორმატის მორგება"
 
 #: ../blivet/deviceaction.py:1127
 msgid "configure device"
-msgstr ""
+msgstr "მოწყობილობის მორგება"
 
 #: ../blivet/errors.py:214
 msgid ""
@@ -104,6 +105,9 @@ msgid ""
 "kernel is reporting partitions on. It is unclear what the exact problem is. "
 "Please file a bug at http://bugzilla.redhat.com"
 msgstr ""
+"გარკვეული მიზეზების გამო, ჩვენ ვერ მოვახერხეთ დანაყოფებს ჭდის პოვნა დისკზე, "
+"რომელზეც ბირთვი დანაყოფებს გვაცნობებს. გაუგებარია, ზუსტად რა პრობლემაა. "
+"გთხოვთ, შეიყვანოთ შეცდომა მისამართზე http://bugzilla.redhat.com"
 
 #: ../blivet/errors.py:228
 msgid ""
@@ -111,6 +115,8 @@ msgid ""
 "completely.\n"
 "Hint: parted can restore it or wipefs can remove it."
 msgstr ""
+"ან აღადგინეთ დისკის ჭდე მთლიანად მუშა მდგომარეობაში ან მთლიანად წაშალეთ ის.\n"
+"მინიშნება: parted-ს შეუძლია მისი აღდგენა ან wipefs-ს შეუძლია წაშალოს."
 
 #: ../blivet/errors.py:234
 msgid ""
@@ -131,11 +137,11 @@ msgstr "FCoE არაა ხელმისაწვდომი"
 
 #: ../blivet/iscsi.py:217
 msgid "Unable to change iSCSI initiator name once set"
-msgstr ""
+msgstr "დაყენების შემდეგ iSCSI ინიციატორის სახელს ვერ შეცვლით"
 
 #: ../blivet/iscsi.py:219
 msgid "Must provide an iSCSI initiator name"
-msgstr ""
+msgstr "აუცილებელია iSCSI ინიციატორის სახელის მითითება"
 
 #: ../blivet/iscsi.py:413
 msgid "iSCSI not available"
@@ -143,37 +149,37 @@ msgstr "iSCSI არაა ხელმისაწვდომი"
 
 #: ../blivet/iscsi.py:415
 msgid "No initiator name set"
-msgstr ""
+msgstr "ინიციატორის სახელი დაყენებული არაა"
 
 #: ../blivet/iscsi.py:533
 msgid "No iSCSI nodes discovered"
-msgstr ""
+msgstr "ISCSI კვანძები ნაპოვნი არაა"
 
 #: ../blivet/iscsi.py:553
 msgid "No new iSCSI nodes discovered"
-msgstr ""
+msgstr "ახალი iSCSI კვანძები ნაპოვნი არაა"
 
 #: ../blivet/iscsi.py:556
 msgid "Could not log in to any of the discovered nodes"
-msgstr ""
+msgstr "აღმოჩენილ კვანძებზე შესვლა შეუძლებელია"
 
 #: ../blivet/partitioning.py:455
 msgid "unable to allocate aligned partition"
-msgstr ""
+msgstr "სწორებული დანაყოფის გამოყოფის შეცდომა"
 
 #: ../blivet/partitioning.py:463
 msgid "requested size exceeds maximum allowed"
-msgstr ""
+msgstr "მოთხოვნილი ზომა მაქსიმალურ დასაშვებს აჭარბებს"
 
 #: ../blivet/partitioning.py:475
 #, python-format
 msgid "failed to add partition to disk: %s"
-msgstr ""
+msgstr "დისკზე დანაყოფის დამატების შეცდომა: %s"
 
 #: ../blivet/partitioning.py:586
 #, python-format
 msgid "disk %s inaccessible"
-msgstr ""
+msgstr "დისკი %s მიუწვდომელია"
 
 #: ../blivet/partitioning.py:647
 #, python-format
@@ -181,6 +187,8 @@ msgid ""
 "partition is too small for %(format)s formatting (allowable size is "
 "%(min_size)s to %(max_size)s)"
 msgstr ""
+"დანაყოფი ძალიან პატარაა %(format)s ფორმატისთვს (დასაშვები ზომაა %(min_size)s-"
+"დან %(max_size)s-მდე)"
 
 #: ../blivet/partitioning.py:652
 #, python-format
@@ -188,73 +196,77 @@ msgid ""
 "partition is too large for %(format)s formatting (allowable size is "
 "%(min_size)s to %(max_size)s)"
 msgstr ""
+"დანაყოფი ძალიან დიდია %(format)s ფორმატისთვს (დასაშვები ზომაა %(min_size)s-"
+"დან %(max_size)s-მდე)"
 
 #: ../blivet/partitioning.py:968
 msgid "Unable to allocate requested partition scheme."
-msgstr ""
+msgstr "დანაყოფების მოთხოვნილი სქემის გამოყოფა შეუძლებელია."
 
 #: ../blivet/partitioning.py:1003
 msgid "not enough free space after creating extended partition"
-msgstr ""
+msgstr "გაფართებული დანაყოფის შექმნის შემდეგ თავისუფალი ადგილი აღარ დარჩა"
 
 #: ../blivet/partitioning.py:1010
 msgid "failed to allocate aligned partition"
-msgstr ""
+msgstr "სწორებული დანაყოფის გამოყოფის სეცდომა"
 
 #: ../blivet/partitioning.py:1211
 msgid "cannot reclaim more than request has grown"
-msgstr ""
+msgstr "მოთხოვნის ზრდაზე მეტ ადგილს ვერ დავიბრუნებთ"
 
 #: ../blivet/partitioning.py:1425
 msgid "DiskChunk requests must be of type PartitionRequest"
-msgstr ""
+msgstr "DiskChunk მოთხოვნის ტიპი PartitionRequest უნდა იყოს"
 
 #: ../blivet/partitioning.py:1438
 msgid "partitions allocated outside disklabel limits"
-msgstr ""
+msgstr "დანაყოფები დისკის ჭდის ლიმიტებს მიღმაა გამოყოფილი"
 
 #: ../blivet/partitioning.py:1523
 msgid "VGChunk requests must be of type LVRequest"
-msgstr ""
+msgstr "VGChunk მოთხოვნის ტიპი LVRequest უნდა იყოს"
 
 #. by now we have allocated the PVs so if there isn't enough
 #. space in the VG we have a real problem
 #: ../blivet/partitioning.py:2015
 msgid "not enough space for LVM requests"
-msgstr ""
+msgstr "არასაკმარისი სივრცე LVM მოთხოვნებისთვის"
 
 #: ../blivet/zfcp.py:62
 msgid "You have not specified a device number or the number is invalid"
-msgstr ""
+msgstr "მოწყობილობის ნომერი არ მიგითითებიათ ან ნომერი არასწორია"
 
 #: ../blivet/zfcp.py:64
 msgid "You have not specified a worldwide port name or the name is invalid."
-msgstr ""
+msgstr "WWN არ მიგითითებიათ ან სახელი არასწორია."
 
 #: ../blivet/zfcp.py:66
 msgid "You have not specified a FCP LUN or the number is invalid."
-msgstr ""
+msgstr "FCP LUN არ მიგითითებიათ ან რიცხვი არასწორია."
 
 #: ../blivet/zfcp.py:91
 #, python-format
 msgid "zFCP device %s not found, not even in device ignore list."
-msgstr ""
+msgstr "zFCP მოწყობილობა %s არ არსებობს. იგნორირებული მოწყობილობების სიაშიც კი."
 
 #: ../blivet/zfcp.py:101
 #, python-format
 msgid "Could not set zFCP device %(devnum)s online (%(e)s)."
-msgstr ""
+msgstr "ZFCP მოწყობილობის %(devnum)s ონლაინ გამოტანის შეცდომა (%(e)s)."
 
 #: ../blivet/zfcp.py:112
 #, python-format
 msgid "Could not add WWPN %(wwpn)s to zFCP device %(devnum)s (%(e)s)."
 msgstr ""
+"WWPN(%(wwpn)s)-is zFCP მოწყობილობაზე (%(devnum)s) დამატება შეუძლებელია "
+"(%(e)s)."
 
 #. newer zfcp sysfs interface with auto port scan
 #: ../blivet/zfcp.py:119
 #, python-format
 msgid "WWPN %(wwpn)s not found at zFCP device %(devnum)s."
-msgstr ""
+msgstr "WWPN %(wwpn)s zFCP მოწყობილობაზე ნაპოვნი არაა %(devnum)s."
 
 #: ../blivet/zfcp.py:134
 #, python-format
@@ -262,12 +274,16 @@ msgid ""
 "Could not add LUN %(fcplun)s to WWPN %(wwpn)s on zFCP device %(devnum)s "
 "(%(e)s)."
 msgstr ""
+"LUN-ის (%(fcplun)s) WWPN (%(wwpn)s)-ისთვის zFCP მოწყობილობა %(devnum)s-ზე "
+"დამატება შეუძლებელია (%(e)s)."
 
 #: ../blivet/zfcp.py:140
 #, python-format
 msgid ""
 "LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already configured."
 msgstr ""
+"LUN-ი (%(fcplun)s) WWPN-ით %(wwpn)s zFCP მოწყობილობაზე %(devnum)s უკვე "
+"მორგებულია."
 
 #: ../blivet/zfcp.py:152
 #, python-format
@@ -309,11 +325,11 @@ msgstr ""
 
 #: ../blivet/devicelibs/lvm.py:59
 msgid "Generic"
-msgstr ""
+msgstr "ზოგადი"
 
 #: ../blivet/devicelibs/lvm.py:60
 msgid "Performance"
-msgstr ""
+msgstr "წარმადობა"
 
 #: ../blivet/devices/raid.py:58
 #, python-format
@@ -338,7 +354,7 @@ msgstr ""
 
 #: ../blivet/formats/biosboot.py:35
 msgid "BIOS Boot"
-msgstr ""
+msgstr "BIOS-ით ჩატვირთვა"
 
 #: ../blivet/formats/disklabel.py:50
 msgid "partition table"
@@ -348,11 +364,11 @@ msgstr "დანაყოფების ცხრილი"
 #: ../blivet/formats/disklabel.py:326
 #, python-format
 msgid "Unsupported %(name)s"
-msgstr ""
+msgstr "მხარდაუჭერელი %(name)s"
 
 #: ../blivet/formats/dmraid.py:37
 msgid "dm-raid member device"
-msgstr ""
+msgstr "dm-raid-ის მოწყობილობის წევრი"
 
 #: ../blivet/formats/fs.py:941
 msgid "EFI System Partition"
@@ -380,7 +396,7 @@ msgstr "დაშიფრული"
 
 #: ../blivet/formats/luks.py:402
 msgid "DM Integrity"
-msgstr ""
+msgstr "DM-ის მთლიანობა"
 
 #: ../blivet/formats/lvmpv.py:49
 msgid "physical volume (LVM)"
@@ -392,8 +408,8 @@ msgstr "პროგრამული RAID"
 
 #: ../blivet/formats/multipath.py:40
 msgid "multipath member device"
-msgstr ""
+msgstr "მრავალბილიკა მოწყობილობების წევრი"
 
 #: ../blivet/formats/prepboot.py:37
 msgid "PPC PReP Boot"
-msgstr ""
+msgstr "PPC PReP ჩატვირთვა"

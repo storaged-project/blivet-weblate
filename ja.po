@@ -30,7 +30,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-09-03 09:15+0200\n"
-"PO-Revision-Date: 2022-03-05 07:16+0000\n"
+"PO-Revision-Date: 2022-09-03 06:19+0000\n"
 "Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: Japanese <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-master/ja/>\n"
@@ -39,7 +39,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.11.2\n"
+"X-Generator: Weblate 4.14\n"
 
 #: ../blivet/deviceaction.py:196
 #, python-format
@@ -156,6 +156,8 @@ msgid ""
 "All parent devices must be selected when choosing exclusive or ignored disks "
 "for a multipath or firmware RAID device."
 msgstr ""
+"マルチパスまたはファームウェア RAID デバイスに排他的または無視されたディスク"
+"を選択する場合は、すべての親デバイスを選択する必要があります。"
 
 #: ../blivet/fcoe.py:121
 msgid "FCoE not available"
@@ -183,7 +185,7 @@ msgstr "iSCSI ノードが何も探索できませんでした"
 
 #: ../blivet/iscsi.py:553
 msgid "No new iSCSI nodes discovered"
-msgstr "新しい iSCSI ノードは見つかりませんでした。"
+msgstr "新しい iSCSI ノードは見つかりませんでした"
 
 #: ../blivet/iscsi.py:556
 msgid "Could not log in to any of the discovered nodes"
@@ -198,10 +200,9 @@ msgid "requested size exceeds maximum allowed"
 msgstr "要求されたサイズは、許可された最大値を超えています"
 
 #: ../blivet/partitioning.py:475
-#, fuzzy, python-format
-#| msgid "failed to allocate aligned partition"
+#, python-format
 msgid "failed to add partition to disk: %s"
-msgstr "アラインされたパーティションを割り当てることができません"
+msgstr "ディスクにパーティションを追加できませんでした: %s"
 
 #: ../blivet/partitioning.py:586
 #, python-format
@@ -252,7 +253,7 @@ msgstr "ディスクラベルの範囲外に割り当てられたパーティシ
 
 #: ../blivet/partitioning.py:1523
 msgid "VGChunk requests must be of type LVRequest"
-msgstr "VGChunk 要求には LVResquest タイプが必要です。"
+msgstr "VGChunk 要求には LVResquest タイプが必要です"
 
 #. by now we have allocated the PVs so if there isn't enough
 #. space in the VG we have a real problem

@@ -10,24 +10,24 @@
 # Jacek Smyda <smyda@posexperts.com.pl>, 1998
 # Leszek Matok <lam@lac.pl>, 2004
 # Pawel Szopinski <pawel@szopinski.co.uk>, 2004
-# Piotr Drąg <piotrdrag@gmail.com>, 2011-2014, 2021.
+# Piotr Drąg <piotrdrag@gmail.com>, 2011-2014, 2021, 2022.
 # Radosław Zawartko <radzaw@radzaw.one.pl>, 2004
 # sonyam <sonyam@tlen.pl>, 2004
 # Stanisław Małolepszy <smalolepszy@aviary.pl>, 2006
 # Tom Berner <tom@lodz.pl>, 2005
 # Tom Berner <tom@man.lodz.pl>, 2004
 # Wojciech Kapusta <wojciech@aviary.pl>, 2006
-# Piotr Drąg <piotrdrag@gmail.com>, 2015. #zanata, 2021.
-# Piotr Drąg <piotrdrag@gmail.com>, 2016. #zanata, 2021.
-# Piotr Drąg <piotrdrag@gmail.com>, 2017. #zanata, 2021.
-# Piotr Drąg <piotrdrag@gmail.com>, 2018. #zanata, 2021.
-# Piotr Drąg <piotrdrag@gmail.com>, 2019. #zanata, 2021.
+# Piotr Drąg <piotrdrag@gmail.com>, 2015. #zanata, 2021, 2022.
+# Piotr Drąg <piotrdrag@gmail.com>, 2016. #zanata, 2021, 2022.
+# Piotr Drąg <piotrdrag@gmail.com>, 2017. #zanata, 2021, 2022.
+# Piotr Drąg <piotrdrag@gmail.com>, 2018. #zanata, 2021, 2022.
+# Piotr Drąg <piotrdrag@gmail.com>, 2019. #zanata, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-30 09:00+0200\n"
-"PO-Revision-Date: 2021-09-05 12:08+0000\n"
+"PO-Revision-Date: 2022-09-03 10:15+0000\n"
 "Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
 "Language-Team: Polish <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-master/pl/>\n"
@@ -37,7 +37,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.14\n"
 
 #: ../blivet/deviceaction.py:196
 #, python-format
@@ -365,17 +365,12 @@ msgstr ""
 #: ../blivet/zfcp.py:418
 #, python-format
 msgid "zFCP device %s cannot use auto LUN scan."
-msgstr ""
+msgstr "Urządzenie zFCP %s nie może używać automatycznego wykrywania LUN."
 
 #: ../blivet/zfcp.py:432
-#, fuzzy, python-format
-#| msgid ""
-#| "Could not correctly delete SCSI device of zFCP %(devnum)s %(wwpn)s "
-#| "%(fcplun)s (%(e)s)."
+#, python-format
 msgid "Could not correctly delete SCSI device of zFCP %(zfcpdev)s (%(e)s)."
-msgstr ""
-"Nie można poprawnie usunąć urządzenia SCSI z zFCP %(devnum)s %(wwpn)s "
-"%(fcplun)s (%(e)s)."
+msgstr "Nie można poprawnie usunąć urządzenia SCSI z zFCP %(zfcpdev)s (%(e)s)."
 
 #: ../blivet/devicelibs/lvm.py:68
 msgid "Generic"
@@ -479,7 +474,5 @@ msgid "PPC PReP Boot"
 msgstr "Startowa PReP PPC"
 
 #: ../blivet/formats/stratis.py:40
-#, fuzzy
-#| msgid "create device"
 msgid "Stratis block device"
-msgstr "utwórz urządzenie"
+msgstr "Urządzenie blokowe Stratis"

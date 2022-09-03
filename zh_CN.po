@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-03 09:15+0200\n"
+"POT-Creation-Date: 2022-08-30 09:00+0200\n"
 "PO-Revision-Date: 2022-03-05 07:16+0000\n"
 "Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
@@ -99,11 +99,11 @@ msgstr "删除容器成员"
 msgid "configure format"
 msgstr "配置格式"
 
-#: ../blivet/deviceaction.py:1127
+#: ../blivet/deviceaction.py:1141
 msgid "configure device"
 msgstr "配置设备"
 
-#: ../blivet/errors.py:214
+#: ../blivet/errors.py:223
 msgid ""
 "This is usually caused by cloning the device image resulting in duplication "
 "of the UUID value which should be unique. In that case you can either "
@@ -112,7 +112,7 @@ msgstr ""
 "这通常是由于克隆设备镜像导致 UUID 值重复造成的，而 UUID 值应该是唯一的。如果"
 "是这种情况，可以断开其中一个设备或重新格式化它。"
 
-#: ../blivet/errors.py:221
+#: ../blivet/errors.py:230
 msgid ""
 "For some reason we were unable to locate a disklabel on a disk that the "
 "kernel is reporting partitions on. It is unclear what the exact problem is. "
@@ -121,7 +121,7 @@ msgstr ""
 "由于某些原因，我们无法对内核正在报告其上分区的磁盘定位磁盘标签。尚不了解具体"
 "问题所在。请在http://bugzilla.redhat.com 提交bug"
 
-#: ../blivet/errors.py:228
+#: ../blivet/errors.py:237
 msgid ""
 "Either restore the disklabel to a completely working state or remove it "
 "completely.\n"
@@ -130,7 +130,7 @@ msgstr ""
 "可以将该磁盘标签恢复为完全工作状态，或者将其完全删除。\n"
 "提示：可使用 parted 将其恢复，或使用 wipefs 将其删除。"
 
-#: ../blivet/errors.py:234
+#: ../blivet/errors.py:243
 msgid ""
 "Rename one of the volume groups so the names are distinct.\n"
 "Hint 1: vgrename accepts UUID in place of the old name.\n"
@@ -140,41 +140,42 @@ msgstr ""
 "提示 1：vgrename 接受使用 UUID 代替原有名称。\n"
 "提示 2：可运行 'pvs -o +vg_uuid' 获取 VG UUID。"
 
-#: ../blivet/errors.py:242
+#: ../blivet/errors.py:251
 msgid ""
 "All parent devices must be selected when choosing exclusive or ignored disks "
 "for a multipath or firmware RAID device."
-msgstr "当为一个多路径或硬件 RAID 设备选择独占或忽略磁盘时，必须选择所有父设备。"
+msgstr ""
+"当为一个多路径或硬件 RAID 设备选择独占或忽略磁盘时，必须选择所有父设备。"
 
-#: ../blivet/fcoe.py:121
+#: ../blivet/fcoe.py:122
 msgid "FCoE not available"
 msgstr "FCoE 不可用"
 
-#: ../blivet/iscsi.py:217
+#: ../blivet/iscsi.py:216
 msgid "Unable to change iSCSI initiator name once set"
 msgstr "设定后就无法更改 iSCSI 启动程序名称"
 
-#: ../blivet/iscsi.py:219
+#: ../blivet/iscsi.py:218
 msgid "Must provide an iSCSI initiator name"
 msgstr "您必须提供一个 iSCSI 发起者的名称"
 
-#: ../blivet/iscsi.py:413
+#: ../blivet/iscsi.py:412
 msgid "iSCSI not available"
 msgstr "iSCSI 不可用"
 
-#: ../blivet/iscsi.py:415
+#: ../blivet/iscsi.py:414
 msgid "No initiator name set"
 msgstr "没有设置启动器名称"
 
-#: ../blivet/iscsi.py:533
+#: ../blivet/iscsi.py:532
 msgid "No iSCSI nodes discovered"
 msgstr "没有发现 iSCSI 节点"
 
-#: ../blivet/iscsi.py:553
+#: ../blivet/iscsi.py:552
 msgid "No new iSCSI nodes discovered"
 msgstr "没有找到新的 iSCSI 节点"
 
-#: ../blivet/iscsi.py:556
+#: ../blivet/iscsi.py:555
 msgid "Could not log in to any of the discovered nodes"
 msgstr "无法登入到任何已发现节点"
 
@@ -212,74 +213,79 @@ msgid ""
 msgstr ""
 "分区对于 %(format)s 格式化太大（允许大小是 %(min_size)s 到 %(max_size)s）"
 
-#: ../blivet/partitioning.py:968
+#: ../blivet/partitioning.py:971
 msgid "Unable to allocate requested partition scheme."
 msgstr "无法分配请求的分区方案。"
 
-#: ../blivet/partitioning.py:1003
+#: ../blivet/partitioning.py:1006
 msgid "not enough free space after creating extended partition"
 msgstr "没有足够的可用空间创建扩展分区"
 
-#: ../blivet/partitioning.py:1010
+#: ../blivet/partitioning.py:1013
 msgid "failed to allocate aligned partition"
 msgstr "无法分配已对齐的分区"
 
-#: ../blivet/partitioning.py:1211
+#: ../blivet/partitioning.py:1214
 msgid "cannot reclaim more than request has grown"
 msgstr "无法回收超过请求所增长的空间"
 
-#: ../blivet/partitioning.py:1425
+#: ../blivet/partitioning.py:1428
 msgid "DiskChunk requests must be of type PartitionRequest"
 msgstr "DiskChunk 请求必须为 PartitionRequest 类型"
 
-#: ../blivet/partitioning.py:1438
+#: ../blivet/partitioning.py:1441
 msgid "partitions allocated outside disklabel limits"
 msgstr "分配的分区超出磁盘标签限制"
 
-#: ../blivet/partitioning.py:1523
+#: ../blivet/partitioning.py:1526
 msgid "VGChunk requests must be of type LVRequest"
 msgstr "VGChunk 请求必须为 LVRequest 类型"
 
 #. by now we have allocated the PVs so if there isn't enough
 #. space in the VG we have a real problem
-#: ../blivet/partitioning.py:2015
+#: ../blivet/partitioning.py:2018
 msgid "not enough space for LVM requests"
 msgstr "没有足够的空间以满足 LVM 请求"
 
-#: ../blivet/zfcp.py:62
+#: ../blivet/zfcp.py:106
 msgid "You have not specified a device number or the number is invalid"
 msgstr "您没有指定设备号码或号码无效"
 
-#: ../blivet/zfcp.py:64
-msgid "You have not specified a worldwide port name or the name is invalid."
-msgstr "您没有指定全局端口号或号码无效。"
-
-#: ../blivet/zfcp.py:66
-msgid "You have not specified a FCP LUN or the number is invalid."
-msgstr "您没有指定 FCP LUN 或号码无效。"
-
-#: ../blivet/zfcp.py:91
+#: ../blivet/zfcp.py:131
 #, python-format
 msgid "zFCP device %s not found, not even in device ignore list."
 msgstr "没有找到 zFCP 设备 %s，即使在忽略的设备列表中也没有找到。"
 
-#: ../blivet/zfcp.py:101
+#: ../blivet/zfcp.py:146
 #, python-format
 msgid "Could not set zFCP device %(devnum)s online (%(e)s)."
 msgstr "无法将 zFCP 设备 %(devnum)s 设为在线 (%(e)s)。"
 
-#: ../blivet/zfcp.py:112
+#: ../blivet/zfcp.py:159
+#, python-format
+msgid "Could not set zFCP device %(devnum)s offline (%(e)s)."
+msgstr "无法将 zFCP 设备 %(devnum)s 设定为离线 (%(e)s)。"
+
+#: ../blivet/zfcp.py:218
+msgid "You have not specified a worldwide port name or the name is invalid."
+msgstr "您没有指定全局端口号或号码无效。"
+
+#: ../blivet/zfcp.py:222
+msgid "You have not specified a FCP LUN or the number is invalid."
+msgstr "您没有指定 FCP LUN 或号码无效。"
+
+#: ../blivet/zfcp.py:268
 #, python-format
 msgid "Could not add WWPN %(wwpn)s to zFCP device %(devnum)s (%(e)s)."
 msgstr "无法将 WWPN %(wwpn)s 添加到 zFCP 设备 %(devnum)s中 (%(e)s)。"
 
 #. newer zfcp sysfs interface with auto port scan
-#: ../blivet/zfcp.py:119
+#: ../blivet/zfcp.py:275
 #, python-format
 msgid "WWPN %(wwpn)s not found at zFCP device %(devnum)s."
 msgstr "在 zFCP 设备 %(devnum)s 中没有找到 WWPN %(wwpn)s。"
 
-#: ../blivet/zfcp.py:134
+#: ../blivet/zfcp.py:291
 #, python-format
 msgid ""
 "Could not add LUN %(fcplun)s to WWPN %(wwpn)s on zFCP device %(devnum)s "
@@ -288,14 +294,14 @@ msgstr ""
 "无法在 zFCP 设备 %(devnum)s 中将 LUN %(fcplun)s 添加到 WWPN %(wwpn)s 中 "
 "(%(e)s)。"
 
-#: ../blivet/zfcp.py:140
+#: ../blivet/zfcp.py:297
 #, python-format
 msgid ""
 "LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already configured."
 msgstr ""
 "已经在 zFCP 设备 %(devnum)s 上的 WWPN %(wwpn)s 中配置了 LUN %(fcplun)s。"
 
-#: ../blivet/zfcp.py:152
+#: ../blivet/zfcp.py:310
 #, python-format
 msgid ""
 "Could not read failed attribute of LUN %(fcplun)s at WWPN %(wwpn)s on zFCP "
@@ -304,7 +310,7 @@ msgstr ""
 "无法在 zFCP 设备 %(devnum)s 上的 WWPN %(wwpn)s 中读取 LUN %(fcplun)s 失败的属"
 "性 (%(e)s)。"
 
-#: ../blivet/zfcp.py:161
+#: ../blivet/zfcp.py:319
 #, python-format
 msgid ""
 "Failed LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s removed "
@@ -312,7 +318,7 @@ msgid ""
 msgstr ""
 "再次删除在 zFCP 设备 %(devnum)s 的 WWPN %(wwpn)s 中失败的 LUN %(fcplun)s。"
 
-#: ../blivet/zfcp.py:218
+#: ../blivet/zfcp.py:339
 #, python-format
 msgid ""
 "Could not correctly delete SCSI device of zFCP %(devnum)s %(wwpn)s "
@@ -320,7 +326,7 @@ msgid ""
 msgstr ""
 "无法正确删除 zFCP %(devnum)s %(wwpn)s %(fcplun)s 的 SCSI 设备 (%(e)s)。"
 
-#: ../blivet/zfcp.py:227
+#: ../blivet/zfcp.py:349
 #, python-format
 msgid ""
 "Could not remove LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s "
@@ -329,21 +335,30 @@ msgstr ""
 "无法在 zFCP 设备 %(devnum)s 上的 WWPN %(wwpn)s 中删除 LUN %(fcplun)s "
 "(%(e)s)。"
 
-#: ../blivet/zfcp.py:245
+#: ../blivet/zfcp.py:368
 #, python-format
 msgid "Could not remove WWPN %(wwpn)s on zFCP device %(devnum)s (%(e)s)."
 msgstr "无法在 zFCP 设备 %(devnum)s 中删除 WWPN %(wwpn)s (%(e)s)。"
 
-#: ../blivet/zfcp.py:271
+#: ../blivet/zfcp.py:418
 #, python-format
-msgid "Could not set zFCP device %(devnum)s offline (%(e)s)."
-msgstr "无法将 zFCP 设备 %(devnum)s 设定为离线 (%(e)s)。"
+msgid "zFCP device %s cannot use auto LUN scan."
+msgstr ""
 
-#: ../blivet/devicelibs/lvm.py:59
+#: ../blivet/zfcp.py:432
+#, fuzzy, python-format
+#| msgid ""
+#| "Could not correctly delete SCSI device of zFCP %(devnum)s %(wwpn)s "
+#| "%(fcplun)s (%(e)s)."
+msgid "Could not correctly delete SCSI device of zFCP %(zfcpdev)s (%(e)s)."
+msgstr ""
+"无法正确删除 zFCP %(devnum)s %(wwpn)s %(fcplun)s 的 SCSI 设备 (%(e)s)。"
+
+#: ../blivet/devicelibs/lvm.py:68
 msgid "Generic"
 msgstr "通用"
 
-#: ../blivet/devicelibs/lvm.py:60
+#: ../blivet/devicelibs/lvm.py:69
 msgid "Performance"
 msgstr "性能"
 
@@ -391,11 +406,11 @@ msgstr "dm-raid member 设备"
 msgid "EFI System Partition"
 msgstr "EFI 系统分区"
 
-#: ../blivet/formats/fs.py:1149
+#: ../blivet/formats/fs.py:1189
 msgid "Apple Bootstrap"
 msgstr "Apple Bootstrap"
 
-#: ../blivet/formats/fs.py:1185
+#: ../blivet/formats/fs.py:1225
 msgid "Linux HFS+ ESP"
 msgstr "Linux HFS+ ESP"
 
@@ -430,3 +445,9 @@ msgstr "多路径成员设备"
 #: ../blivet/formats/prepboot.py:37
 msgid "PPC PReP Boot"
 msgstr "PPC PReP Boot"
+
+#: ../blivet/formats/stratis.py:40
+#, fuzzy
+#| msgid "create device"
+msgid "Stratis block device"
+msgstr "创建设备"

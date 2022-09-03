@@ -19,7 +19,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-03 09:15+0200\n"
+"POT-Creation-Date: 2022-08-30 09:00+0200\n"
 "PO-Revision-Date: 2015-01-05 05:25+0000\n"
 "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
 "Language-Team: Kannada (http://www.transifex.com/projects/p/blivet/language/"
@@ -97,73 +97,73 @@ msgstr "ಕಂಟೇನರ್ ಸದಸ್ಯವನ್ನು ತೆಗೆದು�
 msgid "configure format"
 msgstr ""
 
-#: ../blivet/deviceaction.py:1127
+#: ../blivet/deviceaction.py:1141
 msgid "configure device"
 msgstr ""
 
-#: ../blivet/errors.py:214
+#: ../blivet/errors.py:223
 msgid ""
 "This is usually caused by cloning the device image resulting in duplication "
 "of the UUID value which should be unique. In that case you can either "
 "disconnect one of the devices or reformat it."
 msgstr ""
 
-#: ../blivet/errors.py:221
+#: ../blivet/errors.py:230
 msgid ""
 "For some reason we were unable to locate a disklabel on a disk that the "
 "kernel is reporting partitions on. It is unclear what the exact problem is. "
 "Please file a bug at http://bugzilla.redhat.com"
 msgstr ""
 
-#: ../blivet/errors.py:228
+#: ../blivet/errors.py:237
 msgid ""
 "Either restore the disklabel to a completely working state or remove it "
 "completely.\n"
 "Hint: parted can restore it or wipefs can remove it."
 msgstr ""
 
-#: ../blivet/errors.py:234
+#: ../blivet/errors.py:243
 msgid ""
 "Rename one of the volume groups so the names are distinct.\n"
 "Hint 1: vgrename accepts UUID in place of the old name.\n"
 "Hint 2: You can get the VG UUIDs by running 'pvs -o +vg_uuid'."
 msgstr ""
 
-#: ../blivet/errors.py:242
+#: ../blivet/errors.py:251
 msgid ""
 "All parent devices must be selected when choosing exclusive or ignored disks "
 "for a multipath or firmware RAID device."
 msgstr ""
 
-#: ../blivet/fcoe.py:121
+#: ../blivet/fcoe.py:122
 msgid "FCoE not available"
 msgstr "FCoE ಯು ಲಭ್ಯವಿಲ್ಲ"
 
-#: ../blivet/iscsi.py:217
+#: ../blivet/iscsi.py:216
 msgid "Unable to change iSCSI initiator name once set"
 msgstr "iSCSI ಆರಂಭಕದ ಹೆಸರನ್ನು ಒಮ್ಮೆ ಹೊಂದಿಸಿದ ನಂತರ ಬದಲಾಯಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ"
 
-#: ../blivet/iscsi.py:219
+#: ../blivet/iscsi.py:218
 msgid "Must provide an iSCSI initiator name"
 msgstr "ನೀವು ಒಂದು iSCSI ಆರಂಭಕದ ಹೆಸರನ್ನು ನೀಡಬೇಕು"
 
-#: ../blivet/iscsi.py:413
+#: ../blivet/iscsi.py:412
 msgid "iSCSI not available"
 msgstr "iSCSI ಯು ಲಭ್ಯವಿಲ್ಲ"
 
-#: ../blivet/iscsi.py:415
+#: ../blivet/iscsi.py:414
 msgid "No initiator name set"
 msgstr "ಯಾವುದೆ ಆರಂಭಕದ ಹೆಸರನ್ನು ಸೂಚಿಸಲಾಗಿಲ್ಲ"
 
-#: ../blivet/iscsi.py:533
+#: ../blivet/iscsi.py:532
 msgid "No iSCSI nodes discovered"
 msgstr "ಯಾವುದೆ iSCSI ನೋಡ್‌ಗಳು ಕಂಡುಬಂದಿಲ್ಲ"
 
-#: ../blivet/iscsi.py:553
+#: ../blivet/iscsi.py:552
 msgid "No new iSCSI nodes discovered"
 msgstr "ಯಾವುದೆ ಹೊಸ iSCSI ನೋಡ್‌ಗಳು ಕಂಡುಬಂದಿಲ್ಲ"
 
-#: ../blivet/iscsi.py:556
+#: ../blivet/iscsi.py:555
 msgid "Could not log in to any of the discovered nodes"
 msgstr "ಪತ್ತೆಮಾಡಲಾದ ಯಾವುದೆ ನೋಡ್‌ಗಳಿಗೆ ಪ್ರವೇಶಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ"
 
@@ -199,76 +199,81 @@ msgid ""
 "%(min_size)s to %(max_size)s)"
 msgstr ""
 
-#: ../blivet/partitioning.py:968
+#: ../blivet/partitioning.py:971
 msgid "Unable to allocate requested partition scheme."
 msgstr "ಮನವಿ ಮಾಡಲಾದ ವಿಭಾಗ ವ್ಯವಸ್ಥೆಯನ್ನು ನಿಯೋಜಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ"
 
-#: ../blivet/partitioning.py:1003
+#: ../blivet/partitioning.py:1006
 msgid "not enough free space after creating extended partition"
 msgstr "ವಿಸ್ತರಿಸಲಾದ ವಿಭಾಗವನ್ನು ರಚಿಸಿದ ಮೇಲೆ ಸಾಕಷ್ಟು ಖಾಲಿ ಜಾಗವಿಲ್ಲ"
 
-#: ../blivet/partitioning.py:1010
+#: ../blivet/partitioning.py:1013
 msgid "failed to allocate aligned partition"
 msgstr ""
 
-#: ../blivet/partitioning.py:1211
+#: ../blivet/partitioning.py:1214
 msgid "cannot reclaim more than request has grown"
 msgstr "ಮನವಿ ಬೆಳಸಿದ್ದಕ್ಕಿಂತ ಹೆಚ್ಚಿನದನ್ನು ಮರಳಿಪಡೆಯಲು ಸಾಧ್ಯವಿಲ್ಲ"
 
-#: ../blivet/partitioning.py:1425
+#: ../blivet/partitioning.py:1428
 msgid "DiskChunk requests must be of type PartitionRequest"
 msgstr "DiskChunk ಮನವಿಗಳು PartitionRequest ಬಗೆಯದ್ದಾಗಿರಬೇಕು"
 
-#: ../blivet/partitioning.py:1438
+#: ../blivet/partitioning.py:1441
 msgid "partitions allocated outside disklabel limits"
 msgstr "ಡಿಸ್ಕ್-ಲೇಬಲ್‌ ಮಿತಿಗಳ ಹೊರಗೆ ವಿಭಾಗಗಳನ್ನು ನಿಗದಿಪಡಿಸಲಾಗಿಲ್ಲ"
 
-#: ../blivet/partitioning.py:1523
+#: ../blivet/partitioning.py:1526
 msgid "VGChunk requests must be of type LVRequest"
 msgstr "VGChunk ಮನವಿಗಳು LVRequest ಬಗೆಯದ್ದಾಗಿರಬೇಕು"
 
 #. by now we have allocated the PVs so if there isn't enough
 #. space in the VG we have a real problem
-#: ../blivet/partitioning.py:2015
+#: ../blivet/partitioning.py:2018
 msgid "not enough space for LVM requests"
 msgstr "LVM ಮನವಿಗಳಿಗಾಗಿ ಸಾಕಷ್ಟು ಖಾಲಿಜಾಗವಿಲ್ಲ"
 
-#: ../blivet/zfcp.py:62
+#: ../blivet/zfcp.py:106
 msgid "You have not specified a device number or the number is invalid"
 msgstr "ನೀವು ಸಾಧನ ಸಂಖ್ಯೆಯನ್ನು ನಿಗದಿಪಡಿಸಿಲ್ಲ ಇಲ್ಲವೇ ಸಂಖ್ಯೆಯು ಮಾನ್ಯವಾದದ್ದಲ್ಲ"
 
-#: ../blivet/zfcp.py:64
-msgid "You have not specified a worldwide port name or the name is invalid."
-msgstr ""
-"ನೀವು ವಿಶ್ವವ್ಯಾಪಿ ಸಂಪರ್ಕದ್ವಾರದ ಹೆಸರನ್ನು ನಿಗದಿಪಡಿಸಿಲ್ಲ ಇಲ್ಲವೇ ಹೆಸರು ಮಾನ್ಯವಾದದ್ದಲ್ಲ."
-
-#: ../blivet/zfcp.py:66
-msgid "You have not specified a FCP LUN or the number is invalid."
-msgstr "ನೀವು FCP LUN ಅನ್ನು ನಿಗದಿಪಡಿಸಿಲ್ಲ, ಇಲ್ಲವೇ ಸಂಖ್ಯೆ ಮಾನ್ಯವಾದದ್ದಲ್ಲ."
-
-#: ../blivet/zfcp.py:91
+#: ../blivet/zfcp.py:131
 #, python-format
 msgid "zFCP device %s not found, not even in device ignore list."
 msgstr "zFCP ಸಾಧನ %s ಕಂಡುಬಂದಿಲ್ಲ, ಸಾಧನ ಕಡೆಗಣಿಕಾ ಪಟ್ಟಿಯಲ್ಲಿ ಇಲ್ಲ."
 
-#: ../blivet/zfcp.py:101
+#: ../blivet/zfcp.py:146
 #, python-format
 msgid "Could not set zFCP device %(devnum)s online (%(e)s)."
 msgstr "zFCP ಸಾಧನ %(devnum)s ಅನ್ನು ಆನ್‌ಲೈನಿನಲ್ಲಿ ಹೊಂದಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ (%(e)s)."
 
-#: ../blivet/zfcp.py:112
+#: ../blivet/zfcp.py:159
+#, python-format
+msgid "Could not set zFCP device %(devnum)s offline (%(e)s)."
+msgstr "zFCP ಸಾಧನ %(devnum)s ಅನ್ನು ಆಫ್‌ಲೈನಿಗೆ ಬದಲಾಯಿಸಲಾಗಿಲ್ಲ (%(e)s)."
+
+#: ../blivet/zfcp.py:218
+msgid "You have not specified a worldwide port name or the name is invalid."
+msgstr ""
+"ನೀವು ವಿಶ್ವವ್ಯಾಪಿ ಸಂಪರ್ಕದ್ವಾರದ ಹೆಸರನ್ನು ನಿಗದಿಪಡಿಸಿಲ್ಲ ಇಲ್ಲವೇ ಹೆಸರು ಮಾನ್ಯವಾದದ್ದಲ್ಲ."
+
+#: ../blivet/zfcp.py:222
+msgid "You have not specified a FCP LUN or the number is invalid."
+msgstr "ನೀವು FCP LUN ಅನ್ನು ನಿಗದಿಪಡಿಸಿಲ್ಲ, ಇಲ್ಲವೇ ಸಂಖ್ಯೆ ಮಾನ್ಯವಾದದ್ದಲ್ಲ."
+
+#: ../blivet/zfcp.py:268
 #, python-format
 msgid "Could not add WWPN %(wwpn)s to zFCP device %(devnum)s (%(e)s)."
 msgstr ""
 "zFCP ಸಾಧನ %(devnum)s (%(e)s) ಕ್ಕೆ WWPN %(wwpn)s ಅನ್ನು ಸೇರಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ."
 
 #. newer zfcp sysfs interface with auto port scan
-#: ../blivet/zfcp.py:119
+#: ../blivet/zfcp.py:275
 #, python-format
 msgid "WWPN %(wwpn)s not found at zFCP device %(devnum)s."
 msgstr "zFCP ಸಾಧನ %(devnum)s ದಲ್ಲಿ WWPN %(wwpn)s ಯು ಕಂಡುಬಂದಿಲ್ಲ."
 
-#: ../blivet/zfcp.py:134
+#: ../blivet/zfcp.py:291
 #, python-format
 msgid ""
 "Could not add LUN %(fcplun)s to WWPN %(wwpn)s on zFCP device %(devnum)s "
@@ -277,7 +282,7 @@ msgstr ""
 "ಸಾಧನ %(devnum)s ದಲ್ಲಿನ WWPN %(wwpn)s ಗೆ zFCP ಗೆ LUN %(fcplun)s ಅನ್ನು  ಸೇರಿಸಲು "
 "ಸಾಧ್ಯವಾಗಿಲ್ಲ (%(e)s)."
 
-#: ../blivet/zfcp.py:140
+#: ../blivet/zfcp.py:297
 #, python-format
 msgid ""
 "LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already configured."
@@ -285,7 +290,7 @@ msgstr ""
 "zFCP ಸಾಧನ %(devnum)s ದಲ್ಲಿರುವ WWPN %(wwpn)s ನಲ್ಲಿ LUN %(fcplun)s ಅನ್ನು ಈಗಾಗಲೆ "
 "ಸಂರಚಿಸಲಾಗಿದೆ."
 
-#: ../blivet/zfcp.py:152
+#: ../blivet/zfcp.py:310
 #, python-format
 msgid ""
 "Could not read failed attribute of LUN %(fcplun)s at WWPN %(wwpn)s on zFCP "
@@ -294,7 +299,7 @@ msgstr ""
 "zFCP ಸಾಧನ %(devnum)s  ದಲ್ಲಿರುವ WWPN %(wwpn)s ನಲ್ಲಿನ  LUN %(fcplun)s ಎಂಬ "
 "ವಿಫಲಗೊಂಡ ಗುಣವಿಶೇಷಗಳನ್ನು ಓದಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ  (%(e)s)."
 
-#: ../blivet/zfcp.py:161
+#: ../blivet/zfcp.py:319
 #, python-format
 msgid ""
 "Failed LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s removed "
@@ -302,7 +307,7 @@ msgid ""
 msgstr ""
 "zFCP ಸಾಧನ %(devnum)s ದಲ್ಲಿನ WWPN %(wwpn)s ನಲ್ಲಿ LUN %(fcplun)s ವು ವಿಫಲಗೊಂಡಿದೆ."
 
-#: ../blivet/zfcp.py:218
+#: ../blivet/zfcp.py:339
 #, python-format
 msgid ""
 "Could not correctly delete SCSI device of zFCP %(devnum)s %(wwpn)s "
@@ -311,7 +316,7 @@ msgstr ""
 "zFCP %(devnum)s %(wwpn)s %(fcplun)s ದ SCSI ಸಾಧನವನ್ನು ಸೂಕ್ತವಾಗಿ ಅಳಿಸಲು "
 "ಸಾಧ್ಯವಾಗಿಲ್ಲ (%(e)s)."
 
-#: ../blivet/zfcp.py:227
+#: ../blivet/zfcp.py:349
 #, python-format
 msgid ""
 "Could not remove LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s "
@@ -320,22 +325,32 @@ msgstr ""
 "zFCP ಸಾಧನ  %(devnum)s ದಲ್ಲಿನ LUN %(fcplun)s ಅನ್ನು WWPN %(wwpn)s ಇಂದ ತೆಗೆದು "
 "ಹಾಕಲಾಗಿಲ್ಲ (%(e)s)."
 
-#: ../blivet/zfcp.py:245
+#: ../blivet/zfcp.py:368
 #, python-format
 msgid "Could not remove WWPN %(wwpn)s on zFCP device %(devnum)s (%(e)s)."
 msgstr ""
 "zFCP ಸಾಧನ %(devnum)s ದಲ್ಲಿನ WWPN %(wwpn)s ಅನ್ನು ತೆಗೆದು ಹಾಕಲಾಗಿಲ್ಲ (%(e)s)."
 
-#: ../blivet/zfcp.py:271
+#: ../blivet/zfcp.py:418
 #, python-format
-msgid "Could not set zFCP device %(devnum)s offline (%(e)s)."
-msgstr "zFCP ಸಾಧನ %(devnum)s ಅನ್ನು ಆಫ್‌ಲೈನಿಗೆ ಬದಲಾಯಿಸಲಾಗಿಲ್ಲ (%(e)s)."
+msgid "zFCP device %s cannot use auto LUN scan."
+msgstr ""
 
-#: ../blivet/devicelibs/lvm.py:59
+#: ../blivet/zfcp.py:432
+#, fuzzy, python-format
+#| msgid ""
+#| "Could not correctly delete SCSI device of zFCP %(devnum)s %(wwpn)s "
+#| "%(fcplun)s (%(e)s)."
+msgid "Could not correctly delete SCSI device of zFCP %(zfcpdev)s (%(e)s)."
+msgstr ""
+"zFCP %(devnum)s %(wwpn)s %(fcplun)s ದ SCSI ಸಾಧನವನ್ನು ಸೂಕ್ತವಾಗಿ ಅಳಿಸಲು "
+"ಸಾಧ್ಯವಾಗಿಲ್ಲ (%(e)s)."
+
+#: ../blivet/devicelibs/lvm.py:68
 msgid "Generic"
 msgstr ""
 
-#: ../blivet/devicelibs/lvm.py:60
+#: ../blivet/devicelibs/lvm.py:69
 msgid "Performance"
 msgstr ""
 
@@ -382,11 +397,11 @@ msgstr "dm-raid ಸದಸ್ಯ ಸಾಧನ"
 msgid "EFI System Partition"
 msgstr "EFI ಕಡತ ವಿಭಾಗ"
 
-#: ../blivet/formats/fs.py:1149
+#: ../blivet/formats/fs.py:1189
 msgid "Apple Bootstrap"
 msgstr "Apple ಬೂಟ್‌ಸ್ಟ್ರಾಪ್"
 
-#: ../blivet/formats/fs.py:1185
+#: ../blivet/formats/fs.py:1225
 msgid "Linux HFS+ ESP"
 msgstr "Linux HFS+ ESP"
 
@@ -421,3 +436,9 @@ msgstr "ಮಲ್ಟಿಪಾತ್ ಸದಸ್ಯ ಸಾಧನ"
 #: ../blivet/formats/prepboot.py:37
 msgid "PPC PReP Boot"
 msgstr "PPC PReP ಬೂಟ್"
+
+#: ../blivet/formats/stratis.py:40
+#, fuzzy
+#| msgid "create device"
+msgid "Stratis block device"
+msgstr "ಸಾಧನವನ್ನು ರಚಿಸು"

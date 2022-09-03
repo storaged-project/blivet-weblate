@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-09-03 09:15+0200\n"
+"POT-Creation-Date: 2022-08-30 09:00+0200\n"
 "PO-Revision-Date: 2018-08-20 10:45+0000\n"
 "Last-Translator: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>\n"
 "Language-Team: Catalan (http://www.transifex.com/projects/p/blivet/language/"
@@ -96,18 +96,18 @@ msgstr "elimina membre contenidor"
 msgid "configure format"
 msgstr "configura el format"
 
-#: ../blivet/deviceaction.py:1127
+#: ../blivet/deviceaction.py:1141
 msgid "configure device"
 msgstr "configura el dispositiu"
 
-#: ../blivet/errors.py:214
+#: ../blivet/errors.py:223
 msgid ""
 "This is usually caused by cloning the device image resulting in duplication "
 "of the UUID value which should be unique. In that case you can either "
 "disconnect one of the devices or reformat it."
 msgstr ""
 
-#: ../blivet/errors.py:221
+#: ../blivet/errors.py:230
 msgid ""
 "For some reason we were unable to locate a disklabel on a disk that the "
 "kernel is reporting partitions on. It is unclear what the exact problem is. "
@@ -117,7 +117,7 @@ msgstr ""
 "nucli està informant sobre les particions. No està clar quin és exactament "
 "el problema. Si us plau, envieu un informe a http://bugzilla.redhat.com"
 
-#: ../blivet/errors.py:228
+#: ../blivet/errors.py:237
 msgid ""
 "Either restore the disklabel to a completely working state or remove it "
 "completely.\n"
@@ -127,7 +127,7 @@ msgstr ""
 "l'elimineu per complet.\n"
 "Consell: parted pot restaurar-ho o bé wipefs pot suprimir-ho."
 
-#: ../blivet/errors.py:234
+#: ../blivet/errors.py:243
 msgid ""
 "Rename one of the volume groups so the names are distinct.\n"
 "Hint 1: vgrename accepts UUID in place of the old name.\n"
@@ -138,41 +138,41 @@ msgstr ""
 "Consell 2: Podeu obtenir els UUID dels grups de volums amb l'execució de "
 "'pvs -o +vg_uuid'."
 
-#: ../blivet/errors.py:242
+#: ../blivet/errors.py:251
 msgid ""
 "All parent devices must be selected when choosing exclusive or ignored disks "
 "for a multipath or firmware RAID device."
 msgstr ""
 
-#: ../blivet/fcoe.py:121
+#: ../blivet/fcoe.py:122
 msgid "FCoE not available"
 msgstr "FCoE no disponible"
 
-#: ../blivet/iscsi.py:217
+#: ../blivet/iscsi.py:216
 msgid "Unable to change iSCSI initiator name once set"
 msgstr "No es pot canviar el nom de l'iniciador iSCSI un cop establert"
 
-#: ../blivet/iscsi.py:219
+#: ../blivet/iscsi.py:218
 msgid "Must provide an iSCSI initiator name"
 msgstr "Heu de proporcionar el nom de l'iniciador iSCSI"
 
-#: ../blivet/iscsi.py:413
+#: ../blivet/iscsi.py:412
 msgid "iSCSI not available"
 msgstr "iSCSI no disponible"
 
-#: ../blivet/iscsi.py:415
+#: ../blivet/iscsi.py:414
 msgid "No initiator name set"
 msgstr "No s'ha establert el nom de l'iniciador"
 
-#: ../blivet/iscsi.py:533
+#: ../blivet/iscsi.py:532
 msgid "No iSCSI nodes discovered"
 msgstr "No s'ha descobert cap dispositiu iSCSI"
 
-#: ../blivet/iscsi.py:553
+#: ../blivet/iscsi.py:552
 msgid "No new iSCSI nodes discovered"
 msgstr "No s'han trobat nous nodes iSCSI"
 
-#: ../blivet/iscsi.py:556
+#: ../blivet/iscsi.py:555
 msgid "Could not log in to any of the discovered nodes"
 msgstr "No s'ha pogut iniciar la sessió en cap dels nodes descoberts."
 
@@ -213,77 +213,83 @@ msgstr ""
 "la partició és massa gran per formatar amb %(format)s (la mida permesa va de "
 "%(min_size)s a %(max_size)s)"
 
-#: ../blivet/partitioning.py:968
+#: ../blivet/partitioning.py:971
 msgid "Unable to allocate requested partition scheme."
 msgstr "no es pot ubicar l'esquema de particions sol·licitat."
 
-#: ../blivet/partitioning.py:1003
+#: ../blivet/partitioning.py:1006
 msgid "not enough free space after creating extended partition"
 msgstr "no hi ha prou espai lliure després de crear la partició estesa."
 
-#: ../blivet/partitioning.py:1010
+#: ../blivet/partitioning.py:1013
 msgid "failed to allocate aligned partition"
 msgstr "ha fallat l'assignació de la partició alineada"
 
-#: ../blivet/partitioning.py:1211
+#: ../blivet/partitioning.py:1214
 msgid "cannot reclaim more than request has grown"
 msgstr "no es pot reclamar més del que la sol·licitud ha crescut"
 
-#: ../blivet/partitioning.py:1425
+#: ../blivet/partitioning.py:1428
 msgid "DiskChunk requests must be of type PartitionRequest"
 msgstr "les sol·licituds DiskChunk han de ser del tipus PartitionRequest"
 
-#: ../blivet/partitioning.py:1438
+#: ../blivet/partitioning.py:1441
 msgid "partitions allocated outside disklabel limits"
 msgstr "particions assignades fora dels límits de l'etiqueta del disc"
 
-#: ../blivet/partitioning.py:1523
+#: ../blivet/partitioning.py:1526
 msgid "VGChunk requests must be of type LVRequest"
 msgstr "les sol·licituds VGChunk han de ser del tipus LVRequest"
 
 #. by now we have allocated the PVs so if there isn't enough
 #. space in the VG we have a real problem
-#: ../blivet/partitioning.py:2015
+#: ../blivet/partitioning.py:2018
 msgid "not enough space for LVM requests"
 msgstr "no hi ha prou espai per a les sol·licituds LVM"
 
-#: ../blivet/zfcp.py:62
+#: ../blivet/zfcp.py:106
 msgid "You have not specified a device number or the number is invalid"
 msgstr "No heu indicat el número del dispositiu, o aquest no és vàlid."
 
-#: ../blivet/zfcp.py:64
-msgid "You have not specified a worldwide port name or the name is invalid."
-msgstr "No heu indicat cap nom de port global (WWPN), o aquest no és vàlid."
-
-#: ../blivet/zfcp.py:66
-msgid "You have not specified a FCP LUN or the number is invalid."
-msgstr "No heu indicat cap FCP LUN, o aquest no és vàlid."
-
-#: ../blivet/zfcp.py:91
+#: ../blivet/zfcp.py:131
 #, python-format
 msgid "zFCP device %s not found, not even in device ignore list."
 msgstr ""
 "No s'ha trobat el dispositiu zFCP %s, tampoc a la llista de dispositius "
 "ignorats."
 
-#: ../blivet/zfcp.py:101
+#: ../blivet/zfcp.py:146
 #, python-format
 msgid "Could not set zFCP device %(devnum)s online (%(e)s)."
 msgstr "El dispositiu zFCP %(devnum)s no es pot establir en línia (%(e)s)."
 
-#: ../blivet/zfcp.py:112
+#: ../blivet/zfcp.py:159
+#, python-format
+msgid "Could not set zFCP device %(devnum)s offline (%(e)s)."
+msgstr ""
+"El dispositiu zFCP %(devnum)s no es pot establir sense connexió (%(e)s)."
+
+#: ../blivet/zfcp.py:218
+msgid "You have not specified a worldwide port name or the name is invalid."
+msgstr "No heu indicat cap nom de port global (WWPN), o aquest no és vàlid."
+
+#: ../blivet/zfcp.py:222
+msgid "You have not specified a FCP LUN or the number is invalid."
+msgstr "No heu indicat cap FCP LUN, o aquest no és vàlid."
+
+#: ../blivet/zfcp.py:268
 #, python-format
 msgid "Could not add WWPN %(wwpn)s to zFCP device %(devnum)s (%(e)s)."
 msgstr ""
 "No et pot afegir el WWPN %(wwpn)s al dispositiu zFCP %(devnum)s (%(e)s)."
 
 #. newer zfcp sysfs interface with auto port scan
-#: ../blivet/zfcp.py:119
+#: ../blivet/zfcp.py:275
 #, python-format
 msgid "WWPN %(wwpn)s not found at zFCP device %(devnum)s."
 msgstr "El WWPN %(wwpn)s no s'ha trobat al dispositiu zFCP %(devnum)s."
 
-#: ../blivet/zfcp.py:134
+#: ../blivet/zfcp.py:291
 #, python-format
 msgid ""
 "Could not add LUN %(fcplun)s to WWPN %(wwpn)s on zFCP device %(devnum)s "
@@ -292,7 +298,7 @@ msgstr ""
 "No es pot afegir el LUN %(fcplun)s al WWPN %(wwpn)s en el dispositiu zFCP "
 "%(devnum)s (%(e)s)."
 
-#: ../blivet/zfcp.py:140
+#: ../blivet/zfcp.py:297
 #, python-format
 msgid ""
 "LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already configured."
@@ -300,7 +306,7 @@ msgstr ""
 "El LUN %(fcplun)s al WWPN %(wwpn)s en el dispositiu zFCP %(devnum)s ja està "
 "configurat."
 
-#: ../blivet/zfcp.py:152
+#: ../blivet/zfcp.py:310
 #, python-format
 msgid ""
 "Could not read failed attribute of LUN %(fcplun)s at WWPN %(wwpn)s on zFCP "
@@ -309,7 +315,7 @@ msgstr ""
 "No s'ha pogut llegir l'atribut fallit del LUN %(fcplun)s al WWPN %(wwpn)s en "
 "el dispositiu zFCP %(devnum)s (%(e)s)."
 
-#: ../blivet/zfcp.py:161
+#: ../blivet/zfcp.py:319
 #, python-format
 msgid ""
 "Failed LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s removed "
@@ -318,7 +324,7 @@ msgstr ""
 "El LUN %(fcplun)s al WWPN %(wwpn)s en el dispositiu zFCP %(devnum)s ha "
 "fallat, s'ha tornat a treure."
 
-#: ../blivet/zfcp.py:218
+#: ../blivet/zfcp.py:339
 #, python-format
 msgid ""
 "Could not correctly delete SCSI device of zFCP %(devnum)s %(wwpn)s "
@@ -327,7 +333,7 @@ msgstr ""
 "No es pot eliminar de forma correcta el dispositiu SCSI del zFCP %(devnum)s "
 "%(wwpn)s %(fcplun)s (%(e)s)."
 
-#: ../blivet/zfcp.py:227
+#: ../blivet/zfcp.py:349
 #, python-format
 msgid ""
 "Could not remove LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s "
@@ -336,23 +342,32 @@ msgstr ""
 "No es pot eliminar el LUN %(fcplun)s al WWPN %(wwpn)s en el dispositiu zFCP "
 "%(devnum)s (%(e)s)."
 
-#: ../blivet/zfcp.py:245
+#: ../blivet/zfcp.py:368
 #, python-format
 msgid "Could not remove WWPN %(wwpn)s on zFCP device %(devnum)s (%(e)s)."
 msgstr ""
 "No es pot eliminar el WWPN %(wwpn)s en el dispositiu zFCP %(devnum)s (%(e)s)."
 
-#: ../blivet/zfcp.py:271
+#: ../blivet/zfcp.py:418
 #, python-format
-msgid "Could not set zFCP device %(devnum)s offline (%(e)s)."
+msgid "zFCP device %s cannot use auto LUN scan."
 msgstr ""
-"El dispositiu zFCP %(devnum)s no es pot establir sense connexió (%(e)s)."
 
-#: ../blivet/devicelibs/lvm.py:59
+#: ../blivet/zfcp.py:432
+#, fuzzy, python-format
+#| msgid ""
+#| "Could not correctly delete SCSI device of zFCP %(devnum)s %(wwpn)s "
+#| "%(fcplun)s (%(e)s)."
+msgid "Could not correctly delete SCSI device of zFCP %(zfcpdev)s (%(e)s)."
+msgstr ""
+"No es pot eliminar de forma correcta el dispositiu SCSI del zFCP %(devnum)s "
+"%(wwpn)s %(fcplun)s (%(e)s)."
+
+#: ../blivet/devicelibs/lvm.py:68
 msgid "Generic"
 msgstr "Genèric"
 
-#: ../blivet/devicelibs/lvm.py:60
+#: ../blivet/devicelibs/lvm.py:69
 msgid "Performance"
 msgstr "Rendiment"
 
@@ -406,11 +421,11 @@ msgstr "dispositiu membre de dm-raid"
 msgid "EFI System Partition"
 msgstr "Partició de sistema EFI"
 
-#: ../blivet/formats/fs.py:1149
+#: ../blivet/formats/fs.py:1189
 msgid "Apple Bootstrap"
 msgstr "Bootstrap d'Apple"
 
-#: ../blivet/formats/fs.py:1185
+#: ../blivet/formats/fs.py:1225
 msgid "Linux HFS+ ESP"
 msgstr "Linux HFS+ ESP"
 
@@ -445,3 +460,9 @@ msgstr "dispositiu membre multicamí"
 #: ../blivet/formats/prepboot.py:37
 msgid "PPC PReP Boot"
 msgstr "Arrencada PReP PPC"
+
+#: ../blivet/formats/stratis.py:40
+#, fuzzy
+#| msgid "create device"
+msgid "Stratis block device"
+msgstr "crea dispositiu"

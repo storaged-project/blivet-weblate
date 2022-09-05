@@ -13,13 +13,14 @@
 # Muhammet Kara <muhammetk@gmail.com>, 2011
 # Onur Gungor <onurgu@boun.edu.tr>, 2004,2006
 # Oğuz Ersen <oguzersen@protonmail.com>, 2020, 2021.
+# Oğuz Ersen <oguz@ersen.moe>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-30 09:00+0200\n"
-"PO-Revision-Date: 2021-09-06 21:04+0000\n"
-"Last-Translator: Oğuz Ersen <oguzersen@protonmail.com>\n"
+"PO-Revision-Date: 2022-09-05 21:19+0000\n"
+"Last-Translator: Oğuz Ersen <oguz@ersen.moe>\n"
 "Language-Team: Turkish <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-master/tr/>\n"
 "Language: tr\n"
@@ -27,7 +28,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n>1);\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.14\n"
 
 #: ../blivet/deviceaction.py:196
 #, python-format
@@ -348,17 +349,12 @@ msgstr "%(devnum)s zFCP aygıtında WWPN %(wwpn)s kaldırılamadı (%(e)s)."
 #: ../blivet/zfcp.py:418
 #, python-format
 msgid "zFCP device %s cannot use auto LUN scan."
-msgstr ""
+msgstr "%s zFCP aygıtı otomatik LUN taramasını kullanamıyor."
 
 #: ../blivet/zfcp.py:432
-#, fuzzy, python-format
-#| msgid ""
-#| "Could not correctly delete SCSI device of zFCP %(devnum)s %(wwpn)s "
-#| "%(fcplun)s (%(e)s)."
+#, python-format
 msgid "Could not correctly delete SCSI device of zFCP %(zfcpdev)s (%(e)s)."
-msgstr ""
-"zFCP %(devnum)s %(wwpn)s %(fcplun)s SCSI aygıtı doğru şekilde silinemedi "
-"(%(e)s)."
+msgstr "zFCP %(zfcpdev)s SCSI aygıtı doğru şekilde silinemedi (%(e)s)."
 
 #: ../blivet/devicelibs/lvm.py:68
 msgid "Generic"
@@ -459,7 +455,5 @@ msgid "PPC PReP Boot"
 msgstr "PPC PReP Önyükleme"
 
 #: ../blivet/formats/stratis.py:40
-#, fuzzy
-#| msgid "create device"
 msgid "Stratis block device"
-msgstr "aygıt oluştur"
+msgstr "Stratis blok aygıtı"

@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-30 09:00+0200\n"
-"PO-Revision-Date: 2022-05-14 13:18+0000\n"
+"PO-Revision-Date: 2022-09-05 21:19+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-master/ko/>\n"
@@ -32,7 +32,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.12.2\n"
+"X-Generator: Weblate 4.14\n"
 
 #: ../blivet/deviceaction.py:196
 #, python-format
@@ -352,17 +352,12 @@ msgstr "zFCP 장치 %(devnum)s (%(e)s)에서 WWPN %(wwpn)s을 제거 할 수 없
 #: ../blivet/zfcp.py:418
 #, python-format
 msgid "zFCP device %s cannot use auto LUN scan."
-msgstr ""
+msgstr "zFCP 장치 %s는 자동 LUN 검색을 사용 할 수 없습니다."
 
 #: ../blivet/zfcp.py:432
-#, fuzzy, python-format
-#| msgid ""
-#| "Could not correctly delete SCSI device of zFCP %(devnum)s %(wwpn)s "
-#| "%(fcplun)s (%(e)s)."
+#, python-format
 msgid "Could not correctly delete SCSI device of zFCP %(zfcpdev)s (%(e)s)."
-msgstr ""
-"zFCP %(devnum)s %(wwpn)s %(fcplun)s (%(e)s)의 SCSI 장치를 올바르게 삭제할 수 "
-"없습니다."
+msgstr "zFCP %(zfcpdev)s (%(e)s)의 SCSI 장치를 올바르게 삭제 할 수 없습니다."
 
 #: ../blivet/devicelibs/lvm.py:68
 msgid "Generic"
@@ -460,7 +455,5 @@ msgid "PPC PReP Boot"
 msgstr "PPC PReP 부트"
 
 #: ../blivet/formats/stratis.py:40
-#, fuzzy
-#| msgid "create device"
 msgid "Stratis block device"
-msgstr "장치 생성"
+msgstr "스트라티스 블럭 장치"

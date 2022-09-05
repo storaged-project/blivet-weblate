@@ -4,13 +4,13 @@
 #
 # Translators:
 # Dimitris Glezos <glezos@indifex.com>, 2011
-# Göran Uddeborg <goeran@uddeborg.se>, 2011-2012, 2020, 2021.
+# Göran Uddeborg <goeran@uddeborg.se>, 2011-2012, 2020, 2021, 2022.
 # fedoratrans <fedoratrans@gmail.com>, 2007
 # Ulrika <aurorauddeborg@gmail.com>, 2012
-# Göran Uddeborg <goeran@uddeborg.se>, 2015. #zanata, 2020, 2021.
-# Göran Uddeborg <goeran@uddeborg.se>, 2016. #zanata, 2020, 2021.
-# Göran Uddeborg <goeran@uddeborg.se>, 2018. #zanata, 2020, 2021.
-# Göran Uddeborg <goeran@uddeborg.se>, 2019. #zanata, 2020, 2021.
+# Göran Uddeborg <goeran@uddeborg.se>, 2015. #zanata, 2020, 2021, 2022.
+# Göran Uddeborg <goeran@uddeborg.se>, 2016. #zanata, 2020, 2021, 2022.
+# Göran Uddeborg <goeran@uddeborg.se>, 2018. #zanata, 2020, 2021, 2022.
+# Göran Uddeborg <goeran@uddeborg.se>, 2019. #zanata, 2020, 2021, 2022.
 # Allan Nordhøy <epost@anotheragency.no>, 2020.
 # Anders Jonsson <anders.jonsson@norsjovallen.se>, 2021.
 # Luna Jernberg <bittin@reimu.nl>, 2021.
@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-30 09:00+0200\n"
-"PO-Revision-Date: 2021-12-31 11:16+0000\n"
+"PO-Revision-Date: 2022-09-05 21:19+0000\n"
 "Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-master/sv/>\n"
@@ -28,7 +28,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 4.14\n"
 
 #: ../blivet/deviceaction.py:196
 #, python-format
@@ -354,17 +354,12 @@ msgstr "Kunde inte ta bort WWPN %(wwpn)s på zFCP-enhet %(devnum)s (%(e)s)."
 #: ../blivet/zfcp.py:418
 #, python-format
 msgid "zFCP device %s cannot use auto LUN scan."
-msgstr ""
+msgstr "zFCP-enheten %s kan inte använda auto-LUN-skanning."
 
 #: ../blivet/zfcp.py:432
-#, fuzzy, python-format
-#| msgid ""
-#| "Could not correctly delete SCSI device of zFCP %(devnum)s %(wwpn)s "
-#| "%(fcplun)s (%(e)s)."
+#, python-format
 msgid "Could not correctly delete SCSI device of zFCP %(zfcpdev)s (%(e)s)."
-msgstr ""
-"Kunde inte korrekt radera SCSI-enhet på zFCP %(devnum)s %(wwpn)s %(fcplun)s "
-"(%(e)s)."
+msgstr "Kunde inte korrekt radera SCSI-enhet på zFCP %(zfcpdev)s (%(e)s)."
 
 #: ../blivet/devicelibs/lvm.py:68
 msgid "Generic"
@@ -465,7 +460,5 @@ msgid "PPC PReP Boot"
 msgstr "PPC PReP-start"
 
 #: ../blivet/formats/stratis.py:40
-#, fuzzy
-#| msgid "create device"
 msgid "Stratis block device"
-msgstr "skapa enhet"
+msgstr "Stratis-blockenhet"

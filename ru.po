@@ -28,13 +28,14 @@
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
 # Petr Molodyk <pamolodyk@gmail.com>, 2020.
 # V I <xasertop@gmail.com>, 2022.
+# Olga Smirnova <mistresssilvara@hotmail.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-30 09:00+0200\n"
 "PO-Revision-Date: 2022-09-17 17:19+0000\n"
-"Last-Translator: V I <xasertop@gmail.com>\n"
+"Last-Translator: Olga Smirnova <mistresssilvara@hotmail.com>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-master/ru/>\n"
 "Language: ru\n"
@@ -201,10 +202,9 @@ msgid "requested size exceeds maximum allowed"
 msgstr "запрашиваемый размер превышает допустимый"
 
 #: ../blivet/partitioning.py:475
-#, fuzzy, python-format
-#| msgid "failed to allocate aligned partition"
+#, python-format
 msgid "failed to add partition to disk: %s"
-msgstr "не удалось разместить выровненный раздел"
+msgstr "не удалось добавить раздел: %s"
 
 #: ../blivet/partitioning.py:586
 #, python-format
@@ -370,14 +370,9 @@ msgstr ""
 "zFCP-устройство %s не может использовать автоматическое сканирование LUN."
 
 #: ../blivet/zfcp.py:432
-#, fuzzy, python-format
-#| msgid ""
-#| "Could not correctly delete SCSI device of zFCP %(devnum)s %(wwpn)s "
-#| "%(fcplun)s (%(e)s)."
+#, python-format
 msgid "Could not correctly delete SCSI device of zFCP %(zfcpdev)s (%(e)s)."
-msgstr ""
-"Не удалось корректно удалить SCSI-устройство zFCP %(devnum)s %(wwpn)s "
-"%(fcplun)s (%(e)s)."
+msgstr "Не удалось корректно удалить SCSI-устройство zFCP %(zfcpdev)s (%(e)s)."
 
 #: ../blivet/devicelibs/lvm.py:68
 msgid "Generic"
@@ -480,7 +475,5 @@ msgid "PPC PReP Boot"
 msgstr "Загрузочный PPC PReP"
 
 #: ../blivet/formats/stratis.py:40
-#, fuzzy
-#| msgid "create device"
 msgid "Stratis block device"
-msgstr "создать устройство"
+msgstr "Блочное устройство Stratis"

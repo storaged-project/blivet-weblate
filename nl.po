@@ -18,16 +18,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
-"PO-Revision-Date: 2019-08-26 05:53+0000\n"
-"Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
-"Language-Team: Dutch (http://www.transifex.com/projects/p/blivet/language/"
-"nl/)\n"
+"PO-Revision-Date: 2022-10-02 09:19+0000\n"
+"Last-Translator: Vanhoorne Michael <michaeltjevanhoorne@gmail.com>\n"
+"Language-Team: Dutch <https://translate.fedoraproject.org/projects/blivet/"
+"blivet-rhel8/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #: ../blivet/errors.py:210
 msgid ""
@@ -113,7 +113,7 @@ msgid ""
 "Could not add LUN %(fcplun)s to WWPN %(wwpn)s on zFCP device %(devnum)s "
 "(%(e)s)."
 msgstr ""
-"Kon aan WWPN %(wwpn)s van apparaat zFDC %(devnum)s  geen LUN %(fcplun)s "
+"Kon aan WWPN %(wwpn)s van apparaat zFDC %(devnum)s geen LUN %(fcplun)s "
 "toevoegen (%(e)s)."
 
 #: ../blivet/zfcp.py:140
@@ -140,7 +140,7 @@ msgid ""
 "again."
 msgstr ""
 "Mislukte LUN %(fcplun)s bij WWPN %(wwpn)s van apparaat zFCP %(devnum)s weer "
-"verwijderd"
+"verwijderd."
 
 #: ../blivet/zfcp.py:218
 #, python-format
@@ -176,7 +176,7 @@ msgstr "Niet in staat om reeds ingestelde iSCSI initiatornaam te veranderen"
 
 #: ../blivet/iscsi.py:219
 msgid "Must provide an iSCSI initiator name"
-msgstr "Je moet een iSCSI initiatornaam opgeven."
+msgstr "Je moet een iSCSI initiatornaam opgeven"
 
 #: ../blivet/iscsi.py:410
 msgid "iSCSI not available"
@@ -258,7 +258,7 @@ msgstr "partities toegekend buiten de disklabel limieten"
 
 #: ../blivet/partitioning.py:1517
 msgid "VGChunk requests must be of type LVRequest"
-msgstr "VGChunk moeten van het type LVRequest zijn "
+msgstr "VGChunk moeten van het type LVRequest zijn"
 
 #. by now we have allocated the PVs so if there isn't enough
 #. space in the VG we have a real problem
@@ -324,7 +324,7 @@ msgstr "In grootte veranderd bestandssysteem op %(device)s"
 
 #: ../blivet/deviceaction.py:923
 msgid "add container member"
-msgstr "toevoegen van containerlid "
+msgstr "toevoegen van containerlid"
 
 #: ../blivet/deviceaction.py:988
 msgid "remove container member"

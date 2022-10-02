@@ -36,7 +36,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-30 09:00+0200\n"
-"PO-Revision-Date: 2022-01-02 21:16+0000\n"
+"PO-Revision-Date: 2022-10-02 15:19+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-master/de/>\n"
@@ -45,7 +45,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.10.1\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #: ../blivet/deviceaction.py:196
 #, python-format
@@ -487,7 +487,5 @@ msgid "PPC PReP Boot"
 msgstr "PPC PReP Start"
 
 #: ../blivet/formats/stratis.py:40
-#, fuzzy
-#| msgid "create device"
 msgid "Stratis block device"
-msgstr "Gerät erstellen"
+msgstr ""

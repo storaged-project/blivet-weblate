@@ -29,13 +29,14 @@
 # Petr Molodyk <pamolodyk@gmail.com>, 2020.
 # V I <xasertop@gmail.com>, 2022.
 # Olga Smirnova <mistresssilvara@hotmail.com>, 2022.
+# Mi Lachew <milachew@mail.lv>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-30 09:00+0200\n"
-"PO-Revision-Date: 2022-09-17 17:19+0000\n"
-"Last-Translator: Olga Smirnova <mistresssilvara@hotmail.com>\n"
+"PO-Revision-Date: 2022-10-17 18:19+0000\n"
+"Last-Translator: Mi Lachew <milachew@mail.lv>\n"
 "Language-Team: Russian <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-master/ru/>\n"
 "Language: ru\n"
@@ -44,7 +45,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
 "%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 4.14\n"
+"X-Generator: Weblate 4.14.1\n"
 
 #: ../blivet/deviceaction.py:196
 #, python-format
@@ -160,6 +161,9 @@ msgid ""
 "All parent devices must be selected when choosing exclusive or ignored disks "
 "for a multipath or firmware RAID device."
 msgstr ""
+"Все первоначальные устройства должны быть отмечены при выборе эксклюзивных "
+"или игнорируемых дисков для многопутевого или микропрограммного "
+"RAID-устройства."
 
 #: ../blivet/fcoe.py:122
 msgid "FCoE not available"
@@ -436,11 +440,11 @@ msgstr "Системный раздел EFI"
 
 #: ../blivet/formats/fs.py:1189
 msgid "Apple Bootstrap"
-msgstr "Apple Bootstrap"
+msgstr "Apple Bоotstrap"
 
 #: ../blivet/formats/fs.py:1225
 msgid "Linux HFS+ ESP"
-msgstr "Linux HFS+ ESP"
+msgstr "Linux HFS+ ЕSP"
 
 #: ../blivet/formats/__init__.py:148
 msgid "Unknown"
@@ -456,7 +460,7 @@ msgstr "Зашифровано"
 
 #: ../blivet/formats/luks.py:402
 msgid "DM Integrity"
-msgstr "DM Integrity"
+msgstr "DM Intеgrity"
 
 #: ../blivet/formats/lvmpv.py:49
 msgid "physical volume (LVM)"

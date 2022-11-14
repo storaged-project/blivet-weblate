@@ -23,7 +23,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-30 09:00+0200\n"
-"PO-Revision-Date: 2022-09-05 21:19+0000\n"
+"PO-Revision-Date: 2022-11-14 09:19+0000\n"
 "Last-Translator: 김인수 <simmon@nplob.com>\n"
 "Language-Team: Korean <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-master/ko/>\n"
@@ -32,7 +32,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: ../blivet/deviceaction.py:196
 #, python-format
@@ -121,8 +121,8 @@ msgid ""
 "Please file a bug at http://bugzilla.redhat.com"
 msgstr ""
 "일부 이유로 커널이 파티션 설정을 보고하는 디스크에 디스크 이름표를 배치 할 "
-"수 없습니다. 정확한 문제가 무엇인지 알 수 없습니다. http://bugzilla.redhat."
-"com에 결점(bug) 보고서를 제출해 주십시오"
+"수 없습니다. 정확한 문제가 무엇인지 알 수 없습니다. http://"
+"bugzilla.redhat.com에 결점 보고서를 제출해 주세요"
 
 #: ../blivet/errors.py:237
 msgid ""

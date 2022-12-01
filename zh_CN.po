@@ -17,13 +17,14 @@
 # yusuf <yusufma77@yahoo.com>, 2011
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata, 2022.
 # Charles Lee <lchopn@gmail.com>, 2020, 2021.
+# yangyangdaji <1504305527@qq.com>, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-30 09:00+0200\n"
-"PO-Revision-Date: 2022-03-05 07:16+0000\n"
-"Last-Translator: Ludek Janda <ljanda@redhat.com>\n"
+"PO-Revision-Date: 2022-12-01 13:19+0000\n"
+"Last-Translator: yangyangdaji <1504305527@qq.com>\n"
 "Language-Team: Chinese (Simplified) <https://translate.fedoraproject.org/"
 "projects/blivet/blivet-master/zh_CN/>\n"
 "Language: zh_CN\n"
@@ -31,7 +32,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.11.2\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: ../blivet/deviceaction.py:196
 #, python-format
@@ -343,16 +344,12 @@ msgstr "无法在 zFCP 设备 %(devnum)s 中删除 WWPN %(wwpn)s (%(e)s)。"
 #: ../blivet/zfcp.py:418
 #, python-format
 msgid "zFCP device %s cannot use auto LUN scan."
-msgstr ""
+msgstr "zFCP 设备 %s 无法使用自动 LUN 扫描。"
 
 #: ../blivet/zfcp.py:432
-#, fuzzy, python-format
-#| msgid ""
-#| "Could not correctly delete SCSI device of zFCP %(devnum)s %(wwpn)s "
-#| "%(fcplun)s (%(e)s)."
+#, python-format
 msgid "Could not correctly delete SCSI device of zFCP %(zfcpdev)s (%(e)s)."
-msgstr ""
-"无法正确删除 zFCP %(devnum)s %(wwpn)s %(fcplun)s 的 SCSI 设备 (%(e)s)。"
+msgstr "无法正确删除 zFCP 的 SCSI 设备 %(zfcpdev)s (%(e)s)."
 
 #: ../blivet/devicelibs/lvm.py:68
 msgid "Generic"
@@ -447,7 +444,5 @@ msgid "PPC PReP Boot"
 msgstr "PPC PReP Boot"
 
 #: ../blivet/formats/stratis.py:40
-#, fuzzy
-#| msgid "create device"
 msgid "Stratis block device"
-msgstr "创建设备"
+msgstr "层块装置"

@@ -36,7 +36,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-30 09:00+0200\n"
-"PO-Revision-Date: 2022-10-02 15:19+0000\n"
+"PO-Revision-Date: 2022-12-06 08:19+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-master/de/>\n"
@@ -45,7 +45,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: ../blivet/deviceaction.py:196
 #, python-format
@@ -125,6 +125,9 @@ msgid ""
 "of the UUID value which should be unique. In that case you can either "
 "disconnect one of the devices or reformat it."
 msgstr ""
+"Dies wird in der Regel durch das Klonen des Geräte-Abbildes verursacht, "
+"wodurch der UUID-Wert, der eindeutig sein sollte, dupliziert wird. In diesem "
+"Fall können Sie entweder eines der Geräte trennen oder es neu formatieren."
 
 #: ../blivet/errors.py:230
 msgid ""
@@ -207,7 +210,7 @@ msgstr "Die festgelegte Größe übersteigt das erlaubte Maximum"
 #: ../blivet/partitioning.py:475
 #, python-format
 msgid "failed to add partition to disk: %s"
-msgstr ""
+msgstr "Partition kann nicht zur Festplatte hinzugefügt werden: %s"
 
 #: ../blivet/partitioning.py:586
 #, python-format
@@ -379,14 +382,11 @@ msgid "zFCP device %s cannot use auto LUN scan."
 msgstr ""
 
 #: ../blivet/zfcp.py:432
-#, fuzzy, python-format
-#| msgid ""
-#| "Could not correctly delete SCSI device of zFCP %(devnum)s %(wwpn)s "
-#| "%(fcplun)s (%(e)s)."
+#, python-format
 msgid "Could not correctly delete SCSI device of zFCP %(zfcpdev)s (%(e)s)."
 msgstr ""
-"Das SCSI-Gerät von zFCP %(devnum)s %(wwpn)s %(fcplun)s (%(e)s) konnte nicht "
-"richtig gelöscht werden."
+"Das SCSI-Gerät von zFCP %(zfcpdev)s (%(e)s) konnte nicht korrekt gelöscht "
+"werden."
 
 #: ../blivet/devicelibs/lvm.py:68
 msgid "Generic"
@@ -488,4 +488,4 @@ msgstr "PPC PReP Start"
 
 #: ../blivet/formats/stratis.py:40
 msgid "Stratis block device"
-msgstr ""
+msgstr "Stratis-Blockgerät"

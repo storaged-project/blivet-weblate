@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2012-2014, 2020.
+# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2012-2014, 2020, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-30 09:00+0200\n"
-"PO-Revision-Date: 2020-07-12 13:27+0000\n"
+"PO-Revision-Date: 2022-12-07 16:19+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: Kazakh <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-master/kk/>\n"
@@ -18,12 +18,12 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.1.1\n"
+"X-Generator: Weblate 4.14.2\n"
 
 #: ../blivet/deviceaction.py:196
 #, python-format
 msgid "Executing %(action)s"
-msgstr ""
+msgstr "Орындалуда %(action)s"
 
 #: ../blivet/deviceaction.py:324
 msgid "create device"

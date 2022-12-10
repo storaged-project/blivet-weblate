@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
-"PO-Revision-Date: 2022-12-07 16:19+0000\n"
+"PO-Revision-Date: 2022-12-11 16:20+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: Kazakh <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-rhel9/kk/>\n"
@@ -267,12 +267,12 @@ msgstr "%(type)s жасау %(device)s құрылғысында"
 #: ../blivet/deviceaction.py:640
 #, python-format
 msgid "Not enough entropy to create LUKS format. %d bits are needed."
-msgstr ""
+msgstr "LUKS пішімін жасау үшін энтропия жеткіліксіз. %d бит керек."
 
 #: ../blivet/deviceaction.py:670
 #, python-format
 msgid "Created %(type)s on %(device)s"
-msgstr ""
+msgstr "%(type)s жасалды %(device)s ішінде"
 
 #: ../blivet/deviceaction.py:717
 msgid "destroy format"
@@ -290,23 +290,23 @@ msgstr "%(device)s құрылғысында файлдық жүйе өлшемі
 #: ../blivet/deviceaction.py:876
 #, python-format
 msgid "Resized filesystem on %(device)s"
-msgstr ""
+msgstr "%(device)s ішіндегі файлдық жүйе өлшемі өзгертілген"
 
 #: ../blivet/deviceaction.py:923
 msgid "add container member"
-msgstr ""
+msgstr "контейнер мүшесін қосу"
 
 #: ../blivet/deviceaction.py:988
 msgid "remove container member"
-msgstr ""
+msgstr "контейнер мүшесін өшіру"
 
 #: ../blivet/deviceaction.py:1058
 msgid "configure format"
-msgstr ""
+msgstr "пішімді баптау"
 
 #: ../blivet/deviceaction.py:1114
 msgid "configure device"
-msgstr ""
+msgstr "құрылғыны баптау"
 
 #: ../blivet/devices/raid.py:58
 #, python-format

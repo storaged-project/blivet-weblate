@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-30 09:00+0200\n"
-"PO-Revision-Date: 2022-12-11 16:19+0000\n"
+"PO-Revision-Date: 2022-12-31 17:20+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: Kazakh <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-master/kk/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 4.15\n"
 
 #: ../blivet/deviceaction.py:196
 #, python-format
@@ -106,6 +106,9 @@ msgid ""
 "kernel is reporting partitions on. It is unclear what the exact problem is. "
 "Please file a bug at http://bugzilla.redhat.com"
 msgstr ""
+"Ядро бөлімдері бар деп хабарлаған дисктен диск белгісі табылмады. Нақты "
+"мәселенің не екені белгісіз. Қатені http://bugzilla.redhat.com сайтына "
+"жіберіңіз"
 
 #: ../blivet/errors.py:237
 msgid ""
@@ -113,6 +116,9 @@ msgid ""
 "completely.\n"
 "Hint: parted can restore it or wipefs can remove it."
 msgstr ""
+"Диск белгісін толығымен жұмыс күйіне келтіріңіз немесе оны толығымен "
+"өшіріңіз.\n"
+"Кеңес: parted оны қалпына келтіре алады, ал wipefs оны өшіре алады."
 
 #: ../blivet/errors.py:243
 msgid ""
@@ -120,6 +126,10 @@ msgid ""
 "Hint 1: vgrename accepts UUID in place of the old name.\n"
 "Hint 2: You can get the VG UUIDs by running 'pvs -o +vg_uuid'."
 msgstr ""
+"Атаулары бөлек болатындай томдар топтарын өзгертіңіз.\n"
+"1-кеңес: vgrename ескі аттың орнына UUID қабылдайды.\n"
+"2-кеңес: Топдар топтарының UUID кодтарын \"pvs -o +vg_uuid\" орындау арқылы "
+"білуге болады."
 
 #: ../blivet/errors.py:251
 msgid ""

@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
-"PO-Revision-Date: 2022-12-31 17:20+0000\n"
+"PO-Revision-Date: 2023-01-06 14:20+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: Kazakh <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-rhel9/kk/>\n"
@@ -26,6 +26,9 @@ msgid ""
 "of the UUID value which should be unique. In that case you can either "
 "disconnect one of the devices or reformat it."
 msgstr ""
+"Бұл әдетте құрылғы бейнесін клондау салдарынан пайда болады, нәтижесінде "
+"бірегей болуы тиіс UUID мәні қайталанады. Бұл жағдайда сіз құрылғылардың "
+"біреуін ажыратуға немесе оны қайта пішімдеуге болады."
 
 #: ../blivet/errors.py:217
 msgid ""
@@ -206,6 +209,8 @@ msgid ""
 "partition is too small for %(format)s formatting (allowable size is "
 "%(min_size)s to %(max_size)s)"
 msgstr ""
+"бөлім %(format)s пішімдеуі үшін тым кішкентай (рұқсат етілген өлшем "
+"%(min_size)s және %(max_size)s арасында)"
 
 #: ../blivet/partitioning.py:646
 #, python-format
@@ -213,10 +218,12 @@ msgid ""
 "partition is too large for %(format)s formatting (allowable size is "
 "%(min_size)s to %(max_size)s)"
 msgstr ""
+"бөлім %(format)s пішімдеуі үшін тым үлкен (рұқсат етілген өлшем %(min_size)s "
+"және %(max_size)s арасында)"
 
 #: ../blivet/partitioning.py:962
 msgid "Unable to allocate requested partition scheme."
-msgstr ""
+msgstr "Сұралған бөлім схемасын бөлу мүмкін емес."
 
 #: ../blivet/partitioning.py:997
 msgid "not enough free space after creating extended partition"
@@ -224,7 +231,7 @@ msgstr "кеңейтілген бөлімді жасағаннан кейін б
 
 #: ../blivet/partitioning.py:1004
 msgid "failed to allocate aligned partition"
-msgstr ""
+msgstr "тураланған бөлімге орын бөлу мүмкін емес"
 
 #: ../blivet/partitioning.py:1205
 msgid "cannot reclaim more than request has grown"
@@ -282,7 +289,7 @@ msgstr "LUKS пішімін жасау үшін энтропия жеткілі�
 #: ../blivet/deviceaction.py:670
 #, python-format
 msgid "Created %(type)s on %(device)s"
-msgstr "%(type)s жасалды %(device)s ішінде"
+msgstr "%(device)s құрылғысында %(type)s жасалды"
 
 #: ../blivet/deviceaction.py:717
 msgid "destroy format"
@@ -327,17 +334,20 @@ msgid_plural ""
 "RAID level %(raid_level)s requires that device have at least %(min_members)d "
 "members."
 msgstr[0] ""
+"RAID деңгейі %(raid_level)s құрылғыда кемінде %(min_members)d мүше болуын "
+"талап етеді."
 
 #: ../blivet/devices/raid.py:79
 #, python-format
 msgid ""
 "RAID level %(raid_level)s is an invalid value. Must be one of (%(levels)s)."
 msgstr ""
+"RAID деңгейі %(raid_level)s – жарамсыз мән. (%(levels)s) біреуі болуы керек."
 
 #: ../blivet/devices/raid.py:104
 #, python-format
 msgid "Cannot remove a member from existing %s array"
-msgstr ""
+msgstr "Бар болып тұрған %s массивінен мүшені өшіру мүмкін емес"
 
 #: ../blivet/formats/fs.py:932
 msgid "EFI System Partition"
@@ -345,19 +355,19 @@ msgstr "EFI жүйелік бөлімі"
 
 #: ../blivet/formats/fs.py:1137
 msgid "Apple Bootstrap"
-msgstr ""
+msgstr "Apple Bootstrap"
 
 #: ../blivet/formats/fs.py:1173
 msgid "Linux HFS+ ESP"
-msgstr ""
+msgstr "Linux HFS+ ESP"
 
 #: ../blivet/formats/prepboot.py:37
 msgid "PPC PReP Boot"
-msgstr ""
+msgstr "Жүктемелі PPC PReP"
 
 #: ../blivet/formats/luks.py:58
 msgid "LUKS"
-msgstr ""
+msgstr "LUKS"
 
 #: ../blivet/formats/luks.py:59
 msgid "Encrypted"
@@ -365,7 +375,7 @@ msgstr "Шифрленген"
 
 #: ../blivet/formats/luks.py:388
 msgid "DM Integrity"
-msgstr ""
+msgstr "DM Integrity"
 
 #: ../blivet/formats/__init__.py:148
 msgid "Unknown"
@@ -373,38 +383,38 @@ msgstr "Белгісіз"
 
 #: ../blivet/formats/biosboot.py:35
 msgid "BIOS Boot"
-msgstr ""
+msgstr "Жүктемелі BIOS"
 
 #: ../blivet/formats/dmraid.py:37
 msgid "dm-raid member device"
-msgstr ""
+msgstr "dm-raid мүше құрылғысы"
 
 #: ../blivet/formats/disklabel.py:50
 msgid "partition table"
-msgstr ""
+msgstr "бөлімдер кестесі"
 
 #. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition table"
 #: ../blivet/formats/disklabel.py:320
 #, python-format
 msgid "Unsupported %(name)s"
-msgstr ""
+msgstr "Қолдауы жоқ %(name)s"
 
 #: ../blivet/formats/mdraid.py:43
 msgid "software RAID"
-msgstr ""
+msgstr "бағдарламалық RAID"
 
 #: ../blivet/formats/multipath.py:40
 msgid "multipath member device"
-msgstr ""
+msgstr "multipath мүше құрылғысы"
 
 #: ../blivet/formats/lvmpv.py:49
 msgid "physical volume (LVM)"
-msgstr ""
+msgstr "физикалық том (LVM)"
 
 #: ../blivet/devicelibs/lvm.py:59
 msgid "Generic"
-msgstr ""
+msgstr "Жалпы"
 
 #: ../blivet/devicelibs/lvm.py:60
 msgid "Performance"
-msgstr ""
+msgstr "Өнімділік"

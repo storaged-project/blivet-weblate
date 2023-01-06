@@ -3,13 +3,13 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2012-2014, 2020, 2022.
+# Baurzhan Muftakhidinov <baurthefirst@gmail.com>, 2012-2014, 2020, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-30 09:00+0200\n"
-"PO-Revision-Date: 2022-12-31 17:20+0000\n"
+"PO-Revision-Date: 2023-01-06 14:20+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: Kazakh <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-master/kk/>\n"
@@ -54,7 +54,7 @@ msgstr "LUKS пішімін жасау үшін энтропия жеткілі�
 #: ../blivet/deviceaction.py:680
 #, python-format
 msgid "Created %(type)s on %(device)s"
-msgstr "%(type)s жасалды %(device)s ішінде"
+msgstr "%(device)s құрылғысында %(type)s жасалды"
 
 #: ../blivet/deviceaction.py:729
 msgid "destroy format"
@@ -136,6 +136,9 @@ msgid ""
 "All parent devices must be selected when choosing exclusive or ignored disks "
 "for a multipath or firmware RAID device."
 msgstr ""
+"Көпжолды немесе микробағдарламалық RAID құрылғысы үшін эксклюзивті немесе "
+"еленбеген дискілерді таңдау кезінде барлық ата-аналық құрылғылар таңдалуы "
+"керек."
 
 #: ../blivet/fcoe.py:122
 msgid "FCoE not available"
@@ -180,7 +183,7 @@ msgstr "сұралған өлшем максималды рұқсат етілг
 #: ../blivet/partitioning.py:475
 #, python-format
 msgid "failed to add partition to disk: %s"
-msgstr ""
+msgstr "дискіге бөлім қосу сәтсіз аяқталды: %s"
 
 #: ../blivet/partitioning.py:586
 #, python-format
@@ -193,6 +196,8 @@ msgid ""
 "partition is too small for %(format)s formatting (allowable size is "
 "%(min_size)s to %(max_size)s)"
 msgstr ""
+"бөлім %(format)s пішімдеуі үшін тым кішкентай (рұқсат етілген өлшем "
+"%(min_size)s және %(max_size)s арасында)"
 
 #: ../blivet/partitioning.py:652
 #, python-format
@@ -200,10 +205,12 @@ msgid ""
 "partition is too large for %(format)s formatting (allowable size is "
 "%(min_size)s to %(max_size)s)"
 msgstr ""
+"бөлім %(format)s пішімдеуі үшін тым үлкен (рұқсат етілген өлшем %(min_size)s "
+"және %(max_size)s арасында)"
 
 #: ../blivet/partitioning.py:971
 msgid "Unable to allocate requested partition scheme."
-msgstr ""
+msgstr "Сұралған бөлім схемасын бөлу мүмкін емес."
 
 #: ../blivet/partitioning.py:1006
 msgid "not enough free space after creating extended partition"
@@ -211,7 +218,7 @@ msgstr "кеңейтілген бөлімді жасағаннан кейін б
 
 #: ../blivet/partitioning.py:1013
 msgid "failed to allocate aligned partition"
-msgstr ""
+msgstr "тураланған бөлімге орын бөлу мүмкін емес"
 
 #: ../blivet/partitioning.py:1214
 msgid "cannot reclaim more than request has grown"
@@ -335,25 +342,22 @@ msgstr "WWPN %(wwpn)s zFCP %(devnum)s құрылғысында өшіру мүм
 #: ../blivet/zfcp.py:418
 #, python-format
 msgid "zFCP device %s cannot use auto LUN scan."
-msgstr ""
+msgstr "%s zFCP құрылғысы автоматты LUN сканерлеуді пайдалана алмайды."
 
 #: ../blivet/zfcp.py:432
-#, fuzzy, python-format
-#| msgid ""
-#| "Could not correctly delete SCSI device of zFCP %(devnum)s %(wwpn)s "
-#| "%(fcplun)s (%(e)s)."
+#, python-format
 msgid "Could not correctly delete SCSI device of zFCP %(zfcpdev)s (%(e)s)."
 msgstr ""
-"SCSI құрылғысын дұрыс өшіру мүмкін емес, орналасқан жері zFCP %(devnum)s "
-"%(wwpn)s %(fcplun)s (%(e)s)."
+"SCSI құрылғысын дұрыс өшіру мүмкін емес, орналасқан жері zFCP %(zfcpdev)s "
+"(%(e)s)."
 
 #: ../blivet/devicelibs/lvm.py:68
 msgid "Generic"
-msgstr ""
+msgstr "Жалпы"
 
 #: ../blivet/devicelibs/lvm.py:69
 msgid "Performance"
-msgstr ""
+msgstr "Өнімділік"
 
 #: ../blivet/devices/raid.py:58
 #, python-format
@@ -364,35 +368,38 @@ msgid_plural ""
 "RAID level %(raid_level)s requires that device have at least %(min_members)d "
 "members."
 msgstr[0] ""
+"RAID деңгейі %(raid_level)s құрылғыда кемінде %(min_members)d мүше болуын "
+"талап етеді."
 
 #: ../blivet/devices/raid.py:79
 #, python-format
 msgid ""
 "RAID level %(raid_level)s is an invalid value. Must be one of (%(levels)s)."
 msgstr ""
+"RAID деңгейі %(raid_level)s – жарамсыз мән. (%(levels)s) біреуі болуы керек."
 
 #: ../blivet/devices/raid.py:104
 #, python-format
 msgid "Cannot remove a member from existing %s array"
-msgstr ""
+msgstr "Бар болып тұрған %s массивінен мүшені өшіру мүмкін емес"
 
 #: ../blivet/formats/biosboot.py:35
 msgid "BIOS Boot"
-msgstr ""
+msgstr "Жүктемелі BIOS"
 
 #: ../blivet/formats/disklabel.py:50
 msgid "partition table"
-msgstr ""
+msgstr "бөлімдер кестесі"
 
 #. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition table"
 #: ../blivet/formats/disklabel.py:326
 #, python-format
 msgid "Unsupported %(name)s"
-msgstr ""
+msgstr "Қолдауы жоқ %(name)s"
 
 #: ../blivet/formats/dmraid.py:37
 msgid "dm-raid member device"
-msgstr ""
+msgstr "dm-raid мүше құрылғысы"
 
 #: ../blivet/formats/fs.py:941
 msgid "EFI System Partition"
@@ -400,11 +407,11 @@ msgstr "EFI жүйелік бөлімі"
 
 #: ../blivet/formats/fs.py:1189
 msgid "Apple Bootstrap"
-msgstr ""
+msgstr "Apple Bootstrap"
 
 #: ../blivet/formats/fs.py:1225
 msgid "Linux HFS+ ESP"
-msgstr ""
+msgstr "Linux HFS+ ESP"
 
 #: ../blivet/formats/__init__.py:148
 msgid "Unknown"
@@ -412,7 +419,7 @@ msgstr "Белгісіз"
 
 #: ../blivet/formats/luks.py:60
 msgid "LUKS"
-msgstr ""
+msgstr "LUKS"
 
 #: ../blivet/formats/luks.py:61
 msgid "Encrypted"
@@ -420,26 +427,24 @@ msgstr "Шифрленген"
 
 #: ../blivet/formats/luks.py:402
 msgid "DM Integrity"
-msgstr ""
+msgstr "DM Integrity"
 
 #: ../blivet/formats/lvmpv.py:49
 msgid "physical volume (LVM)"
-msgstr ""
+msgstr "физикалық том (LVM)"
 
 #: ../blivet/formats/mdraid.py:43
 msgid "software RAID"
-msgstr ""
+msgstr "бағдарламалық RAID"
 
 #: ../blivet/formats/multipath.py:40
 msgid "multipath member device"
-msgstr ""
+msgstr "multipath мүше құрылғысы"
 
 #: ../blivet/formats/prepboot.py:37
 msgid "PPC PReP Boot"
-msgstr ""
+msgstr "Жүктемелі PPC PReP"
 
 #: ../blivet/formats/stratis.py:40
-#, fuzzy
-#| msgid "create device"
 msgid "Stratis block device"
-msgstr "құрылғыны жасау"
+msgstr "Stratis блоктық құрылғысы"

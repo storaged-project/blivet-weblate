@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
-"PO-Revision-Date: 2022-06-24 05:27+0000\n"
+"PO-Revision-Date: 2023-01-16 13:20+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-rhel9/ka/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.13\n"
+"X-Generator: Weblate 4.15\n"
 
 #: ../blivet/errors.py:210
 msgid ""
@@ -137,16 +137,19 @@ msgid ""
 "Could not remove LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s "
 "(%(e)s)."
 msgstr ""
+"LUN-ის (%(fcplun)s) WWPN (%(wwpn)s)-ისთვის zFCP მოწყობილობა %(devnum)s-დან "
+"წაშლა შეუძლებელია (%(e)s)."
 
 #: ../blivet/zfcp.py:245
 #, python-format
 msgid "Could not remove WWPN %(wwpn)s on zFCP device %(devnum)s (%(e)s)."
 msgstr ""
+"WWPN(%(wwpn)s)-is zFCP მოწყობილობაზე (%(devnum)s) წაშლა შეუძლებელია (%(e)s)."
 
 #: ../blivet/zfcp.py:271
 #, python-format
 msgid "Could not set zFCP device %(devnum)s offline (%(e)s)."
-msgstr ""
+msgstr "ZFCP მოწყობილობის %(devnum)s ოფლაინ გატანის შეცდომა (%(e)s)."
 
 #: ../blivet/iscsi.py:217
 msgid "Unable to change iSCSI initiator name once set"

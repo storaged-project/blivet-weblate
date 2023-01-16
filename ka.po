@@ -5,13 +5,13 @@
 # Translators:
 # Dimitris Glezos <glezos@indifex.com>, 2011
 # George Machitidze <giomac@gmail.com>, 2006-2007,2014
-# Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2022.
+# Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-30 09:00+0200\n"
-"PO-Revision-Date: 2022-11-14 09:19+0000\n"
+"PO-Revision-Date: 2023-01-16 13:20+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-master/ka/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 4.15\n"
 
 #: ../blivet/deviceaction.py:196
 #, python-format
@@ -251,7 +251,7 @@ msgstr "ZFCP მოწყობილობის %(devnum)s ონლაინ 
 #: ../blivet/zfcp.py:159
 #, python-format
 msgid "Could not set zFCP device %(devnum)s offline (%(e)s)."
-msgstr ""
+msgstr "ZFCP მოწყობილობის %(devnum)s ოფლაინ გატანის შეცდომა (%(e)s)."
 
 #: ../blivet/zfcp.py:218
 msgid "You have not specified a worldwide port name or the name is invalid."
@@ -318,11 +318,14 @@ msgid ""
 "Could not remove LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s "
 "(%(e)s)."
 msgstr ""
+"LUN-ის (%(fcplun)s) WWPN (%(wwpn)s)-ისთვის zFCP მოწყობილობა %(devnum)s-დან "
+"წაშლა შეუძლებელია (%(e)s)."
 
 #: ../blivet/zfcp.py:368
 #, python-format
 msgid "Could not remove WWPN %(wwpn)s on zFCP device %(devnum)s (%(e)s)."
 msgstr ""
+"WWPN(%(wwpn)s)-is zFCP მოწყობილობაზე (%(devnum)s) წაშლა შეუძლებელია (%(e)s)."
 
 #: ../blivet/zfcp.py:418
 #, python-format

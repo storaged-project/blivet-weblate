@@ -21,7 +21,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-30 09:00+0200\n"
+"POT-Creation-Date: 2023-02-09 13:31+0100\n"
 "PO-Revision-Date: 2018-11-20 01:35+0000\n"
 "Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
 "Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/blivet/"
@@ -33,73 +33,73 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Zanata 4.6.2\n"
 
-#: ../blivet/deviceaction.py:196
+#: ../blivet/deviceaction.py:197
 #, python-format
 msgid "Executing %(action)s"
 msgstr "執行 %(action)s"
 
-#: ../blivet/deviceaction.py:324
+#: ../blivet/deviceaction.py:325
 msgid "create device"
 msgstr "建立裝置"
 
-#: ../blivet/deviceaction.py:383
+#: ../blivet/deviceaction.py:384
 msgid "destroy device"
 msgstr "摧毀裝置"
 
-#: ../blivet/deviceaction.py:494
+#: ../blivet/deviceaction.py:495
 msgid "resize device"
 msgstr "調整裝置大小"
 
-#: ../blivet/deviceaction.py:583
+#: ../blivet/deviceaction.py:584
 msgid "create format"
 msgstr "建立格式"
 
-#: ../blivet/deviceaction.py:623
+#: ../blivet/deviceaction.py:624
 #, python-format
 msgid "Creating %(type)s on %(device)s"
 msgstr "正在於 %(device)s 上建立 %(type)s"
 
-#: ../blivet/deviceaction.py:650
+#: ../blivet/deviceaction.py:662
 #, python-format
 msgid "Not enough entropy to create LUKS format. %d bits are needed."
 msgstr "沒有足夠的熵來創建LUKS格式。 %d 比特是需要的。"
 
-#: ../blivet/deviceaction.py:680
+#: ../blivet/deviceaction.py:692
 #, python-format
 msgid "Created %(type)s on %(device)s"
 msgstr "創建 %(type)s 上 %(device)s"
 
-#: ../blivet/deviceaction.py:729
+#: ../blivet/deviceaction.py:741
 msgid "destroy format"
 msgstr "摧毀格式"
 
-#: ../blivet/deviceaction.py:842
+#: ../blivet/deviceaction.py:854
 msgid "resize format"
 msgstr "調整格式大小"
 
-#: ../blivet/deviceaction.py:881
+#: ../blivet/deviceaction.py:893
 #, python-format
 msgid "Resizing filesystem on %(device)s"
 msgstr "調整 %(device)s 上的檔案系統大小"
 
-#: ../blivet/deviceaction.py:888
+#: ../blivet/deviceaction.py:900
 #, python-format
 msgid "Resized filesystem on %(device)s"
 msgstr "調整文件系統的大小 %(device)s"
 
-#: ../blivet/deviceaction.py:935
+#: ../blivet/deviceaction.py:947
 msgid "add container member"
 msgstr "新增容器成員"
 
-#: ../blivet/deviceaction.py:1000
+#: ../blivet/deviceaction.py:1012
 msgid "remove container member"
 msgstr "移除容器成員"
 
-#: ../blivet/deviceaction.py:1070
+#: ../blivet/deviceaction.py:1082
 msgid "configure format"
 msgstr "配置格式"
 
-#: ../blivet/deviceaction.py:1141
+#: ../blivet/deviceaction.py:1153
 msgid "configure device"
 msgstr "配置設備"
 
@@ -395,7 +395,7 @@ msgstr "分割表"
 msgid "Unsupported %(name)s"
 msgstr "不支持 %(name)s"
 
-#: ../blivet/formats/dmraid.py:37
+#: ../blivet/formats/dmraid.py:36
 msgid "dm-raid member device"
 msgstr "dm-raid 成員裝置"
 
@@ -423,7 +423,7 @@ msgstr "LUKS"
 msgid "Encrypted"
 msgstr "已加密"
 
-#: ../blivet/formats/luks.py:402
+#: ../blivet/formats/luks.py:405
 msgid "DM Integrity"
 msgstr "DM完整性"
 
@@ -431,7 +431,7 @@ msgstr "DM完整性"
 msgid "physical volume (LVM)"
 msgstr "實體儲區 (LVM)"
 
-#: ../blivet/formats/mdraid.py:43
+#: ../blivet/formats/mdraid.py:42
 msgid "software RAID"
 msgstr "軟體 RAID"
 

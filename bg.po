@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-30 09:00+0200\n"
+"POT-Creation-Date: 2023-02-09 13:31+0100\n"
 "PO-Revision-Date: 2015-04-14 03:43+0000\n"
 "Last-Translator: Valentin Laskov <laskov@festa.bg>\n"
 "Language-Team: Bulgarian (http://www.transifex.com/projects/p/blivet/"
@@ -27,74 +27,74 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Zanata 4.6.2\n"
 
-#: ../blivet/deviceaction.py:196
+#: ../blivet/deviceaction.py:197
 #, python-format
 msgid "Executing %(action)s"
 msgstr ""
 
-#: ../blivet/deviceaction.py:324
+#: ../blivet/deviceaction.py:325
 msgid "create device"
 msgstr "създай устройство"
 
-#: ../blivet/deviceaction.py:383
+#: ../blivet/deviceaction.py:384
 msgid "destroy device"
 msgstr "унищожи устройство"
 
-#: ../blivet/deviceaction.py:494
+#: ../blivet/deviceaction.py:495
 msgid "resize device"
 msgstr "преоразмери устройство"
 
-#: ../blivet/deviceaction.py:583
+#: ../blivet/deviceaction.py:584
 msgid "create format"
 msgstr "създай формат"
 
-#: ../blivet/deviceaction.py:623
+#: ../blivet/deviceaction.py:624
 #, python-format
 msgid "Creating %(type)s on %(device)s"
 msgstr "Създаване на %(type)s върху %(device)s"
 
-#: ../blivet/deviceaction.py:650
+#: ../blivet/deviceaction.py:662
 #, python-format
 msgid "Not enough entropy to create LUKS format. %d bits are needed."
 msgstr ""
 "Недостатъчна ентропия за създаване на LUKS формат. Необходими са %d бита."
 
-#: ../blivet/deviceaction.py:680
+#: ../blivet/deviceaction.py:692
 #, python-format
 msgid "Created %(type)s on %(device)s"
 msgstr "Създаден %(type)s на %(device)s"
 
-#: ../blivet/deviceaction.py:729
+#: ../blivet/deviceaction.py:741
 msgid "destroy format"
 msgstr "унищожи формат"
 
-#: ../blivet/deviceaction.py:842
+#: ../blivet/deviceaction.py:854
 msgid "resize format"
 msgstr "преоразмери формат"
 
-#: ../blivet/deviceaction.py:881
+#: ../blivet/deviceaction.py:893
 #, python-format
 msgid "Resizing filesystem on %(device)s"
 msgstr "Промяна размера на файловата система на %(device)s"
 
-#: ../blivet/deviceaction.py:888
+#: ../blivet/deviceaction.py:900
 #, python-format
 msgid "Resized filesystem on %(device)s"
 msgstr "Размерът на файловата система на %(device)s е променен"
 
-#: ../blivet/deviceaction.py:935
+#: ../blivet/deviceaction.py:947
 msgid "add container member"
 msgstr "добавяне член на контейнер"
 
-#: ../blivet/deviceaction.py:1000
+#: ../blivet/deviceaction.py:1012
 msgid "remove container member"
 msgstr "премахване член на контейнер"
 
-#: ../blivet/deviceaction.py:1070
+#: ../blivet/deviceaction.py:1082
 msgid "configure format"
 msgstr ""
 
-#: ../blivet/deviceaction.py:1141
+#: ../blivet/deviceaction.py:1153
 msgid "configure device"
 msgstr ""
 
@@ -391,7 +391,7 @@ msgstr "таблица на дяловете"
 msgid "Unsupported %(name)s"
 msgstr ""
 
-#: ../blivet/formats/dmraid.py:37
+#: ../blivet/formats/dmraid.py:36
 msgid "dm-raid member device"
 msgstr "устройство, член на dm-raid"
 
@@ -419,7 +419,7 @@ msgstr "LUKS"
 msgid "Encrypted"
 msgstr "Криптиран"
 
-#: ../blivet/formats/luks.py:402
+#: ../blivet/formats/luks.py:405
 msgid "DM Integrity"
 msgstr ""
 
@@ -427,7 +427,7 @@ msgstr ""
 msgid "physical volume (LVM)"
 msgstr "физически том (LVM)"
 
-#: ../blivet/formats/mdraid.py:43
+#: ../blivet/formats/mdraid.py:42
 msgid "software RAID"
 msgstr "софтуерен RAID"
 

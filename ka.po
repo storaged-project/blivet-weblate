@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-30 09:00+0200\n"
+"POT-Creation-Date: 2023-02-09 13:31+0100\n"
 "PO-Revision-Date: 2023-02-15 17:20+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/blivet/"
@@ -22,73 +22,73 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Weblate 4.15.2\n"
 
-#: ../blivet/deviceaction.py:196
+#: ../blivet/deviceaction.py:197
 #, python-format
 msgid "Executing %(action)s"
 msgstr "%(action)s ს შესრულება"
 
-#: ../blivet/deviceaction.py:324
+#: ../blivet/deviceaction.py:325
 msgid "create device"
 msgstr "მოწყობილობების შექმნა"
 
-#: ../blivet/deviceaction.py:383
+#: ../blivet/deviceaction.py:384
 msgid "destroy device"
 msgstr "მოწყობილობის განადგურება"
 
-#: ../blivet/deviceaction.py:494
+#: ../blivet/deviceaction.py:495
 msgid "resize device"
 msgstr "მოწყობილობის ზომის შეცვლა"
 
-#: ../blivet/deviceaction.py:583
+#: ../blivet/deviceaction.py:584
 msgid "create format"
 msgstr "ფორმატის შექმნა"
 
-#: ../blivet/deviceaction.py:623
+#: ../blivet/deviceaction.py:624
 #, python-format
 msgid "Creating %(type)s on %(device)s"
 msgstr "%(type)s-ის შექმნა %(device)s-ზე"
 
-#: ../blivet/deviceaction.py:650
+#: ../blivet/deviceaction.py:662
 #, python-format
 msgid "Not enough entropy to create LUKS format. %d bits are needed."
 msgstr "არასაკმარისი ენტროპია LUKS ფორმატის შესაქმნელად. საჭიროა %d ბიტი."
 
-#: ../blivet/deviceaction.py:680
+#: ../blivet/deviceaction.py:692
 #, python-format
 msgid "Created %(type)s on %(device)s"
 msgstr "შეიქმნა %(type)s %(device)s-ზე"
 
-#: ../blivet/deviceaction.py:729
+#: ../blivet/deviceaction.py:741
 msgid "destroy format"
 msgstr "ფორმატის განადგურება"
 
-#: ../blivet/deviceaction.py:842
+#: ../blivet/deviceaction.py:854
 msgid "resize format"
 msgstr "ფორმატის ზომის შეცვლა"
 
-#: ../blivet/deviceaction.py:881
+#: ../blivet/deviceaction.py:893
 #, python-format
 msgid "Resizing filesystem on %(device)s"
 msgstr "%(device)s-ზე არსებული ფაილური სისტემის ზომის შეცვლა"
 
-#: ../blivet/deviceaction.py:888
+#: ../blivet/deviceaction.py:900
 #, python-format
 msgid "Resized filesystem on %(device)s"
 msgstr "%(device)s-ზე არსებული ფაილური სისტემის ზომა შეიცვალა"
 
-#: ../blivet/deviceaction.py:935
+#: ../blivet/deviceaction.py:947
 msgid "add container member"
 msgstr "კონტეინერის წევრის დამატება"
 
-#: ../blivet/deviceaction.py:1000
+#: ../blivet/deviceaction.py:1012
 msgid "remove container member"
 msgstr "კონტეინერის წევრის წაშლა"
 
-#: ../blivet/deviceaction.py:1070
+#: ../blivet/deviceaction.py:1082
 msgid "configure format"
 msgstr "ფორმატის მორგება"
 
-#: ../blivet/deviceaction.py:1141
+#: ../blivet/deviceaction.py:1153
 msgid "configure device"
 msgstr "მოწყობილობის მორგება"
 
@@ -382,7 +382,7 @@ msgstr "დანაყოფების ცხრილი"
 msgid "Unsupported %(name)s"
 msgstr "მხარდაუჭერელი %(name)s"
 
-#: ../blivet/formats/dmraid.py:37
+#: ../blivet/formats/dmraid.py:36
 msgid "dm-raid member device"
 msgstr "dm-raid-ის მოწყობილობის წევრი"
 
@@ -410,7 +410,7 @@ msgstr "LUKS"
 msgid "Encrypted"
 msgstr "დაშიფრული"
 
-#: ../blivet/formats/luks.py:402
+#: ../blivet/formats/luks.py:405
 msgid "DM Integrity"
 msgstr "DM-ის მთლიანობა"
 
@@ -418,7 +418,7 @@ msgstr "DM-ის მთლიანობა"
 msgid "physical volume (LVM)"
 msgstr "ფიზიკური ტომი (LVM)"
 
-#: ../blivet/formats/mdraid.py:43
+#: ../blivet/formats/mdraid.py:42
 msgid "software RAID"
 msgstr "პროგრამული RAID"
 

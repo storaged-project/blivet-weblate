@@ -18,7 +18,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-08-30 09:00+0200\n"
+"POT-Creation-Date: 2023-02-09 13:31+0100\n"
 "PO-Revision-Date: 2020-06-25 14:40+0000\n"
 "Last-Translator: Akarshan Biswas <akarshan.biswas@gmail.com>\n"
 "Language-Team: Bengali (India) <https://translate.fedoraproject.org/projects/"
@@ -30,73 +30,73 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: Weblate 4.1.1\n"
 
-#: ../blivet/deviceaction.py:196
+#: ../blivet/deviceaction.py:197
 #, python-format
 msgid "Executing %(action)s"
 msgstr "%(action)s কার্যকর করা হচ্ছে"
 
-#: ../blivet/deviceaction.py:324
+#: ../blivet/deviceaction.py:325
 msgid "create device"
 msgstr "ডিভাইস তৈরি করুন"
 
-#: ../blivet/deviceaction.py:383
+#: ../blivet/deviceaction.py:384
 msgid "destroy device"
 msgstr "ডিভাইস ধ্বংস করুন"
 
-#: ../blivet/deviceaction.py:494
+#: ../blivet/deviceaction.py:495
 msgid "resize device"
 msgstr "ডিভাইসের মাপ পরিবর্তন করুন"
 
-#: ../blivet/deviceaction.py:583
+#: ../blivet/deviceaction.py:584
 msgid "create format"
 msgstr "ফর্ম্যাট তৈরি করুন"
 
-#: ../blivet/deviceaction.py:623
+#: ../blivet/deviceaction.py:624
 #, python-format
 msgid "Creating %(type)s on %(device)s"
 msgstr "%(type)s নির্মাণ করা হচ্ছে, %(device)s-র মধ্যে"
 
-#: ../blivet/deviceaction.py:650
+#: ../blivet/deviceaction.py:662
 #, python-format
 msgid "Not enough entropy to create LUKS format. %d bits are needed."
 msgstr "LUKS ফর্ম্যাট তৈরি করার জন্য পর্যাপ্ত এনট্রপি নেই। %d বিট দরকার।"
 
-#: ../blivet/deviceaction.py:680
+#: ../blivet/deviceaction.py:692
 #, python-format
 msgid "Created %(type)s on %(device)s"
 msgstr "%(type)s %(device)s -এ তৈরি করা হয়েছে"
 
-#: ../blivet/deviceaction.py:729
+#: ../blivet/deviceaction.py:741
 msgid "destroy format"
 msgstr "ফর্ম্যাট ধ্বংস করুন"
 
-#: ../blivet/deviceaction.py:842
+#: ../blivet/deviceaction.py:854
 msgid "resize format"
 msgstr "ফর্ম্যাট এর মাপ পরিবর্তন করুন"
 
-#: ../blivet/deviceaction.py:881
+#: ../blivet/deviceaction.py:893
 #, python-format
 msgid "Resizing filesystem on %(device)s"
 msgstr "%(device)s এ ফাইল সিস্টেমের মাপ পরিবর্তন করা হচ্ছে"
 
-#: ../blivet/deviceaction.py:888
+#: ../blivet/deviceaction.py:900
 #, python-format
 msgid "Resized filesystem on %(device)s"
 msgstr "%(device)s এ ফাইল সিস্টেমের মাপ পরিবর্তন করা হয়েছে"
 
-#: ../blivet/deviceaction.py:935
+#: ../blivet/deviceaction.py:947
 msgid "add container member"
 msgstr "কন্টেনার সদস্য যোগ করুন"
 
-#: ../blivet/deviceaction.py:1000
+#: ../blivet/deviceaction.py:1012
 msgid "remove container member"
 msgstr "কন্টেনার সংখ্যা সরান"
 
-#: ../blivet/deviceaction.py:1070
+#: ../blivet/deviceaction.py:1082
 msgid "configure format"
 msgstr "ফরম্যাট কনফিগার করুন"
 
-#: ../blivet/deviceaction.py:1141
+#: ../blivet/deviceaction.py:1153
 msgid "configure device"
 msgstr "ডিভাইস কনফিগার করুন"
 
@@ -413,7 +413,7 @@ msgstr "বিভাজন টেবিল"
 msgid "Unsupported %(name)s"
 msgstr "%(name)s অসমর্থিত"
 
-#: ../blivet/formats/dmraid.py:37
+#: ../blivet/formats/dmraid.py:36
 msgid "dm-raid member device"
 msgstr "dm-raid সদস্য ডিভাইস"
 
@@ -441,7 +441,7 @@ msgstr "LUKS"
 msgid "Encrypted"
 msgstr "এনক্রিপ্ট করা"
 
-#: ../blivet/formats/luks.py:402
+#: ../blivet/formats/luks.py:405
 msgid "DM Integrity"
 msgstr "DM ইন্টিগ্রিটি"
 
@@ -449,7 +449,7 @@ msgstr "DM ইন্টিগ্রিটি"
 msgid "physical volume (LVM)"
 msgstr "ফিজিক্যাল ভলিউম (LVM)"
 
-#: ../blivet/formats/mdraid.py:43
+#: ../blivet/formats/mdraid.py:42
 msgid "software RAID"
 msgstr "সফ্টওয়্যার RAID"
 

@@ -3,7 +3,7 @@
 # This file is distributed under the same license as the PACKAGE package.
 #
 # Translators:
-# Andika Triwidada <andika@gmail.com>, 2012, 2020, 2021.
+# Andika Triwidada <andika@gmail.com>, 2012, 2020, 2021, 2023.
 # Arif Tri Waluyo <arifiauo@fedoraproject.org>, 2011-2012
 # clumens <clumens@redhat.com>, 2011
 # dcantrel <dcantrell@redhat.com>, 2011
@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-09 13:31+0100\n"
-"PO-Revision-Date: 2021-10-24 02:05+0000\n"
+"PO-Revision-Date: 2023-02-18 12:20+0000\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian <https://translate.fedoraproject.org/projects/"
 "blivet/blivet-master/id/>\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.15.2\n"
 
 #: ../blivet/deviceaction.py:197
 #, python-format
@@ -352,17 +352,14 @@ msgstr ""
 #: ../blivet/zfcp.py:418
 #, python-format
 msgid "zFCP device %s cannot use auto LUN scan."
-msgstr ""
+msgstr "Perangkat zFCP %s tidak bisa memakai pemindaian LUN otomatis."
 
 #: ../blivet/zfcp.py:432
-#, fuzzy, python-format
-#| msgid ""
-#| "Could not correctly delete SCSI device of zFCP %(devnum)s %(wwpn)s "
-#| "%(fcplun)s (%(e)s)."
+#, python-format
 msgid "Could not correctly delete SCSI device of zFCP %(zfcpdev)s (%(e)s)."
 msgstr ""
-"Tidak dapat menghapus perangkat SCSI dari zFCP %(devnum)s %(wwpn)s "
-"%(fcplun)s (%(e)s)."
+"Tidak dapat menghapus secara benar perangkat SCSI dari zFCP %(zfcpdev)s "
+"(%(e)s)."
 
 #: ../blivet/devicelibs/lvm.py:68
 msgid "Generic"
@@ -460,7 +457,5 @@ msgid "PPC PReP Boot"
 msgstr "Boot PPC PReP"
 
 #: ../blivet/formats/stratis.py:40
-#, fuzzy
-#| msgid "create device"
 msgid "Stratis block device"
-msgstr "membuat perangkat"
+msgstr "Perangkat blok Stratis"

@@ -1,13 +1,13 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# Fabio Tomat <f.t.public@gmail.com>, 2021, 2022.
+# Fabio Tomat <f.t.public@gmail.com>, 2021, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-09 13:31+0100\n"
-"PO-Revision-Date: 2022-06-09 06:18+0000\n"
+"PO-Revision-Date: 2023-02-22 21:20+0000\n"
 "Last-Translator: Fabio Tomat <f.t.public@gmail.com>\n"
 "Language-Team: Friulian <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-master/fur/>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.12.2\n"
+"X-Generator: Weblate 4.15.2\n"
 
 #: ../blivet/deviceaction.py:197
 #, python-format
@@ -346,17 +346,12 @@ msgstr ""
 #: ../blivet/zfcp.py:418
 #, python-format
 msgid "zFCP device %s cannot use auto LUN scan."
-msgstr ""
+msgstr "Il dispositîf zFCP %s nol pues doprâ la scansion LUN automatiche."
 
 #: ../blivet/zfcp.py:432
-#, fuzzy, python-format
-#| msgid ""
-#| "Could not correctly delete SCSI device of zFCP %(devnum)s %(wwpn)s "
-#| "%(fcplun)s (%(e)s)."
+#, python-format
 msgid "Could not correctly delete SCSI device of zFCP %(zfcpdev)s (%(e)s)."
-msgstr ""
-"Impussibil eliminâ ben il dispositîf SCSI di zFCP %(devnum)s %(wwpn)s "
-"%(fcplun)s (%(e)s)."
+msgstr "Impussibil eliminâ ben il dispositîf SCSI di zFCP %(zfcpdev)s (%(e)s)."
 
 #: ../blivet/devicelibs/lvm.py:68
 msgid "Generic"
@@ -457,7 +452,5 @@ msgid "PPC PReP Boot"
 msgstr "Inviament PPC PReP"
 
 #: ../blivet/formats/stratis.py:40
-#, fuzzy
-#| msgid "create device"
 msgid "Stratis block device"
-msgstr "cree dispositîf"
+msgstr "Dispositîf a blocs Stratis"

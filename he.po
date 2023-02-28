@@ -7,48 +7,48 @@
 # Dimitris Glezos <glezos@indifex.com>, 2011
 # Elad Alfassa <el.il@doom.co.il>, 2011
 # oron <oron@actcom.co.il>, 2009
-# Yaron Shahrabani <sh.yaron@gmail.com>, 2011
+# Yaron Shahrabani <sh.yaron@gmail.com>, 2011, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-09 13:31+0100\n"
-"PO-Revision-Date: 2015-01-05 05:24+0000\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Hebrew (http://www.transifex.com/projects/p/blivet/language/"
-"he/)\n"
+"PO-Revision-Date: 2023-02-28 07:20+0000\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Language-Team: Hebrew <https://translate.fedoraproject.org/projects/blivet/"
+"blivet-master/he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Zanata 4.6.2\n"
+"X-Generator: Weblate 4.15.2\n"
 
 #: ../blivet/deviceaction.py:197
 #, python-format
 msgid "Executing %(action)s"
-msgstr ""
+msgstr "בביצוע: %(action)s"
 
 #: ../blivet/deviceaction.py:325
 msgid "create device"
-msgstr ""
+msgstr "יצירת התקן"
 
 #: ../blivet/deviceaction.py:384
 msgid "destroy device"
-msgstr ""
+msgstr "השמדת התקן"
 
 #: ../blivet/deviceaction.py:495
 msgid "resize device"
-msgstr ""
+msgstr "שינוי שם התקן"
 
 #: ../blivet/deviceaction.py:584
 msgid "create format"
-msgstr ""
+msgstr "יצירת פרמוט"
 
 #: ../blivet/deviceaction.py:624
 #, python-format
 msgid "Creating %(type)s on %(device)s"
-msgstr "יוצר ‎%(type)s על ‎%(device)s"
+msgstr "נוצר ‎%(type)s על ‎%(device)s"
 
 #: ../blivet/deviceaction.py:662
 #, python-format

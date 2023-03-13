@@ -17,16 +17,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
-"PO-Revision-Date: 2015-01-05 05:26+0000\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Panjabi (Punjabi) (http://www.transifex.com/projects/p/blivet/"
-"language/pa/)\n"
+"PO-Revision-Date: 2023-03-14 02:20+0000\n"
+"Last-Translator: A S Alam <amanpreet.alam@gmail.com>\n"
+"Language-Team: Punjabi <https://translate.fedoraproject.org/projects/blivet/"
+"blivet-rhel9/pa/>\n"
 "Language: pa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Zanata 4.6.2\n"
+"X-Generator: Weblate 4.15.2\n"
 
 #: ../blivet/errors.py:210
 msgid ""
@@ -247,7 +247,7 @@ msgstr "LVM ਬੇਨਤੀਆਂ ਲਈ ਥਾਂ ਕਾਫੀ ਨਹੀਂ"
 #: ../blivet/deviceaction.py:194
 #, python-format
 msgid "Executing %(action)s"
-msgstr ""
+msgstr "%(action)s ਚਲਾਇਆ ਜਾ ਰਿਹਾ ਹੈ"
 
 #: ../blivet/deviceaction.py:322
 msgid "create device"
@@ -278,7 +278,7 @@ msgstr ""
 #: ../blivet/deviceaction.py:670
 #, python-format
 msgid "Created %(type)s on %(device)s"
-msgstr ""
+msgstr "%(device)s ਉੱਤੇ %(type)s ਬਣਾਇਆ"
 
 #: ../blivet/deviceaction.py:717
 msgid "destroy format"
@@ -296,11 +296,11 @@ msgstr "%(device)s ਉੱਤੇ ਫਾਈਲ ਸਿਸਟਮ ਮੁੜ ਆਕਾ
 #: ../blivet/deviceaction.py:876
 #, python-format
 msgid "Resized filesystem on %(device)s"
-msgstr ""
+msgstr "%(device)s ਉੱਤੇ ਫਾਇਲ-ਸਿਸਟਮ ਦਾ ਆਕਾਰ ਬਦਲਿਆ"
 
 #: ../blivet/deviceaction.py:923
 msgid "add container member"
-msgstr ""
+msgstr "ਕਨਟੇਨਰ ਮੈੰਬਰ ਜੋੜੋ"
 
 #: ../blivet/deviceaction.py:988
 msgid "remove container member"
@@ -341,11 +341,11 @@ msgstr "EFI ਸਿਸਟਮ ਪਾਰਟੀਸ਼ਨ"
 
 #: ../blivet/formats/fs.py:1137
 msgid "Apple Bootstrap"
-msgstr ""
+msgstr "ਐਪਲ ਬੂਟ-ਸਟਰੈਪ"
 
 #: ../blivet/formats/fs.py:1173
 msgid "Linux HFS+ ESP"
-msgstr ""
+msgstr "ਲੀਨਕਸ HFS+ ESP"
 
 #: ../blivet/formats/prepboot.py:37
 msgid "PPC PReP Boot"
@@ -353,7 +353,7 @@ msgstr ""
 
 #: ../blivet/formats/luks.py:58
 msgid "LUKS"
-msgstr ""
+msgstr "LUKS"
 
 #: ../blivet/formats/luks.py:59
 msgid "Encrypted"
@@ -369,7 +369,7 @@ msgstr "ਅਣਜਾਣ"
 
 #: ../blivet/formats/biosboot.py:35
 msgid "BIOS Boot"
-msgstr ""
+msgstr "BIOS ਬੂਟ"
 
 #: ../blivet/formats/dmraid.py:37
 msgid "dm-raid member device"
@@ -377,17 +377,17 @@ msgstr ""
 
 #: ../blivet/formats/disklabel.py:50
 msgid "partition table"
-msgstr ""
+msgstr "ਪਾਰਟੀਸ਼ਨ ਸਾਰਣੀ"
 
 #. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition table"
 #: ../blivet/formats/disklabel.py:320
 #, python-format
 msgid "Unsupported %(name)s"
-msgstr ""
+msgstr "ਗ਼ੈਰ-ਸਹਾਇਕ %(name)s"
 
 #: ../blivet/formats/mdraid.py:43
 msgid "software RAID"
-msgstr ""
+msgstr "ਸਾਫਟਵੇਅਰ ਰੇਡ"
 
 #: ../blivet/formats/multipath.py:40
 msgid "multipath member device"
@@ -395,12 +395,12 @@ msgstr ""
 
 #: ../blivet/formats/lvmpv.py:49
 msgid "physical volume (LVM)"
-msgstr ""
+msgstr "ਫਿਜ਼ੀਕਲ ਵਾਲੀਅਮ (LVM)"
 
 #: ../blivet/devicelibs/lvm.py:59
 msgid "Generic"
-msgstr ""
+msgstr "ਸਧਾਰਨ"
 
 #: ../blivet/devicelibs/lvm.py:60
 msgid "Performance"
-msgstr ""
+msgstr "ਕਾਰਗੁਜ਼ਾਰੀ"

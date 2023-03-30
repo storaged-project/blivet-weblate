@@ -15,13 +15,13 @@
 # Zdenek <chmelarz@gmail.com>, 2016. #zanata
 # Zdenek <chmelarz@gmail.com>, 2018. #zanata
 # Zdenek <chmelarz@gmail.com>, 2019. #zanata
-# Pavel Borecki <pavel.borecki@gmail.com>, 2021.
+# Pavel Borecki <pavel.borecki@gmail.com>, 2021, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-09 13:31+0100\n"
-"PO-Revision-Date: 2021-12-03 22:16+0000\n"
+"PO-Revision-Date: 2023-03-30 11:20+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-master/cs/>\n"
@@ -30,7 +30,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 4.15.2\n"
 
 #: ../blivet/deviceaction.py:197
 #, python-format
@@ -353,7 +353,7 @@ msgstr "Nelze odebrat WWPN %(wwpn)s na zFCP zařízení %(devnum)s (%(e)s)."
 #: ../blivet/zfcp.py:418
 #, python-format
 msgid "zFCP device %s cannot use auto LUN scan."
-msgstr ""
+msgstr "zFCP zařízení %s nemůže použít automatický LUN sken."
 
 #: ../blivet/zfcp.py:432
 #, fuzzy, python-format
@@ -467,7 +467,5 @@ msgid "PPC PReP Boot"
 msgstr "PPC PReP Boot"
 
 #: ../blivet/formats/stratis.py:40
-#, fuzzy
-#| msgid "create device"
 msgid "Stratis block device"
-msgstr "vytvořit zařízení"
+msgstr "Stratis blokové zařízení"

@@ -17,13 +17,14 @@
 # Meskó Balázs <meskobalazs@gmail.com>, 2018. #zanata
 # Meskó Balázs <meskobalazs@gmail.com>, 2019. #zanata
 # Balázs Meskó <meskobalazs@mailbox.org>, 2020, 2021.
+# Dankaházi (ifj.) István <dankahazi.istvan@gmail.com>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-09 13:31+0100\n"
-"PO-Revision-Date: 2021-11-04 22:05+0000\n"
-"Last-Translator: Balázs Meskó <meskobalazs@mailbox.org>\n"
+"PO-Revision-Date: 2023-05-12 18:21+0000\n"
+"Last-Translator: Dankaházi (ifj.) István <dankahazi.istvan@gmail.com>\n"
 "Language-Team: Hungarian <https://translate.fedoraproject.org/projects/"
 "blivet/blivet-master/hu/>\n"
 "Language: hu\n"
@@ -31,7 +32,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.8\n"
+"X-Generator: Weblate 4.15.2\n"
 
 #: ../blivet/deviceaction.py:197
 #, python-format
@@ -122,7 +123,7 @@ msgid ""
 msgstr ""
 "Valamiért nem sikerült megtalálni a lemezcímkét egy lemezen, amelyen a "
 "kernel partíciókat jelent. Nem világos, hogy mi a pontos probléma. Jelentse "
-"be a hibát a http://bugzilla.redhat.com oldalon."
+"be a hibát a http://bugzilla.redhat.com oldalon"
 
 #: ../blivet/errors.py:237
 msgid ""
@@ -285,11 +286,10 @@ msgid "You have not specified a FCP LUN or the number is invalid."
 msgstr "Nem adott meg FCP LUN számot, vagy a szám érvénytelen."
 
 #: ../blivet/zfcp.py:268
-#, python-format
+#, fuzzy, python-format
 msgid "Could not add WWPN %(wwpn)s to zFCP device %(devnum)s (%(e)s)."
 msgstr ""
-"Hiba: Nem lehet %(wwpn)s WWPN-t hozzáadni a zFCP eszközhöz: %(devnum)s "
-"(%(e)s)."
+"Nem sikerült hozzáadni a %(wwpn)s WWPN-t a %(devnum)s (%(e)s) zFCP-eszközhöz."
 
 #. newer zfcp sysfs interface with auto port scan
 #: ../blivet/zfcp.py:275
@@ -298,13 +298,13 @@ msgid "WWPN %(wwpn)s not found at zFCP device %(devnum)s."
 msgstr "%(wwpn)s WWPN nem található az zFCP eszközben: %(devnum)s."
 
 #: ../blivet/zfcp.py:291
-#, python-format
+#, fuzzy, python-format
 msgid ""
 "Could not add LUN %(fcplun)s to WWPN %(wwpn)s on zFCP device %(devnum)s "
 "(%(e)s)."
 msgstr ""
-"A(z) %(fcplun)s LUN nem adható hozzá a(z) %(wwpn)s WWPN zFCP eszközhöz: "
-"%(devnum)s (%(e)s)."
+"Nem sikerült hozzáadni a LUN %(fcplun)s-t a WWPN %(wwpn)s-hez a zFCP-"
+"eszközön %(devnum)s (%(e)s)."
 
 #: ../blivet/zfcp.py:297
 #, python-format
@@ -320,8 +320,8 @@ msgid ""
 "Could not read failed attribute of LUN %(fcplun)s at WWPN %(wwpn)s on zFCP "
 "device %(devnum)s (%(e)s)."
 msgstr ""
-"Nem sikerült a hibás %(fcplun)s LUN attribútum kiolvasása a(z) %(wwpn)s WWPN-"
-"en, a(z) %(devnum)s zFCP eszközön (%(e)s)."
+"%(fcplun)sNem sikerült a hibás %(fcplun)s LUN attribútum kiolvasása a(z) "
+"%(wwpn)s WWPN-en, a(z) %(devnum)s zFCP eszközön (%(e)s)."
 
 #: ../blivet/zfcp.py:319
 #, python-format

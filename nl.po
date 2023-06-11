@@ -5,14 +5,14 @@
 # Translators:
 # Arjan van de Ven <arjanv@redhat.com>, 2001
 # Dimitris Glezos <glezos@indifex.com>, 2011
-# Geert Warrink <geert.warrink@onsnet.nu>, 2009,2011-2012
+# Geert Warrink <geert.warrink@onsnet.nu>, 2009,2011-2012, 2023.
 # Peter van Egdom <p.van.egdom@gmail.com>, 2002
 # Richard E. van der Luit <nippur@fedoraproject.org>, 2012
 # Tino Meinen <a.t.meinen@chello.nl>, 2002-2003
-# Geert Warrink <geert.warrink@onsnet.nu>, 2015. #zanata
-# Geert Warrink <geert.warrink@onsnet.nu>, 2016. #zanata
-# Geert Warrink <geert.warrink@onsnet.nu>, 2018. #zanata
-# Geert Warrink <geert.warrink@onsnet.nu>, 2019. #zanata
+# Geert Warrink <geert.warrink@onsnet.nu>, 2015. #zanata, 2023.
+# Geert Warrink <geert.warrink@onsnet.nu>, 2016. #zanata, 2023.
+# Geert Warrink <geert.warrink@onsnet.nu>, 2018. #zanata, 2023.
+# Geert Warrink <geert.warrink@onsnet.nu>, 2019. #zanata, 2023.
 # Vanhoorne Michael <michaeltjevanhoorne@gmail.com>, 2022, 2023.
 msgid ""
 msgstr ""
@@ -20,7 +20,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-09 13:31+0100\n"
 "PO-Revision-Date: 2023-06-11 13:20+0000\n"
-"Last-Translator: Vanhoorne Michael <michaeltjevanhoorne@gmail.com>\n"
+"Last-Translator: Geert Warrink <geert.warrink@onsnet.nu>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-master/nl/>\n"
 "Language: nl\n"
@@ -359,14 +359,10 @@ msgid "zFCP device %s cannot use auto LUN scan."
 msgstr "zCFP apparaat %s kan niet automatische LUN scan."
 
 #: ../blivet/zfcp.py:432
-#, fuzzy, python-format
-#| msgid ""
-#| "Could not correctly delete SCSI device of zFCP %(devnum)s %(wwpn)s "
-#| "%(fcplun)s (%(e)s)."
+#, python-format
 msgid "Could not correctly delete SCSI device of zFCP %(zfcpdev)s (%(e)s)."
 msgstr ""
-"Kon SCSI apparaat van zFCP %(devnum)s %(wwpn)s %(fcplun)s niet correct "
-"verwijderen (%(e)s)."
+"Kon SCSI apparaat van zFCP %(zfcpdev)s niet correct verwijderen (%(e)s)."
 
 #: ../blivet/devicelibs/lvm.py:68
 msgid "Generic"
@@ -467,7 +463,5 @@ msgid "PPC PReP Boot"
 msgstr "PPC PReP Boot"
 
 #: ../blivet/formats/stratis.py:40
-#, fuzzy
-#| msgid "create device"
 msgid "Stratis block device"
-msgstr "aanmaken van apparaat"
+msgstr "Stratis blokapparaat"

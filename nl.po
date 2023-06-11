@@ -13,13 +13,13 @@
 # Geert Warrink <geert.warrink@onsnet.nu>, 2016. #zanata
 # Geert Warrink <geert.warrink@onsnet.nu>, 2018. #zanata
 # Geert Warrink <geert.warrink@onsnet.nu>, 2019. #zanata
-# Vanhoorne Michael <michaeltjevanhoorne@gmail.com>, 2022.
+# Vanhoorne Michael <michaeltjevanhoorne@gmail.com>, 2022, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-09 13:31+0100\n"
-"PO-Revision-Date: 2022-10-02 15:19+0000\n"
+"PO-Revision-Date: 2023-06-11 13:20+0000\n"
 "Last-Translator: Vanhoorne Michael <michaeltjevanhoorne@gmail.com>\n"
 "Language-Team: Dutch <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-master/nl/>\n"
@@ -28,7 +28,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.1\n"
+"X-Generator: Weblate 4.17\n"
 
 #: ../blivet/deviceaction.py:197
 #, python-format
@@ -147,6 +147,9 @@ msgid ""
 "All parent devices must be selected when choosing exclusive or ignored disks "
 "for a multipath or firmware RAID device."
 msgstr ""
+"Alle bovenliggende apparaten moeten worden geselecteerd bij het kiezen van "
+"exclusieve of genegeerde schijven voor een multipath- of firmware-RAID-"
+"apparaat."
 
 #: ../blivet/fcoe.py:122
 msgid "FCoE not available"
@@ -189,10 +192,9 @@ msgid "requested size exceeds maximum allowed"
 msgstr "aangevraagd grootte overschrijdt het toegestane maximum"
 
 #: ../blivet/partitioning.py:475
-#, fuzzy, python-format
-#| msgid "failed to allocate aligned partition"
+#, python-format
 msgid "failed to add partition to disk: %s"
-msgstr "kan uitgelijnde partitie niet toekennen"
+msgstr "kon partitie niet toevoegen aan schijf: %s"
 
 #: ../blivet/partitioning.py:586
 #, python-format

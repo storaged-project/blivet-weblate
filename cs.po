@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
-"PO-Revision-Date: 2021-12-03 22:16+0000\n"
+"PO-Revision-Date: 2023-08-24 22:21+0000\n"
 "Last-Translator: Pavel Borecki <pavel.borecki@gmail.com>\n"
 "Language-Team: Czech <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-rhel9/cs/>\n"
@@ -29,7 +29,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 4.18.2\n"
 
 #: ../blivet/errors.py:210
 msgid ""
@@ -48,9 +48,9 @@ msgid ""
 "kernel is reporting partitions on. It is unclear what the exact problem is. "
 "Please file a bug at http://bugzilla.redhat.com"
 msgstr ""
-"Z nějakého důvodu jsme nebyli schopni najít jmenovku disku, na níž kernel "
-"reportuje oddíl. Není jasné, o jaký problém se přesně jedná. Nahlaste prosím "
-"tuto chybu na http://bugzilla.redhat.com"
+"Z nějakého důvodu se nepodařilo najít jmenovku disku, na kterém jádro "
+"systému hlásí oddíl. Není jasné, o jaký problém se přesně jedná. Nahlaste "
+"prosím tuto chybu na http://bugzilla.redhat.com"
 
 #: ../blivet/errors.py:224
 msgid ""
@@ -68,17 +68,17 @@ msgid ""
 "Hint 1: vgrename accepts UUID in place of the old name.\n"
 "Hint 2: You can get the VG UUIDs by running 'pvs -o +vg_uuid'."
 msgstr ""
-"Přejmenujte jeden ze svazků tak, aby se jména lišila.\n"
+"Přejmenujte jeden ze svazků tak, aby se názvy lišily.\n"
 "Tip 1: Pro vgrename můžete použít UUID zařízení.\n"
-"Tip 2: UUID svazku získáte například pomocí příkazu 'pvs -o +vg_uuid'."
+"Tip 2: UUID svazku získáte například pomocí příkazu „pvs -o +vg_uuid“."
 
 #: ../blivet/fcoe.py:121
 msgid "FCoE not available"
-msgstr "FCoE není dostupné"
+msgstr "FCoE není k dispozici"
 
 #: ../blivet/zfcp.py:62
 msgid "You have not specified a device number or the number is invalid"
-msgstr "Neurčili jste číslo zařízení nebo číslo zařízení není platné"
+msgstr "Neurčili jste číslo zařízení nebo toto číslo není platné"
 
 #: ../blivet/zfcp.py:64
 msgid "You have not specified a worldwide port name or the name is invalid."
@@ -97,7 +97,7 @@ msgstr ""
 #: ../blivet/zfcp.py:101
 #, python-format
 msgid "Could not set zFCP device %(devnum)s online (%(e)s)."
-msgstr "Nelze nastavit zFCP zařízení %(devnum)s online (%(e)s)."
+msgstr "Nedaří se nastavit zFCP zařízení %(devnum)s jako online (%(e)s)."
 
 #: ../blivet/zfcp.py:112
 #, python-format
@@ -124,8 +124,7 @@ msgstr ""
 msgid ""
 "LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already configured."
 msgstr ""
-"LUN %(fcplun)s na WWPN %(wwpn)s na zFCP zařízení %(devnum)s je již "
-"nakonfigurován."
+"LUN %(fcplun)s na WWPN %(wwpn)s na zFCP zařízení %(devnum)s už je nastaven."
 
 #: ../blivet/zfcp.py:152
 #, python-format
@@ -133,8 +132,8 @@ msgid ""
 "Could not read failed attribute of LUN %(fcplun)s at WWPN %(wwpn)s on zFCP "
 "device %(devnum)s (%(e)s)."
 msgstr ""
-"Nelze číst selhaný atribut LUN %(fcplun)s na WWPN %(wwpn)s na zFCP zařízení "
-"%(devnum)s (%(e)s)."
+"Nedaří se načíst selhaný atribut LUN %(fcplun)s na WWPN %(wwpn)s na zFCP "
+"zařízení %(devnum)s (%(e)s)."
 
 #: ../blivet/zfcp.py:161
 #, python-format
@@ -171,15 +170,15 @@ msgstr "Nelze odebrat WWPN %(wwpn)s na zFCP zařízení %(devnum)s (%(e)s)."
 #: ../blivet/zfcp.py:271
 #, python-format
 msgid "Could not set zFCP device %(devnum)s offline (%(e)s)."
-msgstr "Nelze nastavit zFCP zařízení %(devnum)s offline (%(e)s)."
+msgstr "Nedaří se nastavit zFCP zařízení %(devnum)s jako offline (%(e)s)."
 
 #: ../blivet/iscsi.py:217
 msgid "Unable to change iSCSI initiator name once set"
-msgstr "Jméno iSCSI iniciátoru není možné po vytvoření měnit"
+msgstr "Název iSCSI iniciátoru není možné po vytvoření měnit"
 
 #: ../blivet/iscsi.py:219
 msgid "Must provide an iSCSI initiator name"
-msgstr "Jméno iSCSI iniciátoru musí být zadáno"
+msgstr "Je třeba, aby název iSCSI iniciátoru byl zadán"
 
 #: ../blivet/iscsi.py:410
 msgid "iSCSI not available"
@@ -187,23 +186,23 @@ msgstr "iSCSI není k dispozici"
 
 #: ../blivet/iscsi.py:412
 msgid "No initiator name set"
-msgstr "Nebylo zadáno jméno iniciátoru"
+msgstr "Nezadán název iniciátoru"
 
 #: ../blivet/iscsi.py:530
 msgid "No iSCSI nodes discovered"
-msgstr "Nenalezeny žádné iSCSI nody"
+msgstr "Nenalezeny žádné iSCSI uzly"
 
 #: ../blivet/iscsi.py:550
 msgid "No new iSCSI nodes discovered"
-msgstr "Nenalezeny žádné nové iSCSI nody"
+msgstr "Nenalezeny žádné nové iSCSI uzly"
 
 #: ../blivet/iscsi.py:553
 msgid "Could not log in to any of the discovered nodes"
-msgstr "K žádnému nalezenému nodu se nelze přihlásit"
+msgstr "K žádnému z nalezených uzlů se nedaří přihlásit"
 
 #: ../blivet/partitioning.py:454
 msgid "unable to allocate aligned partition"
-msgstr "nelze přidělit zarovnaný oddíl"
+msgstr "nedaří se přidělit zarovnaný oddíl"
 
 #: ../blivet/partitioning.py:462
 msgid "requested size exceeds maximum allowed"
@@ -238,7 +237,7 @@ msgstr "Nepovedlo se alokovat požadované rozložení oddílů."
 
 #: ../blivet/partitioning.py:997
 msgid "not enough free space after creating extended partition"
-msgstr "po vytvoření rozšířeného oddílu již není dostatek místa"
+msgstr "po vytvoření rozšířeného oddílu už není dostatek místa"
 
 #: ../blivet/partitioning.py:1004
 msgid "failed to allocate aligned partition"
@@ -246,11 +245,11 @@ msgstr "nepovedlo se vytvořit zarovnaný oddíl"
 
 #: ../blivet/partitioning.py:1205
 msgid "cannot reclaim more than request has grown"
-msgstr "nelze získat víc než vzrostl požadavek"
+msgstr "nelze uvolnit víc než vzrostl požadavek"
 
 #: ../blivet/partitioning.py:1419
 msgid "DiskChunk requests must be of type PartitionRequest"
-msgstr "Požadavky DiskChunk musí být typu PartitionRequest"
+msgstr "Je třeba, aby požadavky DiskChunk byly typu PartitionRequest"
 
 #: ../blivet/partitioning.py:1432
 msgid "partitions allocated outside disklabel limits"
@@ -258,7 +257,7 @@ msgstr "oddíly přidělené mimo limity jmenovky disku"
 
 #: ../blivet/partitioning.py:1517
 msgid "VGChunk requests must be of type LVRequest"
-msgstr "Požadavky VGChunk musí být typu LVRequest"
+msgstr "Je třeba, aby požadavky VGChunk byly typu LVRequest"
 
 #. by now we have allocated the PVs so if there isn't enough
 #. space in the VG we have a real problem
@@ -313,12 +312,12 @@ msgstr "změnit velikost formátu"
 #: ../blivet/deviceaction.py:869
 #, python-format
 msgid "Resizing filesystem on %(device)s"
-msgstr "Změna velikosti systému souborů na %(device)s"
+msgstr "Změna velikosti souborového systému na %(device)s"
 
 #: ../blivet/deviceaction.py:876
 #, python-format
 msgid "Resized filesystem on %(device)s"
-msgstr "Změna velikosti systému souborů na %(device)s"
+msgstr "Zněněna velikost souborového systému na %(device)s"
 
 #: ../blivet/deviceaction.py:923
 msgid "add container member"
@@ -330,11 +329,11 @@ msgstr "odebrat člena kontejneru"
 
 #: ../blivet/deviceaction.py:1058
 msgid "configure format"
-msgstr "konfigurovat formát"
+msgstr "nastavit formát"
 
 #: ../blivet/deviceaction.py:1114
 msgid "configure device"
-msgstr "konfigurovat zařízení"
+msgstr "nastavit zařízení"
 
 #: ../blivet/devices/raid.py:58
 #, python-format
@@ -346,7 +345,7 @@ msgid_plural ""
 "members."
 msgstr[0] ""
 "Typ RAIDu %(raid_level)s vyžaduje, aby zařízení mělo alespoň %(min_members)d "
-"člen."
+"člena."
 msgstr[1] ""
 "Typ RAIDu %(raid_level)s vyžaduje, aby zařízení mělo alespoň %(min_members)d "
 "členy."

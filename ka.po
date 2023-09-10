@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
-"PO-Revision-Date: 2023-02-15 17:20+0000\n"
+"PO-Revision-Date: 2023-09-11 04:21+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-rhel9/ka/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 4.18.2\n"
 
 #: ../blivet/errors.py:210
 msgid ""
@@ -27,6 +27,9 @@ msgid ""
 "of the UUID value which should be unique. In that case you can either "
 "disconnect one of the devices or reformat it."
 msgstr ""
+"ეს ჩვეულებრივ ხდება მოწყობილობის დისკის ასლის კლონირებისას, რაც იწვევს UUID-"
+"ის მნიშვნელობის დუბლირებას და ის უნიკალური უნდა იყოს. ასეთ შემთხვევაში, "
+"შეგიძლიათ ერთ-ერთი მოწყობილობა გამოაერთოთ ან თავიდან დააფორმატოთ."
 
 #: ../blivet/errors.py:217
 msgid ""
@@ -53,6 +56,9 @@ msgid ""
 "Hint 1: vgrename accepts UUID in place of the old name.\n"
 "Hint 2: You can get the VG UUIDs by running 'pvs -o +vg_uuid'."
 msgstr ""
+"გადაარქვით ერთ-ერთ ტომების ჯგუფს სახელი, რათა სახელები განსხვავდებოდნენ.\n"
+"მინიშნება1: vgrename-ს შეგიძლიათ ძველი სახელის მაგიერ UUI მიუთითოთ.\n"
+"მინიშნება2: VG-ის UUID-ები შეგიძლიათ 'pvs -o +vg_uuid' ბრძანებით მიიღოთ."
 
 #: ../blivet/fcoe.py:121
 msgid "FCoE not available"
@@ -116,6 +122,8 @@ msgid ""
 "Could not read failed attribute of LUN %(fcplun)s at WWPN %(wwpn)s on zFCP "
 "device %(devnum)s (%(e)s)."
 msgstr ""
+"ვერ წავიკითხე ჩავარდნილი ატრიბუტი LUN-სთვის %(fcplun)s WWPN %(wwpn)s FCP "
+"მოწყობილობაზე %(devnum)s (%(e)s)."
 
 #: ../blivet/zfcp.py:161
 #, python-format
@@ -123,6 +131,8 @@ msgid ""
 "Failed LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s removed "
 "again."
 msgstr ""
+"ჩავარდნილი LUN %(fcplun)s WWPN-ზე %(wwpn)s zFCP მოწყობილობაზე %(devnum)s "
+"კიდევ ერთხელ წაიშალა."
 
 #: ../blivet/zfcp.py:218
 #, python-format
@@ -130,6 +140,7 @@ msgid ""
 "Could not correctly delete SCSI device of zFCP %(devnum)s %(wwpn)s "
 "%(fcplun)s (%(e)s)."
 msgstr ""
+"ვერ წავშალე SCSI მოწყობილობა zFCP-სთვის %(devnum)s%(wwpn)s%(fcplun)s%(e)s."
 
 #: ../blivet/zfcp.py:227
 #, python-format
@@ -324,17 +335,21 @@ msgid_plural ""
 "RAID level %(raid_level)s requires that device have at least %(min_members)d "
 "members."
 msgstr[0] ""
+"RAID-ის დონე %(raid_level)s მოითხოვს, რომ მოწყობილობას, სულ ცოტა, "
+"%(min_members)d წევრი გააჩნდეს."
 
 #: ../blivet/devices/raid.py:79
 #, python-format
 msgid ""
 "RAID level %(raid_level)s is an invalid value. Must be one of (%(levels)s)."
 msgstr ""
+"RAID-ის დონე %(raid_level)s არასწორია. უნდა იყოს ერთ-ერთი მნიშვნელობებიდან "
+"(%(levels)s)."
 
 #: ../blivet/devices/raid.py:104
 #, python-format
 msgid "Cannot remove a member from existing %s array"
-msgstr ""
+msgstr "არსებული %s მასივიდან წევრის წაშლა შეუძლებელია"
 
 #: ../blivet/formats/fs.py:932
 msgid "EFI System Partition"

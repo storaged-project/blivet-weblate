@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-09 13:31+0100\n"
-"PO-Revision-Date: 2023-02-28 07:20+0000\n"
+"PO-Revision-Date: 2023-12-07 07:43+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-master/he/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 5.2.1\n"
 
 #: ../blivet/deviceaction.py:197
 #, python-format
@@ -58,25 +58,25 @@ msgstr ""
 #: ../blivet/deviceaction.py:692
 #, python-format
 msgid "Created %(type)s on %(device)s"
-msgstr ""
+msgstr "%(type)s נוצר על %(device)s"
 
 #: ../blivet/deviceaction.py:741
 msgid "destroy format"
-msgstr ""
+msgstr "השמדת הפרמוט"
 
 #: ../blivet/deviceaction.py:854
 msgid "resize format"
-msgstr ""
+msgstr "שינוי גודל פרמוט"
 
 #: ../blivet/deviceaction.py:893
 #, python-format
 msgid "Resizing filesystem on %(device)s"
-msgstr ""
+msgstr "גודל מערכת הקבצים של %(device)s משתנה"
 
 #: ../blivet/deviceaction.py:900
 #, python-format
 msgid "Resized filesystem on %(device)s"
-msgstr ""
+msgstr "גודל מערכת הקבצים של %(device)s השתנה"
 
 #: ../blivet/deviceaction.py:947
 msgid "add container member"

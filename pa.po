@@ -13,13 +13,14 @@
 # Jaswinder Singh <phulewala.j@gmail.com>, 2011
 # Jaswinder Singh <jsingh@redhat.com>, 2007-2010,2012
 # A S Alam <amanpreet.alam@gmail.com>, 2023.
+# A S Alam <aalam@users.noreply.translate.fedoraproject.org>, 2023.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-09 13:31+0100\n"
-"PO-Revision-Date: 2023-03-14 02:20+0000\n"
-"Last-Translator: A S Alam <amanpreet.alam@gmail.com>\n"
+"PO-Revision-Date: 2023-12-28 14:35+0000\n"
+"Last-Translator: A S Alam <aalam@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Punjabi <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-master/pa/>\n"
 "Language: pa\n"
@@ -27,7 +28,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 5.3\n"
 
 #: ../blivet/deviceaction.py:197
 #, python-format
@@ -58,7 +59,7 @@ msgstr "%(type)s ਨੂੰ %(device)s ਉੱਪਰ ਬਣਾ ਰਿਹਾ ਹੈ
 #: ../blivet/deviceaction.py:662
 #, python-format
 msgid "Not enough entropy to create LUKS format. %d bits are needed."
-msgstr ""
+msgstr "LUKS ਫਾਰਮੈਟ ਬਣਾਉਣ ਲਈ ਲੋੜੀਂਦੀ ਇੰਟਰੋਪੀ ਨਹੀਂ ਹੈ। %d ਬਿੱਟ ਚਾਹੀਦੇ ਹਨ।"
 
 #: ../blivet/deviceaction.py:692
 #, python-format
@@ -89,15 +90,15 @@ msgstr "ਕਨਟੇਨਰ ਮੈੰਬਰ ਜੋੜੋ"
 
 #: ../blivet/deviceaction.py:1012
 msgid "remove container member"
-msgstr ""
+msgstr "ਕਨਟੇਰਨਰ ਮੈਂਬਰ ਨੂੰ ਹਤਾਓ"
 
 #: ../blivet/deviceaction.py:1082
 msgid "configure format"
-msgstr ""
+msgstr "ਫਾਰਮੈਟ ਦੀ ਸੰਰਚਨਾ"
 
 #: ../blivet/deviceaction.py:1153
 msgid "configure device"
-msgstr ""
+msgstr "ਡਿਵਾਈਸ ਦੀ ਸੰਰਚਨਾ"
 
 #: ../blivet/errors.py:223
 msgid ""
@@ -176,7 +177,7 @@ msgstr "ਮੰਗਿਆ ਗਿਆ ਆਕਾਰ ਵੱਧ ਤੋਂ ਵੱਧ ਮ
 #: ../blivet/partitioning.py:475
 #, python-format
 msgid "failed to add partition to disk: %s"
-msgstr ""
+msgstr "ਡਿਸਕ ਉੱਤੇ ਪਾਰਟੀਸ਼ਨ ਜੋੜਨ ਲਈ ਅਸਫ਼ਲ:%s"
 
 #: ../blivet/partitioning.py:586
 #, python-format
@@ -368,7 +369,7 @@ msgstr ""
 #: ../blivet/devices/raid.py:104
 #, python-format
 msgid "Cannot remove a member from existing %s array"
-msgstr ""
+msgstr "ਮੌਜੂਦਾ %s ਅਰੇ ਦੇ ਮੈਂਬਰ ਨੂੰ ਹਟਾਇਆ ਨਹੀਂ ਜਾ ਸਕਦਾ ਹੈ"
 
 #: ../blivet/formats/biosboot.py:35
 msgid "BIOS Boot"

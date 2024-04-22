@@ -23,21 +23,22 @@
 # Tullio Dovera <tdovera@redhat.it>, 2001
 # Valentina Besi <valentina@redhat.it>, 2001
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
+# Alessandro Bugliazzini <yattatux@posteo.net>, 2024.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-09 13:31+0100\n"
-"PO-Revision-Date: 2018-11-20 01:35+0000\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Italian (http://www.transifex.com/projects/p/blivet/language/"
-"it/)\n"
+"PO-Revision-Date: 2024-04-22 14:35+0000\n"
+"Last-Translator: Alessandro Bugliazzini <yattatux@posteo.net>\n"
+"Language-Team: Italian <https://translate.fedoraproject.org/projects/blivet/"
+"blivet-master/it/>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4\n"
 
 #: ../blivet/deviceaction.py:197
 #, python-format
@@ -116,6 +117,9 @@ msgid ""
 "of the UUID value which should be unique. In that case you can either "
 "disconnect one of the devices or reformat it."
 msgstr ""
+"Ciò è solitamente causato dalla clonazione dell'immagine del dispositivo e "
+"conseguente duplicazione del valore UUID che dovrebbe essere univoco. In tal "
+"caso puoi scollegare uno dei dispositivi o riformattarlo."
 
 #: ../blivet/errors.py:230
 msgid ""
@@ -153,6 +157,8 @@ msgid ""
 "All parent devices must be selected when choosing exclusive or ignored disks "
 "for a multipath or firmware RAID device."
 msgstr ""
+"Tutti i dispositivi principali devono essere selezionati quando si scelgono "
+"dischi esclusivi o ignorati per un dispositivo RAID multipercorso o firmware."
 
 #: ../blivet/fcoe.py:122
 msgid "FCoE not available"
@@ -196,10 +202,9 @@ msgid "requested size exceeds maximum allowed"
 msgstr "la dimensione richiesta eccede il massimo consentito"
 
 #: ../blivet/partitioning.py:475
-#, fuzzy, python-format
-#| msgid "failed to allocate aligned partition"
+#, python-format
 msgid "failed to add partition to disk: %s"
-msgstr "impossibile allocare la partizione allineata"
+msgstr "impossibile aggiungere la partizione al disco: %s"
 
 #: ../blivet/partitioning.py:586
 #, python-format
@@ -363,17 +368,14 @@ msgstr ""
 #: ../blivet/zfcp.py:418
 #, python-format
 msgid "zFCP device %s cannot use auto LUN scan."
-msgstr ""
+msgstr "Il dispositivo zFCP %s non può utilizzare la scansione LUN automatica."
 
 #: ../blivet/zfcp.py:432
-#, fuzzy, python-format
-#| msgid ""
-#| "Could not correctly delete SCSI device of zFCP %(devnum)s %(wwpn)s "
-#| "%(fcplun)s (%(e)s)."
+#, python-format
 msgid "Could not correctly delete SCSI device of zFCP %(zfcpdev)s (%(e)s)."
 msgstr ""
-"Impossibile cancellare correttamente il dispositivo SCSI di zFCP %(devnum)s "
-"%(wwpn)s %(fcplun)s (%(e)s)."
+"Impossibile eliminare correttamente il dispositivo SCSI di zFCP %(zfcpdev)s "
+"(%(e)s)."
 
 #: ../blivet/devicelibs/lvm.py:68
 msgid "Generic"
@@ -474,7 +476,5 @@ msgid "PPC PReP Boot"
 msgstr "PPC PReP Boot"
 
 #: ../blivet/formats/stratis.py:40
-#, fuzzy
-#| msgid "create device"
 msgid "Stratis block device"
-msgstr "crea dispositivo"
+msgstr "Dispositivo a blocchi Stratis"

@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
-"PO-Revision-Date: 2023-12-07 07:44+0000\n"
+"PO-Revision-Date: 2024-07-24 05:38+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-rhel9/he/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 5.2.1\n"
+"X-Generator: Weblate 5.6.2\n"
 
 #: ../blivet/errors.py:210
 msgid ""
@@ -258,7 +258,7 @@ msgstr "נוצר ‎%(type)s על ‎%(device)s"
 #: ../blivet/deviceaction.py:640
 #, python-format
 msgid "Not enough entropy to create LUKS format. %d bits are needed."
-msgstr ""
+msgstr "אין מספיק אנטרופיה לייצור פרמוט LUKS. צריך %d סיביות."
 
 #: ../blivet/deviceaction.py:670
 #, python-format
@@ -285,19 +285,19 @@ msgstr "גודל מערכת הקבצים של %(device)s השתנה"
 
 #: ../blivet/deviceaction.py:923
 msgid "add container member"
-msgstr ""
+msgstr "הוספת חבר במכל"
 
 #: ../blivet/deviceaction.py:988
 msgid "remove container member"
-msgstr ""
+msgstr "הסרת חבר מהמכל"
 
 #: ../blivet/deviceaction.py:1058
 msgid "configure format"
-msgstr ""
+msgstr "הגדרת פרמוט"
 
 #: ../blivet/deviceaction.py:1114
 msgid "configure device"
-msgstr ""
+msgstr "הגדרת התקן"
 
 #: ../blivet/devices/raid.py:58
 #, python-format

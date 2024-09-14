@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-09 13:31+0100\n"
-"PO-Revision-Date: 2024-08-23 10:38+0000\n"
+"PO-Revision-Date: 2024-09-14 18:52+0000\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <https://translate.fedoraproject.org/projects/"
 "blivet/blivet-master/sl/>\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
 "n%100==4 ? 2 : 3;\n"
-"X-Generator: Weblate 5.7\n"
+"X-Generator: Weblate 5.7.2\n"
 
 #: ../blivet/deviceaction.py:197
 #, python-format
@@ -97,7 +97,7 @@ msgstr ""
 
 #: ../blivet/deviceaction.py:1153
 msgid "configure device"
-msgstr ""
+msgstr "prilagodi napravo"
 
 #: ../blivet/errors.py:223
 msgid ""

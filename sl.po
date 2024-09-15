@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-09 13:31+0100\n"
-"PO-Revision-Date: 2024-09-14 18:52+0000\n"
+"PO-Revision-Date: 2024-09-15 12:22+0000\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <https://translate.fedoraproject.org/projects/"
 "blivet/blivet-master/sl/>\n"
@@ -147,7 +147,7 @@ msgstr ""
 
 #: ../blivet/iscsi.py:412
 msgid "iSCSI not available"
-msgstr ""
+msgstr "iSCSI ni na voljo"
 
 #: ../blivet/iscsi.py:414
 msgid "No initiator name set"
@@ -163,7 +163,7 @@ msgstr ""
 
 #: ../blivet/iscsi.py:555
 msgid "Could not log in to any of the discovered nodes"
-msgstr ""
+msgstr "Prijava v nobenega od odkritih vozlišč ni uspela"
 
 #: ../blivet/partitioning.py:455
 msgid "unable to allocate aligned partition"
@@ -171,7 +171,7 @@ msgstr ""
 
 #: ../blivet/partitioning.py:463
 msgid "requested size exceeds maximum allowed"
-msgstr ""
+msgstr "zahtevana velikost presega največjo dovoljeno vrednost"
 
 #: ../blivet/partitioning.py:475
 #, python-format
@@ -331,7 +331,7 @@ msgstr ""
 
 #: ../blivet/devicelibs/lvm.py:69
 msgid "Performance"
-msgstr ""
+msgstr "Hitrost delovanja"
 
 #: ../blivet/devices/raid.py:58
 #, python-format
@@ -352,7 +352,7 @@ msgstr ""
 #: ../blivet/devices/raid.py:104
 #, python-format
 msgid "Cannot remove a member from existing %s array"
-msgstr ""
+msgstr "Člana ni možno odstraniti iz obstoječega polja %s"
 
 #: ../blivet/formats/biosboot.py:35
 msgid "BIOS Boot"
@@ -366,15 +366,15 @@ msgstr ""
 #: ../blivet/formats/disklabel.py:326
 #, python-format
 msgid "Unsupported %(name)s"
-msgstr ""
+msgstr "Nepodprto: %(name)s"
 
 #: ../blivet/formats/dmraid.py:36
 msgid "dm-raid member device"
-msgstr ""
+msgstr "Članska naprava dm-raid"
 
 #: ../blivet/formats/fs.py:941
 msgid "EFI System Partition"
-msgstr ""
+msgstr "Sistemski razdelek EFI"
 
 #: ../blivet/formats/fs.py:1189
 msgid "Apple Bootstrap"
@@ -382,31 +382,31 @@ msgstr ""
 
 #: ../blivet/formats/fs.py:1225
 msgid "Linux HFS+ ESP"
-msgstr ""
+msgstr "Linux HFS+ ESP"
 
 #: ../blivet/formats/__init__.py:148
 msgid "Unknown"
-msgstr ""
+msgstr "Neznano"
 
 #: ../blivet/formats/luks.py:60
 msgid "LUKS"
-msgstr ""
+msgstr "LUKS"
 
 #: ../blivet/formats/luks.py:61
 msgid "Encrypted"
-msgstr ""
+msgstr "Šifrirano"
 
 #: ../blivet/formats/luks.py:405
 msgid "DM Integrity"
-msgstr ""
+msgstr "Integriteta DM"
 
 #: ../blivet/formats/lvmpv.py:49
 msgid "physical volume (LVM)"
-msgstr ""
+msgstr "fizični nosilec (LVM)"
 
 #: ../blivet/formats/mdraid.py:42
 msgid "software RAID"
-msgstr ""
+msgstr "programski RAID"
 
 #: ../blivet/formats/multipath.py:40
 msgid "multipath member device"
@@ -418,4 +418,4 @@ msgstr ""
 
 #: ../blivet/formats/stratis.py:40
 msgid "Stratis block device"
-msgstr ""
+msgstr "Bločna naprava Stratis"

@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-09 13:31+0100\n"
-"PO-Revision-Date: 2025-01-23 21:47+0000\n"
+"PO-Revision-Date: 2025-01-24 15:06+0000\n"
 "Last-Translator: Abdullah Albaroty <albaroty@gmail.com>\n"
 "Language-Team: Arabic <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-master/ar/>\n"
@@ -57,7 +57,7 @@ msgstr "انشئ تنسيقًا"
 #: ../blivet/deviceaction.py:624
 #, python-format
 msgid "Creating %(type)s on %(device)s"
-msgstr "أُنشئ %(type)s على %(device)s"
+msgstr "انشئ %(type)s على %(device)s"
 
 #: ../blivet/deviceaction.py:662
 #, python-format
@@ -67,25 +67,25 @@ msgstr ""
 #: ../blivet/deviceaction.py:692
 #, python-format
 msgid "Created %(type)s on %(device)s"
-msgstr ""
+msgstr "أُنشئ %(type)s على %(device)s"
 
 #: ../blivet/deviceaction.py:741
 msgid "destroy format"
-msgstr ""
+msgstr "دمِّر التنسيق"
 
 #: ../blivet/deviceaction.py:854
 msgid "resize format"
-msgstr ""
+msgstr "غير حجم التنسيق"
 
 #: ../blivet/deviceaction.py:893
 #, python-format
 msgid "Resizing filesystem on %(device)s"
-msgstr ""
+msgstr "غير حجم نظام الملفات على %(device)s"
 
 #: ../blivet/deviceaction.py:900
 #, python-format
 msgid "Resized filesystem on %(device)s"
-msgstr ""
+msgstr "غُير حجم نظام الملفات على %(device)s"
 
 #: ../blivet/deviceaction.py:947
 msgid "add container member"
@@ -97,11 +97,11 @@ msgstr ""
 
 #: ../blivet/deviceaction.py:1082
 msgid "configure format"
-msgstr ""
+msgstr "تكوين التهيئة"
 
 #: ../blivet/deviceaction.py:1153
 msgid "configure device"
-msgstr ""
+msgstr "تكوين الجهاز"
 
 #: ../blivet/errors.py:223
 msgid ""
@@ -109,6 +109,8 @@ msgid ""
 "of the UUID value which should be unique. In that case you can either "
 "disconnect one of the devices or reformat it."
 msgstr ""
+"يحدث هذا عادةً بسبب استنساخ صورة الجهاز مما يؤدي إلى تكرار قيمة UUID التي يجب "
+"أن تكون فريدة. في هذا الحال يمكنك إما فصل أحد الأجهزة أو إعادة تهيئته."
 
 #: ../blivet/errors.py:230
 msgid ""
@@ -331,11 +333,11 @@ msgstr ""
 
 #: ../blivet/devicelibs/lvm.py:68
 msgid "Generic"
-msgstr ""
+msgstr "عام"
 
 #: ../blivet/devicelibs/lvm.py:69
 msgid "Performance"
-msgstr ""
+msgstr "الأداء"
 
 #: ../blivet/devices/raid.py:58
 #, python-format
@@ -364,13 +366,13 @@ msgstr ""
 
 #: ../blivet/formats/disklabel.py:50
 msgid "partition table"
-msgstr ""
+msgstr "جدول التقسيم"
 
 #. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition table"
 #: ../blivet/formats/disklabel.py:326
 #, python-format
 msgid "Unsupported %(name)s"
-msgstr ""
+msgstr "%(name)s غير مدعوم"
 
 #: ../blivet/formats/dmraid.py:36
 msgid "dm-raid member device"
@@ -394,7 +396,7 @@ msgstr "غير معروف"
 
 #: ../blivet/formats/luks.py:60
 msgid "LUKS"
-msgstr ""
+msgstr "LUKS"
 
 #: ../blivet/formats/luks.py:61
 msgid "Encrypted"

@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-09 13:31+0100\n"
-"PO-Revision-Date: 2025-01-24 15:06+0000\n"
+"PO-Revision-Date: 2025-01-25 00:00+0000\n"
 "Last-Translator: Abdullah Albaroty <albaroty@gmail.com>\n"
 "Language-Team: Arabic <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-master/ar/>\n"
@@ -62,7 +62,7 @@ msgstr "انشئ %(type)s على %(device)s"
 #: ../blivet/deviceaction.py:662
 #, python-format
 msgid "Not enough entropy to create LUKS format. %d bits are needed."
-msgstr ""
+msgstr "لا يوجد إنتروبيا كافية لإنشاء تنسيق LUKS. هناك حاجة إلى %d بت."
 
 #: ../blivet/deviceaction.py:692
 #, python-format
@@ -89,11 +89,11 @@ msgstr "غُير حجم نظام الملفات على %(device)s"
 
 #: ../blivet/deviceaction.py:947
 msgid "add container member"
-msgstr ""
+msgstr "اضف عضو حاوية"
 
 #: ../blivet/deviceaction.py:1012
 msgid "remove container member"
-msgstr ""
+msgstr "احذف عضو حاوية"
 
 #: ../blivet/deviceaction.py:1082
 msgid "configure format"
@@ -125,6 +125,8 @@ msgid ""
 "completely.\n"
 "Hint: parted can restore it or wipefs can remove it."
 msgstr ""
+"إما أن تقوم باستعادة disklabel إلى حالة عمل كاملة أو إزالته بالكامل.\n"
+"تلميح: يمكن لـ parted استعادته أو يمكن لـ wipefs إزالته."
 
 #: ../blivet/errors.py:243
 msgid ""
@@ -132,6 +134,9 @@ msgid ""
 "Hint 1: vgrename accepts UUID in place of the old name.\n"
 "Hint 2: You can get the VG UUIDs by running 'pvs -o +vg_uuid'."
 msgstr ""
+"أعد تسمية قيمة وحدة أحد المجموعات بحيث تكون الأسماء مختلفة.\n"
+"تلميح 1: يقبل vgrename UUID بدلاً من الاسم القديم.\n"
+"التلميح 2: يمكنك الحصول على VG UUIDs عن طريق تشغيل 'pvs -o +vg_uid'."
 
 #: ../blivet/errors.py:251
 msgid ""
@@ -412,7 +417,7 @@ msgstr ""
 
 #: ../blivet/formats/mdraid.py:42
 msgid "software RAID"
-msgstr ""
+msgstr "برنامج RAID"
 
 #: ../blivet/formats/multipath.py:40
 msgid "multipath member device"

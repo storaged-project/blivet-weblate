@@ -12,15 +12,15 @@
 # Updated by Tomi Kajala <tomi@iki.fi>, 2000-2001
 # Ville-Pekka Vainio <vpivaini@cs.helsinki.fi>, 2011
 # Ville-Pekka Vainio <vpvainio@iki.fi>, 2011-2012
-# Ricky Tigg <ricky.tigg@gmail.com>, 2020.
+# Ricky Tigg <ricky.tigg@gmail.com>, 2020, 2025.
 # Jan Kuparinen <copper_fin@hotmail.com>, 2021, 2022.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-09 13:31+0100\n"
-"PO-Revision-Date: 2022-09-05 21:19+0000\n"
-"Last-Translator: Jan Kuparinen <copper_fin@hotmail.com>\n"
+"PO-Revision-Date: 2025-03-20 15:55+0000\n"
+"Last-Translator: Ricky Tigg <ricky.tigg@gmail.com>\n"
 "Language-Team: Finnish <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-master/fi/>\n"
 "Language: fi\n"
@@ -28,7 +28,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #: ../blivet/deviceaction.py:197
 #, python-format
@@ -266,7 +266,7 @@ msgstr "zFCP-laitetta %(devnum)s ei voitu asettaa online-tilaan (%(e)s)."
 #: ../blivet/zfcp.py:159
 #, python-format
 msgid "Could not set zFCP device %(devnum)s offline (%(e)s)."
-msgstr "zFCP-laitetta %(devnum)s ei voitu asettaa offline-tilaan (%(e)s)."
+msgstr "zFCP-laitetta %(devnum)s ei voitu asettaa ei-verkkotilassa (%(e)s)."
 
 #: ../blivet/zfcp.py:218
 msgid "You have not specified a worldwide port name or the name is invalid."

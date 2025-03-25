@@ -30,13 +30,14 @@
 # Lucas Fernandes <lucas.af88@gmail.com>, 2020.
 # Fernando Rodrigues <sigmasquadron@icloud.com>, 2022.
 # Felipe Nogueira <contato.fnog@gmail.com>, 2023.
+# Rafael Fontenelle <rafaelff@gnome.org>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-09 13:31+0100\n"
-"PO-Revision-Date: 2023-04-04 20:20+0000\n"
-"Last-Translator: Felipe Nogueira <contato.fnog@gmail.com>\n"
+"PO-Revision-Date: 2025-03-25 15:27+0000\n"
+"Last-Translator: Rafael Fontenelle <rafaelff@gnome.org>\n"
 "Language-Team: Portuguese (Brazil) <https://translate.fedoraproject.org/"
 "projects/blivet/blivet-master/pt_BR/>\n"
 "Language: pt_BR\n"
@@ -44,7 +45,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.15.2\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #: ../blivet/deviceaction.py:197
 #, python-format
@@ -86,7 +87,7 @@ msgstr "Criado %(type)s em %(device)s"
 
 #: ../blivet/deviceaction.py:741
 msgid "destroy format"
-msgstr "Destruir formato"
+msgstr "destruir formato"
 
 #: ../blivet/deviceaction.py:854
 msgid "resize format"
@@ -100,7 +101,7 @@ msgstr "Redimensionando o sistema de arquivos em %(device)s"
 #: ../blivet/deviceaction.py:900
 #, python-format
 msgid "Resized filesystem on %(device)s"
-msgstr "Redimensionando o sistema de arquivos em %(device)s"
+msgstr "Foi redimensionado o sistema de arquivos em %(device)s"
 
 #: ../blivet/deviceaction.py:947
 msgid "add container member"

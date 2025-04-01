@@ -31,8 +31,8 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
-"PO-Revision-Date: 2021-12-11 12:16+0000\n"
-"Last-Translator: Emilio Herrera <ehespinosa57@gmail.com>\n"
+"PO-Revision-Date: 2025-04-01 17:55+0000\n"
+"Last-Translator: Javier Francisco <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-rhel9/es/>\n"
 "Language: es\n"
@@ -40,7 +40,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #: ../blivet/errors.py:210
 msgid ""
@@ -98,14 +98,14 @@ msgstr "No ha especificado un nombre de puerto global o el nombre no es válido.
 
 #: ../blivet/zfcp.py:66
 msgid "You have not specified a FCP LUN or the number is invalid."
-msgstr "No ha especificado un FCP LUN o el número es inválido."
+msgstr "No ha especificado un FCP LUN o el número no es válido."
 
 #: ../blivet/zfcp.py:91
 #, python-format
 msgid "zFCP device %s not found, not even in device ignore list."
 msgstr ""
-"El dispositivo zFCP %s no fue encontrado, ni siquiera en la lista de "
-"dispositivos a ignorar."
+"No se encontró el dispositivo zFCP %s, ni siquiera en la lista de "
+"dispositivos que descartar."
 
 #: ../blivet/zfcp.py:101
 #, python-format
@@ -116,13 +116,13 @@ msgstr "No se pudo establecer al dispositivo zFCP %(devnum)s en línea (%(e)s)."
 #, python-format
 msgid "Could not add WWPN %(wwpn)s to zFCP device %(devnum)s (%(e)s)."
 msgstr ""
-"No se pudo agregar el WWPN %(wwpn)s al dispositivo zFCP %(devnum)s (%(e)s)."
+"No se pudo añadir el WWPN %(wwpn)s al dispositivo zFCP %(devnum)s (%(e)s)."
 
 #. newer zfcp sysfs interface with auto port scan
 #: ../blivet/zfcp.py:119
 #, python-format
 msgid "WWPN %(wwpn)s not found at zFCP device %(devnum)s."
-msgstr "El WWPN %(wwpn)s no fue encontrado en el dispositivo zFCP %(devnum)s."
+msgstr "No se encontró el WWPN %(wwpn)s en el dispositivo zFCP %(devnum)s."
 
 #: ../blivet/zfcp.py:134
 #, python-format
@@ -130,7 +130,7 @@ msgid ""
 "Could not add LUN %(fcplun)s to WWPN %(wwpn)s on zFCP device %(devnum)s "
 "(%(e)s)."
 msgstr ""
-"No se pudo agregar el LUN %(fcplun)s al WWPN %(wwpn)s en el dispositivo zFCP "
+"No se pudo añadir el LUN %(fcplun)s al WWPN %(wwpn)s en el dispositivo zFCP "
 "%(devnum)s (%(e)s)."
 
 #: ../blivet/zfcp.py:140
@@ -384,7 +384,7 @@ msgstr "No puede eliminar un miembro de un conjunto %s existente"
 
 #: ../blivet/formats/fs.py:932
 msgid "EFI System Partition"
-msgstr "Partición de Sistema EFI"
+msgstr "Partición de sistema EFI"
 
 #: ../blivet/formats/fs.py:1137
 msgid "Apple Bootstrap"

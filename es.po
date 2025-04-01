@@ -28,13 +28,14 @@
 # Máximo Castañeda Riloba <mcrcctm@gmail.com>, 2018. #zanata
 # Adolfo Jayme Barrientos <fitoschido@gmail.com>, 2020.
 # Emilio Herrera <ehespinosa57@gmail.com>, 2021.
+# Javier Francisco <fserrador@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-09 13:31+0100\n"
-"PO-Revision-Date: 2021-12-11 12:16+0000\n"
-"Last-Translator: Emilio Herrera <ehespinosa57@gmail.com>\n"
+"PO-Revision-Date: 2025-04-01 17:55+0000\n"
+"Last-Translator: Javier Francisco <fserrador@gmail.com>\n"
 "Language-Team: Spanish <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-master/es/>\n"
 "Language: es\n"
@@ -42,7 +43,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.9.1\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #: ../blivet/deviceaction.py:197
 #, python-format
@@ -278,7 +279,7 @@ msgstr "No ha especificado un número de dispositivo o el número no es válido"
 msgid "zFCP device %s not found, not even in device ignore list."
 msgstr ""
 "No se encontró el dispositivo zFCP %s, ni siquiera en la lista de "
-"dispositivos que ignorar."
+"dispositivos que descartar."
 
 #: ../blivet/zfcp.py:146
 #, python-format
@@ -374,17 +375,14 @@ msgstr ""
 #: ../blivet/zfcp.py:418
 #, python-format
 msgid "zFCP device %s cannot use auto LUN scan."
-msgstr ""
+msgstr "zFCP de dispositivo %s no se puede utilizar por análisis auto de LUN."
 
 #: ../blivet/zfcp.py:432
-#, fuzzy, python-format
-#| msgid ""
-#| "Could not correctly delete SCSI device of zFCP %(devnum)s %(wwpn)s "
-#| "%(fcplun)s (%(e)s)."
+#, python-format
 msgid "Could not correctly delete SCSI device of zFCP %(zfcpdev)s (%(e)s)."
 msgstr ""
-"No se pudo eliminar el dispositivo SCSI del zFCP %(devnum)s %(wwpn)s "
-"%(fcplun)s (%(e)s)."
+"No se pudo eliminar correctamente el dispositivo SCSI del zFCP %(zfcpdev)s "
+"(%(e)s)."
 
 #: ../blivet/devicelibs/lvm.py:68
 msgid "Generic"
@@ -484,7 +482,5 @@ msgid "PPC PReP Boot"
 msgstr "Arranque PPC PReP"
 
 #: ../blivet/formats/stratis.py:40
-#, fuzzy
-#| msgid "create device"
 msgid "Stratis block device"
-msgstr "crear dispositivo"
+msgstr "Dispositivo de bloque Stratis"

@@ -22,23 +22,24 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
-"PO-Revision-Date: 2018-11-20 01:35+0000\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/blivet/"
-"language/zh_TW/)\n"
+"PO-Revision-Date: 2025-04-29 01:53+0000\n"
+"Last-Translator: hsu zangmen <chzang55@gmail.com>\n"
+"Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
+"projects/blivet/blivet-rhel9/zh_TW/>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Zanata 4.6.2\n"
+"X-Generator: Weblate 5.11\n"
 
 #: ../blivet/errors.py:210
 msgid ""
 "This is usually caused by cloning the device image resulting in duplication "
 "of the UUID value which should be unique. In that case you can either "
 "disconnect one of the devices or reformat it."
-msgstr ""
+msgstr "這通常是因為複製裝置映像導致 UUID 值重複，而 UUID "
+"值應該是唯一的。在這種情況下，您可以中斷其中一個裝置的連接或重新格式化。"
 
 #: ../blivet/errors.py:217
 msgid ""
@@ -46,8 +47,9 @@ msgid ""
 "kernel is reporting partitions on. It is unclear what the exact problem is. "
 "Please file a bug at http://bugzilla.redhat.com"
 msgstr ""
-"因為某些原因，我們無法在 kernel 所回報的分割區所屬的磁碟上，找到磁碟標籤。確"
-"切的問題未知。請透過 http://bugzilla.redhat.com 回報 bug。"
+"因為某些原因，我們無法在 kernel "
+"所回報的分割區所屬的磁碟上，找到磁碟標籤。確切的問題未知。請透過 http://"
+"bugzilla.redhat.com 回報 bug"
 
 #: ../blivet/errors.py:224
 msgid ""
@@ -74,7 +76,7 @@ msgstr "FCoE 無法使用"
 
 #: ../blivet/zfcp.py:62
 msgid "You have not specified a device number or the number is invalid"
-msgstr "您尚未指定裝置號碼，或該號碼不正確。"
+msgstr "您尚未指定裝置號碼，或該號碼不正確"
 
 #: ../blivet/zfcp.py:64
 msgid "You have not specified a worldwide port name or the name is invalid."
@@ -82,7 +84,7 @@ msgstr "您尚未指定 worldwide 連接埠名稱，或該名稱無效。"
 
 #: ../blivet/zfcp.py:66
 msgid "You have not specified a FCP LUN or the number is invalid."
-msgstr "您尚未指定 FCP LUN，或該號碼無效"
+msgstr "您尚未指定 FCP LUN，或該號碼無效。"
 
 #: ../blivet/zfcp.py:91
 #, python-format

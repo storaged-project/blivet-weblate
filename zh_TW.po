@@ -17,21 +17,22 @@
 # Walter Cheuk <wwycheuk@netvigator.com>, 2005
 # Ding-Yi Chen <dingyichen@gmail.com>, 2016. #zanata
 # Ludek Janda <ljanda@redhat.com>, 2018. #zanata
+# hsu zangmen <chzang55@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-09 13:31+0100\n"
-"PO-Revision-Date: 2018-11-20 01:35+0000\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Chinese (Taiwan) (http://www.transifex.com/projects/p/blivet/"
-"language/zh_TW/)\n"
+"PO-Revision-Date: 2025-04-29 01:53+0000\n"
+"Last-Translator: hsu zangmen <chzang55@gmail.com>\n"
+"Language-Team: Chinese (Traditional) <https://translate.fedoraproject.org/"
+"projects/blivet/blivet-master/zh_TW/>\n"
 "Language: zh_TW\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Zanata 4.6.2\n"
+"X-Generator: Weblate 5.11\n"
 
 #: ../blivet/deviceaction.py:197
 #, python-format
@@ -108,7 +109,8 @@ msgid ""
 "This is usually caused by cloning the device image resulting in duplication "
 "of the UUID value which should be unique. In that case you can either "
 "disconnect one of the devices or reformat it."
-msgstr ""
+msgstr "這通常是因為複製裝置映像導致 UUID 值重複，而 UUID "
+"值應該是唯一的。在這種情況下，您可以中斷其中一個裝置的連接或重新格式化。"
 
 #: ../blivet/errors.py:230
 msgid ""
@@ -116,8 +118,9 @@ msgid ""
 "kernel is reporting partitions on. It is unclear what the exact problem is. "
 "Please file a bug at http://bugzilla.redhat.com"
 msgstr ""
-"因為某些原因，我們無法在 kernel 所回報的分割區所屬的磁碟上，找到磁碟標籤。確"
-"切的問題未知。請透過 http://bugzilla.redhat.com 回報 bug。"
+"因為某些原因，我們無法在 kernel "
+"所回報的分割區所屬的磁碟上，找到磁碟標籤。確切的問題未知。請透過 http://"
+"bugzilla.redhat.com 回報 bug"
 
 #: ../blivet/errors.py:237
 msgid ""
@@ -142,7 +145,7 @@ msgstr ""
 msgid ""
 "All parent devices must be selected when choosing exclusive or ignored disks "
 "for a multipath or firmware RAID device."
-msgstr ""
+msgstr "為多重路徑或韌體 RAID 裝置選擇獨占或忽略磁碟時，必須選擇所有父裝置。"
 
 #: ../blivet/fcoe.py:122
 msgid "FCoE not available"
@@ -185,10 +188,9 @@ msgid "requested size exceeds maximum allowed"
 msgstr "請求的大小超過最大許可值"
 
 #: ../blivet/partitioning.py:475
-#, fuzzy, python-format
-#| msgid "failed to allocate aligned partition"
+#, python-format
 msgid "failed to add partition to disk: %s"
-msgstr "無法分配對齊的分區"
+msgstr "未能將磁碟分割新增至磁碟: %s"
 
 #: ../blivet/partitioning.py:586
 #, python-format
@@ -248,7 +250,7 @@ msgstr "無法滿足 LVM 所請求的空間"
 
 #: ../blivet/zfcp.py:106
 msgid "You have not specified a device number or the number is invalid"
-msgstr "您尚未指定裝置號碼，或該號碼不正確。"
+msgstr "您尚未指定裝置號碼，或該號碼不正確"
 
 #: ../blivet/zfcp.py:131
 #, python-format
@@ -271,7 +273,7 @@ msgstr "您尚未指定 worldwide 連接埠名稱，或該名稱無效。"
 
 #: ../blivet/zfcp.py:222
 msgid "You have not specified a FCP LUN or the number is invalid."
-msgstr "您尚未指定 FCP LUN，或該號碼無效"
+msgstr "您尚未指定 FCP LUN，或該號碼無效。"
 
 #: ../blivet/zfcp.py:268
 #, python-format
@@ -341,16 +343,12 @@ msgstr "無法移除 zFCP 裝置 %(devnum)s 上的 WWPN %(wwpn)s (%(e)s)。"
 #: ../blivet/zfcp.py:418
 #, python-format
 msgid "zFCP device %s cannot use auto LUN scan."
-msgstr ""
+msgstr "zFCP 裝置 %s 無法使用自動 LUN 掃描。"
 
 #: ../blivet/zfcp.py:432
-#, fuzzy, python-format
-#| msgid ""
-#| "Could not correctly delete SCSI device of zFCP %(devnum)s %(wwpn)s "
-#| "%(fcplun)s (%(e)s)."
+#, python-format
 msgid "Could not correctly delete SCSI device of zFCP %(zfcpdev)s (%(e)s)."
-msgstr ""
-"無法正確刪除 zFCP %(devnum)s %(wwpn)s %(fcplun)s 的 SCSI 裝置 (%(e)s)。"
+msgstr "無法正確刪除 zFCP %(zfcpdev)s (%(e)s) 的 SCSI 裝置。"
 
 #: ../blivet/devicelibs/lvm.py:68
 msgid "Generic"
@@ -444,7 +442,5 @@ msgid "PPC PReP Boot"
 msgstr "PPC PReP 開機區"
 
 #: ../blivet/formats/stratis.py:40
-#, fuzzy
-#| msgid "create device"
 msgid "Stratis block device"
-msgstr "建立裝置"
+msgstr "Stratis 區塊裝置"

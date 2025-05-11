@@ -14,13 +14,14 @@
 # Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2016. #zanata
 # Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>, 2018. #zanata
 # Julen Sansó <julensanso@gmail.com>, 2023.
+# naly zzwd <xeanhort007@gmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-09 13:31+0100\n"
-"PO-Revision-Date: 2023-12-02 08:44+0000\n"
-"Last-Translator: Julen Sansó <julensanso@gmail.com>\n"
+"PO-Revision-Date: 2025-05-11 18:42+0000\n"
+"Last-Translator: naly zzwd <xeanhort007@gmail.com>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-master/ca/>\n"
 "Language: ca\n"
@@ -28,7 +29,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.2.1\n"
+"X-Generator: Weblate 5.11.3\n"
 
 #: ../blivet/deviceaction.py:197
 #, python-format
@@ -143,10 +144,13 @@ msgstr ""
 "'pvs -o +vg_uuid'."
 
 #: ../blivet/errors.py:251
+#, fuzzy
 msgid ""
 "All parent devices must be selected when choosing exclusive or ignored disks "
 "for a multipath or firmware RAID device."
 msgstr ""
+"Cal seleccionar tots els dispositius pare quan es trien discs exclusius o "
+"ignorats per a un dispositiu RAID de ruta múltiple o de firmware."
 
 #: ../blivet/fcoe.py:122
 msgid "FCoE not available"
@@ -189,10 +193,9 @@ msgid "requested size exceeds maximum allowed"
 msgstr "la mida sol·licitada supera la màxima permesa"
 
 #: ../blivet/partitioning.py:475
-#, fuzzy, python-format
-#| msgid "failed to allocate aligned partition"
+#, python-format
 msgid "failed to add partition to disk: %s"
-msgstr "ha fallat l'assignació de la partició alineada"
+msgstr "no s'ha pogut afegir la partició al disc: %s"
 
 #: ../blivet/partitioning.py:586
 #, python-format
@@ -355,17 +358,14 @@ msgstr ""
 #: ../blivet/zfcp.py:418
 #, python-format
 msgid "zFCP device %s cannot use auto LUN scan."
-msgstr ""
+msgstr "El dispositiu zFCP %s no pot utilitzar l'escaneig automàtic LUN."
 
 #: ../blivet/zfcp.py:432
-#, fuzzy, python-format
-#| msgid ""
-#| "Could not correctly delete SCSI device of zFCP %(devnum)s %(wwpn)s "
-#| "%(fcplun)s (%(e)s)."
+#, python-format
 msgid "Could not correctly delete SCSI device of zFCP %(zfcpdev)s (%(e)s)."
 msgstr ""
-"No es pot eliminar de forma correcta el dispositiu SCSI del zFCP %(devnum)s "
-"%(wwpn)s %(fcplun)s (%(e)s)."
+"No es pot eliminar de forma correcta el dispositiu SCSI del zFCP %(zfcpdev)s "
+"(%(e)s)."
 
 #: ../blivet/devicelibs/lvm.py:68
 msgid "Generic"
@@ -466,7 +466,5 @@ msgid "PPC PReP Boot"
 msgstr "Arrencada PReP PPC"
 
 #: ../blivet/formats/stratis.py:40
-#, fuzzy
-#| msgid "create device"
 msgid "Stratis block device"
-msgstr "crea dispositiu"
+msgstr "dispositiu de bloc Stratis"

@@ -18,16 +18,16 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
-"PO-Revision-Date: 2015-01-05 05:24+0000\n"
-"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
-"Language-Team: Greek (http://www.transifex.com/projects/p/blivet/language/"
-"el/)\n"
+"PO-Revision-Date: 2025-06-22 10:42+0000\n"
+"Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
+"Language-Team: Greek <https://translate.fedoraproject.org/projects/blivet/"
+"blivet-rhel9/el/>\n"
 "Language: el\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #: ../blivet/errors.py:210
 msgid ""
@@ -59,7 +59,7 @@ msgstr ""
 
 #: ../blivet/fcoe.py:121
 msgid "FCoE not available"
-msgstr ""
+msgstr "Το FCoE δεν είναι διαθέσιμο"
 
 #: ../blivet/zfcp.py:62
 msgid "You have not specified a device number or the number is invalid"
@@ -242,19 +242,19 @@ msgstr ""
 
 #: ../blivet/deviceaction.py:322
 msgid "create device"
-msgstr ""
+msgstr "δημιουργία συσκευής"
 
 #: ../blivet/deviceaction.py:381
 msgid "destroy device"
-msgstr ""
+msgstr "καταστροφή συσκευής"
 
 #: ../blivet/deviceaction.py:484
 msgid "resize device"
-msgstr ""
+msgstr "αλλαγή μεγέθους συσκευής"
 
 #: ../blivet/deviceaction.py:573
 msgid "create format"
-msgstr ""
+msgstr "δημιουργία μορφής"
 
 #: ../blivet/deviceaction.py:613
 #, python-format

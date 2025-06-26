@@ -9,7 +9,7 @@
 # Daniela Kugelmann <dkugelma@redhat.com >, 2008
 # Dimitris Glezos <glezos@indifex.com>, 2011
 # Dominik Sandjaja <dominiksandjaja@fedoraproject.org>, 2008-2009
-# Ettore Atalan <atalanttore@googlemail.com>, 2014, 2022.
+# Ettore Atalan <atalanttore@googlemail.com>, 2014, 2022, 2025.
 # Fabian Affolter <fab@fedoraproject.org>, 2007,2011
 # Gerd Koenig <koenig.ulm@googlemail.com>, 2011
 # hpeters <hpeters@redhat.com>, 2009
@@ -36,7 +36,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-09 13:31+0100\n"
-"PO-Revision-Date: 2022-12-06 08:19+0000\n"
+"PO-Revision-Date: 2025-06-26 02:53+0000\n"
 "Last-Translator: Ettore Atalan <atalanttore@googlemail.com>\n"
 "Language-Team: German <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-master/de/>\n"
@@ -45,7 +45,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14.2\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #: ../blivet/deviceaction.py:197
 #, python-format
@@ -166,6 +166,9 @@ msgid ""
 "All parent devices must be selected when choosing exclusive or ignored disks "
 "for a multipath or firmware RAID device."
 msgstr ""
+"Alle übergeordneten Geräte müssen ausgewählt werden, wenn exklusive oder "
+"ignorierte Festplatten für ein Mehrweg- oder Firmware-RAID-Gerät ausgewählt "
+"werden."
 
 #: ../blivet/fcoe.py:122
 msgid "FCoE not available"

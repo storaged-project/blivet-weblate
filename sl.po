@@ -11,13 +11,13 @@
 # Jure Repinc <jlp@holodeck1.com>, 2005
 # Rok Papez <rok.papez@lugos.si>, 2004,2006-2007
 # Roman Maurer <roman@lugos.si>, 2002-2003
-# Martin Srebotnjak <miles@filmsi.net>, 2024.
+# Martin Srebotnjak <miles@filmsi.net>, 2024, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-09 13:31+0100\n"
-"PO-Revision-Date: 2024-09-22 11:36+0000\n"
+"PO-Revision-Date: 2025-07-24 23:31+0000\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <https://translate.fedoraproject.org/projects/"
 "blivet/blivet-master/sl/>\n"
@@ -27,7 +27,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
 "n%100==4 ? 2 : 3;\n"
-"X-Generator: Weblate 5.7.2\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #: ../blivet/deviceaction.py:197
 #, python-format
@@ -251,7 +251,7 @@ msgstr "ni dovolj prostora za zahteve LVM"
 
 #: ../blivet/zfcp.py:106
 msgid "You have not specified a device number or the number is invalid"
-msgstr "Številke naprave niste podali ali pa je neveljavna."
+msgstr "Številke naprave niste podali ali pa je neveljavna"
 
 #: ../blivet/zfcp.py:131
 #, python-format

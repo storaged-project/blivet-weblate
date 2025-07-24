@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
-"PO-Revision-Date: 2024-09-22 11:36+0000\n"
+"PO-Revision-Date: 2025-07-24 23:31+0000\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <https://translate.fedoraproject.org/projects/"
 "blivet/blivet-rhel9/sl/>\n"
@@ -26,7 +26,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
 "n%100==4 ? 2 : 3;\n"
-"X-Generator: Weblate 5.7.2\n"
+"X-Generator: Weblate 5.12.2\n"
 
 #: ../blivet/errors.py:210
 msgid ""
@@ -74,7 +74,7 @@ msgstr "FCoE ni na voljo"
 
 #: ../blivet/zfcp.py:62
 msgid "You have not specified a device number or the number is invalid"
-msgstr "Številke naprave niste podali ali pa je neveljavna."
+msgstr "Številke naprave niste podali ali pa je neveljavna"
 
 #: ../blivet/zfcp.py:64
 msgid "You have not specified a worldwide port name or the name is invalid."

@@ -11,21 +11,22 @@
 # Martin Willemoes Hansen <mwh@sysrq.dk>, 2004
 # scootergrisen <scootergrisen@gmail.com>, 2018. #zanata
 # scootergrisen <scootergrisen@gmail.com>, 2019. #zanata
+# Danni Lundgren <fedoraproject.footsie399@passmail.com>, 2025.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-09 13:31+0100\n"
-"PO-Revision-Date: 2019-08-28 03:00+0000\n"
-"Last-Translator: scootergrisen <scootergrisen@gmail.com>\n"
-"Language-Team: Danish (http://www.transifex.com/projects/p/blivet/language/"
-"da/)\n"
+"PO-Revision-Date: 2025-08-24 11:53+0000\n"
+"Last-Translator: Danni Lundgren <fedoraproject.footsie399@passmail.com>\n"
+"Language-Team: Danish <https://translate.fedoraproject.org/projects/blivet/"
+"blivet-master/da/>\n"
 "Language: da\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.13\n"
 
 #: ../blivet/deviceaction.py:197
 #, python-format
@@ -142,6 +143,8 @@ msgid ""
 "All parent devices must be selected when choosing exclusive or ignored disks "
 "for a multipath or firmware RAID device."
 msgstr ""
+"Alle overordnede enheder skal vælges når man vælger eksklusive eller "
+"ignorerede diske til en multipath eller firmware RAID-enhed."
 
 #: ../blivet/fcoe.py:122
 msgid "FCoE not available"
@@ -185,10 +188,9 @@ msgid "requested size exceeds maximum allowed"
 msgstr "den anmodede størrelse overskred den højeste tilladte"
 
 #: ../blivet/partitioning.py:475
-#, fuzzy, python-format
-#| msgid "failed to allocate aligned partition"
+#, python-format
 msgid "failed to add partition to disk: %s"
-msgstr "allokering af justeret partition mislykkedes"
+msgstr "tilføjelse af partition til disk mislykkedes: %s"
 
 #: ../blivet/partitioning.py:586
 #, python-format
@@ -346,17 +348,12 @@ msgstr "Kunne ikke fjerne WWPN %(wwpn)s på zFCP-enhed %(devnum)s (%(e)s)."
 #: ../blivet/zfcp.py:418
 #, python-format
 msgid "zFCP device %s cannot use auto LUN scan."
-msgstr ""
+msgstr "zFCP-enhed %s kan ikke bruge automatisk LUN-scanning."
 
 #: ../blivet/zfcp.py:432
-#, fuzzy, python-format
-#| msgid ""
-#| "Could not correctly delete SCSI device of zFCP %(devnum)s %(wwpn)s "
-#| "%(fcplun)s (%(e)s)."
+#, python-format
 msgid "Could not correctly delete SCSI device of zFCP %(zfcpdev)s (%(e)s)."
-msgstr ""
-"Kunne ikke korrekt slette SCSI-enhed af zFCP %(devnum)s %(wwpn)s %(fcplun)s "
-"(%(e)s)."
+msgstr "Kunne ikke slette SCSI-enhed korrekt fra zFCP %(zfcpdev)s (%(e)s)."
 
 #: ../blivet/devicelibs/lvm.py:68
 msgid "Generic"
@@ -456,7 +453,5 @@ msgid "PPC PReP Boot"
 msgstr "PPC PReP-opstart"
 
 #: ../blivet/formats/stratis.py:40
-#, fuzzy
-#| msgid "create device"
 msgid "Stratis block device"
-msgstr "opret enhed"
+msgstr "Stratis-blokenhed"

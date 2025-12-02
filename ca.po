@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-09 13:31+0100\n"
-"PO-Revision-Date: 2025-05-11 18:42+0000\n"
+"PO-Revision-Date: 2025-12-02 07:58+0000\n"
 "Last-Translator: naly zzwd <xeanhort007@gmail.com>\n"
 "Language-Team: Catalan <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-master/ca/>\n"
@@ -29,7 +29,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.11.3\n"
+"X-Generator: Weblate 5.14.3\n"
 
 #: ../blivet/deviceaction.py:197
 #, python-format
@@ -108,9 +108,9 @@ msgid ""
 "of the UUID value which should be unique. In that case you can either "
 "disconnect one of the devices or reformat it."
 msgstr ""
-"Això a vegades provoca la clonació de la imatge del dispositiu, el qual "
-"duplica el valor UUID, que ha de ser únic. En aquest cas, es pot "
-"desconnectar un dels dispositius o reformatar."
+"Això normalment es deu a la clonació de la imatge del dispositiu, cosa que "
+"provoca la duplicació del valor UUID, que hauria de ser únic. En aquest cas, "
+"podeu desconnectar un dels dispositius o reformatar-lo."
 
 #: ../blivet/errors.py:230
 msgid ""
@@ -144,13 +144,12 @@ msgstr ""
 "'pvs -o +vg_uuid'."
 
 #: ../blivet/errors.py:251
-#, fuzzy
 msgid ""
 "All parent devices must be selected when choosing exclusive or ignored disks "
 "for a multipath or firmware RAID device."
 msgstr ""
-"Cal seleccionar tots els dispositius pare quan es trien discs exclusius o "
-"ignorats per a un dispositiu RAID de ruta múltiple o de firmware."
+"Cal seleccionar tots els dispositius principals quan es trien discs "
+"exclusius o ignorats per a un dispositiu RAID de ruta múltiple o de firmware."
 
 #: ../blivet/fcoe.py:122
 msgid "FCoE not available"
@@ -182,7 +181,7 @@ msgstr "No s'han trobat nous nodes iSCSI"
 
 #: ../blivet/iscsi.py:555
 msgid "Could not log in to any of the discovered nodes"
-msgstr "No s'ha pogut iniciar la sessió en cap dels nodes descoberts."
+msgstr "No s'ha pogut iniciar la sessió en cap dels nodes descoberts"
 
 #: ../blivet/partitioning.py:455
 msgid "unable to allocate aligned partition"
@@ -226,7 +225,7 @@ msgstr "no es pot ubicar l'esquema de particions sol·licitat."
 
 #: ../blivet/partitioning.py:1006
 msgid "not enough free space after creating extended partition"
-msgstr "no hi ha prou espai lliure després de crear la partició estesa."
+msgstr "no hi ha prou espai lliure després de crear la partició estesa"
 
 #: ../blivet/partitioning.py:1013
 msgid "failed to allocate aligned partition"
@@ -256,7 +255,7 @@ msgstr "no hi ha prou espai per a les sol·licituds LVM"
 
 #: ../blivet/zfcp.py:106
 msgid "You have not specified a device number or the number is invalid"
-msgstr "No heu indicat el número del dispositiu, o aquest no és vàlid."
+msgstr "No heu indicat el número del dispositiu, o aquest no és vàlid"
 
 #: ../blivet/zfcp.py:131
 #, python-format

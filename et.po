@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
-"PO-Revision-Date: 2025-12-26 17:19+0000\n"
+"PO-Revision-Date: 2026-01-02 20:58+0000\n"
 "Last-Translator: Priit Jõerüüt "
 "<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Estonian <https://translate.fedoraproject.org/projects/blivet/"
@@ -80,7 +80,7 @@ msgstr "zFCP-seadet %s ei leidu, seda isegi mitte seadmete eiramise loendis."
 #: ../blivet/zfcp.py:101
 #, python-format
 msgid "Could not set zFCP device %(devnum)s online (%(e)s)."
-msgstr ""
+msgstr "zFCP seadet „%(devnum)s“ ei õnnestunud lülitada sidusrežiimi (%(e)s)."
 
 #: ../blivet/zfcp.py:112
 #, python-format
@@ -142,7 +142,7 @@ msgstr ""
 #: ../blivet/zfcp.py:271
 #, python-format
 msgid "Could not set zFCP device %(devnum)s offline (%(e)s)."
-msgstr ""
+msgstr "zFCP seadet „%(devnum)s“ ei õnnestunud lülitada vallasrežiimi (%(e)s)."
 
 #: ../blivet/iscsi.py:217
 msgid "Unable to change iSCSI initiator name once set"
@@ -170,7 +170,7 @@ msgstr "Ühtegi uut iSCSI sõlme ei avastatud"
 
 #: ../blivet/iscsi.py:553
 msgid "Could not log in to any of the discovered nodes"
-msgstr ""
+msgstr "Ühtegi tuvastatud seadmesse ei õnnestunud sisse logida"
 
 #: ../blivet/partitioning.py:454
 msgid "unable to allocate aligned partition"
@@ -178,7 +178,7 @@ msgstr ""
 
 #: ../blivet/partitioning.py:462
 msgid "requested size exceeds maximum allowed"
-msgstr ""
+msgstr "soovitud suurus ületab suurima lubatud suuruse"
 
 #: ../blivet/partitioning.py:580
 #, python-format
@@ -323,11 +323,13 @@ msgstr[1] ""
 msgid ""
 "RAID level %(raid_level)s is an invalid value. Must be one of (%(levels)s)."
 msgstr ""
+"RAID-i tase %(raid_level)s pole lubatud valikute hulgas. Palun vali üks "
+"järgnevaist: %(levels)s."
 
 #: ../blivet/devices/raid.py:104
 #, python-format
 msgid "Cannot remove a member from existing %s array"
-msgstr ""
+msgstr "Olemasolevast „%s“ massiivist ei saa liiget eemaldada"
 
 #: ../blivet/formats/fs.py:932
 msgid "EFI System Partition"
@@ -347,15 +349,15 @@ msgstr ""
 
 #: ../blivet/formats/luks.py:58
 msgid "LUKS"
-msgstr ""
+msgstr "LUKS"
 
 #: ../blivet/formats/luks.py:59
 msgid "Encrypted"
-msgstr "Krüpteeritud"
+msgstr "Krüptitud"
 
 #: ../blivet/formats/luks.py:388
 msgid "DM Integrity"
-msgstr ""
+msgstr "DM-terviklus"
 
 #: ../blivet/formats/__init__.py:148
 msgid "Unknown"
@@ -381,7 +383,7 @@ msgstr ""
 
 #: ../blivet/formats/mdraid.py:43
 msgid "software RAID"
-msgstr ""
+msgstr "tarkvaraline RAID"
 
 #: ../blivet/formats/multipath.py:40
 msgid "multipath member device"
@@ -389,7 +391,7 @@ msgstr ""
 
 #: ../blivet/formats/lvmpv.py:49
 msgid "physical volume (LVM)"
-msgstr ""
+msgstr "füüsiline köide (LVM)"
 
 #: ../blivet/devicelibs/lvm.py:59
 msgid "Generic"

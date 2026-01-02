@@ -9,13 +9,13 @@
 # Dimitris Glezos <glezos@indifex.com>, 2011
 # mihkel <turakas@gmail.com>, 2011
 # mihkel <turakas@gmail.com>, 2011
-# Priit Jõerüüt <jrtkbfdr@users.noreply.translate.fedoraproject.org>, 2025.
+# Priit Jõerüüt <jrtkbfdr@users.noreply.translate.fedoraproject.org>, 2025, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-09 13:31+0100\n"
-"PO-Revision-Date: 2025-12-26 17:19+0000\n"
+"PO-Revision-Date: 2026-01-02 20:58+0000\n"
 "Last-Translator: Priit Jõerüüt "
 "<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Estonian <https://translate.fedoraproject.org/projects/blivet/"
@@ -161,7 +161,7 @@ msgstr "Ühtegi uut iSCSI sõlme ei avastatud"
 
 #: ../blivet/iscsi.py:555
 msgid "Could not log in to any of the discovered nodes"
-msgstr ""
+msgstr "Ühtegi tuvastatud seadmesse ei õnnestunud sisse logida"
 
 #: ../blivet/partitioning.py:455
 msgid "unable to allocate aligned partition"
@@ -169,7 +169,7 @@ msgstr ""
 
 #: ../blivet/partitioning.py:463
 msgid "requested size exceeds maximum allowed"
-msgstr ""
+msgstr "soovitud suurus ületab suurima lubatud suuruse"
 
 #: ../blivet/partitioning.py:475
 #, python-format
@@ -241,12 +241,12 @@ msgstr "zFCP-seadet %s ei leidu, seda isegi mitte seadmete eiramise loendis."
 #: ../blivet/zfcp.py:146
 #, python-format
 msgid "Could not set zFCP device %(devnum)s online (%(e)s)."
-msgstr ""
+msgstr "zFCP seadet „%(devnum)s“ ei õnnestunud lülitada sidusrežiimi (%(e)s)."
 
 #: ../blivet/zfcp.py:159
 #, python-format
 msgid "Could not set zFCP device %(devnum)s offline (%(e)s)."
-msgstr ""
+msgstr "zFCP seadet „%(devnum)s“ ei õnnestunud lülitada vallasrežiimi (%(e)s)."
 
 #: ../blivet/zfcp.py:218
 msgid "You have not specified a worldwide port name or the name is invalid."
@@ -353,11 +353,13 @@ msgstr[1] ""
 msgid ""
 "RAID level %(raid_level)s is an invalid value. Must be one of (%(levels)s)."
 msgstr ""
+"RAID-i tase %(raid_level)s pole lubatud valikute hulgas. Palun vali üks "
+"järgnevaist: %(levels)s."
 
 #: ../blivet/devices/raid.py:104
 #, python-format
 msgid "Cannot remove a member from existing %s array"
-msgstr ""
+msgstr "Olemasolevast „%s“ massiivist ei saa liiget eemaldada"
 
 #: ../blivet/formats/biosboot.py:35
 msgid "BIOS Boot"
@@ -395,23 +397,23 @@ msgstr "Tundmatu"
 
 #: ../blivet/formats/luks.py:60
 msgid "LUKS"
-msgstr ""
+msgstr "LUKS"
 
 #: ../blivet/formats/luks.py:61
 msgid "Encrypted"
-msgstr "Krüpteeritud"
+msgstr "Krüptitud"
 
 #: ../blivet/formats/luks.py:405
 msgid "DM Integrity"
-msgstr ""
+msgstr "DM-terviklus"
 
 #: ../blivet/formats/lvmpv.py:49
 msgid "physical volume (LVM)"
-msgstr ""
+msgstr "füüsiline köide (LVM)"
 
 #: ../blivet/formats/mdraid.py:42
 msgid "software RAID"
-msgstr ""
+msgstr "tarkvaraline RAID"
 
 #: ../blivet/formats/multipath.py:40
 msgid "multipath member device"
@@ -423,4 +425,4 @@ msgstr ""
 
 #: ../blivet/formats/stratis.py:40
 msgid "Stratis block device"
-msgstr ""
+msgstr "Stratise plokkseade"

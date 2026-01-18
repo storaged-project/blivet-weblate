@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
-"PO-Revision-Date: 2023-01-05 17:19+0000\n"
+"PO-Revision-Date: 2026-01-19 10:58+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: Kazakh <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-rhel8/kk/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.15\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #: ../blivet/errors.py:210
 msgid ""
@@ -26,6 +26,9 @@ msgid ""
 "of the UUID value which should be unique. In that case you can either "
 "disconnect one of the devices or reformat it."
 msgstr ""
+"Бұл әдетте құрылғы бейнесін клондау салдарынан пайда болады, нәтижесінде "
+"бірегей болуы тиіс UUID мәні қайталанады. Бұл жағдайда сіз құрылғылардың "
+"біреуін ажыратуға немесе оны қайта пішімдеуге болады."
 
 #: ../blivet/errors.py:217
 msgid ""
@@ -33,6 +36,9 @@ msgid ""
 "kernel is reporting partitions on. It is unclear what the exact problem is. "
 "Please file a bug at http://bugzilla.redhat.com"
 msgstr ""
+"Ядро бөлімдері бар деп хабарлаған дисктен диск белгісі табылмады. Нақты "
+"мәселенің не екені белгісіз. Қатені http://bugzilla.redhat.com сайтына "
+"жіберіңіз"
 
 #: ../blivet/errors.py:224
 msgid ""
@@ -203,6 +209,8 @@ msgid ""
 "partition is too small for %(format)s formatting (allowable size is "
 "%(min_size)s to %(max_size)s)"
 msgstr ""
+"%(mount)s бөлімі %(format)s пішімдеуі үшін тым кіші (рұқсат етілетін өлшемі %"
+"(minSize)s бастап, %(maxSize)s дейін)"
 
 #: ../blivet/partitioning.py:646
 #, python-format

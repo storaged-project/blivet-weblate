@@ -14,13 +14,14 @@
 # Allan Nordhøy <epost@anotheragency.no>, 2020.
 # Anders Jonsson <anders.jonsson@norsjovallen.se>, 2021.
 # Luna Jernberg <bittin@reimu.nl>, 2021.
+# Luna Jernberg <droidbittin@gmail.com>, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-09 13:31+0100\n"
-"PO-Revision-Date: 2022-09-05 21:19+0000\n"
-"Last-Translator: Göran Uddeborg <goeran@uddeborg.se>\n"
+"PO-Revision-Date: 2026-01-19 10:58+0000\n"
+"Last-Translator: Luna Jernberg <droidbittin@gmail.com>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-master/sv/>\n"
 "Language: sv\n"
@@ -28,7 +29,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #: ../blivet/deviceaction.py:197
 #, python-format
@@ -108,7 +109,7 @@ msgid ""
 "disconnect one of the devices or reformat it."
 msgstr ""
 "Detta orsakas vanligen av att enhetsavbilden klonas vilket resulterar i "
-"duplicering av UUID-värdet som skulle varit unikt. I det fallet kan man "
+"duplicering av UUID-värdet so skulle varit unikt. I det fallet kan man "
 "antingen koppla ifrån en av enheterna eller omformatera den."
 
 #: ../blivet/errors.py:230
@@ -389,8 +390,8 @@ msgstr[1] ""
 msgid ""
 "RAID level %(raid_level)s is an invalid value. Must be one of (%(levels)s)."
 msgstr ""
-"RAID-nivå %(raid_level)s är ett felaktigt värde. Måste vara en av "
-"(%(levels)s)."
+"RAID-nivå %(raid_level)s är ett felaktigt värde. Måste vara en av (%(levels)"
+"s)."
 
 #: ../blivet/devices/raid.py:104
 #, python-format

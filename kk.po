@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-09 13:31+0100\n"
-"PO-Revision-Date: 2026-01-19 10:58+0000\n"
+"PO-Revision-Date: 2026-02-16 08:58+0000\n"
 "Last-Translator: Baurzhan Muftakhidinov <baurthefirst@gmail.com>\n"
 "Language-Team: Kazakh <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-master/kk/>\n"
@@ -23,7 +23,7 @@ msgstr ""
 #: ../blivet/deviceaction.py:197
 #, python-format
 msgid "Executing %(action)s"
-msgstr "Орындалуда %(action)s"
+msgstr "%(action)s орындалуда"
 
 #: ../blivet/deviceaction.py:325
 msgid "create device"
@@ -49,7 +49,7 @@ msgstr "%(type)s жасау %(device)s құрылғысында"
 #: ../blivet/deviceaction.py:662
 #, python-format
 msgid "Not enough entropy to create LUKS format. %d bits are needed."
-msgstr "LUKS пішімін жасау үшін энтропия жеткіліксіз. %d бит керек."
+msgstr "LUKS пішімін жасау үшін энтропия жеткіліксіз. %d бит қажет."
 
 #: ../blivet/deviceaction.py:692
 #, python-format
@@ -72,7 +72,7 @@ msgstr "%(device)s құрылғысында файлдық жүйе өлшемі
 #: ../blivet/deviceaction.py:900
 #, python-format
 msgid "Resized filesystem on %(device)s"
-msgstr "%(device)s ішіндегі файлдық жүйе өлшемі өзгертілген"
+msgstr "%(device)s құрылғысындағы файлдық жүйенің өлшемі өзгертілді"
 
 #: ../blivet/deviceaction.py:947
 msgid "add container member"
@@ -196,8 +196,8 @@ msgid ""
 "partition is too small for %(format)s formatting (allowable size is "
 "%(min_size)s to %(max_size)s)"
 msgstr ""
-"%(mount)s бөлімі %(format)s пішімдеуі үшін тым кіші (рұқсат етілетін өлшемі %"
-"(minSize)s бастап, %(maxSize)s дейін)"
+"бөлім %(format)s пішімі үшін үшін тым кіші (рұқсат етілетін өлшемі %"
+"(min_size)s - %(max_size)s)"
 
 #: ../blivet/partitioning.py:652
 #, python-format
@@ -205,12 +205,12 @@ msgid ""
 "partition is too large for %(format)s formatting (allowable size is "
 "%(min_size)s to %(max_size)s)"
 msgstr ""
-"бөлім %(format)s пішімдеуі үшін тым үлкен (рұқсат етілген өлшем %(min_size)s "
-"және %(max_size)s арасында)"
+"бөлім %(format)s пішімі үшін тым үлкен (рұқсат етілетін өлшемі: %(min_size)"
+"s - %(max_size)s)"
 
 #: ../blivet/partitioning.py:971
 msgid "Unable to allocate requested partition scheme."
-msgstr "Сұралған бөлім схемасын бөлу мүмкін емес."
+msgstr "Сұралған бөлімдер схемасын бөлу мүмкін емес."
 
 #: ../blivet/partitioning.py:1006
 msgid "not enough free space after creating extended partition"
@@ -218,7 +218,7 @@ msgstr "кеңейтілген бөлімді жасағаннан кейін б
 
 #: ../blivet/partitioning.py:1013
 msgid "failed to allocate aligned partition"
-msgstr "тураланған бөлімге орын бөлу мүмкін емес"
+msgstr "тураланған бөлімді бөлу сәтсіз аяқталды"
 
 #: ../blivet/partitioning.py:1214
 msgid "cannot reclaim more than request has grown"
@@ -368,24 +368,25 @@ msgid_plural ""
 "RAID level %(raid_level)s requires that device have at least %(min_members)d "
 "members."
 msgstr[0] ""
-"RAID деңгейі %(raid_level)s құрылғыда кемінде %(min_members)d мүше болуын "
-"талап етеді."
+"%(raid_level)s RAID деңгейі үшін құрылғыда кемінде %(min_members)d мүше "
+"болуы керек."
 
 #: ../blivet/devices/raid.py:79
 #, python-format
 msgid ""
 "RAID level %(raid_level)s is an invalid value. Must be one of (%(levels)s)."
 msgstr ""
-"RAID деңгейі %(raid_level)s – жарамсыз мән. (%(levels)s) біреуі болуы керек."
+"%(raid_level)s RAID деңгейі — жарамсыз мән. (%(levels)s) мәндерінің бірі "
+"болуы тиіс."
 
 #: ../blivet/devices/raid.py:104
 #, python-format
 msgid "Cannot remove a member from existing %s array"
-msgstr "Бар болып тұрған %s массивінен мүшені өшіру мүмкін емес"
+msgstr "Бар %s массивінен мүшені өшіру мүмкін емес"
 
 #: ../blivet/formats/biosboot.py:35
 msgid "BIOS Boot"
-msgstr "Жүктемелі BIOS"
+msgstr "BIOS Boot"
 
 #: ../blivet/formats/disklabel.py:50
 msgid "partition table"
@@ -395,7 +396,7 @@ msgstr "бөлімдер кестесі"
 #: ../blivet/formats/disklabel.py:326
 #, python-format
 msgid "Unsupported %(name)s"
-msgstr "Қолдауы жоқ %(name)s"
+msgstr "Қолдау көрсетілмейтін %(name)s"
 
 #: ../blivet/formats/dmraid.py:36
 msgid "dm-raid member device"
@@ -427,7 +428,7 @@ msgstr "Шифрленген"
 
 #: ../blivet/formats/luks.py:405
 msgid "DM Integrity"
-msgstr "DM Integrity"
+msgstr "DM тұтастығы"
 
 #: ../blivet/formats/lvmpv.py:49
 msgid "physical volume (LVM)"
@@ -435,7 +436,7 @@ msgstr "физикалық том (LVM)"
 
 #: ../blivet/formats/mdraid.py:42
 msgid "software RAID"
-msgstr "бағдарламалық RAID"
+msgstr "бағдарламалық қамтама RAID"
 
 #: ../blivet/formats/multipath.py:40
 msgid "multipath member device"
@@ -443,7 +444,7 @@ msgstr "multipath мүше құрылғысы"
 
 #: ../blivet/formats/prepboot.py:37
 msgid "PPC PReP Boot"
-msgstr "Жүктемелі PPC PReP"
+msgstr "PPC PReP жүктеу"
 
 #: ../blivet/formats/stratis.py:40
 msgid "Stratis block device"

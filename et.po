@@ -15,8 +15,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
 "PO-Revision-Date: 2026-02-18 11:58+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Priit Jõerüüt "
+"<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Estonian <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-rhel9/et/>\n"
 "Language: et\n"
@@ -191,8 +191,8 @@ msgid ""
 "partition is too small for %(format)s formatting (allowable size is "
 "%(min_size)s to %(max_size)s)"
 msgstr ""
-"Sinu „%(mount)s“ partitsioon on „%(format)s“ vormingu jaoks liiga väike "
-"(lubatud maht on %(minSize)s kuni %(maxSize)s)"
+"partitsioon on „%(format)s“ vormingu jaoks liiga väike (lubatud maht on %"
+"(min_size)s kuni %(max_size)s)"
 
 #: ../blivet/partitioning.py:646
 #, python-format
@@ -200,8 +200,8 @@ msgid ""
 "partition is too large for %(format)s formatting (allowable size is "
 "%(min_size)s to %(max_size)s)"
 msgstr ""
-"Sinu „%(mount)s“ partitsioon on „%(format)s“ vormingu jaoks liiga suur "
-"(lubatud maht on %(minSize)s kuni %(maxSize)s)"
+"partitsioon on „%(format)s“ vormingu jaoks liiga suur (lubatud maht on %"
+"(min_size)s kuni %(max_size)s)"
 
 #: ../blivet/partitioning.py:962
 msgid "Unable to allocate requested partition scheme."
@@ -240,64 +240,64 @@ msgstr ""
 #: ../blivet/deviceaction.py:194
 #, python-format
 msgid "Executing %(action)s"
-msgstr ""
+msgstr "Käivitan tegevusi: %(action)s"
 
 #: ../blivet/deviceaction.py:322
 msgid "create device"
-msgstr ""
+msgstr "loo seade"
 
 #: ../blivet/deviceaction.py:381
 msgid "destroy device"
-msgstr ""
+msgstr "hävita seade"
 
 #: ../blivet/deviceaction.py:484
 msgid "resize device"
-msgstr ""
+msgstr "muuda seadme suurust"
 
 #: ../blivet/deviceaction.py:573
 msgid "create format"
-msgstr ""
+msgstr "vorminda"
 
 #: ../blivet/deviceaction.py:613
 #, python-format
 msgid "Creating %(type)s on %(device)s"
-msgstr ""
+msgstr "Loon %(type)s-tüüpi failisüsteemi %(device)s seadmes"
 
 #: ../blivet/deviceaction.py:640
 #, python-format
 msgid "Not enough entropy to create LUKS format. %d bits are needed."
-msgstr ""
+msgstr "LUKS-vormingu loomiseks pole piisavalt entroopiat. Vajalik on %d bitti."
 
 #: ../blivet/deviceaction.py:670
 #, python-format
 msgid "Created %(type)s on %(device)s"
-msgstr ""
+msgstr "%(type)s-tüüpi failisüsteem on %(device)s seadmes loodud"
 
 #: ../blivet/deviceaction.py:717
 msgid "destroy format"
-msgstr ""
+msgstr "hävita vormindus"
 
 #: ../blivet/deviceaction.py:830
 msgid "resize format"
-msgstr ""
+msgstr "muuda vorminduse suurust"
 
 #: ../blivet/deviceaction.py:869
 #, python-format
 msgid "Resizing filesystem on %(device)s"
-msgstr ""
+msgstr "Muudan „%(device)s“ seadmes failisüsteemi suurust"
 
 #: ../blivet/deviceaction.py:876
 #, python-format
 msgid "Resized filesystem on %(device)s"
-msgstr ""
+msgstr "„%(device)s“ seadmes on failisüsteemi suurus muudetud"
 
 #: ../blivet/deviceaction.py:923
 msgid "add container member"
-msgstr ""
+msgstr "lisa liige konteinerisse"
 
 #: ../blivet/deviceaction.py:988
 msgid "remove container member"
-msgstr ""
+msgstr "eemalda konteineri liige"
 
 #: ../blivet/deviceaction.py:1058
 msgid "configure format"

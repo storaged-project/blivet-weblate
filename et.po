@@ -15,8 +15,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
 "PO-Revision-Date: 2026-02-18 12:58+0000\n"
-"Last-Translator: Priit Jõerüüt "
-"<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Estonian <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-rhel8/et/>\n"
 "Language: et\n"
@@ -322,11 +322,13 @@ msgstr[0] ""
 msgid ""
 "RAID level %(raid_level)s is an invalid value. Must be one of (%(levels)s)."
 msgstr ""
+"RAID-i tase %(raid_level)s pole lubatud valikute hulgas. Palun vali üks "
+"järgnevaist: %(levels)s."
 
 #: ../blivet/devices/raid.py:104
 #, python-format
 msgid "Cannot remove a member from existing %s array"
-msgstr ""
+msgstr "Olemasolevast „%s“ massiivist ei saa liiget eemaldada"
 
 #: ../blivet/formats/fs.py:932
 msgid "EFI System Partition"
@@ -346,7 +348,7 @@ msgstr ""
 
 #: ../blivet/formats/luks.py:58
 msgid "LUKS"
-msgstr ""
+msgstr "LUKS"
 
 #: ../blivet/formats/luks.py:59
 msgid "Encrypted"
@@ -354,7 +356,7 @@ msgstr "Krüpteeritud"
 
 #: ../blivet/formats/luks.py:388
 msgid "DM Integrity"
-msgstr ""
+msgstr "DM-terviklus"
 
 #: ../blivet/formats/__init__.py:148
 msgid "Unknown"
@@ -396,4 +398,4 @@ msgstr "Üldine"
 
 #: ../blivet/devicelibs/lvm.py:60
 msgid "Performance"
-msgstr ""
+msgstr "Jõudlus"

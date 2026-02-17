@@ -15,8 +15,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
 "PO-Revision-Date: 2026-02-18 11:58+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Priit Jõerüüt "
+"<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Estonian <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-rhel9/et/>\n"
 "Language: et\n"
@@ -191,8 +191,8 @@ msgid ""
 "partition is too small for %(format)s formatting (allowable size is "
 "%(min_size)s to %(max_size)s)"
 msgstr ""
-"Sinu „%(mount)s“ partitsioon on „%(format)s“ vormingu jaoks liiga väike "
-"(lubatud maht on %(minSize)s kuni %(maxSize)s)"
+"partitsioon on „%(format)s“ vormingu jaoks liiga väike (lubatud maht on %"
+"(min_size)s kuni %(max_size)s)"
 
 #: ../blivet/partitioning.py:646
 #, python-format
@@ -200,8 +200,8 @@ msgid ""
 "partition is too large for %(format)s formatting (allowable size is "
 "%(min_size)s to %(max_size)s)"
 msgstr ""
-"Sinu „%(mount)s“ partitsioon on „%(format)s“ vormingu jaoks liiga suur "
-"(lubatud maht on %(minSize)s kuni %(maxSize)s)"
+"partitsioon on „%(format)s“ vormingu jaoks liiga suur (lubatud maht on %"
+"(min_size)s kuni %(max_size)s)"
 
 #: ../blivet/partitioning.py:962
 msgid "Unable to allocate requested partition scheme."
@@ -240,7 +240,7 @@ msgstr ""
 #: ../blivet/deviceaction.py:194
 #, python-format
 msgid "Executing %(action)s"
-msgstr "Käivitan tegevusi: %(action)s"
+msgstr "Käivitan tegevust: %(action)s"
 
 #: ../blivet/deviceaction.py:322
 msgid "create device"
@@ -305,7 +305,7 @@ msgstr "seadista vormingut"
 
 #: ../blivet/deviceaction.py:1114
 msgid "configure device"
-msgstr "seadista seadet"
+msgstr "seadista seade"
 
 #: ../blivet/devices/raid.py:58
 #, python-format
@@ -377,13 +377,13 @@ msgstr ""
 
 #: ../blivet/formats/disklabel.py:50
 msgid "partition table"
-msgstr ""
+msgstr "partitsioonitabel"
 
 #. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition table"
 #: ../blivet/formats/disklabel.py:320
 #, python-format
 msgid "Unsupported %(name)s"
-msgstr ""
+msgstr "„%(name)s“ pole toetatud"
 
 #: ../blivet/formats/mdraid.py:43
 msgid "software RAID"
@@ -399,7 +399,7 @@ msgstr "füüsiline köide (LVM)"
 
 #: ../blivet/devicelibs/lvm.py:59
 msgid "Generic"
-msgstr ""
+msgstr "Üldine"
 
 #: ../blivet/devicelibs/lvm.py:60
 msgid "Performance"

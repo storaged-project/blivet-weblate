@@ -200,6 +200,8 @@ msgid ""
 "partition is too large for %(format)s formatting (allowable size is "
 "%(min_size)s to %(max_size)s)"
 msgstr ""
+"Sinu „%(mount)s“ partitsioon on „%(format)s“ vormingu jaoks liiga suur "
+"(lubatud maht on %(minSize)s kuni %(maxSize)s)"
 
 #: ../blivet/partitioning.py:962
 msgid "Unable to allocate requested partition scheme."

@@ -32,13 +32,13 @@
 # Jean-Baptiste Holcroft <jean-baptiste@holcroft.fr>, 2019. #zanata
 # Julien Humbert <julroy67@gmail.com>, 2020, 2022.
 # Alexandre Hen <alexandre@eskulap.fr>, 2022.
-# Léane GRASSER <leane.grasser@proton.me>, 2024.
+# Léane GRASSER <leane.grasser@proton.me>, 2024, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-09 13:31+0100\n"
-"PO-Revision-Date: 2024-09-05 09:38+0000\n"
+"PO-Revision-Date: 2026-02-19 16:58+0000\n"
 "Last-Translator: Léane GRASSER <leane.grasser@proton.me>\n"
 "Language-Team: French <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-master/fr/>\n"
@@ -47,7 +47,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 5.7.1\n"
+"X-Generator: Weblate 5.16\n"
 
 #: ../blivet/deviceaction.py:197
 #, python-format
@@ -459,7 +459,7 @@ msgstr "Linux HFS+ ESP"
 
 #: ../blivet/formats/__init__.py:148
 msgid "Unknown"
-msgstr "Inconnu"
+msgstr "Inconnue"
 
 #: ../blivet/formats/luks.py:60
 msgid "LUKS"

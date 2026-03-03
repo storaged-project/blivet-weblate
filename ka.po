@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
-"PO-Revision-Date: 2023-09-11 04:21+0000\n"
+"PO-Revision-Date: 2026-03-04 08:58+0000\n"
 "Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-rhel9/ka/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.18.2\n"
+"X-Generator: Weblate 5.16.1\n"
 
 #: ../blivet/errors.py:210
 msgid ""
@@ -70,7 +70,7 @@ msgstr "მოწყობილობის ნომერი არ მიგ
 
 #: ../blivet/zfcp.py:64
 msgid "You have not specified a worldwide port name or the name is invalid."
-msgstr "WWN არ მიგითითებიათ ან სახელი არასწორია."
+msgstr "wwn არ მიგითითებიათ, ან სახელი არასწორია."
 
 #: ../blivet/zfcp.py:66
 msgid "You have not specified a FCP LUN or the number is invalid."

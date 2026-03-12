@@ -7,13 +7,13 @@
 # Dimitris Glezos <glezos@indifex.com>, 2011
 # Elad Alfassa <el.il@doom.co.il>, 2011
 # oron <oron@actcom.co.il>, 2009
-# Yaron Shahrabani <sh.yaron@gmail.com>, 2011, 2023, 2024.
+# Yaron Shahrabani <sh.yaron@gmail.com>, 2011, 2023, 2024, 2026.
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-09 13:31+0100\n"
-"PO-Revision-Date: 2024-07-24 05:38+0000\n"
+"PO-Revision-Date: 2026-03-12 19:58+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-master/he/>\n"
@@ -22,7 +22,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.16.2\n"
 
 #: ../blivet/deviceaction.py:197
 #, python-format
@@ -355,17 +355,17 @@ msgstr ""
 
 #: ../blivet/formats/disklabel.py:50
 msgid "partition table"
-msgstr ""
+msgstr "טבלת מחיצות"
 
 #. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition table"
 #: ../blivet/formats/disklabel.py:326
 #, python-format
 msgid "Unsupported %(name)s"
-msgstr ""
+msgstr "%(name)s לא נתמכת"
 
 #: ../blivet/formats/dmraid.py:36
 msgid "dm-raid member device"
-msgstr ""
+msgstr "התקן שחבר ב־dm-raid"
 
 #: ../blivet/formats/fs.py:941
 msgid "EFI System Partition"

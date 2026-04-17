@@ -11,17 +11,17 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
-"PO-Revision-Date: 2015-05-23 10:49+0000\n"
-"Last-Translator: Momcilo Medic <medicmomcilo@gmail.com>\n"
-"Language-Team: Serbian (http://www.transifex.com/projects/p/blivet/language/"
-"sr/)\n"
+"PO-Revision-Date: 2026-04-18 06:58+0000\n"
+"Last-Translator: \"Марко Костић (Marko Kostić)\" <marko.m.kostic@gmail.com>\n"
+"Language-Team: Serbian <https://translate.fedoraproject.org/projects/blivet/"
+"blivet-rhel9/sr/>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Zanata 4.6.2\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.17\n"
 
 #: ../blivet/errors.py:210
 msgid ""
@@ -29,6 +29,9 @@ msgid ""
 "of the UUID value which should be unique. In that case you can either "
 "disconnect one of the devices or reformat it."
 msgstr ""
+"Ово је обично узроковано клонирањем слике уређаја, што доводи до дуплирања "
+"UUID вредности која би требало да буде јединствена. У том случају можете или "
+"да искључите један од уређаја или да га поново форматирате."
 
 #: ../blivet/errors.py:217
 msgid ""
@@ -205,6 +208,8 @@ msgid ""
 "partition is too small for %(format)s formatting (allowable size is "
 "%(min_size)s to %(max_size)s)"
 msgstr ""
+"партиција је премала за %(format)s форматирање (дозвољена величина је %"
+"(min_size)s до %(max_size)s)"
 
 #: ../blivet/partitioning.py:646
 #, python-format
@@ -212,6 +217,8 @@ msgid ""
 "partition is too large for %(format)s formatting (allowable size is "
 "%(min_size)s to %(max_size)s)"
 msgstr ""
+"партиција је превелика за %(format)s форматирање (дозвољена величина је %"
+"(min_size)s до %(max_size)s)"
 
 #: ../blivet/partitioning.py:962
 msgid "Unable to allocate requested partition scheme."
@@ -311,11 +318,11 @@ msgstr "уклони члана контејнера"
 
 #: ../blivet/deviceaction.py:1058
 msgid "configure format"
-msgstr ""
+msgstr "подеси формат"
 
 #: ../blivet/deviceaction.py:1114
 msgid "configure device"
-msgstr ""
+msgstr "подеси уређај"
 
 #: ../blivet/devices/raid.py:58
 #, python-format
@@ -326,12 +333,20 @@ msgid_plural ""
 "RAID level %(raid_level)s requires that device have at least %(min_members)d "
 "members."
 msgstr[0] ""
+"РАИД ниво %(raid_level)s захтева да уређај има најмање %(min_members)d члан."
+msgstr[1] ""
+"РАИД ниво %(raid_level)s захтева да уређај има најмање %(min_members)d члана."
+msgstr[2] ""
+"РАИД ниво %(raid_level)s захтева да уређај има најмање %(min_members)d "
+"чланова."
 
 #: ../blivet/devices/raid.py:79
 #, python-format
 msgid ""
 "RAID level %(raid_level)s is an invalid value. Must be one of (%(levels)s)."
 msgstr ""
+"РАИД ниво %(raid_level)s је неважећа вредност. Мора бити један од (%(levels)"
+"s)."
 
 #: ../blivet/devices/raid.py:104
 #, python-format
@@ -340,15 +355,15 @@ msgstr "Не могу да уклоним члана из постоћејег %
 
 #: ../blivet/formats/fs.py:932
 msgid "EFI System Partition"
-msgstr "EFI системска партиција"
+msgstr "ЕФИ системска партиција"
 
 #: ../blivet/formats/fs.py:1137
 msgid "Apple Bootstrap"
-msgstr "Apple протокол за подизање система"
+msgstr "Епл протокол за подизање"
 
 #: ../blivet/formats/fs.py:1173
 msgid "Linux HFS+ ESP"
-msgstr "Linux HFS+ ESP"
+msgstr "Линукс ХФС+ ЕСП"
 
 #: ../blivet/formats/prepboot.py:37
 msgid "PPC PReP Boot"
@@ -356,7 +371,7 @@ msgstr "PPC PReP покретање"
 
 #: ../blivet/formats/luks.py:58
 msgid "LUKS"
-msgstr "LUKS"
+msgstr "ЛУКС"
 
 #: ../blivet/formats/luks.py:59
 msgid "Encrypted"
@@ -364,7 +379,7 @@ msgstr "Шифрован"
 
 #: ../blivet/formats/luks.py:388
 msgid "DM Integrity"
-msgstr ""
+msgstr "ДМ целовитост"
 
 #: ../blivet/formats/__init__.py:148
 msgid "Unknown"
@@ -372,7 +387,7 @@ msgstr "Непознато"
 
 #: ../blivet/formats/biosboot.py:35
 msgid "BIOS Boot"
-msgstr "BIOS покретање"
+msgstr "БИОС покретање"
 
 #: ../blivet/formats/dmraid.py:37
 msgid "dm-raid member device"
@@ -386,11 +401,11 @@ msgstr "табела партиција"
 #: ../blivet/formats/disklabel.py:320
 #, python-format
 msgid "Unsupported %(name)s"
-msgstr ""
+msgstr "Неподржана %(name)s"
 
 #: ../blivet/formats/mdraid.py:43
 msgid "software RAID"
-msgstr "софтверски RAID"
+msgstr "софтверски РАИД"
 
 #: ../blivet/formats/multipath.py:40
 msgid "multipath member device"
@@ -398,7 +413,7 @@ msgstr "члан вишелинијског уређаја"
 
 #: ../blivet/formats/lvmpv.py:49
 msgid "physical volume (LVM)"
-msgstr "физички диск (LVM)"
+msgstr "физички диск (ЛВМ)"
 
 #: ../blivet/devicelibs/lvm.py:59
 msgid "Generic"

@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
-"PO-Revision-Date: 2026-02-18 11:58+0000\n"
+"PO-Revision-Date: 2026-04-29 13:01+0000\n"
 "Last-Translator: Priit Jõerüüt "
 "<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Estonian <https://translate.fedoraproject.org/projects/blivet/"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16\n"
+"X-Generator: Weblate 5.17\n"
 
 #: ../blivet/errors.py:210
 msgid ""
@@ -86,12 +86,13 @@ msgstr "zFCP seadet „%(devnum)s“ ei õnnestunud lülitada sidusrežiimi (%(e
 #, python-format
 msgid "Could not add WWPN %(wwpn)s to zFCP device %(devnum)s (%(e)s)."
 msgstr ""
+"„%(wwpn)s“ WWPN-i lisamine „%(devnum)s“ (%(e)s) zFCP seadmele ei õnnestunud."
 
 #. newer zfcp sysfs interface with auto port scan
 #: ../blivet/zfcp.py:119
 #, python-format
 msgid "WWPN %(wwpn)s not found at zFCP device %(devnum)s."
-msgstr ""
+msgstr "„%(wwpn)s“ WWPN-i ei leidunud „%(devnum)s“zFCP seadmes."
 
 #: ../blivet/zfcp.py:134
 #, python-format
@@ -150,7 +151,7 @@ msgstr ""
 
 #: ../blivet/iscsi.py:219
 msgid "Must provide an iSCSI initiator name"
-msgstr ""
+msgstr "Pead lisama iSCSI algataja nime"
 
 #: ../blivet/iscsi.py:410
 msgid "iSCSI not available"
@@ -158,7 +159,7 @@ msgstr "iSCSI pole saadaval"
 
 #: ../blivet/iscsi.py:412
 msgid "No initiator name set"
-msgstr ""
+msgstr "Algataja nimi on sisestamata"
 
 #: ../blivet/iscsi.py:530
 msgid "No iSCSI nodes discovered"
@@ -183,7 +184,7 @@ msgstr "soovitud suurus ületab suurima lubatud suuruse"
 #: ../blivet/partitioning.py:580
 #, python-format
 msgid "disk %s inaccessible"
-msgstr ""
+msgstr "%s ketas pole kasutatav"
 
 #: ../blivet/partitioning.py:641
 #, python-format
@@ -209,7 +210,7 @@ msgstr ""
 
 #: ../blivet/partitioning.py:997
 msgid "not enough free space after creating extended partition"
-msgstr ""
+msgstr "laiendatud partitsiooni loomise järel pole piisavalt vaba andmeruumi"
 
 #: ../blivet/partitioning.py:1004
 msgid "failed to allocate aligned partition"
@@ -229,7 +230,7 @@ msgstr ""
 
 #: ../blivet/partitioning.py:1517
 msgid "VGChunk requests must be of type LVRequest"
-msgstr ""
+msgstr "„VGChunk“ päringute tüüp peab olema „LVRequest“"
 
 #. by now we have allocated the PVs so if there isn't enough
 #. space in the VG we have a real problem
@@ -341,15 +342,15 @@ msgstr "EFI süsteemi partitsioon"
 
 #: ../blivet/formats/fs.py:1137
 msgid "Apple Bootstrap"
-msgstr ""
+msgstr "Apple'i alglaadimine (Bootstrap)"
 
 #: ../blivet/formats/fs.py:1173
 msgid "Linux HFS+ ESP"
-msgstr ""
+msgstr "Linux HFS+ ESP"
 
 #: ../blivet/formats/prepboot.py:37
 msgid "PPC PReP Boot"
-msgstr ""
+msgstr "PPC PReP-alglaadimine"
 
 #: ../blivet/formats/luks.py:58
 msgid "LUKS"

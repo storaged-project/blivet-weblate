@@ -14,7 +14,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
-"PO-Revision-Date: 2026-04-29 13:01+0000\n"
+"PO-Revision-Date: 2026-05-07 10:59+0000\n"
 "Last-Translator: Priit Jõerüüt "
 "<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Estonian <https://translate.fedoraproject.org/projects/blivet/"
@@ -24,7 +24,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: ../blivet/errors.py:210
 msgid ""
@@ -147,7 +147,7 @@ msgstr "zFCP seadet „%(devnum)s“ ei õnnestunud lülitada vallasrežiimi (%(
 
 #: ../blivet/iscsi.py:217
 msgid "Unable to change iSCSI initiator name once set"
-msgstr ""
+msgstr "Kui iSCSI algataja on juba seadistatud, siis seda ei saa muuta"
 
 #: ../blivet/iscsi.py:219
 msgid "Must provide an iSCSI initiator name"
@@ -236,7 +236,7 @@ msgstr "„VGChunk“ päringute tüüp peab olema „LVRequest“"
 #. space in the VG we have a real problem
 #: ../blivet/partitioning.py:2025
 msgid "not enough space for LVM requests"
-msgstr ""
+msgstr "LVM-i päringute jaoks pole piisavalt andmeruumi"
 
 #: ../blivet/deviceaction.py:194
 #, python-format
@@ -374,7 +374,7 @@ msgstr ""
 
 #: ../blivet/formats/dmraid.py:37
 msgid "dm-raid member device"
-msgstr ""
+msgstr "dm-raid'i liikmeseade"
 
 #: ../blivet/formats/disklabel.py:50
 msgid "partition table"

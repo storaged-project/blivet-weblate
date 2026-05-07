@@ -7,84 +7,86 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-09 13:31+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-05-07 11:00+0000\n"
+"Last-Translator: Bone NI <bounkirdni@gmail.com>\n"
+"Language-Team: Lao <https://translate.fedoraproject.org/projects/blivet/"
+"blivet-master/lo/>\n"
 "Language: lo\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: ../blivet/deviceaction.py:197
 #, python-format
 msgid "Executing %(action)s"
-msgstr ""
+msgstr "ກຳລັງດຳເນີນການ %(action)s"
 
 #: ../blivet/deviceaction.py:325
 msgid "create device"
-msgstr ""
+msgstr "ສ້າງອຸປະກອນ"
 
 #: ../blivet/deviceaction.py:384
 msgid "destroy device"
-msgstr ""
+msgstr "ລຶບອຸປະກອນ"
 
 #: ../blivet/deviceaction.py:495
 msgid "resize device"
-msgstr ""
+msgstr "ປັບຂະໜາດອຸປະກອນ"
 
 #: ../blivet/deviceaction.py:584
 msgid "create format"
-msgstr ""
+msgstr "ສ້າງຮູບແບບ"
 
 #: ../blivet/deviceaction.py:624
 #, python-format
 msgid "Creating %(type)s on %(device)s"
-msgstr ""
+msgstr "ກຳລັງສ້າງ %(type)s ເທິງ %(device)s"
 
 #: ../blivet/deviceaction.py:662
 #, python-format
 msgid "Not enough entropy to create LUKS format. %d bits are needed."
-msgstr ""
+msgstr "ລະດັບຄວາມສຸ່ມ (entropy) ບໍ່ພໍເພື່ອສ້າງຮູບແບບ LUKS. ຕ້ອງການ %d ບິດ."
 
 #: ../blivet/deviceaction.py:692
 #, python-format
 msgid "Created %(type)s on %(device)s"
-msgstr ""
+msgstr "ສ້າງ %(type)s ເທິງ %(device)s ສຳເລັດແລ້ວ"
 
 #: ../blivet/deviceaction.py:741
 msgid "destroy format"
-msgstr ""
+msgstr "ລຶບຮູບແບບ"
 
 #: ../blivet/deviceaction.py:854
 msgid "resize format"
-msgstr ""
+msgstr "ປັບຂະໜາດຮູບແບບ"
 
 #: ../blivet/deviceaction.py:893
 #, python-format
 msgid "Resizing filesystem on %(device)s"
-msgstr ""
+msgstr "ກຳລັງປັບຂະໜາດລະບົບໄຟລ໌ເທິງ %(device)s"
 
 #: ../blivet/deviceaction.py:900
 #, python-format
 msgid "Resized filesystem on %(device)s"
-msgstr ""
+msgstr "ປັບຂະໜາດລະບົບໄຟລ໌ເທິງ %(device)s ສຳເລັດແລ້ວ"
 
 #: ../blivet/deviceaction.py:947
 msgid "add container member"
-msgstr ""
+msgstr "ເພີ່ມສະມາຊິກຄອນເທນເນີ"
 
 #: ../blivet/deviceaction.py:1012
 msgid "remove container member"
-msgstr ""
+msgstr "ເອົາສະມາຊິກຄອນເທນເນີອອກ"
 
 #: ../blivet/deviceaction.py:1082
 msgid "configure format"
-msgstr ""
+msgstr "ກຳນົດຄ່າຮູບແບບ"
 
 #: ../blivet/deviceaction.py:1153
 msgid "configure device"
-msgstr ""
+msgstr "ກຳນົດຄ່າອຸປະກອນ"
 
 #: ../blivet/errors.py:223
 msgid ""
@@ -92,6 +94,8 @@ msgid ""
 "of the UUID value which should be unique. In that case you can either "
 "disconnect one of the devices or reformat it."
 msgstr ""
+"ສິ່ງນີ້ມັກຈະເກີດຈາກການສຳເນົາ (cloning) ອິເມຈຂອງອຸປະກອນ ເຮັດໃຫ້ມີຄ່າ UUID ຊໍ້າກັນ ເຊິ່ງຕາມຈິງແລ້ວມັ"
+"ນຄວນຈະມີພຽງໜຶ່ງດຽວ. ໃນກໍລະນີນີ້ ເຈົ້າສາມາດເລືອກຕັດການເຊື່ອມຕໍ່ອຸປະກອນອັນໃດອັນໜຶ່ງ ຫຼື ຟໍແມັດມັນໃໝ່ກໍໄດ້."
 
 #: ../blivet/errors.py:230
 msgid ""
@@ -99,6 +103,8 @@ msgid ""
 "kernel is reporting partitions on. It is unclear what the exact problem is. "
 "Please file a bug at http://bugzilla.redhat.com"
 msgstr ""
+"ດ້ວຍເຫດຜົນບາງຢ່າງ ພວກເຮົາບໍ່ສາມາດຊອກຫາປ້າຍຊື່ດິສ (disklabel) ເທິງດິສທີ່ເຄີເນລ (kernel) ລາຍງາ"
+"ນວ່າມີພາທິຊັນຢູ່. ບໍ່ຊັດເຈນວ່າບັນຫາທີ່ແທ້ຈິງແມ່ນຫຍັງ. ກະລຸນາແຈ້ງບັກໄດ້ທີ່ http://bugzilla.redhat.com"
 
 #: ../blivet/errors.py:237
 msgid ""
@@ -106,6 +112,8 @@ msgid ""
 "completely.\n"
 "Hint: parted can restore it or wipefs can remove it."
 msgstr ""
+"ເລືອກກູ້ຄືນປ້າຍຊື່ດິສໃຫ້ກັບມາໃຊ້ງານໄດ້ສົມບູນ ຫຼື ລຶບມັນອອກໃຫ້ໝົດ.\n"
+"ຄຳແນະນຳ: ສາມາດໃຊ້ parted ເພື່ອກູ້ຄືນ ຫຼື ໃຊ້ wipefs ເພື່ອລຶບອອກ."
 
 #: ../blivet/errors.py:243
 msgid ""
@@ -113,62 +121,67 @@ msgid ""
 "Hint 1: vgrename accepts UUID in place of the old name.\n"
 "Hint 2: You can get the VG UUIDs by running 'pvs -o +vg_uuid'."
 msgstr ""
+"ປ່ຽນຊື່ຂອງກຸ່ມວໍລຸມ (volume group) ອັນໃດອັນໜຶ່ງ ເພື່ອໃຫ້ຊື່ບໍ່ຊໍ້າກັນ.\n"
+"ຄຳແນະນຳ 1: vgrename ສາມາດໃຊ້ UUID ແທນຊື່ເກົ່າໄດ້.\n"
+"ຄຳແນະນຳ 2: ເຈົ້າສາມາດເບິ່ງ VG UUID ໄດ້ໂດຍການລັນຄຳສັ່ງ 'pvs -o +vg_uuid'."
 
 #: ../blivet/errors.py:251
 msgid ""
 "All parent devices must be selected when choosing exclusive or ignored disks "
 "for a multipath or firmware RAID device."
 msgstr ""
+"ຕ້ອງເລືອກອຸປະກອນແມ່ (parent devices) ທັງໝົດ ເມື່ອເລືອກດິສແບບສະເພາະ (exclusive) ຫຼື ດິສທີ່ຖືກລ"
+"ະເວັ້ນ ສຳລັບອຸປະກອນ multipath ຫຼື firmware RAID."
 
 #: ../blivet/fcoe.py:122
 msgid "FCoE not available"
-msgstr ""
+msgstr "FCoE ບໍ່ພ້ອມໃຊ້ງານ"
 
 #: ../blivet/iscsi.py:216
 msgid "Unable to change iSCSI initiator name once set"
-msgstr ""
+msgstr "ບໍ່ສາມາດປ່ຽນຊື່ iSCSI initiator ໄດ້ຫຼັງຈາກທີ່ໄດ້ກຳນົດໄປແລ້ວ"
 
 #: ../blivet/iscsi.py:218
 msgid "Must provide an iSCSI initiator name"
-msgstr ""
+msgstr "ຕ້ອງລະບຸຊື່ iSCSI initiator"
 
 #: ../blivet/iscsi.py:412
 msgid "iSCSI not available"
-msgstr ""
+msgstr "iSCSI ບໍ່ພ້ອມໃຊ້ງານ"
 
 #: ../blivet/iscsi.py:414
 msgid "No initiator name set"
-msgstr ""
+msgstr "ບໍ່ມີການກຳນົດຊື່ initiator"
 
 #: ../blivet/iscsi.py:532
 msgid "No iSCSI nodes discovered"
-msgstr ""
+msgstr "ບໍ່ພົບໂນດ iSCSI"
 
 #: ../blivet/iscsi.py:552
 msgid "No new iSCSI nodes discovered"
-msgstr ""
+msgstr "ບໍ່ພົບໂນດ iSCSI ໃໝ່"
 
 #: ../blivet/iscsi.py:555
 msgid "Could not log in to any of the discovered nodes"
-msgstr ""
+msgstr "ບໍ່ສາມາດເຂົ້າສູ່ລະບົບໂນດໃດໆທີ່ຄົ້ນພົບໄດ້"
 
 #: ../blivet/partitioning.py:455
 msgid "unable to allocate aligned partition"
-msgstr ""
+msgstr "ບໍ່ສາມາດຈັດສັນພາທິຊັນໃຫ້ຕົງຕາມຂອບ (aligned)"
 
 #: ../blivet/partitioning.py:463
 msgid "requested size exceeds maximum allowed"
-msgstr ""
+msgstr "ຂະໜາດທີ່ຮ້ອງຂໍເກີນກວ່າຄ່າສູງສຸດທີ່ອະນຸຍາດ"
 
 #: ../blivet/partitioning.py:475
 #, python-format
 msgid "failed to add partition to disk: %s"
-msgstr ""
+msgstr "ບໍ່ສາມາດເພີ່ມພາທິຊັນໃສ່ດິສ: %s"
 
 #: ../blivet/partitioning.py:586
 #, python-format
 msgid "disk %s inaccessible"
-msgstr ""
+msgstr "ດິສ %s ບໍ່ສາມາດເຂົ້າເຖິງໄດ້"
 
 #: ../blivet/partitioning.py:647
 #, python-format
@@ -176,6 +189,8 @@ msgid ""
 "partition is too small for %(format)s formatting (allowable size is "
 "%(min_size)s to %(max_size)s)"
 msgstr ""
+"ພາທິຊັນມີຂະໜາດນ້ອຍເກີນໄປສຳລັບການຟໍແມັດ %(format)s (ຂະໜາດທີ່ອະນຸຍາດແມ່ນ %(min_size)s ຫາ %"
+"(max_size)s)"
 
 #: ../blivet/partitioning.py:652
 #, python-format
@@ -183,78 +198,80 @@ msgid ""
 "partition is too large for %(format)s formatting (allowable size is "
 "%(min_size)s to %(max_size)s)"
 msgstr ""
+"ພາທິຊັນມີຂະໜາດໃຫຍ່ເກີນໄປສຳລັບການຟໍແມັດ %(format)s (ຂະໜາດທີ່ອະນຸຍາດແມ່ນ %(min_size)s ຫາ %"
+"(max_size)s)"
 
 #: ../blivet/partitioning.py:971
 msgid "Unable to allocate requested partition scheme."
-msgstr ""
+msgstr "ບໍ່ສາມາດຈັດສັນຮູບແບບພາທິຊັນຕາມທີ່ຮ້ອງຂໍໄດ້."
 
 #: ../blivet/partitioning.py:1006
 msgid "not enough free space after creating extended partition"
-msgstr ""
+msgstr "ເນື້ອທີ່ວ່າງບໍ່ພຽງພໍຫຼັງຈາກສ້າງ extended partition"
 
 #: ../blivet/partitioning.py:1013
 msgid "failed to allocate aligned partition"
-msgstr ""
+msgstr "ການຈັດສັນພາທິຊັນໃຫ້ຕົງຕາມຂອບ (aligned) ລົ້ມເຫຼວ"
 
 #: ../blivet/partitioning.py:1214
 msgid "cannot reclaim more than request has grown"
-msgstr ""
+msgstr "ບໍ່ສາມາດຮຽກຄືນເນື້ອທີ່ໄດ້ຫຼາຍກວ່າຈຳນວນທີ່ຮ້ອງຂໍເພີ່ມຂຶ້ນ"
 
 #: ../blivet/partitioning.py:1428
 msgid "DiskChunk requests must be of type PartitionRequest"
-msgstr ""
+msgstr "ການຮ້ອງຂໍ DiskChunk ຕ້ອງເປັນປະເພດ PartitionRequest"
 
 #: ../blivet/partitioning.py:1441
 msgid "partitions allocated outside disklabel limits"
-msgstr ""
+msgstr "ພາທິຊັນຖືກຈັດສັນຢູ່ນອກຂອບເຂດຂອງປ້າຍຊື່ດິສ (disklabel)"
 
 #: ../blivet/partitioning.py:1526
 msgid "VGChunk requests must be of type LVRequest"
-msgstr ""
+msgstr "ການຮ້ອງຂໍ VGChunk ຕ້ອງເປັນປະເພດ LVRequest"
 
 #. by now we have allocated the PVs so if there isn't enough
 #. space in the VG we have a real problem
 #: ../blivet/partitioning.py:2018
 msgid "not enough space for LVM requests"
-msgstr ""
+msgstr "ເນື້ອທີ່ບໍ່ພຽງພໍສຳລັບການຮ້ອງຂໍ LVM"
 
 #: ../blivet/zfcp.py:106
 msgid "You have not specified a device number or the number is invalid"
-msgstr ""
+msgstr "ເຈົ້າຍັງບໍ່ໄດ້ລະບຸໝາຍເລກອຸປະກອນ ຫຼື ໝາຍເລກບໍ່ຖືກຕ້ອງ"
 
 #: ../blivet/zfcp.py:131
 #, python-format
 msgid "zFCP device %s not found, not even in device ignore list."
-msgstr ""
+msgstr "ບໍ່ພົບອຸປະກອນ zFCP %s ແລະ ບໍ່ມີຢູ່ໃນລາຍການອຸປະກອນທີ່ໃຫ້ລະເວັ້ນ."
 
 #: ../blivet/zfcp.py:146
 #, python-format
 msgid "Could not set zFCP device %(devnum)s online (%(e)s)."
-msgstr ""
+msgstr "ບໍ່ສາມາດຕັ້ງຄ່າອຸປະກອນ zFCP %(devnum)s ໃຫ້ອອນໄລນ໌ໄດ້ (%(e)s)."
 
 #: ../blivet/zfcp.py:159
 #, python-format
 msgid "Could not set zFCP device %(devnum)s offline (%(e)s)."
-msgstr ""
+msgstr "ບໍ່ສາມາດຕັ້ງຄ່າອຸປະກອນ zFCP %(devnum)s ໃຫ້ອອຟໄລນ໌ໄດ້ (%(e)s)."
 
 #: ../blivet/zfcp.py:218
 msgid "You have not specified a worldwide port name or the name is invalid."
-msgstr ""
+msgstr "ເຈົ້າຍັງບໍ່ໄດ້ລະບຸຊື່ worldwide port ຫຼື ຊື່ບໍ່ຖືກຕ້ອງ."
 
 #: ../blivet/zfcp.py:222
 msgid "You have not specified a FCP LUN or the number is invalid."
-msgstr ""
+msgstr "ເຈົ້າຍັງບໍ່ໄດ້ລະບຸ FCP LUN ຫຼື ໝາຍເລກບໍ່ຖືກຕ້ອງ."
 
 #: ../blivet/zfcp.py:268
 #, python-format
 msgid "Could not add WWPN %(wwpn)s to zFCP device %(devnum)s (%(e)s)."
-msgstr ""
+msgstr "ບໍ່ສາມາດເພີ່ມ WWPN %(wwpn)s ໃສ່ອຸປະກອນ zFCP %(devnum)s ໄດ້ (%(e)s)."
 
 #. newer zfcp sysfs interface with auto port scan
 #: ../blivet/zfcp.py:275
 #, python-format
 msgid "WWPN %(wwpn)s not found at zFCP device %(devnum)s."
-msgstr ""
+msgstr "ບໍ່ພົບ WWPN %(wwpn)s ທີ່ອຸປະກອນ zFCP %(devnum)s."
 
 #: ../blivet/zfcp.py:291
 #, python-format
@@ -262,12 +279,15 @@ msgid ""
 "Could not add LUN %(fcplun)s to WWPN %(wwpn)s on zFCP device %(devnum)s "
 "(%(e)s)."
 msgstr ""
+"ບໍ່ສາມາດເພີ່ມ LUN %(fcplun)s ໃສ່ WWPN %(wwpn)s ເທິງອຸປະກອນ zFCP %(devnum)s ໄດ້ (%(e)"
+"s)."
 
 #: ../blivet/zfcp.py:297
 #, python-format
 msgid ""
 "LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already configured."
 msgstr ""
+"LUN %(fcplun)s ທີ່ WWPN %(wwpn)s ເທິງອຸປະກອນ zFCP %(devnum)s ຖືກກຳນົດຄ່າໄວ້ແລ້ວ."
 
 #: ../blivet/zfcp.py:310
 #, python-format
@@ -275,6 +295,8 @@ msgid ""
 "Could not read failed attribute of LUN %(fcplun)s at WWPN %(wwpn)s on zFCP "
 "device %(devnum)s (%(e)s)."
 msgstr ""
+"ບໍ່ສາມາດອ່ານຄຸນລັກສະນະທີ່ລົ້ມເຫຼວຂອງ LUN %(fcplun)s ທີ່ WWPN %(wwpn)s ເທິງອຸປະກອນ zFCP %"
+"(devnum)s ໄດ້ (%(e)s)."
 
 #: ../blivet/zfcp.py:319
 #, python-format
@@ -282,6 +304,7 @@ msgid ""
 "Failed LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s removed "
 "again."
 msgstr ""
+"LUN %(fcplun)s ທີ່ລົ້ມເຫຼວຢູ່ WWPN %(wwpn)s ເທິງອຸປະກອນ zFCP %(devnum)s ຖືກລຶບອອກອີກຄັ້ງ."
 
 #: ../blivet/zfcp.py:339
 #, python-format
@@ -289,6 +312,8 @@ msgid ""
 "Could not correctly delete SCSI device of zFCP %(devnum)s %(wwpn)s "
 "%(fcplun)s (%(e)s)."
 msgstr ""
+"ບໍ່ສາມາດລຶບອຸປະກອນ SCSI ຂອງ zFCP %(devnum)s %(wwpn)s %(fcplun)s ໄດ້ຢ່າງຖືກຕ້ອງ (%(e)"
+"s)."
 
 #: ../blivet/zfcp.py:349
 #, python-format
@@ -296,29 +321,30 @@ msgid ""
 "Could not remove LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s "
 "(%(e)s)."
 msgstr ""
+"ບໍ່ສາມາດລຶບ LUN %(fcplun)s ທີ່ WWPN %(wwpn)s ເທິງອຸປະກອນ zFCP %(devnum)s ໄດ້ (%(e)s)."
 
 #: ../blivet/zfcp.py:368
 #, python-format
 msgid "Could not remove WWPN %(wwpn)s on zFCP device %(devnum)s (%(e)s)."
-msgstr ""
+msgstr "ບໍ່ສາມາດລຶບ WWPN %(wwpn)s ເທິງອຸປະກອນ zFCP %(devnum)s ໄດ້ (%(e)s)."
 
 #: ../blivet/zfcp.py:418
 #, python-format
 msgid "zFCP device %s cannot use auto LUN scan."
-msgstr ""
+msgstr "ອຸປະກອນ zFCP %s ບໍ່ສາມາດໃຊ້ການສະແກນ LUN ອັດຕະໂນມັດໄດ້."
 
 #: ../blivet/zfcp.py:432
 #, python-format
 msgid "Could not correctly delete SCSI device of zFCP %(zfcpdev)s (%(e)s)."
-msgstr ""
+msgstr "ບໍ່ສາມາດລຶບອຸປະກອນ SCSI ຂອງ zFCP %(zfcpdev)s ໄດ້ຢ່າງຖືກຕ້ອງ (%(e)s)."
 
 #: ../blivet/devicelibs/lvm.py:68
 msgid "Generic"
-msgstr ""
+msgstr "ທົ່ວໄປ"
 
 #: ../blivet/devicelibs/lvm.py:69
 msgid "Performance"
-msgstr ""
+msgstr "ປະສິດທິພາບ"
 
 #: ../blivet/devices/raid.py:58
 #, python-format
@@ -329,81 +355,82 @@ msgid_plural ""
 "RAID level %(raid_level)s requires that device have at least %(min_members)d "
 "members."
 msgstr[0] ""
-msgstr[1] ""
+"ລະດັບ RAID %(raid_level)s ຕ້ອງການໃຫ້ອຸປະກອນມີສະມາຊິກຢ່າງໜ້ອຍ %(min_members)d ອັນ."
 
 #: ../blivet/devices/raid.py:79
 #, python-format
 msgid ""
 "RAID level %(raid_level)s is an invalid value. Must be one of (%(levels)s)."
 msgstr ""
+"ລະດັບ RAID %(raid_level)s ເປັນຄ່າທີ່ບໍ່ຖືກຕ້ອງ. ຕ້ອງແມ່ນໜຶ່ງໃນ (%(levels)s)."
 
 #: ../blivet/devices/raid.py:104
 #, python-format
 msgid "Cannot remove a member from existing %s array"
-msgstr ""
+msgstr "ບໍ່ສາມາດລຶບສະມາຊິກອອກຈາກອາເຣ (array) %s ທີ່ມີຢູ່ແລ້ວໄດ້"
 
 #: ../blivet/formats/biosboot.py:35
 msgid "BIOS Boot"
-msgstr ""
+msgstr "BIOS Boot"
 
 #: ../blivet/formats/disklabel.py:50
 msgid "partition table"
-msgstr ""
+msgstr "ຕາຕະລາງພາທິຊັນ"
 
 #. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition table"
 #: ../blivet/formats/disklabel.py:326
 #, python-format
 msgid "Unsupported %(name)s"
-msgstr ""
+msgstr "ບໍ່ຮອງຮັບ %(name)s"
 
 #: ../blivet/formats/dmraid.py:36
 msgid "dm-raid member device"
-msgstr ""
+msgstr "ອຸປະກອນສະມາຊິກ dm-raid"
 
 #: ../blivet/formats/fs.py:941
 msgid "EFI System Partition"
-msgstr ""
+msgstr "EFI System Partition"
 
 #: ../blivet/formats/fs.py:1189
 msgid "Apple Bootstrap"
-msgstr ""
+msgstr "Apple Bootstrap"
 
 #: ../blivet/formats/fs.py:1225
 msgid "Linux HFS+ ESP"
-msgstr ""
+msgstr "Linux HFS+ ESP"
 
 #: ../blivet/formats/__init__.py:148
 msgid "Unknown"
-msgstr ""
+msgstr "ບໍ່ຮູ້ຈັກ"
 
 #: ../blivet/formats/luks.py:60
 msgid "LUKS"
-msgstr ""
+msgstr "LUKS"
 
 #: ../blivet/formats/luks.py:61
 msgid "Encrypted"
-msgstr ""
+msgstr "ຖືກເຂົ້າລະຫັດ"
 
 #: ../blivet/formats/luks.py:405
 msgid "DM Integrity"
-msgstr ""
+msgstr "DM Integrity"
 
 #: ../blivet/formats/lvmpv.py:49
 msgid "physical volume (LVM)"
-msgstr ""
+msgstr "ຟີຊິກຄໍວໍລຸມ (LVM)"
 
 #: ../blivet/formats/mdraid.py:42
 msgid "software RAID"
-msgstr ""
+msgstr "ຊອບແວ RAID"
 
 #: ../blivet/formats/multipath.py:40
 msgid "multipath member device"
-msgstr ""
+msgstr "ອຸປະກອນສະມາຊິກມັລຕິພາດ (multipath)"
 
 #: ../blivet/formats/prepboot.py:37
 msgid "PPC PReP Boot"
-msgstr ""
+msgstr "PPC PReP Boot"
 
 #: ../blivet/formats/stratis.py:40
 msgid "Stratis block device"
-msgstr ""
+msgstr "ອຸປະກອນບລັອກ Stratis"

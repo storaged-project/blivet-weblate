@@ -16,7 +16,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-09 13:31+0100\n"
-"PO-Revision-Date: 2026-04-29 13:01+0000\n"
+"PO-Revision-Date: 2026-05-07 11:00+0000\n"
 "Last-Translator: Priit Jõerüüt "
 "<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Estonian <https://translate.fedoraproject.org/projects/blivet/"
@@ -26,7 +26,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.17\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: ../blivet/deviceaction.py:197
 #, python-format
@@ -138,7 +138,7 @@ msgstr "FCoE pole saadaval"
 
 #: ../blivet/iscsi.py:216
 msgid "Unable to change iSCSI initiator name once set"
-msgstr ""
+msgstr "Kui iSCSI algataja on juba seadistatud, siis seda ei saa muuta"
 
 #: ../blivet/iscsi.py:218
 msgid "Must provide an iSCSI initiator name"
@@ -232,7 +232,7 @@ msgstr "„VGChunk“ päringute tüüp peab olema „LVRequest“"
 #. space in the VG we have a real problem
 #: ../blivet/partitioning.py:2018
 msgid "not enough space for LVM requests"
-msgstr ""
+msgstr "LVM-i päringute jaoks pole piisavalt andmeruumi"
 
 #: ../blivet/zfcp.py:106
 msgid "You have not specified a device number or the number is invalid"
@@ -383,7 +383,7 @@ msgstr "„%(name)s“ pole toetatud"
 
 #: ../blivet/formats/dmraid.py:36
 msgid "dm-raid member device"
-msgstr ""
+msgstr "dm-raid'i liikmeseade"
 
 #: ../blivet/formats/fs.py:941
 msgid "EFI System Partition"

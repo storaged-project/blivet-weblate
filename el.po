@@ -18,8 +18,9 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
-"PO-Revision-Date: 2025-06-30 11:12+0000\n"
-"Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
+"PO-Revision-Date: 2026-05-16 15:59+0000\n"
+"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
+"memory@weblate.org>\n"
 "Language-Team: Greek <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-rhel8/el/>\n"
 "Language: el\n"
@@ -27,7 +28,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.12.2\n"
+"X-Generator: Weblate 2026.5\n"
 
 #: ../blivet/errors.py:210
 msgid ""
@@ -59,7 +60,7 @@ msgstr ""
 
 #: ../blivet/fcoe.py:121
 msgid "FCoE not available"
-msgstr ""
+msgstr "Το FCoE δεν είναι διαθέσιμο"
 
 #: ../blivet/zfcp.py:62
 msgid "You have not specified a device number or the number is invalid"

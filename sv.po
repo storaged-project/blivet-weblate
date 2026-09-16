@@ -17,7 +17,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2020-01-29 14:04+0100\n"
-"PO-Revision-Date: 2026-02-19 16:58+0000\n"
+"PO-Revision-Date: 2026-09-17 17:17+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-rhel9/sv/>\n"
@@ -26,7 +26,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.16\n"
+"X-Generator: Weblate 2026.9.1\n"
 
 #: ../blivet/errors.py:210
 msgid ""
@@ -402,7 +402,7 @@ msgstr "BIOS-start"
 
 #: ../blivet/formats/dmraid.py:37
 msgid "dm-raid member device"
-msgstr "dm-raid medlemsenhet"
+msgstr "dm-raid-medlemsenhet"
 
 #: ../blivet/formats/disklabel.py:50
 msgid "partition table"
@@ -420,7 +420,7 @@ msgstr "mjukvaru-RAID"
 
 #: ../blivet/formats/multipath.py:40
 msgid "multipath member device"
-msgstr "flervägs medlemsenhet"
+msgstr "flervägsmedlemsenhet"
 
 #: ../blivet/formats/lvmpv.py:49
 msgid "physical volume (LVM)"

@@ -8,84 +8,86 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-08-30 09:00+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
+"PO-Revision-Date: 2026-10-14 20:18+0000\n"
+"Last-Translator: Roy-Magne Mo <rmo@sunnmore.net>\n"
+"Language-Team: Norwegian Nynorsk <https://translate.fedoraproject.org/"
+"projects/blivet/blivet-rhel9/nn/>\n"
 "Language: nn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2026.10.1\n"
 
 #: ../blivet/deviceaction.py:196
 #, python-format
 msgid "Executing %(action)s"
-msgstr ""
+msgstr "Utfører %(action)s"
 
 #: ../blivet/deviceaction.py:324
 msgid "create device"
-msgstr ""
+msgstr "opprett eining"
 
 #: ../blivet/deviceaction.py:383
 msgid "destroy device"
-msgstr ""
+msgstr "øydelegg eining"
 
 #: ../blivet/deviceaction.py:494
 msgid "resize device"
-msgstr ""
+msgstr "endre storleik på eining"
 
 #: ../blivet/deviceaction.py:583
 msgid "create format"
-msgstr ""
+msgstr "opprett format"
 
 #: ../blivet/deviceaction.py:623
 #, python-format
 msgid "Creating %(type)s on %(device)s"
-msgstr ""
+msgstr "Lagar %(type)s på %(device)s"
 
 #: ../blivet/deviceaction.py:650
 #, python-format
 msgid "Not enough entropy to create LUKS format. %d bits are needed."
-msgstr ""
+msgstr "Ikkje nok entropi til å lage LUKS-format. %d bitar trengst."
 
 #: ../blivet/deviceaction.py:680
 #, python-format
 msgid "Created %(type)s on %(device)s"
-msgstr ""
+msgstr "Oppretta %(type)s på %(device)s"
 
 #: ../blivet/deviceaction.py:729
 msgid "destroy format"
-msgstr ""
+msgstr "øydelegg format"
 
 #: ../blivet/deviceaction.py:842
 msgid "resize format"
-msgstr ""
+msgstr "endre storleik på format"
 
 #: ../blivet/deviceaction.py:881
 #, python-format
 msgid "Resizing filesystem on %(device)s"
-msgstr ""
+msgstr "Endrar filsystemet på %(device)s"
 
 #: ../blivet/deviceaction.py:888
 #, python-format
 msgid "Resized filesystem on %(device)s"
-msgstr ""
+msgstr "Endra storleiken på filsystemet på %(device)s"
 
 #: ../blivet/deviceaction.py:935
 msgid "add container member"
-msgstr ""
+msgstr "legg til medlem i lager"
 
 #: ../blivet/deviceaction.py:1000
 msgid "remove container member"
-msgstr ""
+msgstr "fjern medlem frå lager"
 
 #: ../blivet/deviceaction.py:1070
 msgid "configure format"
-msgstr ""
+msgstr "set opp format"
 
 #: ../blivet/deviceaction.py:1141
 msgid "configure device"
-msgstr ""
+msgstr "set opp eining"
 
 #: ../blivet/errors.py:223
 msgid ""
@@ -93,6 +95,9 @@ msgid ""
 "of the UUID value which should be unique. In that case you can either "
 "disconnect one of the devices or reformat it."
 msgstr ""
+"Dette skuldast vanlegvis at eit einingsavtrykk er klona, slik at UUID-"
+"verdien, som skal vere unik, er duplisert. I eit slikt tilfelle kan du anten "
+"kople frå ei av einingane eller formatere ho på nytt."
 
 #: ../blivet/errors.py:230
 msgid ""
@@ -100,6 +105,9 @@ msgid ""
 "kernel is reporting partitions on. It is unclear what the exact problem is. "
 "Please file a bug at http://bugzilla.redhat.com"
 msgstr ""
+"Det var av ein eller annan grunn ikkje mogleg å finne ein disketikett på ein "
+"disk som kjernen rapporterer partisjonar på. Det er uklart kva det nøyaktige "
+"problemet er. Send ei feilmelding på http://bugzilla.redhat.com"
 
 #: ../blivet/errors.py:237
 msgid ""
@@ -107,6 +115,9 @@ msgid ""
 "completely.\n"
 "Hint: parted can restore it or wipefs can remove it."
 msgstr ""
+"Gjenopprett anten disketiketten til ein fullt fungerande tilstand, eller "
+"fjern han heilt.\n"
+"Tips: parted kan gjenopprette han, og wipefs kan fjerne han."
 
 #: ../blivet/errors.py:243
 msgid ""
@@ -114,62 +125,67 @@ msgid ""
 "Hint 1: vgrename accepts UUID in place of the old name.\n"
 "Hint 2: You can get the VG UUIDs by running 'pvs -o +vg_uuid'."
 msgstr ""
+"Gje ei av volumgruppene nytt namn slik at namna er ulike.\n"
+"Tips 1: vgrename godtek UUID i staden for det gamle namnet.\n"
+"Tips 2: Du kan få tak i VG UUID-ane ved å køyre «pvs -o +vg_uuid»."
 
 #: ../blivet/errors.py:251
 msgid ""
 "All parent devices must be selected when choosing exclusive or ignored disks "
 "for a multipath or firmware RAID device."
 msgstr ""
+"Alle overordna einingar må veljast når du vel eksklusive eller ignorerte "
+"diskar for ei multipath- eller firmware-RAID-eining."
 
 #: ../blivet/fcoe.py:122
 msgid "FCoE not available"
-msgstr ""
+msgstr "FCoE ikkje tilgjengeleg"
 
 #: ../blivet/iscsi.py:216
 msgid "Unable to change iSCSI initiator name once set"
-msgstr ""
+msgstr "Kan ikkje endre iSCSI-initiatornamn når det er sett"
 
 #: ../blivet/iscsi.py:218
 msgid "Must provide an iSCSI initiator name"
-msgstr ""
+msgstr "Må oppgje eit iSCSI-initiatornamn"
 
 #: ../blivet/iscsi.py:412
 msgid "iSCSI not available"
-msgstr ""
+msgstr "iSCSI ikkje tilgjengeleg"
 
 #: ../blivet/iscsi.py:414
 msgid "No initiator name set"
-msgstr ""
+msgstr "Ingen initiatornamn er sett"
 
 #: ../blivet/iscsi.py:532
 msgid "No iSCSI nodes discovered"
-msgstr ""
+msgstr "Ingen iSCSI-nodar oppdaga"
 
 #: ../blivet/iscsi.py:552
 msgid "No new iSCSI nodes discovered"
-msgstr ""
+msgstr "Ingen nye iSCSI-nodar oppdaga"
 
 #: ../blivet/iscsi.py:555
 msgid "Could not log in to any of the discovered nodes"
-msgstr ""
+msgstr "Klarte ikkje logge på nokon av dei oppdaga nodane"
 
 #: ../blivet/partitioning.py:455
 msgid "unable to allocate aligned partition"
-msgstr ""
+msgstr "klarte ikkje tildele justert partisjon"
 
 #: ../blivet/partitioning.py:463
 msgid "requested size exceeds maximum allowed"
-msgstr ""
+msgstr "ønskt storleik er større enn det som er tillate"
 
 #: ../blivet/partitioning.py:475
 #, python-format
 msgid "failed to add partition to disk: %s"
-msgstr ""
+msgstr "klarte ikkje leggje til partisjon på disk: %s"
 
 #: ../blivet/partitioning.py:586
 #, python-format
 msgid "disk %s inaccessible"
-msgstr ""
+msgstr "disken %s er ikkje tilgjengeleg"
 
 #: ../blivet/partitioning.py:647
 #, python-format
@@ -177,6 +193,8 @@ msgid ""
 "partition is too small for %(format)s formatting (allowable size is "
 "%(min_size)s to %(max_size)s)"
 msgstr ""
+"partisjonen er for liten for formatering som %(format)s (tillaten storleik "
+"er frå %(min_size)s til %(max_size)s)"
 
 #: ../blivet/partitioning.py:652
 #, python-format
@@ -184,78 +202,85 @@ msgid ""
 "partition is too large for %(format)s formatting (allowable size is "
 "%(min_size)s to %(max_size)s)"
 msgstr ""
+"partisjonen er for stor for formatering som %(format)s (tillaten storleik er "
+"frå %(min_size)s til %(max_size)s)"
 
 #: ../blivet/partitioning.py:971
 msgid "Unable to allocate requested partition scheme."
-msgstr ""
+msgstr "Klarte ikkje tildele ønskt partisjonsskjema."
 
 #: ../blivet/partitioning.py:1006
 msgid "not enough free space after creating extended partition"
-msgstr ""
+msgstr "ikkje nok ledig plass etter at den utvida partisjonen vart oppretta"
 
 #: ../blivet/partitioning.py:1013
 msgid "failed to allocate aligned partition"
-msgstr ""
+msgstr "klarte ikkje tildele justert partisjon"
 
 #: ../blivet/partitioning.py:1214
 msgid "cannot reclaim more than request has grown"
-msgstr ""
+msgstr "kan ikkje frigjere meir enn førespurnaden har vakse"
 
 #: ../blivet/partitioning.py:1428
 msgid "DiskChunk requests must be of type PartitionRequest"
-msgstr ""
+msgstr "DiskChunk-førespurnadar må vere av typen PartitionRequest"
 
 #: ../blivet/partitioning.py:1441
 msgid "partitions allocated outside disklabel limits"
-msgstr ""
+msgstr "partisjonar tildelt utanfor grensene til disketiketten"
 
 #: ../blivet/partitioning.py:1526
 msgid "VGChunk requests must be of type LVRequest"
-msgstr ""
+msgstr "VGChunk-førespurnadar må vere av typen LVRequest"
 
 #. by now we have allocated the PVs so if there isn't enough
 #. space in the VG we have a real problem
 #: ../blivet/partitioning.py:2018
 msgid "not enough space for LVM requests"
-msgstr ""
+msgstr "ikkje nok plass til LVM-førespurnadar"
 
 #: ../blivet/zfcp.py:106
 msgid "You have not specified a device number or the number is invalid"
-msgstr ""
+msgstr "Du har ikkje oppgjeve eit einingsnummer, eller talet er ugyldig"
 
 #: ../blivet/zfcp.py:131
 #, python-format
 msgid "zFCP device %s not found, not even in device ignore list."
 msgstr ""
+"Fann ikkje zFCP-eininga %s, heller ikkje i lista over einingar som skal "
+"ignorerast."
 
 #: ../blivet/zfcp.py:146
 #, python-format
 msgid "Could not set zFCP device %(devnum)s online (%(e)s)."
-msgstr ""
+msgstr "Klarte ikkje setje zFCP-eininga %(devnum)s på nett (%(e)s)."
 
 #: ../blivet/zfcp.py:159
 #, python-format
 msgid "Could not set zFCP device %(devnum)s offline (%(e)s)."
-msgstr ""
+msgstr "Klarte ikkje setje zFCP-eininga %(devnum)s fråkopla (%(e)s)."
 
 #: ../blivet/zfcp.py:218
 msgid "You have not specified a worldwide port name or the name is invalid."
 msgstr ""
+"Du har ikkje oppgjeve eit verdsomspennande portnamn (WWPN), eller namnet er "
+"ugyldig."
 
 #: ../blivet/zfcp.py:222
 msgid "You have not specified a FCP LUN or the number is invalid."
-msgstr ""
+msgstr "Du har ikkje oppgjeve ein FCP LUN, eller talet er ugyldig."
 
 #: ../blivet/zfcp.py:268
 #, python-format
 msgid "Could not add WWPN %(wwpn)s to zFCP device %(devnum)s (%(e)s)."
 msgstr ""
+"Klarte ikkje leggje til WWPN %(wwpn)s i zFCP-eininga %(devnum)s (%(e)s)."
 
 #. newer zfcp sysfs interface with auto port scan
 #: ../blivet/zfcp.py:275
 #, python-format
 msgid "WWPN %(wwpn)s not found at zFCP device %(devnum)s."
-msgstr ""
+msgstr "Fann ikkje WWPN %(wwpn)s ved zFCP-eininga %(devnum)s."
 
 #: ../blivet/zfcp.py:291
 #, python-format
@@ -263,12 +288,16 @@ msgid ""
 "Could not add LUN %(fcplun)s to WWPN %(wwpn)s on zFCP device %(devnum)s "
 "(%(e)s)."
 msgstr ""
+"Klarte ikkje leggje til LUN %(fcplun)s på WWPN %(wwpn)s på zFCP-eininga %"
+"(devnum)s (%(e)s)."
 
 #: ../blivet/zfcp.py:297
 #, python-format
 msgid ""
 "LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s already configured."
 msgstr ""
+"LUN %(fcplun)s på WWPN %(wwpn)s på zFCP-eininga %(devnum)s er allereie sett "
+"opp."
 
 #: ../blivet/zfcp.py:310
 #, python-format
@@ -276,6 +305,8 @@ msgid ""
 "Could not read failed attribute of LUN %(fcplun)s at WWPN %(wwpn)s on zFCP "
 "device %(devnum)s (%(e)s)."
 msgstr ""
+"Klarte ikkje lese attributtet «failed» for LUN %(fcplun)s på WWPN %(wwpn)s "
+"på zFCP-eininga %(devnum)s (%(e)s)."
 
 #: ../blivet/zfcp.py:319
 #, python-format
@@ -283,6 +314,8 @@ msgid ""
 "Failed LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s removed "
 "again."
 msgstr ""
+"Den mislukka LUN-en %(fcplun)s på WWPN %(wwpn)s på zFCP-eininga %(devnum)s "
+"vart fjerna att."
 
 #: ../blivet/zfcp.py:339
 #, python-format
@@ -290,6 +323,8 @@ msgid ""
 "Could not correctly delete SCSI device of zFCP %(devnum)s %(wwpn)s "
 "%(fcplun)s (%(e)s)."
 msgstr ""
+"Klarte ikkje slette SCSI-eininga for zFCP %(devnum)s %(wwpn)s %(fcplun)s på "
+"rett måte (%(e)s)."
 
 #: ../blivet/zfcp.py:349
 #, python-format
@@ -297,29 +332,32 @@ msgid ""
 "Could not remove LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s "
 "(%(e)s)."
 msgstr ""
+"Klarte ikkje fjerne LUN %(fcplun)s på WWPN %(wwpn)s på zFCP-eininga %(devnum)"
+"s (%(e)s)."
 
 #: ../blivet/zfcp.py:368
 #, python-format
 msgid "Could not remove WWPN %(wwpn)s on zFCP device %(devnum)s (%(e)s)."
-msgstr ""
+msgstr "Klarte ikkje fjerne WWPN %(wwpn)s på zFCP-eininga %(devnum)s (%(e)s)."
 
 #: ../blivet/zfcp.py:418
 #, python-format
 msgid "zFCP device %s cannot use auto LUN scan."
-msgstr ""
+msgstr "zFCP-eininga %s kan ikkje bruke automatisk LUN-skanning."
 
 #: ../blivet/zfcp.py:432
 #, python-format
 msgid "Could not correctly delete SCSI device of zFCP %(zfcpdev)s (%(e)s)."
 msgstr ""
+"Klarte ikkje slette SCSI-eininga for zFCP %(zfcpdev)s på rett måte (%(e)s)."
 
 #: ../blivet/devicelibs/lvm.py:68
 msgid "Generic"
-msgstr ""
+msgstr "Generisk"
 
 #: ../blivet/devicelibs/lvm.py:69
 msgid "Performance"
-msgstr ""
+msgstr "Yting"
 
 #: ../blivet/devices/raid.py:58
 #, python-format
@@ -330,81 +368,85 @@ msgid_plural ""
 "RAID level %(raid_level)s requires that device have at least %(min_members)d "
 "members."
 msgstr[0] ""
+"RAID-nivå %(raid_level)s krev at eininga har minst %(min_members)d medlem."
 msgstr[1] ""
+"RAID-nivå %(raid_level)s krev at eininga har minst %(min_members)d medlemar."
 
 #: ../blivet/devices/raid.py:79
 #, python-format
 msgid ""
 "RAID level %(raid_level)s is an invalid value. Must be one of (%(levels)s)."
 msgstr ""
+"RAID-nivå %(raid_level)s er ein ugyldig verdi. Han må vere ein av (%(levels)"
+"s)."
 
 #: ../blivet/devices/raid.py:104
 #, python-format
 msgid "Cannot remove a member from existing %s array"
-msgstr ""
+msgstr "Kan ikkje fjerne ein medlem frå ei %s-gruppe som finst"
 
 #: ../blivet/formats/biosboot.py:35
 msgid "BIOS Boot"
-msgstr ""
+msgstr "BIOS-oppstart"
 
 #: ../blivet/formats/disklabel.py:50
 msgid "partition table"
-msgstr ""
+msgstr "partisjonstabell"
 
 #. Translators: Name for an unsupported disklabel; e.g. "Unsupported partition table"
 #: ../blivet/formats/disklabel.py:326
 #, python-format
 msgid "Unsupported %(name)s"
-msgstr ""
+msgstr "%(name)s som ikkje er støtta"
 
 #: ../blivet/formats/dmraid.py:37
 msgid "dm-raid member device"
-msgstr ""
+msgstr "dm-raid-medlemseining"
 
 #: ../blivet/formats/fs.py:941
 msgid "EFI System Partition"
-msgstr ""
+msgstr "EFI-systempartisjon"
 
 #: ../blivet/formats/fs.py:1189
 msgid "Apple Bootstrap"
-msgstr ""
+msgstr "Apple Bootstrap"
 
 #: ../blivet/formats/fs.py:1225
 msgid "Linux HFS+ ESP"
-msgstr ""
+msgstr "Linux HFS+ ESP"
 
 #: ../blivet/formats/__init__.py:148
 msgid "Unknown"
-msgstr ""
+msgstr "Ukjend"
 
 #: ../blivet/formats/luks.py:60
 msgid "LUKS"
-msgstr ""
+msgstr "LUKS"
 
 #: ../blivet/formats/luks.py:61
 msgid "Encrypted"
-msgstr ""
+msgstr "Kryptert"
 
 #: ../blivet/formats/luks.py:402
 msgid "DM Integrity"
-msgstr ""
+msgstr "DM-integritet"
 
 #: ../blivet/formats/lvmpv.py:49
 msgid "physical volume (LVM)"
-msgstr ""
+msgstr "fysisk volum (LVM)"
 
 #: ../blivet/formats/mdraid.py:43
 msgid "software RAID"
-msgstr ""
+msgstr "programvare-RAID"
 
 #: ../blivet/formats/multipath.py:40
 msgid "multipath member device"
-msgstr ""
+msgstr "multipath-medlemseining"
 
 #: ../blivet/formats/prepboot.py:37
 msgid "PPC PReP Boot"
-msgstr ""
+msgstr "PPC PReP-oppstart"
 
 #: ../blivet/formats/stratis.py:40
 msgid "Stratis block device"
-msgstr ""
+msgstr "Stratis-blokkeining"

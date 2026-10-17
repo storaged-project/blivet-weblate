@@ -100,6 +100,7 @@ msgid ""
 "Could not add LUN %(fcplun)s to WWPN %(wwpn)s on zFCP device %(devnum)s "
 "(%(e)s)."
 msgstr ""
+"„%(wwpn)s“ WWPN-i lisamine „%(devnum)s“ (%(e)s) zFCP seadmele ei õnnestunud."
 
 #: ../blivet/zfcp.py:140
 #, python-format

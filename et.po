@@ -17,8 +17,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-02-09 13:31+0100\n"
 "PO-Revision-Date: 2026-10-18 13:18+0000\n"
-"Last-Translator: Weblate Translation Memory <noreply-mt-weblate-translation-"
-"memory@weblate.org>\n"
+"Last-Translator: Priit Jõerüüt "
+"<jrtkbfdr@users.noreply.translate.fedoraproject.org>\n"
 "Language-Team: Estonian <https://translate.fedoraproject.org/projects/blivet/"
 "blivet-master/et/>\n"
 "Language: et\n"
@@ -202,7 +202,7 @@ msgstr ""
 
 #: ../blivet/partitioning.py:971
 msgid "Unable to allocate requested partition scheme."
-msgstr ""
+msgstr "Soovitud partitsioonikava eraldamine ei õnnestu."
 
 #: ../blivet/partitioning.py:1006
 msgid "not enough free space after creating extended partition"
@@ -218,7 +218,7 @@ msgstr ""
 
 #: ../blivet/partitioning.py:1428
 msgid "DiskChunk requests must be of type PartitionRequest"
-msgstr "„VGChunk“ päringute tüüp peab olema „LVRequest“"
+msgstr "„DiskChunk“ päringute tüüp peab olema „PartitionRequest“"
 
 #: ../blivet/partitioning.py:1441
 msgid "partitions allocated outside disklabel limits"
@@ -281,7 +281,8 @@ msgid ""
 "Could not add LUN %(fcplun)s to WWPN %(wwpn)s on zFCP device %(devnum)s "
 "(%(e)s)."
 msgstr ""
-"„%(wwpn)s“ WWPN-i lisamine „%(devnum)s“ (%(e)s) zFCP seadmele ei õnnestunud."
+"„%(fcplun)s“ LUN-i lisamine „%(wwpn)s“ WWPN-ile zFCP seadmes „%(devnum)s“ (%"
+"(e)s) ei õnnestunud."
 
 #: ../blivet/zfcp.py:297
 #, python-format
@@ -316,16 +317,20 @@ msgid ""
 "Could not remove LUN %(fcplun)s at WWPN %(wwpn)s on zFCP device %(devnum)s "
 "(%(e)s)."
 msgstr ""
+"„%(fcplun)s“ LUN-i eemaldamine „%(wwpn)s“ WWPN-ist zFCP seadmes „%(devnum)s“ "
+"(%(e)s) ei õnnestunud."
 
 #: ../blivet/zfcp.py:368
 #, python-format
 msgid "Could not remove WWPN %(wwpn)s on zFCP device %(devnum)s (%(e)s)."
 msgstr ""
+"„%(wwpn)s“ WWPN-i eemaldamine zFCP seadmest „%(devnum)s“ (%(e)s) ei "
+"õnnestunud."
 
 #: ../blivet/zfcp.py:418
 #, python-format
 msgid "zFCP device %s cannot use auto LUN scan."
-msgstr ""
+msgstr "zFCP seade „%s“ ei saa kasutada automaatset LUN-i skaneerimist."
 
 #: ../blivet/zfcp.py:432
 #, python-format
